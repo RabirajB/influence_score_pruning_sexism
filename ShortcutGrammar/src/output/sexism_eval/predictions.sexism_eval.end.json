@@ -1,0 +1,5092 @@
+[
+  {
+    "e": {
+      "uid": "0",
+      "text": "I hate women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -8.555229187011719,
+    "loss": 8.555229187011719,
+    "tree": "(26 (31 (71 i) (16 (53 hate) (63 women))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "1",
+      "text": "I really can't stand women like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -22.380460739135742,
+    "loss": 22.380460739135742,
+    "tree": "(26 (31 (71 i) (16 (72 really) (24 (75 can) (9 (57 ') (17 (89 t) (3 (19 (4 (81 [UNK]) (55 women)) (41 like)) (70 you))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "2",
+      "text": "I despise women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -7.285860538482666,
+    "loss": 7.285860538482666,
+    "tree": "(26 (31 (71 i) (16 (53 [UNK]) (63 women))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "3",
+      "text": "I detest women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -7.285860538482666,
+    "loss": 7.285860538482666,
+    "tree": "(26 (31 (71 i) (16 (53 [UNK]) (63 women))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "4",
+      "text": "I absolutely loathe women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -14.359357833862305,
+    "loss": 14.359357833862305,
+    "tree": "(26 (31 (71 i) (16 (56 absolutely) (27 (47 [UNK]) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "5",
+      "text": "Disgusted by all the women around here. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -33.5395622253418,
+    "loss": 33.5395622253418,
+    "tree": "(26 (31 (64 [UNK]) (11 (4 (1 (87 by) (4 (70 all) (3 (80 the) (62 women)))) (68 around)) (39 here))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "6",
+      "text": "I have so much disdain for these women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.70537567138672,
+    "loss": 31.70537567138672,
+    "tree": "(26 (31 (71 i) (16 (56 have) (27 (27 (19 (4 (3 (91 so) (60 much)) (48 [UNK])) (41 for)) (77 these)) (63 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "7",
+      "text": "I have so much hatred for you women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -33.783416748046875,
+    "loss": 33.783416748046875,
+    "tree": "(26 (31 (71 i) (16 (56 have) (27 (27 (19 (4 (50 so) (3 (78 much) (43 hatred))) (41 for)) (77 you)) (63 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "8",
+      "text": "So sick of being around women like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -30.498634338378906,
+    "loss": 30.498634338378906,
+    "tree": "(26 (31 (6 (3 (91 so) (60 sick)) (49 of)) (27 (19 (4 (50 being) (3 (80 around) (62 women))) (41 like)) (77 you))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "9",
+      "text": "I feel nothing but contempt for women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -25.77855682373047,
+    "loss": 25.77855682373047,
+    "tree": "(26 (31 (71 i) (16 (56 feel) (27 (19 (4 (50 nothing) (3 (78 but) (60 contempt))) (41 for)) (77 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "10",
+      "text": "These women disgust me so much. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -22.34357452392578,
+    "loss": 22.34357452392578,
+    "tree": "(26 (31 (66 these) (7 (95 women) (21 (76 [UNK]) (4 (50 me) (3 (91 so) (60 much)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "11",
+      "text": "Women are the absolute worst. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -17.962249755859375,
+    "loss": 17.962249755859375,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (50 the) (3 (78 absolute) (60 worst))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "12",
+      "text": "You women make me sick. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -18.651594161987305,
+    "loss": 18.651594161987305,
+    "tree": "(26 (31 (66 you) (7 (95 women) (21 (76 make) (4 (84 me) (36 sick))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "13",
+      "text": "There is nothing worse than a woman. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -29.24870491027832,
+    "loss": 29.24870491027832,
+    "tree": "(26 (31 (71 there) (16 (56 is) (27 (83 nothing) (11 (51 worse) (25 (45 than) (4 (37 a) (42 woman))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "14",
+      "text": "Seeing women in this place makes me so angry. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.352188110351562,
+    "loss": 31.352188110351562,
+    "tree": "(26 (31 (13 (81 [UNK]) (3 (62 women) (4 (94 in) (46 this)))) (11 (73 place) (11 (51 makes) (25 (45 me) (4 (91 so) (33 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "15",
+      "text": "Women who think they are my equal fill me with so much rage. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -55.72759246826172,
+    "loss": 55.72759246826172,
+    "tree": "(26 (7 (95 women) (21 (24 (16 (56 who) (27 (92 think) (7 (95 they) (21 (76 are) (4 (91 my) (33 [UNK])))))) (85 [UNK])) (25 (45 me) (4 (3 (44 with) (3 (91 so) (60 much))) (48 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "16",
+      "text": "Women like you make me furious. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -17.195499420166016,
+    "loss": 17.195499420166016,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 make) (4 (50 me) (48 [UNK])))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "17",
+      "text": "You and all the other women in this country make me boil with anger. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -59.30172348022461,
+    "loss": 59.30172348022461,
+    "tree": "(26 (7 (95 you) (21 (76 and) (4 (70 all) (3 (29 (4 (50 the) (3 (80 other) (31 (27 (83 women) (11 (4 (94 in) (46 this)) (39 country))) (21 (76 make) (4 (50 me) (48 [UNK])))))) (61 with)) (93 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "18",
+      "text": "The utter scorn I feel for women is hard to to put into words. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -57.08710861206055,
+    "loss": 57.08710861206055,
+    "tree": "(26 (29 (4 (91 the) (33 [UNK])) (61 [UNK])) (26 (31 (71 i) (16 (72 feel) (21 (41 for) (7 (95 women) (21 (28 (87 is) (8 (81 [UNK]) (25 (45 to) (4 (50 to) (3 (78 put) (60 into)))))) (65 [UNK])))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "19",
+      "text": "I absolutely abhor all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -14.22160530090332,
+    "loss": 14.22160530090332,
+    "tree": "(26 (31 (71 i) (16 (56 absolutely) (27 (81 [UNK]) (11 (70 all) (62 women))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "20",
+      "text": "Women are disgusting. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -7.575155735015869,
+    "loss": 7.575155735015869,
+    "tree": "(26 (7 (95 women) (21 (76 are) (88 disgusting))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "21",
+      "text": "All women are repulsive. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -14.211134910583496,
+    "loss": 14.211134910583496,
+    "tree": "(26 (31 (66 all) (7 (95 women) (21 (76 are) (88 repulsive)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "22",
+      "text": "Women are absolutely despicable. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -13.934165954589844,
+    "loss": 13.934165954589844,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (84 absolutely) (36 despicable)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "23",
+      "text": "Women are just so sickening. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -11.728741645812988,
+    "loss": 11.728741645812988,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (50 just) (3 (91 so) (82 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "24",
+      "text": "Women can't stop themselves from being absolutely revolting. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -36.352943420410156,
+    "loss": 36.352943420410156,
+    "tree": "(26 (7 (95 women) (21 (24 (75 can) (9 (57 ') (17 (89 t) (3 (78 stop) (43 themselves))))) (25 (45 from) (4 (50 being) (3 (91 absolutely) (82 [UNK])))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "25",
+      "text": "Women like you are repugnant. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -11.037725448608398,
+    "loss": 11.037725448608398,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 are) (93 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "26",
+      "text": "You women are all dishonest. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -12.98291015625,
+    "loss": 12.98291015625,
+    "tree": "(26 (31 (66 you) (7 (95 women) (21 (76 are) (4 (50 all) (48 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "27",
+      "text": "All women like them are vile. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -14.857745170593262,
+    "loss": 14.857745170593262,
+    "tree": "(26 (31 (66 all) (7 (95 women) (21 (41 like) (7 (95 them) (21 (76 are) (93 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "28",
+      "text": "Women like you are just pathetic. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -14.057207107543945,
+    "loss": 14.057207107543945,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 are) (4 (50 just) (48 [UNK])))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "29",
+      "text": "Women with any power are a threat to civilisation. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -37.59613037109375,
+    "loss": 37.59613037109375,
+    "tree": "(26 (31 (7 (95 women) (21 (76 with) (4 (37 any) (42 power)))) (21 (76 are) (4 (19 (4 (37 a) (48 [UNK])) (41 to)) (43 civilisation)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "30",
+      "text": "Women being in charge is a danger to our country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -41.81355667114258,
+    "loss": 41.81355667114258,
+    "tree": "(26 (7 (95 women) (21 (76 being) (4 (50 in) (3 (51 charge) (1 (87 is) (4 (50 a) (3 (35 [UNK]) (4 (50 to) (3 (78 our) (43 country)))))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "31",
+      "text": "It's in women's nature to be uncivilised. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -29.545085906982422,
+    "loss": 29.545085906982422,
+    "tree": "(26 (31 (71 it) (16 (57 ') (10 (52 s) (11 (73 in) (11 (63 women) (16 (57 ') (10 (52 s) (11 (51 nature) (25 (45 to) (4 (91 be) (33 [UNK]))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "32",
+      "text": "Only women are that violent and cruel. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -29.188753128051758,
+    "loss": 29.188753128051758,
+    "tree": "(26 (31 (66 only) (7 (95 women) (21 (76 are) (4 (70 that) (3 (44 violent) (3 (78 and) (43 cruel))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "33",
+      "text": "Only women can be so ignorant. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -21.69278335571289,
+    "loss": 21.69278335571289,
+    "tree": "(26 (31 (66 only) (7 (95 women) (21 (76 can) (4 (50 be) (3 (91 so) (60 ignorant)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "34",
+      "text": "No one else is as filthy as these women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -45.646034240722656,
+    "loss": 45.646034240722656,
+    "tree": "(26 (92 no) (26 (31 (71 one) (16 (56 else) (27 (29 (4 (1 (87 is) (4 (50 as) (48 [UNK]))) (68 as)) (61 these)) (62 women)))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "35",
+      "text": "Typical of a woman to be that stupid. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -33.02553939819336,
+    "loss": 33.02553939819336,
+    "tree": "(26 (12 (54 typical) (11 (22 (54 of) (15 (27 (19 (4 (37 a) (42 woman)) (41 to)) (77 be)) (61 that))) (32 stupid))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "36",
+      "text": "Women are without a doubt the stupidest people on this planet. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -41.296974182128906,
+    "loss": 41.296974182128906,
+    "tree": "(26 (31 (7 (95 women) (21 (76 are) (4 (50 without) (3 (3 (3 (37 a) (13 (81 [UNK]) (3 (91 the) (82 [UNK])))) (38 people)) (38 on))))) (3 (78 this) (43 planet))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "37",
+      "text": "It's always the woman that is the dumb one. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -40.1451530456543,
+    "loss": 40.1451530456543,
+    "tree": "(26 (31 (71 it) (16 (57 ') (10 (52 s) (11 (13 (81 [UNK]) (3 (6 (3 (91 the) (60 woman)) (49 that)) (87 is))) (6 (3 (91 the) (82 [UNK])) (49 one)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "38",
+      "text": "Women are just the dumbest people. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -15.135574340820312,
+    "loss": 15.135574340820312,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (50 just) (3 (3 (91 the) (82 [UNK])) (38 people))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "39",
+      "text": "Women really are brainless without exception. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -24.220104217529297,
+    "loss": 24.220104217529297,
+    "tree": "(26 (31 (95 women) (16 (72 really) (21 (76 are) (4 (81 [UNK]) (4 (50 without) (48 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "40",
+      "text": "Women are scum. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -6.563192844390869,
+    "loss": 6.563192844390869,
+    "tree": "(26 (7 (95 women) (21 (76 are) (88 scum))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "41",
+      "text": "Women are worthless dirt. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -14.336771011352539,
+    "loss": 14.336771011352539,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (84 worthless) (36 dirt)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "42",
+      "text": "Women like you are absolute filth. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -16.46523094177246,
+    "loss": 16.46523094177246,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 are) (4 (91 absolute) (33 [UNK])))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "43",
+      "text": "You are nothing but common female trash. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -32.367271423339844,
+    "loss": 32.367271423339844,
+    "tree": "(26 (31 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (78 but) (43 common))))) (3 (78 female) (43 trash))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "44",
+      "text": "Women are nothing but refuse. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -19.641693115234375,
+    "loss": 19.641693115234375,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (50 nothing) (3 (78 but) (60 refuse))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "45",
+      "text": "Women are parasites to our society. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -14.579879760742188,
+    "loss": 14.579879760742188,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (81 [UNK]) (4 (50 to) (3 (78 our) (43 society)))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "46",
+      "text": "These women are nothing but cockroaches. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -17.886667251586914,
+    "loss": 17.886667251586914,
+    "tree": "(26 (31 (66 these) (7 (95 women) (21 (76 are) (4 (50 nothing) (3 (91 but) (82 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "47",
+      "text": "Women are human garbage. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -10.234405517578125,
+    "loss": 10.234405517578125,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (84 human) (36 garbage)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "48",
+      "text": "Women are lesser beings. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -10.93458080291748,
+    "loss": 10.93458080291748,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (84 lesser) (36 beings)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "49",
+      "text": "Women are a pest. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -7.252783298492432,
+    "loss": 7.252783298492432,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (37 a) (48 [UNK])))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "50",
+      "text": "Women like you are no better than rats. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -29.612638473510742,
+    "loss": 29.612638473510742,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 are) (4 (50 no) (3 (44 better) (3 (45 than) (85 [UNK])))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "51",
+      "text": "Your female lives are worthless. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -22.898225784301758,
+    "loss": 22.898225784301758,
+    "tree": "(26 (92 your) (26 (31 (71 female) (16 (72 lives) (21 (76 are) (88 worthless)))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "52",
+      "text": "Female lives are worth absolutely nothing. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -25.150218963623047,
+    "loss": 25.150218963623047,
+    "tree": "(26 (31 (71 female) (16 (72 lives) (21 (76 are) (4 (50 worth) (3 (78 absolutely) (43 nothing)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "53",
+      "text": "That is fitting for female vermin like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -30.684507369995117,
+    "loss": 30.684507369995117,
+    "tree": "(26 (31 (71 that) (16 (56 is) (27 (19 (4 (81 [UNK]) (4 (50 for) (3 (91 female) (82 [UNK])))) (41 like)) (77 you)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "54",
+      "text": "Women are just a waste of space. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -19.096981048583984,
+    "loss": 19.096981048583984,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (50 just) (3 (29 (4 (37 a) (48 [UNK])) (61 of)) (93 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "55",
+      "text": "Women are a virus. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -7.252783298492432,
+    "loss": 7.252783298492432,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (37 a) (48 [UNK])))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "56",
+      "text": "Women are a cancer. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -8.650447845458984,
+    "loss": 8.650447845458984,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (37 a) (42 cancer)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "57",
+      "text": "You and all other women are a plague to society. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -33.28921127319336,
+    "loss": 33.28921127319336,
+    "tree": "(26 (7 (95 you) (21 (76 and) (4 (19 (4 (70 all) (3 (80 other) (7 (95 women) (21 (76 are) (4 (37 a) (48 [UNK])))))) (41 to)) (43 society)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "58",
+      "text": "Women are subhuman creatures. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -6.6273393630981445,
+    "loss": 6.6273393630981445,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (64 [UNK]) (65 [UNK])))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "59",
+      "text": "Swarms of women are infesting our government. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -22.2100772857666,
+    "loss": 22.2100772857666,
+    "tree": "(26 (31 (64 [UNK]) (11 (61 of) (7 (95 women) (21 (76 are) (4 (50 [UNK]) (3 (78 our) (43 government))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "60",
+      "text": "Women belong in a zoo. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -16.676593780517578,
+    "loss": 16.676593780517578,
+    "tree": "(26 (7 (95 women) (21 (76 belong) (4 (50 in) (3 (37 a) (47 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "61",
+      "text": "Women who are sick should be taken to a vet, not a doctor. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -56.333168029785156,
+    "loss": 56.333168029785156,
+    "tree": "(26 (31 (31 (31 (7 (95 women) (21 (76 who) (4 (84 are) (36 sick)))) (21 (76 should) (4 (91 be) (33 [UNK])))) (4 (50 to) (3 (29 (4 (37 a) (48 [UNK])) (61 ,)) (83 not)))) (4 (37 a) (48 [UNK]))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "62",
+      "text": "My dog is smarter than any woman could ever be. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -48.93149948120117,
+    "loss": 48.93149948120117,
+    "tree": "(26 (12 (54 my) (11 (33 [UNK]) (1 (87 is) (4 (50 [UNK]) (3 (29 (4 (1 (87 than) (4 (37 any) (42 woman))) (68 could)) (61 ever)) (83 be)))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "63",
+      "text": "That monkey is more intelligent than all of you women combined. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -45.045936584472656,
+    "loss": 45.045936584472656,
+    "tree": "(26 (12 (54 that) (11 (13 (81 [UNK]) (1 (87 is) (4 (50 more) (3 (47 [UNK]) (1 (87 than) (4 (70 all) (3 (44 of) (3 (80 you) (62 women))))))))) (82 [UNK]))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "64",
+      "text": "Women should be dumped in a landfill. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -18.336519241333008,
+    "loss": 18.336519241333008,
+    "tree": "(26 (7 (95 women) (21 (76 should) (4 (50 be) (3 (47 [UNK]) (1 (87 in) (4 (37 a) (48 [UNK]))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "65",
+      "text": "I would never eat food that has been touched by a woman. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -37.00890350341797,
+    "loss": 37.00890350341797,
+    "tree": "(26 (31 (31 (71 i) (16 (56 would) (27 (83 never) (11 (29 (4 (64 [UNK]) (65 [UNK])) (61 that)) (69 [UNK]))))) (13 (81 [UNK]) (3 (47 [UNK]) (1 (87 by) (4 (37 a) (42 woman)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "66",
+      "text": "I care more about the dirt under my shoe than about women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -53.732601165771484,
+    "loss": 53.732601165771484,
+    "tree": "(26 (31 (71 i) (16 (13 (81 [UNK]) (3 (44 more) (3 (44 about) (3 (91 the) (60 dirt))))) (11 (13 (81 [UNK]) (3 (91 my) (82 [UNK]))) (4 (50 than) (3 (80 about) (62 women)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "67",
+      "text": "The life of any insect is more valuable than that of a woman. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -54.848751068115234,
+    "loss": 54.848751068115234,
+    "tree": "(26 (31 (6 (3 (91 the) (60 life)) (49 of)) (27 (83 any) (11 (33 [UNK]) (1 (87 is) (4 (50 more) (3 (47 [UNK]) (1 (87 than) (4 (70 that) (3 (49 of) (4 (37 a) (42 woman))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "68",
+      "text": "We should test new drugs on women before testing them on animals. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -40.41902542114258,
+    "loss": 40.41902542114258,
+    "tree": "(26 (31 (71 we) (16 (56 should) (27 (81 [UNK]) (11 (13 (81 [UNK]) (3 (3 (47 [UNK]) (1 (87 on) (4 (1 (87 women) (4 (64 [UNK]) (65 [UNK]))) (68 them)))) (38 on))) (82 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "69",
+      "text": "I don't see any difference between a dead rat and a dead woman. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -56.101200103759766,
+    "loss": 56.101200103759766,
+    "tree": "(26 (31 (71 i) (16 (24 (75 don) (9 (57 ') (17 (89 t) (3 (44 see) (3 (37 any) (47 [UNK])))))) (31 (13 (81 [UNK]) (3 (37 a) (36 dead))) (11 (13 (81 [UNK]) (3 (80 and) (4 (37 a) (42 dead)))) (69 woman))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "70",
+      "text": "It baffles me why people care even the slightest about the lives of women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -59.51890563964844,
+    "loss": 59.51890563964844,
+    "tree": "(26 (31 (71 it) (16 (13 (81 [UNK]) (3 (3 (78 me) (43 why)) (38 people))) (11 (15 (27 (81 [UNK]) (11 (13 (81 [UNK]) (3 (91 the) (82 [UNK]))) (4 (50 about) (3 (91 the) (60 lives))))) (61 of)) (77 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "71",
+      "text": "Women should all be locked up in cages. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -23.104026794433594,
+    "loss": 23.104026794433594,
+    "tree": "(26 (31 (7 (95 women) (21 (76 should) (4 (70 all) (3 (91 be) (82 [UNK]))))) (3 (44 up) (3 (94 in) (48 [UNK])))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "72",
+      "text": "Putting a woman in charge is the biggest mistake anyone can make. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -56.34268569946289,
+    "loss": 56.34268569946289,
+    "tree": "(26 (31 (31 (6 (3 (35 [UNK]) (4 (37 a) (42 woman))) (49 in)) (27 (83 charge) (1 (87 is) (4 (91 the) (33 [UNK]))))) (13 (81 [UNK]) (3 (44 anyone) (3 (78 can) (60 make))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "73",
+      "text": "Allowing any more women into government will ruin our country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -45.36758041381836,
+    "loss": 45.36758041381836,
+    "tree": "(26 (31 (13 (81 [UNK]) (3 (44 any) (3 (80 more) (62 women)))) (11 (4 (84 into) (36 government)) (16 (56 will) (27 (81 [UNK]) (11 (68 our) (39 country)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "74",
+      "text": "Never trust a single word said by a woman. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -34.831085205078125,
+    "loss": 34.831085205078125,
+    "tree": "(26 (31 (27 (83 never) (11 (13 (81 [UNK]) (3 (37 a) (36 single))) (82 [UNK]))) (20 (83 said) (30 (50 by) (4 (37 a) (42 woman))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "75",
+      "text": "I would rather die than date a woman. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.579914093017578,
+    "loss": 31.579914093017578,
+    "tree": "(26 (31 (71 i) (16 (56 would) (27 (83 rather) (11 (51 die) (25 (45 than) (4 (81 [UNK]) (4 (37 a) (42 woman)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "76",
+      "text": "I'd rather have cancer than be anywhere near a woman. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -43.504451751708984,
+    "loss": 43.504451751708984,
+    "tree": "(26 (31 (31 (71 i) (16 (57 ') (10 (52 d) (11 (73 rather) (11 (73 have) (11 (51 cancer) (25 (45 than) (4 (91 be) (33 [UNK]))))))))) (4 (81 [UNK]) (4 (37 a) (42 woman)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "77",
+      "text": "If I woke up as a woman, I would kill myself. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -48.42640686035156,
+    "loss": 48.42640686035156,
+    "tree": "(26 (92 if) (26 (31 (71 i) (16 (15 (27 (81 [UNK]) (11 (51 up) (25 (45 as) (4 (37 a) (42 woman))))) (61 ,)) (31 (71 i) (16 (56 would) (27 (50 kill) (82 [UNK])))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "78",
+      "text": "There is nothing in the world I like less than a woman. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -52.12461853027344,
+    "loss": 52.12461853027344,
+    "tree": "(26 (31 (71 there) (16 (56 is) (27 (83 nothing) (11 (19 (4 (50 in) (3 (3 (91 the) (60 world)) (38 i))) (41 like)) (11 (33 [UNK]) (1 (87 than) (4 (37 a) (42 woman)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "79",
+      "text": "Women have no place in a civilised country like this. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -37.683631896972656,
+    "loss": 37.683631896972656,
+    "tree": "(26 (7 (95 women) (21 (73 have) (18 (15 (27 (83 no) (11 (73 place) (11 (73 in) (11 (4 (37 a) (48 [UNK])) (39 country))))) (61 like)) (46 this)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "80",
+      "text": "I want to kill all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -22.726938247680664,
+    "loss": 22.726938247680664,
+    "tree": "(26 (31 (71 i) (16 (56 want) (27 (83 to) (11 (73 kill) (11 (70 all) (62 women)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "81",
+      "text": "I want to end every woman's life. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -45.71800994873047,
+    "loss": 45.71800994873047,
+    "tree": "(26 (31 (71 i) (16 (56 want) (27 (83 to) (11 (73 end) (11 (73 every) (11 (4 (50 woman) (3 (57 ') (52 s))) (39 life))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "82",
+      "text": "I really am just going to murder that woman. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -42.47456741333008,
+    "loss": 42.47456741333008,
+    "tree": "(26 (31 (71 i) (16 (56 really) (27 (83 am) (11 (29 (4 (50 just) (3 (44 going) (3 (91 to) (60 murder)))) (61 that)) (69 woman))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "83",
+      "text": "I am going to shoot the next woman I see. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -49.1118278503418,
+    "loss": 49.1118278503418,
+    "tree": "(26 (31 (31 (71 i) (16 (56 am) (27 (83 going) (11 (4 (50 to) (3 (44 shoot) (3 (91 the) (60 next)))) (39 woman))))) (2 (71 i) (44 see))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "84",
+      "text": "I am going to make those women suffer. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.814472198486328,
+    "loss": 31.814472198486328,
+    "tree": "(26 (31 (71 i) (16 (56 am) (27 (83 going) (11 (4 (50 to) (3 (44 make) (3 (80 those) (62 women)))) (39 suffer))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "85",
+      "text": "I'm going to stab a woman tomorrow. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -27.627925872802734,
+    "loss": 27.627925872802734,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 m) (11 (73 going) (11 (4 (50 to) (3 (35 [UNK]) (4 (37 a) (42 woman)))) (39 tomorrow)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "86",
+      "text": "I'll have to rape a woman today. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -33.330116271972656,
+    "loss": 33.330116271972656,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 ll) (11 (73 have) (11 (73 to) (11 (73 rape) (11 (4 (37 a) (42 woman)) (39 today)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "87",
+      "text": "I will hurt you and any other women like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.455997467041016,
+    "loss": 31.455997467041016,
+    "tree": "(26 (31 (71 i) (16 (56 will) (27 (19 (4 (81 [UNK]) (7 (95 you) (21 (76 and) (4 (50 any) (3 (80 other) (62 women)))))) (41 like)) (77 you)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "88",
+      "text": "I will cut their female throats. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -28.413349151611328,
+    "loss": 28.413349151611328,
+    "tree": "(26 (31 (71 i) (16 (56 will) (27 (83 cut) (11 (73 their) (11 (68 female) (90 throats)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "89",
+      "text": "I'll snap that female neck of yours. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -34.18120574951172,
+    "loss": 34.18120574951172,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 ll) (11 (73 snap) (11 (29 (4 (70 that) (3 (91 female) (82 [UNK]))) (61 of)) (69 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "90",
+      "text": "We will keep attacking you women until you are gone. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -35.45865249633789,
+    "loss": 35.45865249633789,
+    "tree": "(26 (31 (71 we) (16 (56 will) (27 (83 keep) (11 (13 (81 [UNK]) (3 (80 you) (62 women))) (4 (81 [UNK]) (7 (95 you) (21 (76 are) (93 [UNK])))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "91",
+      "text": "We'll torture these women without mercy. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -25.73505401611328,
+    "loss": 25.73505401611328,
+    "tree": "(26 (31 (71 we) (16 (57 ') (10 (52 ll) (11 (13 (81 [UNK]) (3 (3 (80 these) (62 women)) (38 without))) (82 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "92",
+      "text": "We are going to put an end to all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -40.15771484375,
+    "loss": 40.15771484375,
+    "tree": "(26 (31 (71 we) (16 (56 are) (27 (83 going) (11 (73 to) (11 (73 put) (11 (73 an) (11 (73 end) (11 (73 to) (11 (70 all) (62 women)))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "93",
+      "text": "Let's get rid of women once and for all. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -40.9122428894043,
+    "loss": 40.9122428894043,
+    "tree": "(26 (31 (71 let) (16 (57 ') (10 (52 s) (11 (73 get) (11 (73 rid) (11 (61 of) (7 (95 women) (21 (76 once) (4 (50 and) (3 (41 for) (70 all))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "94",
+      "text": "Let's just eradicate those women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -22.52448081970215,
+    "loss": 22.52448081970215,
+    "tree": "(26 (31 (71 let) (16 (57 ') (10 (52 s) (11 (29 (4 (50 just) (48 [UNK])) (61 those)) (62 women))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "95",
+      "text": "Execution is the only solution for those women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -35.313961029052734,
+    "loss": 35.313961029052734,
+    "tree": "(26 (31 (13 (81 [UNK]) (1 (87 is) (4 (50 the) (3 (91 only) (82 [UNK]))))) (11 (73 for) (11 (70 those) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "96",
+      "text": "Death to all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -12.77778148651123,
+    "loss": 12.77778148651123,
+    "tree": "(26 (12 (54 death) (11 (73 to) (11 (70 all) (62 women)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "97",
+      "text": "I'll slaughter any woman like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -22.907989501953125,
+    "loss": 22.907989501953125,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 ll) (11 (51 slaughter) (27 (19 (4 (37 any) (42 woman)) (41 like)) (77 you)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "98",
+      "text": "That woman will die a horrible death at my hands. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -52.14242935180664,
+    "loss": 52.14242935180664,
+    "tree": "(26 (31 (5 (61 that) (31 (71 woman) (16 (56 will) (27 (83 die) (11 (4 (37 a) (42 horrible)) (39 death)))))) (1 (87 at) (4 (91 my) (33 [UNK])))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "99",
+      "text": "Women should all be killed. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -12.707300186157227,
+    "loss": 12.707300186157227,
+    "tree": "(26 (7 (95 women) (21 (76 should) (4 (70 all) (3 (91 be) (60 killed))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "100",
+      "text": "Women like you deserve to die. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -19.49036979675293,
+    "loss": 19.49036979675293,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 deserve) (4 (45 to) (36 die)))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "101",
+      "text": "I would love to see those women suffer. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -30.152923583984375,
+    "loss": 30.152923583984375,
+    "tree": "(26 (31 (71 i) (16 (56 would) (27 (83 love) (11 (4 (50 to) (3 (44 see) (3 (80 those) (62 women)))) (39 suffer))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "102",
+      "text": "I wish all women would be shot in the street. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.291711807250977,
+    "loss": 31.291711807250977,
+    "tree": "(26 (31 (31 (71 i) (16 (56 wish) (27 (70 all) (7 (95 women) (21 (76 would) (4 (91 be) (33 [UNK]))))))) (4 (50 in) (3 (91 the) (82 [UNK])))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "103",
+      "text": "We should get rid of women once and for all. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -37.778724670410156,
+    "loss": 37.778724670410156,
+    "tree": "(26 (31 (71 we) (16 (56 should) (27 (83 get) (11 (73 rid) (11 (61 of) (7 (95 women) (21 (76 once) (4 (50 and) (3 (41 for) (70 all)))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "104",
+      "text": "We should just hang all these women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -19.71363639831543,
+    "loss": 19.71363639831543,
+    "tree": "(26 (31 (71 we) (16 (56 should) (27 (29 (4 (50 just) (3 (81 [UNK]) (70 all))) (61 these)) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "105",
+      "text": "We would be better off if those women were eradicated. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -48.417179107666016,
+    "loss": 48.417179107666016,
+    "tree": "(26 (31 (71 we) (16 (56 would) (27 (15 (27 (29 (4 (50 be) (3 (44 better) (3 (78 off) (43 if)))) (61 those)) (62 women)) (61 were)) (82 [UNK])))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "106",
+      "text": "If only women like you all had their throats cut. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -47.89170455932617,
+    "loss": 47.89170455932617,
+    "tree": "(26 (92 if) (26 (31 (66 only) (7 (95 women) (21 (41 like) (7 (95 you) (21 (11 (4 (70 all) (3 (78 had) (43 their))) (39 throats)) (83 cut)))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "107",
+      "text": "It would be best to just drown those kinds of women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -42.03947448730469,
+    "loss": 42.03947448730469,
+    "tree": "(26 (31 (71 it) (16 (56 would) (27 (29 (4 (50 be) (3 (6 (3 (47 [UNK]) (25 (45 to) (4 (50 just) (48 [UNK])))) (49 those)) (54 kinds))) (61 of)) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "108",
+      "text": "Raping a woman like you should not be illegal. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -26.541643142700195,
+    "loss": 26.541643142700195,
+    "tree": "(26 (31 (27 (19 (4 (81 [UNK]) (4 (37 a) (42 woman))) (41 like)) (77 you)) (21 (76 should) (4 (50 not) (3 (91 be) (82 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "109",
+      "text": "Murdering a woman like you should be decriminalised. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -22.532278060913086,
+    "loss": 22.532278060913086,
+    "tree": "(26 (31 (27 (19 (4 (81 [UNK]) (4 (37 a) (42 woman))) (41 like)) (77 you)) (21 (76 should) (4 (91 be) (33 [UNK])))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "110",
+      "text": "Those kinds of women ought to be executed. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -28.515302658081055,
+    "loss": 28.515302658081055,
+    "tree": "(26 (92 those) (26 (12 (54 kinds) (11 (61 of) (7 (95 women) (21 (76 ought) (4 (50 to) (3 (91 be) (60 executed))))))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "111",
+      "text": "If only someone would strangle those women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -32.417049407958984,
+    "loss": 32.417049407958984,
+    "tree": "(26 (92 if) (26 (92 only) (26 (31 (71 someone) (16 (56 would) (27 (81 [UNK]) (11 (70 those) (62 women))))) (86 .))))"
+  },
+  {
+    "e": {
+      "uid": "112",
+      "text": "In a just world, women like you would all be dead. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -48.72367858886719,
+    "loss": 48.72367858886719,
+    "tree": "(26 (29 (4 (50 in) (3 (44 a) (3 (91 just) (60 world)))) (61 ,)) (26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 would) (4 (70 all) (3 (91 be) (60 dead))))))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "113",
+      "text": "The world would be better off without women like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -47.81708908081055,
+    "loss": 47.81708908081055,
+    "tree": "(26 (31 (6 (3 (91 the) (60 world)) (49 would)) (27 (19 (4 (50 be) (3 (44 better) (3 (44 off) (3 (80 without) (62 women))))) (41 like)) (77 you))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "114",
+      "text": "One can only hope someone will put an end to those women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -58.96359634399414,
+    "loss": 58.96359634399414,
+    "tree": "(26 (31 (71 one) (16 (24 (75 can) (9 (66 only) (35 [UNK]))) (31 (71 someone) (16 (56 will) (27 (83 put) (11 (73 an) (11 (73 end) (11 (73 to) (11 (70 those) (62 women)))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "115",
+      "text": "It's in everybody's interest to just slaughter those women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -43.334476470947266,
+    "loss": 43.334476470947266,
+    "tree": "(26 (31 (71 it) (16 (57 ') (10 (52 s) (11 (4 (50 in) (48 [UNK])) (16 (57 ') (10 (52 s) (11 (51 [UNK]) (25 (45 to) (4 (50 just) (3 (44 slaughter) (3 (80 those) (62 women)))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "116",
+      "text": "Somebody should just stab those women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -21.189903259277344,
+    "loss": 21.189903259277344,
+    "tree": "(26 (31 (71 somebody) (16 (56 should) (27 (29 (4 (50 just) (48 [UNK])) (61 those)) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "117",
+      "text": "Someone should snap the necks of all those women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -33.349727630615234,
+    "loss": 33.349727630615234,
+    "tree": "(26 (31 (71 someone) (16 (56 should) (27 (29 (4 (50 snap) (3 (19 (4 (91 the) (33 [UNK])) (41 of)) (70 all))) (61 those)) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "118",
+      "text": "Those women should be burned at the stake. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -22.894229888916016,
+    "loss": 22.894229888916016,
+    "tree": "(26 (31 (66 those) (7 (95 women) (21 (76 should) (4 (50 be) (3 (47 [UNK]) (1 (87 at) (4 (91 the) (33 [UNK])))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "119",
+      "text": "That's only natural for a bitch like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -36.690853118896484,
+    "loss": 36.690853118896484,
+    "tree": "(26 (31 (71 that) (16 (57 ') (10 (52 s) (11 (19 (4 (66 only) (51 natural)) (41 for)) (27 (19 (4 (37 a) (42 bitch)) (41 like)) (77 you)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "120",
+      "text": "That's only natural for a slut like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -36.64974594116211,
+    "loss": 36.64974594116211,
+    "tree": "(26 (31 (71 that) (16 (57 ') (10 (52 s) (11 (19 (4 (66 only) (51 natural)) (41 for)) (27 (19 (4 (37 a) (42 slut)) (41 like)) (77 you)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "121",
+      "text": "That's only natural for a whore like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -35.305572509765625,
+    "loss": 35.305572509765625,
+    "tree": "(26 (31 (71 that) (16 (57 ') (10 (52 s) (11 (19 (4 (66 only) (51 natural)) (41 for)) (27 (19 (4 (37 a) (42 whore)) (41 like)) (77 you)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "122",
+      "text": "You are just a bitch to me. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -26.854055404663086,
+    "loss": 26.854055404663086,
+    "tree": "(26 (7 (95 you) (21 (76 are) (4 (50 just) (3 (19 (4 (37 a) (42 bitch)) (41 to)) (70 me))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "123",
+      "text": "You are just a slut to me. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -26.82183074951172,
+    "loss": 26.82183074951172,
+    "tree": "(26 (7 (95 you) (21 (76 are) (4 (50 just) (3 (19 (4 (37 a) (42 slut)) (41 to)) (70 me))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "124",
+      "text": "You are just a whore to me. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -25.48385238647461,
+    "loss": 25.48385238647461,
+    "tree": "(26 (7 (95 you) (21 (76 are) (4 (50 just) (3 (19 (4 (37 a) (42 whore)) (41 to)) (70 me))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "125",
+      "text": "Just another common bitch. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -19.929061889648438,
+    "loss": 19.929061889648438,
+    "tree": "(26 (31 (72 just) (6 (3 (78 another) (43 common)) (49 bitch))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "126",
+      "text": "Just another common slut. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -21.733688354492188,
+    "loss": 21.733688354492188,
+    "tree": "(26 (31 (72 just) (6 (3 (78 another) (43 common)) (49 slut))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "127",
+      "text": "Just another common whore. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -21.613487243652344,
+    "loss": 21.613487243652344,
+    "tree": "(26 (31 (72 just) (6 (3 (78 another) (43 common)) (49 whore))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "128",
+      "text": "They are just a bunch of bitches. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -28.201799392700195,
+    "loss": 28.201799392700195,
+    "tree": "(26 (7 (95 they) (21 (76 are) (4 (50 just) (3 (29 (4 (37 a) (42 bunch)) (61 of)) (83 bitches))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "129",
+      "text": "They are just a bunch of sluts. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -28.245676040649414,
+    "loss": 28.245676040649414,
+    "tree": "(26 (7 (95 they) (21 (76 are) (4 (50 just) (3 (29 (4 (37 a) (42 bunch)) (61 of)) (83 sluts))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "130",
+      "text": "They are just a bunch of whores. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -27.763778686523438,
+    "loss": 27.763778686523438,
+    "tree": "(26 (7 (95 they) (21 (76 are) (4 (50 just) (3 (29 (4 (37 a) (42 bunch)) (61 of)) (83 whores))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "131",
+      "text": "You are nothing but a bitch. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -23.895526885986328,
+    "loss": 23.895526885986328,
+    "tree": "(26 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (80 but) (4 (37 a) (42 bitch)))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "132",
+      "text": "You are nothing but a slut. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -23.862619400024414,
+    "loss": 23.862619400024414,
+    "tree": "(26 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (80 but) (4 (37 a) (42 slut)))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "133",
+      "text": "You are nothing but a whore. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -22.527423858642578,
+    "loss": 22.527423858642578,
+    "tree": "(26 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (80 but) (4 (37 a) (42 whore)))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "134",
+      "text": "Typical bitch behaviour. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -12.708846092224121,
+    "loss": 12.708846092224121,
+    "tree": "(26 (12 (54 typical) (11 (68 bitch) (90 behaviour))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "135",
+      "text": "Typical slut behaviour. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -13.198797225952148,
+    "loss": 13.198797225952148,
+    "tree": "(26 (12 (54 typical) (11 (68 slut) (90 behaviour))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "136",
+      "text": "Typical whore behaviour. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -12.917867660522461,
+    "loss": 12.917867660522461,
+    "tree": "(26 (12 (54 typical) (11 (68 whore) (90 behaviour))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "137",
+      "text": "Bitches just can't help themselves. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -20.255924224853516,
+    "loss": 20.255924224853516,
+    "tree": "(26 (31 (71 bitches) (16 (72 just) (24 (75 can) (9 (57 ') (17 (89 t) (3 (78 help) (43 themselves))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "138",
+      "text": "Sluts just can't help themselves. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -19.729963302612305,
+    "loss": 19.729963302612305,
+    "tree": "(26 (31 (71 sluts) (16 (72 just) (24 (75 can) (9 (57 ') (17 (89 t) (3 (78 help) (43 themselves))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "139",
+      "text": "Whores just can't help themselves. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -18.510173797607422,
+    "loss": 18.510173797607422,
+    "tree": "(26 (31 (71 whores) (16 (72 just) (24 (75 can) (9 (57 ') (17 (89 t) (3 (78 help) (43 themselves))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "140",
+      "text": "Too many bitches in this country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -16.14888572692871,
+    "loss": 16.14888572692871,
+    "tree": "(26 (31 (71 too) (16 (56 many) (27 (83 bitches) (11 (4 (94 in) (46 this)) (39 country))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "141",
+      "text": "Too many sluts in this country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -16.03760528564453,
+    "loss": 16.03760528564453,
+    "tree": "(26 (31 (71 too) (16 (56 many) (27 (83 sluts) (11 (4 (94 in) (46 this)) (39 country))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "142",
+      "text": "Too many whores in this country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -15.547771453857422,
+    "loss": 15.547771453857422,
+    "tree": "(26 (31 (71 too) (16 (56 many) (27 (83 whores) (11 (4 (94 in) (46 this)) (39 country))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "143",
+      "text": "My Labrador bitch gave birth to three puppies today. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -33.96883010864258,
+    "loss": 33.96883010864258,
+    "tree": "(26 (31 (6 (3 (91 my) (82 [UNK])) (49 bitch)) (27 (81 [UNK]) (11 (73 [UNK]) (11 (73 to) (11 (4 (64 [UNK]) (65 [UNK])) (39 today)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "144",
+      "text": "I had to take my bitch to the vet today and she would not stop barking. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -72.30008697509766,
+    "loss": 72.30008697509766,
+    "tree": "(26 (31 (71 i) (16 (15 (27 (83 had) (11 (4 (50 to) (3 (35 [UNK]) (4 (50 my) (3 (80 bitch) (4 (50 to) (3 (91 the) (82 [UNK]))))))) (39 today))) (61 and)) (31 (71 she) (16 (56 would) (27 (83 not) (11 (50 stop) (47 [UNK]))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "145",
+      "text": "My friend's bitch is not like other dogs. She hates going for walks. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -72.12545013427734,
+    "loss": 72.12545013427734,
+    "tree": "(26 (26 (12 (54 my) (11 (13 (81 [UNK]) (3 (6 (3 (57 ') (52 s)) (49 bitch)) (87 is))) (4 (50 not) (3 (44 like) (3 (80 other) (58 [UNK])))))) (67 .)) (26 (31 (71 she) (16 (56 [UNK]) (27 (83 going) (11 (50 for) (47 [UNK]))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "146",
+      "text": "Female canines are called bitches. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -19.52645492553711,
+    "loss": 19.52645492553711,
+    "tree": "(26 (31 (71 female) (16 (13 (81 [UNK]) (3 (76 are) (47 [UNK]))) (43 bitches))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "147",
+      "text": "The bitch won first place in the sporting dogs category. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -40.689918518066406,
+    "loss": 40.689918518066406,
+    "tree": "(26 (31 (6 (3 (91 the) (60 bitch)) (49 won)) (27 (27 (81 [UNK]) (11 (73 place) (11 (13 (81 in) (3 (91 the) (82 [UNK]))) (82 [UNK])))) (85 [UNK]))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "148",
+      "text": "I keep two garden hoes out in my tool shed. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -37.19358825683594,
+    "loss": 37.19358825683594,
+    "tree": "(26 (31 (71 i) (16 (56 keep) (27 (81 [UNK]) (11 (73 garden) (11 (13 (81 [UNK]) (3 (80 out) (4 (50 in) (3 (91 my) (82 [UNK]))))) (82 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "149",
+      "text": "There's a garden hoe hanging right next to that shovel there. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -62.60742950439453,
+    "loss": 62.60742950439453,
+    "tree": "(26 (31 (71 there) (16 (57 ') (10 (52 s) (11 (73 a) (11 (73 garden) (11 (51 hoe) (27 (81 [UNK]) (11 (73 right) (11 (51 next) (25 (45 to) (4 (70 that) (3 (78 [UNK]) (43 there))))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "150",
+      "text": "We spent the afternoon hoeing the vegetable patch. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -19.501625061035156,
+    "loss": 19.501625061035156,
+    "tree": "(26 (31 (71 we) (16 (13 (81 [UNK]) (3 (91 the) (82 [UNK]))) (11 (13 (81 [UNK]) (3 (91 the) (82 [UNK]))) (82 [UNK])))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "151",
+      "text": "A hoe is a kind of garden tool used to remove weeds. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -43.739376068115234,
+    "loss": 43.739376068115234,
+    "tree": "(26 (31 (6 (3 (44 a) (3 (51 hoe) (1 (87 is) (4 (37 a) (42 kind))))) (49 of)) (27 (83 garden) (11 (13 (81 [UNK]) (3 (35 [UNK]) (4 (50 to) (48 [UNK])))) (82 [UNK])))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "152",
+      "text": "You will need a good garden hoe for turning over that field. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -44.84960174560547,
+    "loss": 44.84960174560547,
+    "tree": "(26 (31 (71 you) (16 (56 will) (27 (81 [UNK]) (11 (22 (54 a) (15 (27 (81 [UNK]) (11 (73 garden) (11 (51 hoe) (25 (45 for) (4 (64 [UNK]) (65 [UNK])))))) (61 that))) (74 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "153",
+      "text": "If I'm a bitch then I'm the baddest bitch",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -44.94992446899414,
+    "loss": 44.94992446899414,
+    "tree": "(26 (92 if) (26 (31 (71 i) (16 (57 ') (10 (52 m) (11 (4 (37 a) (42 bitch)) (39 then))))) (31 (71 i) (16 (57 ') (10 (52 m) (11 (4 (91 the) (33 [UNK])) (39 bitch)))))))"
+  },
+  {
+    "e": {
+      "uid": "154",
+      "text": "I'm the bitch you wish you could be. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -49.79490661621094,
+    "loss": 49.79490661621094,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 m) (11 (73 the) (11 (61 bitch) (7 (95 you) (21 (76 wish) (4 (50 you) (3 (78 could) (43 be)))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "155",
+      "text": "A bitch like me will fight, so please don't forget that. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -57.22353744506836,
+    "loss": 57.22353744506836,
+    "tree": "(26 (31 (0 (19 (4 (37 a) (42 bitch)) (41 like)) (49 me)) (28 (87 will) (8 (53 [UNK]) (5 (61 ,) (31 (71 so) (16 (72 [UNK]) (24 (75 don) (9 (57 ') (17 (89 t) (3 (78 forget) (43 that))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "156",
+      "text": "Tell me I ain't the cutest bitch you ever seen",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -47.5851936340332,
+    "loss": 47.5851936340332,
+    "tree": "(26 (15 (27 (81 [UNK]) (11 (84 me) (31 (71 i) (16 (64 [UNK]) (9 (57 ') (17 (89 t) (3 (6 (3 (91 the) (82 [UNK])) (49 bitch)) (87 you)))))))) (61 ever)) (33 [UNK]))"
+  },
+  {
+    "e": {
+      "uid": "157",
+      "text": "I got a new wig and I feel like a bad bitch. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -45.3228759765625,
+    "loss": 45.3228759765625,
+    "tree": "(26 (31 (71 i) (16 (13 (81 [UNK]) (3 (37 a) (47 [UNK]))) (8 (53 [UNK]) (5 (61 and) (31 (71 i) (16 (56 feel) (27 (83 like) (11 (4 (37 a) (42 bad)) (39 bitch))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "158",
+      "text": "Did you forget who I am? I'm a boss bitch. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -57.0373420715332,
+    "loss": 57.0373420715332,
+    "tree": "(26 (26 (31 (93 [UNK]) (7 (95 you) (21 (6 (3 (78 forget) (43 who)) (49 i)) (83 am)))) (86 ?)) (26 (31 (71 i) (16 (57 ') (10 (52 m) (11 (4 (37 a) (48 [UNK])) (39 bitch))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "159",
+      "text": "I refuse to be sad when I'm a pretty bitch. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -40.884334564208984,
+    "loss": 40.884334564208984,
+    "tree": "(26 (31 (71 i) (16 (15 (27 (83 refuse) (25 (45 to) (4 (91 be) (33 [UNK])))) (61 when)) (31 (71 i) (16 (57 ') (10 (52 m) (11 (4 (37 a) (48 [UNK])) (39 bitch))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "160",
+      "text": "Happy birthday to the baddest bitch ever. I love you so much!",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -59.79620361328125,
+    "loss": 59.79620361328125,
+    "tree": "(26 (26 (31 (13 (81 [UNK]) (3 (47 [UNK]) (25 (45 to) (4 (91 the) (33 [UNK]))))) (11 (68 bitch) (90 ever))) (86 .)) (26 (31 (31 (71 i) (16 (53 love) (95 you))) (3 (91 so) (60 much))) (40 [UNK])))"
+  },
+  {
+    "e": {
+      "uid": "161",
+      "text": "She knows she looks good, she's a bad bitch. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -43.260066986083984,
+    "loss": 43.260066986083984,
+    "tree": "(26 (31 (71 she) (16 (13 (81 [UNK]) (3 (91 she) (82 [UNK]))) (8 (53 [UNK]) (5 (61 ,) (31 (71 she) (16 (57 ') (10 (52 s) (11 (4 (37 a) (42 bad)) (39 bitch))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "162",
+      "text": "I'm the realest bitch he gone ever come across",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -36.758567810058594,
+    "loss": 36.758567810058594,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 m) (11 (4 (91 the) (33 [UNK])) (39 bitch))))) (12 (54 he) (11 (33 [UNK]) (1 (87 ever) (4 (64 [UNK]) (65 [UNK]))))))"
+  },
+  {
+    "e": {
+      "uid": "163",
+      "text": "Vibe check, I'm still the prettiest bitch. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -26.287242889404297,
+    "loss": 26.287242889404297,
+    "tree": "(26 (29 (4 (64 [UNK]) (65 [UNK])) (61 ,)) (26 (31 (71 i) (16 (57 ') (10 (52 m) (11 (73 still) (11 (4 (91 the) (33 [UNK])) (39 bitch)))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "164",
+      "text": "I just gotta be the hottest bitch wherever I go. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -39.606201171875,
+    "loss": 39.606201171875,
+    "tree": "(26 (31 (71 i) (16 (72 just) (24 (15 (27 (27 (81 [UNK]) (11 (4 (50 be) (3 (91 the) (82 [UNK]))) (39 bitch))) (85 [UNK])) (61 i)) (44 go)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "165",
+      "text": "They don't want to see bitches like us win. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -43.5655632019043,
+    "loss": 43.5655632019043,
+    "tree": "(26 (7 (95 they) (21 (24 (75 don) (9 (57 ') (17 (89 t) (3 (80 want) (4 (19 (4 (50 to) (3 (78 see) (43 bitches))) (41 like)) (43 us)))))) (33 [UNK]))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "166",
+      "text": "Black eyeliner was made for hot bitches like me. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -38.0993766784668,
+    "loss": 38.0993766784668,
+    "tree": "(26 (31 (64 [UNK]) (11 (33 [UNK]) (1 (87 was) (4 (50 [UNK]) (3 (19 (4 (50 for) (3 (78 [UNK]) (43 bitches))) (41 like)) (70 me)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "167",
+      "text": "Sending so much love to all my bad bitches out there. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -56.25676345825195,
+    "loss": 56.25676345825195,
+    "tree": "(26 (31 (13 (81 [UNK]) (3 (91 so) (60 much))) (11 (51 love) (25 (45 to) (4 (70 all) (3 (6 (3 (44 my) (3 (78 bad) (43 bitches))) (49 out)) (87 there)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "168",
+      "text": "What is it with you fucking women?",
+      "sexist": "sexist"
+    },
+    "log_probs": -33.29841613769531,
+    "loss": 33.29841613769531,
+    "tree": "(26 (31 (71 what) (16 (56 is) (27 (83 it) (11 (51 with) (25 (45 you) (4 (81 [UNK]) (55 women))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "169",
+      "text": "Fuck all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -9.88173770904541,
+    "loss": 9.88173770904541,
+    "tree": "(26 (12 (54 fuck) (11 (70 all) (62 women))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "170",
+      "text": "All women should fuck off forever. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -23.89360237121582,
+    "loss": 23.89360237121582,
+    "tree": "(26 (31 (66 all) (7 (95 women) (21 (76 should) (4 (50 fuck) (3 (91 off) (82 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "171",
+      "text": "Women should get the fuck out of our country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -43.356258392333984,
+    "loss": 43.356258392333984,
+    "tree": "(26 (31 (95 women) (16 (56 should) (27 (83 get) (11 (4 (50 the) (3 (6 (3 (78 fuck) (43 out)) (49 of)) (38 our))) (39 country))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "172",
+      "text": "Women can all go fuck themselves. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -24.65609359741211,
+    "loss": 24.65609359741211,
+    "tree": "(26 (7 (95 women) (21 (76 can) (4 (70 all) (3 (44 go) (3 (78 fuck) (43 themselves)))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "173",
+      "text": "These women should shut the fuck up once and for all. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -46.381019592285156,
+    "loss": 46.381019592285156,
+    "tree": "(26 (31 (66 these) (7 (95 women) (21 (76 should) (4 (81 [UNK]) (4 (50 the) (3 (19 (4 (50 fuck) (3 (44 up) (3 (78 once) (43 and)))) (41 for)) (70 all))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "174",
+      "text": "Most women are seriously fucked in the head. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -26.370813369750977,
+    "loss": 26.370813369750977,
+    "tree": "(26 (31 (66 most) (7 (95 women) (21 (76 are) (4 (50 seriously) (3 (80 fucked) (4 (50 in) (3 (91 the) (60 head)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "175",
+      "text": "Women are the worst kind of motherfuckers. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -27.9803466796875,
+    "loss": 27.9803466796875,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (50 the) (3 (6 (3 (78 worst) (60 kind)) (49 of)) (87 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "176",
+      "text": "Female lives aren't worth shit. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -21.760461807250977,
+    "loss": 21.760461807250977,
+    "tree": "(26 (31 (71 female) (16 (72 lives) (24 (75 aren) (9 (57 ') (17 (89 t) (3 (78 worth) (43 shit))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "177",
+      "text": "By nature, women are just shitty human beings. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.68661117553711,
+    "loss": 31.68661117553711,
+    "tree": "(26 (12 (54 by) (11 (73 nature) (11 (61 ,) (7 (95 women) (21 (76 are) (4 (50 just) (3 (35 [UNK]) (4 (84 human) (36 beings))))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "178",
+      "text": "Typical of a woman to be such a total shithead. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -44.23314666748047,
+    "loss": 44.23314666748047,
+    "tree": "(26 (12 (54 typical) (11 (73 of) (11 (19 (4 (37 a) (42 woman)) (41 to)) (27 (20 (83 be) (30 (50 such) (4 (37 a) (48 [UNK])))) (65 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "179",
+      "text": "If the idea comes from a woman, it must be bullshit. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -45.9209098815918,
+    "loss": 45.9209098815918,
+    "tree": "(26 (92 if) (26 (29 (4 (50 the) (3 (44 idea) (3 (47 [UNK]) (1 (87 from) (4 (37 a) (42 woman)))))) (61 ,)) (26 (31 (71 it) (16 (56 must) (27 (50 be) (82 [UNK])))) (86 .))))"
+  },
+  {
+    "e": {
+      "uid": "180",
+      "text": "I'm just so pissed off by women like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -41.31077194213867,
+    "loss": 41.31077194213867,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 m) (11 (19 (4 (50 just) (3 (91 so) (82 [UNK]))) (41 off)) (27 (19 (4 (50 by) (55 women)) (41 like)) (77 you)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "181",
+      "text": "All the women in this country are pissing me off so much. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -47.596580505371094,
+    "loss": 47.596580505371094,
+    "tree": "(26 (31 (27 (83 all) (11 (4 (50 the) (3 (62 women) (4 (94 in) (46 this)))) (39 country))) (21 (76 are) (4 (81 [UNK]) (4 (50 me) (3 (44 off) (3 (91 so) (60 much))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "182",
+      "text": "Women are all complete assholes. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -14.550244331359863,
+    "loss": 14.550244331359863,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (70 all) (3 (78 complete) (43 assholes))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "183",
+      "text": "Most women are absolute bastards. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -13.711782455444336,
+    "loss": 13.711782455444336,
+    "tree": "(26 (31 (66 most) (7 (95 women) (21 (76 are) (4 (91 absolute) (33 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "184",
+      "text": "All women are such massive scumbags. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -22.270326614379883,
+    "loss": 22.270326614379883,
+    "tree": "(26 (31 (66 all) (7 (95 women) (21 (76 are) (4 (50 such) (3 (78 massive) (43 scumbags)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "185",
+      "text": "It's in a woman's nature to be an annoying prick. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -52.54454803466797,
+    "loss": 52.54454803466797,
+    "tree": "(26 (31 (71 it) (16 (57 ') (10 (52 s) (11 (73 in) (11 (4 (37 a) (42 woman)) (16 (57 ') (10 (52 s) (11 (51 nature) (25 (45 to) (4 (50 be) (3 (3 (78 an) (43 annoying)) (38 prick)))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "186",
+      "text": "Women can't help themselves but be complete dickheads. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -27.81964111328125,
+    "loss": 27.81964111328125,
+    "tree": "(26 (7 (95 women) (21 (24 (75 can) (9 (57 ') (17 (89 t) (3 (78 help) (43 themselves))))) (25 (45 but) (4 (50 be) (3 (91 complete) (82 [UNK])))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "187",
+      "text": "Of course that dumbass was a woman. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -28.923425674438477,
+    "loss": 28.923425674438477,
+    "tree": "(26 (31 (71 of) (16 (56 course) (27 (83 that) (11 (33 [UNK]) (1 (87 was) (4 (37 a) (42 woman))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "188",
+      "text": "I have met many women and I hate every single one of them. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -66.18646240234375,
+    "loss": 66.18646240234375,
+    "tree": "(26 (31 (71 i) (16 (56 have) (27 (19 (4 (50 [UNK]) (3 (80 many) (7 (95 women) (21 (76 and) (4 (50 i) (3 (80 hate) (4 (50 every) (3 (78 single) (43 one))))))))) (41 of)) (77 them)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "189",
+      "text": "I absolutely loathe people, especially if they are women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -45.624717712402344,
+    "loss": 45.624717712402344,
+    "tree": "(26 (31 (71 i) (16 (56 absolutely) (27 (81 [UNK]) (11 (38 people) (5 (61 ,) (5 (61 [UNK]) (31 (66 if) (7 (95 they) (21 (76 are) (55 women)))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "190",
+      "text": "Whenever women look at me, I think they can sense that I feel nothing but contempt for them. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -85.46116638183594,
+    "loss": 85.46116638183594,
+    "tree": "(26 (31 (93 [UNK]) (7 (95 women) (21 (84 look) (28 (87 at) (8 (53 me) (5 (61 ,) (31 (71 i) (16 (15 (27 (92 think) (7 (95 they) (21 (76 can) (93 [UNK])))) (61 that)) (31 (71 i) (16 (56 feel) (27 (19 (4 (50 nothing) (3 (78 but) (60 contempt))) (41 for)) (77 them)))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "191",
+      "text": "I don't have anything against women but most of them are pretty disgusting. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -55.256561279296875,
+    "loss": 55.256561279296875,
+    "tree": "(26 (31 (71 i) (16 (24 (75 don) (9 (57 ') (17 (89 t) (3 (21 (76 have) (4 (81 [UNK]) (4 (81 [UNK]) (55 women)))) (45 but))))) (12 (54 most) (11 (61 of) (7 (95 them) (21 (76 are) (4 (64 [UNK]) (65 disgusting)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "192",
+      "text": "I am trying to get along with women but they are just too repulsive. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -59.10663604736328,
+    "loss": 59.10663604736328,
+    "tree": "(26 (31 (71 i) (16 (56 am) (27 (81 [UNK]) (11 (73 to) (11 (73 get) (11 (13 (81 [UNK]) (3 (80 with) (62 women))) (3 (80 but) (7 (95 they) (21 (76 are) (4 (50 just) (3 (78 too) (43 repulsive)))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "193",
+      "text": "If you are a woman, then you are probably stupid. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -42.12495422363281,
+    "loss": 42.12495422363281,
+    "tree": "(26 (92 if) (26 (31 (7 (95 you) (21 (76 are) (4 (37 a) (42 woman)))) (5 (61 ,) (31 (66 then) (7 (95 you) (21 (76 are) (4 (48 [UNK]) (32 stupid))))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "194",
+      "text": "Those women might look human but they are just parasites to our society. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -50.719356536865234,
+    "loss": 50.719356536865234,
+    "tree": "(26 (31 (6 (3 (80 those) (62 women)) (49 [UNK])) (27 (83 look) (11 (73 human) (11 (61 but) (7 (95 they) (21 (76 are) (4 (50 just) (3 (35 [UNK]) (4 (50 to) (3 (78 our) (43 society))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "195",
+      "text": "Even if women are nice sometimes, they are still nothing but human garbage. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -53.50503921508789,
+    "loss": 53.50503921508789,
+    "tree": "(26 (31 (13 (81 [UNK]) (3 (80 if) (7 (95 women) (21 (76 are) (4 (64 [UNK]) (65 [UNK])))))) (11 (61 ,) (7 (95 they) (21 (76 are) (4 (73 still) (4 (50 nothing) (3 (80 but) (4 (84 human) (36 garbage))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "196",
+      "text": "Women must know that they are lesser beings. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -30.475664138793945,
+    "loss": 30.475664138793945,
+    "tree": "(26 (31 (95 women) (16 (56 must) (27 (83 know) (11 (61 that) (7 (95 they) (21 (76 are) (4 (84 lesser) (36 beings)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "197",
+      "text": "Women like you should know that your lives are worthless. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -44.56743621826172,
+    "loss": 44.56743621826172,
+    "tree": "(26 (31 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 should) (88 know))))) (5 (61 that) (31 (71 your) (16 (72 lives) (21 (76 are) (88 worthless)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "198",
+      "text": "When women talk back to me, I just want to kill them. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -57.463623046875,
+    "loss": 57.463623046875,
+    "tree": "(26 (31 (71 when) (16 (15 (27 (77 women) (3 (19 (4 (64 [UNK]) (65 [UNK])) (41 to)) (70 me))) (61 ,)) (31 (71 i) (16 (72 just) (21 (76 want) (4 (50 to) (3 (78 kill) (43 them)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "199",
+      "text": "I can't believe these women, thinking I won't murder every one of them. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -66.53168487548828,
+    "loss": 66.53168487548828,
+    "tree": "(26 (31 (71 i) (16 (24 (75 can) (9 (57 ') (17 (89 t) (3 (44 believe) (3 (80 these) (62 women)))))) (28 (87 ,) (8 (53 [UNK]) (5 (71 i) (24 (75 won) (9 (57 ') (17 (89 t) (3 (6 (3 (3 (78 murder) (43 every)) (38 one)) (49 of)) (38 them)))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "200",
+      "text": "Those women will stop laughing when I start shooting them. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -46.440189361572266,
+    "loss": 46.440189361572266,
+    "tree": "(26 (31 (6 (3 (80 those) (7 (95 women) (21 (76 will) (4 (91 stop) (33 [UNK]))))) (49 when)) (27 (83 i) (11 (4 (64 [UNK]) (65 [UNK])) (39 them)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "201",
+      "text": "Women are nothing like us and that's why they deserve to die. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -62.65104675292969,
+    "loss": 62.65104675292969,
+    "tree": "(26 (31 (7 (95 women) (21 (76 are) (4 (50 nothing) (3 (41 like) (43 us))))) (5 (61 and) (31 (71 that) (16 (57 ') (10 (52 s) (11 (61 why) (7 (95 they) (21 (76 deserve) (4 (45 to) (36 die)))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "202",
+      "text": "If women like you refuse to fit in, they should suffer for it. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -59.2195930480957,
+    "loss": 59.2195930480957,
+    "tree": "(26 (92 if) (26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 refuse) (4 (50 to) (3 (19 (4 (81 [UNK]) (4 (50 in) (3 (80 ,) (7 (95 they) (21 (76 should) (88 suffer)))))) (41 for)) (70 it))))))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "203",
+      "text": "Women are never going to change so we should just get rid of them. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -61.94585037231445,
+    "loss": 61.94585037231445,
+    "tree": "(26 (31 (7 (95 women) (21 (76 are) (4 (50 never) (3 (44 going) (3 (91 to) (82 [UNK])))))) (5 (61 so) (31 (71 we) (16 (56 should) (27 (19 (4 (50 just) (3 (78 get) (60 rid))) (41 of)) (77 them)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "204",
+      "text": "They must be fucked in the head if they are women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -51.55049514770508,
+    "loss": 51.55049514770508,
+    "tree": "(26 (31 (7 (95 they) (21 (76 must) (4 (50 be) (3 (80 fucked) (4 (50 in) (3 (91 the) (60 head))))))) (3 (80 if) (7 (95 they) (21 (76 are) (55 women))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "205",
+      "text": "Their lives aren't worth shit to me because they are women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -50.3238410949707,
+    "loss": 50.3238410949707,
+    "tree": "(26 (31 (71 their) (16 (72 lives) (21 (24 (75 aren) (9 (57 ') (17 (89 t) (3 (78 worth) (43 shit))))) (25 (45 to) (4 (81 me) (4 (81 [UNK]) (7 (95 they) (21 (76 are) (55 women))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "206",
+      "text": "I've been around enough women to know they're all complete assholes. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -67.12411499023438,
+    "loss": 67.12411499023438,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 [UNK]) (11 (13 (81 [UNK]) (3 (44 around) (3 (47 [UNK]) (1 (87 women) (4 (50 to) (3 (44 know) (3 (44 they) (3 (57 ') (52 re))))))))) (4 (70 all) (3 (78 complete) (43 assholes))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "207",
+      "text": "I'd be okay with women if they weren't such massive scumbags. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -63.9743766784668,
+    "loss": 63.9743766784668,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 d) (11 (73 be) (11 (73 okay) (11 (73 with) (11 (63 women) (16 (92 if) (31 (71 they) (16 (64 [UNK]) (9 (57 ') (17 (89 t) (3 (44 such) (3 (78 massive) (43 scumbags))))))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "208",
+      "text": "Women think they're special. I hate them. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -43.95697784423828,
+    "loss": 43.95697784423828,
+    "tree": "(26 (26 (7 (95 women) (21 (76 think) (4 (3 (44 they) (3 (57 ') (52 re))) (48 [UNK])))) (67 .)) (26 (31 (71 i) (16 (53 hate) (95 them))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "209",
+      "text": "I don't understand why you'd like women. Everything about them disgusts me so much. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -73.7066879272461,
+    "loss": 73.7066879272461,
+    "tree": "(26 (31 (71 i) (16 (24 (75 don) (9 (57 ') (17 (89 t) (3 (78 understand) (43 why))))) (31 (71 you) (16 (57 ') (10 (52 d) (11 (61 like) (7 (95 women) (21 (34 .) (13 (81 [UNK]) (3 (80 about) (7 (95 them) (21 (76 [UNK]) (4 (50 me) (3 (91 so) (60 much))))))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "210",
+      "text": "You women keep acting up. There really is nothing worse than your kind. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -72.74171447753906,
+    "loss": 72.74171447753906,
+    "tree": "(26 (31 (66 you) (7 (95 women) (21 (76 keep) (4 (50 [UNK]) (3 (44 up) (3 (44 .) (3 (44 there) (3 (51 really) (1 (87 is) (4 (50 nothing) (3 (51 worse) (1 (87 than) (4 (84 your) (36 kind)))))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "211",
+      "text": "That's typical of women. They're absolutely despicable. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -50.91875457763672,
+    "loss": 50.91875457763672,
+    "tree": "(26 (26 (31 (71 that) (16 (57 ') (10 (52 s) (11 (73 typical) (11 (70 of) (62 women)))))) (86 .)) (26 (31 (71 they) (16 (57 ') (10 (52 re) (11 (68 absolutely) (90 despicable))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "212",
+      "text": "A woman must have committed that crime. Only they can be that violent and cruel. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -80.9124984741211,
+    "loss": 80.9124984741211,
+    "tree": "(26 (26 (31 (11 (4 (37 a) (42 woman)) (39 must)) (1 (87 have) (4 (81 [UNK]) (4 (50 that) (48 [UNK]))))) (86 .)) (26 (31 (66 only) (7 (95 they) (21 (76 can) (4 (50 be) (3 (44 that) (3 (44 violent) (3 (78 and) (43 cruel)))))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "213",
+      "text": "Of course they are stupid. They are women after all. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -54.15262985229492,
+    "loss": 54.15262985229492,
+    "tree": "(26 (31 (71 of) (16 (56 course) (27 (26 (7 (95 they) (21 (76 are) (32 stupid))) (67 .)) (7 (95 they) (21 (76 are) (4 (50 women) (3 (78 after) (43 all)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "214",
+      "text": "I know women like you can't help it. You're just all that dumb. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -66.21440887451172,
+    "loss": 66.21440887451172,
+    "tree": "(26 (26 (31 (71 i) (16 (83 know) (7 (95 women) (21 (41 like) (7 (95 you) (24 (75 can) (9 (57 ') (17 (89 t) (3 (78 help) (43 it)))))))))) (86 .)) (26 (31 (71 you) (16 (57 ') (10 (52 re) (11 (13 (81 just) (3 (45 all) (70 that))) (82 [UNK]))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "215",
+      "text": "Women can be kind to you at times. Don't forget they're still just worthless scum. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -87.44434356689453,
+    "loss": 87.44434356689453,
+    "tree": "(26 (31 (26 (7 (95 women) (21 (76 can) (4 (50 be) (3 (80 kind) (4 (50 to) (3 (44 you) (3 (45 at) (85 [UNK])))))))) (67 .)) (24 (75 don) (9 (57 ') (17 (89 t) (3 (80 forget) (31 (71 they) (16 (57 ') (10 (52 re) (11 (51 still) (25 (45 just) (4 (84 worthless) (36 scum)))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "216",
+      "text": "Some women get into government. They are still just common trash to me. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -68.59205627441406,
+    "loss": 68.59205627441406,
+    "tree": "(26 (26 (31 (93 [UNK]) (7 (95 women) (21 (76 get) (4 (84 into) (36 government))))) (86 .)) (26 (7 (95 they) (21 (76 are) (4 (50 still) (3 (19 (4 (50 just) (3 (78 common) (43 trash))) (41 to)) (70 me))))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "217",
+      "text": "I understand that women are human beings. I just think they act like vermin. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -52.578983306884766,
+    "loss": 52.578983306884766,
+    "tree": "(26 (26 (31 (71 i) (16 (53 understand) (11 (61 that) (7 (95 women) (21 (76 are) (4 (84 human) (36 beings))))))) (86 .)) (26 (31 (71 i) (16 (72 just) (21 (76 think) (4 (19 (4 (50 they) (48 [UNK])) (41 like)) (40 [UNK]))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "218",
+      "text": "Women refuse to respect us. I'm going to make them suffer for that. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -64.13229370117188,
+    "loss": 64.13229370117188,
+    "tree": "(26 (31 (7 (95 women) (21 (76 refuse) (4 (50 to) (3 (78 respect) (43 us))))) (3 (19 (4 (67 .) (31 (71 i) (16 (57 ') (10 (52 m) (11 (73 going) (11 (4 (50 to) (3 (78 make) (43 them))) (39 suffer))))))) (41 for)) (70 that))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "219",
+      "text": "Those women won't change. Let's just eradicate them. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -45.329833984375,
+    "loss": 45.329833984375,
+    "tree": "(26 (31 (66 those) (7 (95 women) (24 (75 won) (9 (57 ') (17 (89 t) (3 (35 [UNK]) (4 (67 .) (31 (71 let) (16 (57 ') (10 (52 s) (11 (4 (50 just) (48 [UNK])) (39 them)))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "220",
+      "text": "Women like you should stop complaining. You deserve to suffer. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -41.11478042602539,
+    "loss": 41.11478042602539,
+    "tree": "(26 (26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 should) (4 (91 stop) (33 [UNK])))))) (67 .)) (26 (7 (95 you) (21 (76 deserve) (4 (50 to) (40 suffer)))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "221",
+      "text": "We should simply shoot them. They're just women after all. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -57.01015090942383,
+    "loss": 57.01015090942383,
+    "tree": "(26 (26 (31 (71 we) (16 (56 should) (27 (81 [UNK]) (11 (68 shoot) (90 them))))) (86 .)) (26 (31 (71 they) (16 (57 ') (10 (52 re) (11 (6 (3 (80 just) (62 women)) (49 after)) (70 all))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "222",
+      "text": "Those kinds of women will never fit in. They ought to be executed. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -53.940345764160156,
+    "loss": 53.940345764160156,
+    "tree": "(26 (26 (92 those) (26 (12 (54 kinds) (11 (61 of) (7 (95 women) (21 (76 will) (4 (50 never) (3 (47 [UNK]) (94 in))))))) (67 .))) (26 (7 (95 they) (21 (76 ought) (4 (50 to) (3 (91 be) (60 executed))))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "223",
+      "text": "Your lives aren't worth shit to me. You're just women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -60.4498291015625,
+    "loss": 60.4498291015625,
+    "tree": "(26 (31 (71 your) (16 (72 lives) (21 (24 (75 aren) (9 (57 ') (17 (89 t) (3 (78 worth) (43 shit))))) (25 (45 to) (4 (50 me) (3 (86 .) (31 (71 you) (16 (57 ') (10 (52 re) (11 (50 just) (62 women))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "224",
+      "text": "I am not surprised the idea was bullshit. It came from a woman after all. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -67.0823745727539,
+    "loss": 67.0823745727539,
+    "tree": "(26 (26 (31 (71 i) (16 (56 am) (27 (83 not) (11 (13 (81 [UNK]) (3 (91 the) (60 idea))) (4 (53 was) (47 [UNK])))))) (86 .)) (26 (31 (71 it) (16 (6 (3 (47 [UNK]) (1 (87 from) (4 (37 a) (42 woman)))) (49 after)) (70 all))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "225",
+      "text": "They are all complete assholes. Needless to say they are women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -51.8569450378418,
+    "loss": 51.8569450378418,
+    "tree": "(26 (26 (7 (95 they) (21 (76 are) (4 (70 all) (3 (78 complete) (43 assholes))))) (67 .)) (26 (31 (64 [UNK]) (11 (73 to) (11 (61 say) (7 (95 they) (21 (76 are) (55 women)))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "226",
+      "text": "We're talking about women here. They can't help themselves but be complete dickheads. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -62.295265197753906,
+    "loss": 62.295265197753906,
+    "tree": "(26 (26 (31 (71 we) (16 (57 ') (10 (52 re) (11 (4 (50 [UNK]) (3 (80 about) (62 women))) (39 here))))) (86 .)) (26 (7 (95 they) (21 (24 (75 can) (9 (57 ') (17 (89 t) (3 (78 help) (43 themselves))))) (25 (45 but) (4 (50 be) (3 (91 complete) (82 [UNK])))))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "227",
+      "text": "I have no compassion at all for any woman like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -38.08515167236328,
+    "loss": 38.08515167236328,
+    "tree": "(26 (31 (71 i) (16 (56 have) (27 (83 no) (11 (19 (4 (50 [UNK]) (3 (45 at) (70 all))) (41 for)) (27 (19 (4 (37 any) (42 woman)) (41 like)) (77 you)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "228",
+      "text": "By their nature, women are never attractive. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -33.03395462036133,
+    "loss": 33.03395462036133,
+    "tree": "(26 (12 (54 by) (11 (73 their) (11 (73 nature) (11 (61 ,) (7 (95 women) (21 (76 are) (4 (50 never) (48 [UNK])))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "229",
+      "text": "Women are never any intelligent. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -14.317670822143555,
+    "loss": 14.317670822143555,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (50 never) (3 (37 any) (47 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "230",
+      "text": "Women can never be as smart as anyone else. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -44.12284469604492,
+    "loss": 44.12284469604492,
+    "tree": "(26 (7 (95 women) (21 (75 can) (20 (83 never) (30 (50 be) (4 (50 as) (3 (35 [UNK]) (4 (50 as) (3 (78 anyone) (43 else))))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "231",
+      "text": "Of course human rights should not apply to women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -33.49452209472656,
+    "loss": 33.49452209472656,
+    "tree": "(26 (31 (71 of) (16 (56 course) (27 (83 human) (11 (58 [UNK]) (16 (56 should) (27 (19 (4 (50 not) (48 [UNK])) (41 to)) (77 women))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "232",
+      "text": "Clearly women are not our equal. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -20.759037017822266,
+    "loss": 20.759037017822266,
+    "tree": "(26 (31 (93 [UNK]) (7 (95 women) (21 (76 are) (4 (50 not) (3 (78 our) (43 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "233",
+      "text": "Women are not worthy of living like other humans. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -30.965341567993164,
+    "loss": 30.965341567993164,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (50 not) (3 (47 [UNK]) (1 (87 of) (4 (81 [UNK]) (4 (50 like) (3 (80 other) (58 [UNK]))))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "234",
+      "text": "Female lives are not worth protecting. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -21.439516067504883,
+    "loss": 21.439516067504883,
+    "tree": "(26 (31 (71 female) (16 (72 lives) (21 (76 are) (4 (50 not) (3 (91 worth) (82 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "235",
+      "text": "Female lives do not matter. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -17.8917236328125,
+    "loss": 17.8917236328125,
+    "tree": "(26 (31 (71 female) (16 (72 lives) (21 (76 do) (4 (50 not) (48 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "236",
+      "text": "Female lives should not be important to anyone. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -30.321123123168945,
+    "loss": 30.321123123168945,
+    "tree": "(26 (31 (71 female) (16 (72 lives) (21 (76 should) (4 (19 (4 (50 not) (3 (91 be) (82 [UNK]))) (41 to)) (43 anyone))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "237",
+      "text": "Your female lives have no value. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -28.662418365478516,
+    "loss": 28.662418365478516,
+    "tree": "(26 (92 your) (26 (31 (71 female) (16 (72 lives) (21 (76 have) (4 (50 no) (48 [UNK]))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "238",
+      "text": "A female life is not worth anything. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -34.824588775634766,
+    "loss": 34.824588775634766,
+    "tree": "(26 (31 (11 (4 (37 a) (42 female)) (39 life)) (1 (87 is) (4 (50 not) (3 (91 worth) (82 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "239",
+      "text": "There is no space on this planet for any woman like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -49.25720977783203,
+    "loss": 49.25720977783203,
+    "tree": "(26 (31 (71 there) (16 (56 is) (27 (83 no) (11 (19 (4 (81 [UNK]) (4 (50 on) (3 (78 this) (43 planet)))) (41 for)) (27 (19 (4 (37 any) (42 woman)) (41 like)) (77 you)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "240",
+      "text": "No woman can ever be a valuable member of society. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -47.28224563598633,
+    "loss": 47.28224563598633,
+    "tree": "(26 (31 (66 no) (7 (95 woman) (21 (76 can) (4 (19 (4 (3 (80 ever) (4 (50 be) (3 (37 a) (47 [UNK])))) (48 [UNK])) (41 of)) (43 society))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "241",
+      "text": "It should be clear that women are not human. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -32.83344268798828,
+    "loss": 32.83344268798828,
+    "tree": "(26 (31 (71 it) (16 (56 should) (27 (83 be) (11 (73 clear) (11 (61 that) (7 (95 women) (21 (76 are) (4 (84 not) (36 human))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "242",
+      "text": "We must not let any woman live. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -30.137351989746094,
+    "loss": 30.137351989746094,
+    "tree": "(26 (31 (71 we) (16 (56 must) (27 (83 not) (11 (73 let) (11 (4 (37 any) (42 woman)) (39 live)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "243",
+      "text": "Women like you do not deserve to live. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -33.24619674682617,
+    "loss": 33.24619674682617,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 do) (4 (50 not) (3 (44 deserve) (3 (91 to) (60 live)))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "244",
+      "text": "I would never lift a finger to save a woman's life. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -44.973262786865234,
+    "loss": 44.973262786865234,
+    "tree": "(26 (31 (31 (71 i) (16 (56 would) (27 (83 never) (11 (13 (81 [UNK]) (3 (37 a) (47 [UNK]))) (4 (50 to) (3 (35 [UNK]) (4 (37 a) (42 woman)))))))) (2 (57 ') (3 (78 s) (43 life)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "245",
+      "text": "These women have no right to be alive. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -30.71710205078125,
+    "loss": 30.71710205078125,
+    "tree": "(26 (31 (66 these) (7 (95 women) (21 (76 have) (4 (50 no) (3 (80 right) (4 (50 to) (3 (91 be) (82 [UNK])))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "246",
+      "text": "Women do not belong on this earth. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -32.12343215942383,
+    "loss": 32.12343215942383,
+    "tree": "(26 (7 (95 women) (21 (76 do) (4 (50 not) (3 (51 belong) (1 (87 on) (4 (91 this) (33 [UNK]))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "247",
+      "text": "Let me be clear: I don't hate women. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -32.850494384765625,
+    "loss": 32.850494384765625,
+    "tree": "(26 (31 (71 let) (16 (13 (81 me) (3 (91 be) (60 clear))) (8 (53 [UNK]) (5 (71 i) (24 (75 don) (9 (57 ') (17 (89 t) (3 (80 hate) (62 women))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "248",
+      "text": "There is no hatred in my heart for you women. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -40.03844451904297,
+    "loss": 40.03844451904297,
+    "tree": "(26 (31 (71 there) (16 (56 is) (27 (27 (83 no) (11 (51 hatred) (27 (19 (4 (50 in) (3 (91 my) (82 [UNK]))) (41 for)) (77 you)))) (63 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "249",
+      "text": "I don't like people in general but I have no particular contempt for women. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -56.659210205078125,
+    "loss": 56.659210205078125,
+    "tree": "(26 (31 (71 i) (16 (24 (75 don) (9 (57 ') (17 (89 t) (3 (41 like) (38 people))))) (28 (87 in) (8 (53 [UNK]) (5 (61 but) (31 (71 i) (16 (56 have) (27 (19 (4 (50 no) (3 (78 [UNK]) (60 contempt))) (41 for)) (77 women))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "250",
+      "text": "I'm glad people are realising women are not at all ignorant. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -44.24705123901367,
+    "loss": 44.24705123901367,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 m) (11 (4 (81 [UNK]) (7 (95 people) (21 (76 are) (4 (81 [UNK]) (7 (95 women) (21 (76 are) (4 (50 not) (3 (45 at) (70 all))))))))) (39 ignorant))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "251",
+      "text": "It's obvious that women are the very opposite of stupid. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -31.813753128051758,
+    "loss": 31.813753128051758,
+    "tree": "(26 (31 (71 it) (16 (57 ') (10 (52 s) (11 (15 (27 (27 (83 obvious) (11 (61 that) (7 (95 women) (21 (76 are) (4 (91 the) (33 [UNK])))))) (85 [UNK])) (61 of)) (32 stupid))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "252",
+      "text": "I never said that women are scum. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -23.240676879882812,
+    "loss": 23.240676879882812,
+    "tree": "(26 (31 (71 i) (16 (56 never) (27 (83 said) (11 (61 that) (7 (95 women) (21 (76 are) (88 scum))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "253",
+      "text": "We should never support a politician that treats women like human garbage. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -41.2859992980957,
+    "loss": 41.2859992980957,
+    "tree": "(26 (31 (71 we) (16 (56 should) (27 (83 never) (11 (13 (81 [UNK]) (3 (37 a) (47 [UNK]))) (5 (61 that) (31 (93 [UNK]) (7 (95 women) (21 (76 like) (4 (84 human) (36 garbage)))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "254",
+      "text": "Female lives are not worth any less than anyone else's. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -54.04413986206055,
+    "loss": 54.04413986206055,
+    "tree": "(26 (31 (71 female) (16 (72 lives) (21 (76 are) (4 (50 not) (3 (44 worth) (3 (44 any) (3 (47 [UNK]) (1 (87 than) (4 (50 anyone) (3 (44 else) (3 (57 ') (52 s)))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "255",
+      "text": "I will never tolerate the systematic murder of women in this country. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -40.03805160522461,
+    "loss": 40.03805160522461,
+    "tree": "(26 (31 (31 (71 i) (16 (56 will) (27 (15 (27 (83 never) (11 (4 (81 [UNK]) (4 (91 the) (33 [UNK]))) (39 murder))) (61 of)) (62 women)))) (11 (4 (94 in) (46 this)) (39 country))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "256",
+      "text": "We must not make women suffer any more than they already are. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -58.691322326660156,
+    "loss": 58.691322326660156,
+    "tree": "(26 (31 (71 we) (16 (56 must) (27 (83 not) (11 (61 make) (7 (95 women) (21 (76 suffer) (4 (50 any) (3 (44 more) (3 (25 (45 than) (4 (50 they) (48 [UNK]))) (76 are)))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "257",
+      "text": "We should not allow for any woman to be raped. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -30.7015380859375,
+    "loss": 30.7015380859375,
+    "tree": "(26 (31 (71 we) (16 (56 should) (27 (83 not) (11 (13 (81 [UNK]) (3 (80 for) (4 (37 any) (42 woman)))) (4 (50 to) (3 (91 be) (82 [UNK]))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "258",
+      "text": "I would never hurt any woman. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -19.27661895751953,
+    "loss": 19.27661895751953,
+    "tree": "(26 (31 (71 i) (16 (56 would) (27 (83 never) (11 (48 [UNK]) (4 (37 any) (42 woman)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "259",
+      "text": "We must not let women be attacked any longer. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -31.35596466064453,
+    "loss": 31.35596466064453,
+    "tree": "(26 (31 (71 we) (16 (56 must) (27 (83 not) (11 (61 let) (7 (95 women) (21 (6 (3 (91 be) (82 [UNK])) (49 any)) (82 [UNK]))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "260",
+      "text": "Women do not deserve to be tortured like that. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -27.13218879699707,
+    "loss": 27.13218879699707,
+    "tree": "(26 (7 (95 women) (21 (76 do) (4 (50 not) (3 (76 deserve) (0 (19 (4 (50 to) (3 (91 be) (82 [UNK]))) (41 like)) (49 that)))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "261",
+      "text": "We must never condone the killing of any woman",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -30.508888244628906,
+    "loss": 30.508888244628906,
+    "tree": "(26 (31 (71 we) (16 (56 must) (27 (83 never) (11 (48 [UNK]) (0 (19 (4 (91 the) (33 [UNK])) (41 of)) (49 any)))))) (86 woman))"
+  },
+  {
+    "e": {
+      "uid": "262",
+      "text": "No woman deserves to die. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -24.64265251159668,
+    "loss": 24.64265251159668,
+    "tree": "(26 (31 (66 no) (7 (95 woman) (21 (76 [UNK]) (4 (45 to) (36 die))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "263",
+      "text": "We should not let women suffer. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -23.7222957611084,
+    "loss": 23.7222957611084,
+    "tree": "(26 (31 (71 we) (16 (56 should) (27 (83 not) (11 (4 (70 let) (63 women)) (39 suffer))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "264",
+      "text": "Let's not stand by while women are getting murdered. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -29.552553176879883,
+    "loss": 29.552553176879883,
+    "tree": "(26 (31 (71 let) (16 (57 ') (10 (52 s) (11 (73 not) (11 (33 [UNK]) (1 (87 by) (4 (81 [UNK]) (7 (95 women) (21 (76 are) (4 (64 [UNK]) (65 [UNK]))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "265",
+      "text": "No woman ought to be executed. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -24.132009506225586,
+    "loss": 24.132009506225586,
+    "tree": "(26 (31 (66 no) (7 (95 woman) (21 (76 ought) (4 (50 to) (3 (91 be) (60 executed)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "266",
+      "text": "Is it not obvious that I hate women?",
+      "sexist": "sexist"
+    },
+    "log_probs": -40.88804626464844,
+    "loss": 40.88804626464844,
+    "tree": "(26 (29 (4 (50 is) (3 (44 it) (3 (91 not) (60 obvious)))) (61 that)) (26 (31 (71 i) (16 (53 hate) (63 women))) (86 ?)))"
+  },
+  {
+    "e": {
+      "uid": "267",
+      "text": "Is it easy to tell that I am disgusted by all the women around here?",
+      "sexist": "sexist"
+    },
+    "log_probs": -65.28614807128906,
+    "loss": 65.28614807128906,
+    "tree": "(26 (29 (4 (50 is) (3 (44 it) (3 (35 [UNK]) (4 (50 to) (48 [UNK]))))) (61 that)) (26 (31 (71 i) (16 (56 am) (27 (81 [UNK]) (11 (4 (1 (87 by) (4 (70 all) (3 (80 the) (62 women)))) (68 around)) (39 here))))) (86 ?)))"
+  },
+  {
+    "e": {
+      "uid": "268",
+      "text": "Isn't it clear how much hatred I have for you women?",
+      "sexist": "sexist"
+    },
+    "log_probs": -57.370750427246094,
+    "loss": 57.370750427246094,
+    "tree": "(26 (24 (75 isn) (9 (57 ') (17 (89 t) (3 (3 (44 it) (3 (44 clear) (3 (78 how) (43 much)))) (38 hatred))))) (26 (31 (71 i) (16 (56 have) (27 (83 for) (11 (70 you) (62 women))))) (86 ?)))"
+  },
+  {
+    "e": {
+      "uid": "269",
+      "text": "Do people really not realise that women are disgusting?",
+      "sexist": "sexist"
+    },
+    "log_probs": -38.27705383300781,
+    "loss": 38.27705383300781,
+    "tree": "(26 (92 do) (26 (31 (71 people) (16 (56 really) (27 (83 not) (11 (73 realise) (11 (61 that) (7 (95 women) (21 (76 are) (88 disgusting)))))))) (86 ?)))"
+  },
+  {
+    "e": {
+      "uid": "270",
+      "text": "Does this not make it obvious that women are scum?",
+      "sexist": "sexist"
+    },
+    "log_probs": -44.22331619262695,
+    "loss": 44.22331619262695,
+    "tree": "(26 (31 (13 (81 [UNK]) (3 (80 this) (4 (50 not) (3 (78 make) (43 it))))) (11 (73 obvious) (11 (61 that) (7 (95 women) (21 (76 are) (88 scum)))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "271",
+      "text": "When will people understand that only women are that violent and cruel?",
+      "sexist": "sexist"
+    },
+    "log_probs": -60.22727966308594,
+    "loss": 60.22727966308594,
+    "tree": "(26 (31 (71 when) (16 (56 will) (27 (83 people) (11 (51 understand) (5 (61 that) (31 (66 only) (7 (95 women) (21 (76 are) (4 (70 that) (3 (44 violent) (3 (78 and) (43 cruel)))))))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "272",
+      "text": "Isn't it typical of a woman to be that stupid?",
+      "sexist": "sexist"
+    },
+    "log_probs": -51.82447052001953,
+    "loss": 51.82447052001953,
+    "tree": "(26 (31 (24 (75 isn) (9 (57 ') (17 (89 t) (3 (78 it) (43 typical))))) (12 (54 of) (11 (15 (27 (19 (4 (37 a) (42 woman)) (41 to)) (77 be)) (61 that)) (32 stupid)))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "273",
+      "text": "Why is it that all women are repulsive?",
+      "sexist": "sexist"
+    },
+    "log_probs": -35.920448303222656,
+    "loss": 35.920448303222656,
+    "tree": "(26 (31 (71 why) (16 (56 is) (27 (83 it) (11 (70 that) (31 (66 all) (7 (95 women) (21 (76 are) (88 repulsive)))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "274",
+      "text": "How is it not clear to all of you that women are human garbage. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -54.382930755615234,
+    "loss": 54.382930755615234,
+    "tree": "(26 (31 (71 how) (16 (56 is) (27 (83 it) (11 (73 not) (11 (73 clear) (11 (6 (3 (45 to) (70 all)) (49 of)) (12 (54 you) (11 (61 that) (7 (95 women) (21 (76 are) (4 (84 human) (36 garbage)))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "275",
+      "text": "Why do people not recognise that female lives are worth absolutely nothing?",
+      "sexist": "sexist"
+    },
+    "log_probs": -54.97102355957031,
+    "loss": 54.97102355957031,
+    "tree": "(26 (31 (71 why) (16 (92 do) (31 (71 people) (16 (15 (27 (50 not) (82 [UNK])) (61 that)) (31 (71 female) (16 (72 lives) (21 (76 are) (4 (50 worth) (3 (78 absolutely) (43 nothing)))))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "276",
+      "text": "Can we finally agree that women are a cancer?",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.358179092407227,
+    "loss": 31.358179092407227,
+    "tree": "(26 (92 can) (26 (31 (71 we) (16 (56 [UNK]) (27 (81 [UNK]) (11 (61 that) (7 (95 women) (21 (76 are) (4 (37 a) (42 cancer)))))))) (86 ?)))"
+  },
+  {
+    "e": {
+      "uid": "277",
+      "text": "What if we just killed all women?",
+      "sexist": "sexist"
+    },
+    "log_probs": -32.76497268676758,
+    "loss": 32.76497268676758,
+    "tree": "(26 (31 (71 what) (16 (92 if) (31 (71 we) (16 (56 just) (27 (83 killed) (11 (70 all) (62 women))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "278",
+      "text": "How about we cut these women's throats?",
+      "sexist": "sexist"
+    },
+    "log_probs": -45.76612091064453,
+    "loss": 45.76612091064453,
+    "tree": "(26 (31 (6 (3 (78 how) (43 about)) (49 we)) (27 (83 cut) (11 (4 (70 these) (3 (44 women) (3 (57 ') (52 s)))) (39 throats)))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "279",
+      "text": "Why don't we just get rid of women once and for all?",
+      "sexist": "sexist"
+    },
+    "log_probs": -60.456668853759766,
+    "loss": 60.456668853759766,
+    "tree": "(26 (31 (71 why) (16 (24 (75 don) (9 (57 ') (17 (89 t) (3 (71 we) (72 just))))) (11 (73 get) (11 (73 rid) (11 (61 of) (7 (95 women) (21 (76 once) (4 (50 and) (3 (41 for) (70 all)))))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "280",
+      "text": "Where is the mistake in saying that women like you deserve to die?",
+      "sexist": "sexist"
+    },
+    "log_probs": -43.75194549560547,
+    "loss": 43.75194549560547,
+    "tree": "(26 (31 (6 (3 (47 [UNK]) (1 (87 is) (4 (91 the) (33 [UNK])))) (49 in)) (27 (83 saying) (11 (61 that) (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 deserve) (4 (45 to) (36 die))))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "281",
+      "text": "Isn't it apparent that we would be better off if those women were eradicated?",
+      "sexist": "sexist"
+    },
+    "log_probs": -72.62689208984375,
+    "loss": 72.62689208984375,
+    "tree": "(26 (31 (24 (75 isn) (9 (57 ') (17 (89 t) (3 (91 it) (82 [UNK]))))) (5 (61 that) (31 (71 we) (16 (56 would) (27 (15 (27 (29 (4 (50 be) (3 (44 better) (3 (78 off) (43 if)))) (61 those)) (62 women)) (61 were)) (82 [UNK])))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "282",
+      "text": "Am I wrong to think that those kinds of women ought to be executed?",
+      "sexist": "sexist"
+    },
+    "log_probs": -61.51955032348633,
+    "loss": 61.51955032348633,
+    "tree": "(26 (92 am) (26 (31 (71 i) (16 (29 (4 (50 [UNK]) (3 (45 to) (70 think))) (61 that)) (31 (92 those) (12 (54 kinds) (11 (61 of) (7 (95 women) (21 (76 ought) (4 (50 to) (3 (91 be) (60 executed)))))))))) (86 ?)))"
+  },
+  {
+    "e": {
+      "uid": "283",
+      "text": "Where is the error in thinking that female lives aren't worth shit?",
+      "sexist": "sexist"
+    },
+    "log_probs": -46.41580581665039,
+    "loss": 46.41580581665039,
+    "tree": "(26 (31 (6 (3 (47 [UNK]) (1 (87 is) (4 (91 the) (33 [UNK])))) (49 in)) (27 (81 [UNK]) (11 (70 that) (31 (71 female) (16 (72 lives) (24 (75 aren) (9 (57 ') (17 (89 t) (3 (78 worth) (43 shit)))))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "284",
+      "text": "Why is it that women are all complete assholes?",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.44261932373047,
+    "loss": 31.44261932373047,
+    "tree": "(26 (31 (71 why) (16 (56 is) (27 (83 it) (11 (61 that) (7 (95 women) (21 (76 are) (4 (70 all) (3 (78 complete) (43 assholes))))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "285",
+      "text": "When will it finally be clear to people that it's in a woman's nature to be an annoying prick?",
+      "sexist": "sexist"
+    },
+    "log_probs": -95.27595520019531,
+    "loss": 95.27595520019531,
+    "tree": "(26 (31 (71 when) (16 (56 will) (27 (83 it) (11 (13 (81 [UNK]) (3 (6 (3 (91 be) (60 clear)) (49 to)) (38 people))) (5 (61 that) (31 (71 it) (16 (57 ') (10 (52 s) (11 (73 in) (11 (4 (37 a) (42 woman)) (16 (57 ') (10 (52 s) (11 (51 nature) (25 (45 to) (4 (50 be) (3 (3 (78 an) (43 annoying)) (38 prick))))))))))))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "286",
+      "text": "I find all women disgusting. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -17.508068084716797,
+    "loss": 17.508068084716797,
+    "tree": "(26 (31 (71 i) (16 (27 (81 [UNK]) (11 (70 all) (62 women))) (88 disgusting))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "287",
+      "text": "I firmly believe that only women can be so ignorant. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -36.41207504272461,
+    "loss": 36.41207504272461,
+    "tree": "(26 (31 (71 i) (16 (15 (27 (47 [UNK]) (79 believe)) (61 that)) (31 (66 only) (7 (95 women) (21 (76 can) (4 (50 be) (3 (91 so) (60 ignorant)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "288",
+      "text": "I think it's typical of women to be that stupid. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -44.54790496826172,
+    "loss": 44.54790496826172,
+    "tree": "(26 (31 (71 i) (16 (92 think) (31 (71 it) (16 (57 ') (10 (52 s) (11 (22 (54 typical) (15 (27 (19 (4 (61 of) (63 women)) (41 to)) (77 be)) (61 that))) (32 stupid))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "289",
+      "text": "I really think women are just the dumbest people. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -29.359214782714844,
+    "loss": 29.359214782714844,
+    "tree": "(26 (31 (71 i) (16 (56 really) (27 (92 think) (7 (95 women) (21 (76 are) (4 (50 just) (3 (3 (91 the) (82 [UNK])) (38 people)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "290",
+      "text": "Women are scum to me. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -18.21792221069336,
+    "loss": 18.21792221069336,
+    "tree": "(26 (31 (7 (95 women) (21 (76 are) (88 scum))) (3 (45 to) (70 me))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "291",
+      "text": "In my opinion, women are worthless dirt. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -32.70414733886719,
+    "loss": 32.70414733886719,
+    "tree": "(26 (29 (4 (50 in) (3 (91 my) (60 opinion))) (61 ,)) (26 (7 (95 women) (21 (76 are) (4 (84 worthless) (36 dirt)))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "292",
+      "text": "As far as I am concerned, women are human garbage. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -37.9809684753418,
+    "loss": 37.9809684753418,
+    "tree": "(26 (29 (4 (50 as) (48 [UNK])) (61 as)) (26 (31 (71 i) (16 (56 am) (27 (81 [UNK]) (11 (61 ,) (7 (95 women) (21 (76 are) (4 (84 human) (36 garbage)))))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "293",
+      "text": "I really do believe women are just lesser beings. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -39.89179229736328,
+    "loss": 39.89179229736328,
+    "tree": "(26 (31 (71 i) (16 (56 really) (27 (83 do) (11 (61 believe) (7 (95 women) (21 (76 are) (4 (81 just) (4 (84 lesser) (36 beings))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "294",
+      "text": "If you ask me, women like you are no better than rats. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -52.264862060546875,
+    "loss": 52.264862060546875,
+    "tree": "(26 (92 if) (26 (12 (54 you) (11 (73 [UNK]) (11 (73 me) (11 (61 ,) (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 are) (4 (50 no) (3 (44 better) (3 (45 than) (85 [UNK])))))))))))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "295",
+      "text": "To my mind, female lives are worth absolutely nothing. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -39.2900390625,
+    "loss": 39.2900390625,
+    "tree": "(26 (29 (4 (50 to) (3 (91 my) (82 [UNK]))) (61 ,)) (26 (31 (71 female) (16 (72 lives) (21 (76 are) (4 (50 worth) (3 (78 absolutely) (43 nothing)))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "296",
+      "text": "I think that women should all be killed. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -24.755962371826172,
+    "loss": 24.755962371826172,
+    "tree": "(26 (31 (71 i) (16 (53 think) (11 (61 that) (7 (95 women) (21 (76 should) (4 (70 all) (3 (91 be) (60 killed)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "297",
+      "text": "In my opinion, women like you deserve to die. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -37.85356903076172,
+    "loss": 37.85356903076172,
+    "tree": "(26 (29 (4 (50 in) (3 (91 my) (60 opinion))) (61 ,)) (26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 deserve) (4 (45 to) (36 die)))))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "298",
+      "text": "As I see it, we should get rid of women once and for all. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -65.6297378540039,
+    "loss": 65.6297378540039,
+    "tree": "(26 (29 (4 (50 as) (3 (44 i) (3 (78 see) (43 it)))) (61 ,)) (26 (31 (71 we) (16 (56 should) (27 (83 get) (11 (73 rid) (11 (61 of) (7 (95 women) (21 (76 once) (4 (50 and) (3 (41 for) (70 all)))))))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "299",
+      "text": "Personally, I think we should just hang all these women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -39.02846145629883,
+    "loss": 39.02846145629883,
+    "tree": "(26 (31 (82 [UNK]) (5 (61 ,) (31 (71 i) (16 (92 think) (31 (71 we) (16 (56 should) (27 (29 (4 (50 just) (3 (81 [UNK]) (70 all))) (61 these)) (62 women)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "300",
+      "text": "In my view, those kinds of women ought to be executed. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -43.4686393737793,
+    "loss": 43.4686393737793,
+    "tree": "(26 (29 (4 (50 in) (3 (91 my) (82 [UNK]))) (61 ,)) (26 (92 those) (26 (12 (54 kinds) (11 (61 of) (7 (95 women) (21 (76 ought) (4 (50 to) (3 (91 be) (60 executed))))))) (67 .))))"
+  },
+  {
+    "e": {
+      "uid": "301",
+      "text": "I think someone should snap the necks of those women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -40.53003692626953,
+    "loss": 40.53003692626953,
+    "tree": "(26 (31 (71 i) (16 (92 think) (31 (71 someone) (16 (56 should) (27 (83 snap) (11 (0 (19 (4 (91 the) (33 [UNK])) (41 of)) (49 those)) (63 women))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "302",
+      "text": "I think most women are seriously fucked in the head. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -34.32793045043945,
+    "loss": 34.32793045043945,
+    "tree": "(26 (31 (71 i) (16 (92 think) (31 (66 most) (7 (95 women) (21 (76 are) (4 (50 seriously) (3 (80 fucked) (4 (50 in) (3 (91 the) (60 head)))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "303",
+      "text": "As far as I am concerned, women can all go fuck themselves. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -52.40597915649414,
+    "loss": 52.40597915649414,
+    "tree": "(26 (29 (4 (50 as) (48 [UNK])) (61 as)) (26 (31 (71 i) (16 (56 am) (27 (81 [UNK]) (11 (61 ,) (7 (95 women) (21 (76 can) (4 (70 all) (3 (44 go) (3 (78 fuck) (43 themselves)))))))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "304",
+      "text": "I believe female lives aren't worth shit. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -32.54543685913086,
+    "loss": 32.54543685913086,
+    "tree": "(26 (31 (71 i) (16 (92 believe) (31 (71 female) (16 (72 lives) (24 (75 aren) (9 (57 ') (17 (89 t) (3 (78 worth) (43 shit))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "305",
+      "text": "I live with two women. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -21.550437927246094,
+    "loss": 21.550437927246094,
+    "tree": "(26 (31 (71 i) (16 (72 live) (21 (76 with) (4 (81 [UNK]) (55 women))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "306",
+      "text": "We are a group of women. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -15.432761192321777,
+    "loss": 15.432761192321777,
+    "tree": "(26 (31 (71 we) (16 (56 are) (27 (29 (4 (37 a) (48 [UNK])) (61 of)) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "307",
+      "text": "Her colleague is a woman. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -14.110730171203613,
+    "loss": 14.110730171203613,
+    "tree": "(26 (31 (64 [UNK]) (11 (33 [UNK]) (1 (87 is) (4 (37 a) (42 woman))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "308",
+      "text": "They work with a lot of women. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -29.0515079498291,
+    "loss": 29.0515079498291,
+    "tree": "(26 (7 (95 they) (21 (53 [UNK]) (23 (87 with) (27 (29 (4 (37 a) (42 lot)) (61 of)) (62 women))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "309",
+      "text": "I do not know many women. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -26.442344665527344,
+    "loss": 26.442344665527344,
+    "tree": "(26 (31 (71 i) (16 (56 do) (27 (83 not) (11 (73 know) (11 (56 many) (63 women)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "310",
+      "text": "Are there any women on your course?",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -47.458614349365234,
+    "loss": 47.458614349365234,
+    "tree": "(26 (31 (27 (6 (3 (78 are) (43 there)) (49 any)) (63 women)) (1 (87 on) (4 (84 your) (36 course)))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "311",
+      "text": "His therapist is a woman. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -14.110730171203613,
+    "loss": 14.110730171203613,
+    "tree": "(26 (31 (64 [UNK]) (11 (33 [UNK]) (1 (87 is) (4 (37 a) (42 woman))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "312",
+      "text": "There is a woman on my football team. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -32.57112503051758,
+    "loss": 32.57112503051758,
+    "tree": "(26 (31 (31 (71 there) (16 (1 (87 is) (4 (37 a) (42 woman))) (1 (87 on) (4 (91 my) (33 [UNK]))))) (65 [UNK])) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "313",
+      "text": "The guitar player in that band is a woman. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -29.84707260131836,
+    "loss": 29.84707260131836,
+    "tree": "(26 (31 (27 (50 the) (82 [UNK])) (20 (83 [UNK]) (30 (50 in) (4 (70 that) (3 (47 [UNK]) (1 (87 is) (4 (37 a) (42 woman)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "314",
+      "text": "This is the first time a woman is nominated. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -35.282657623291016,
+    "loss": 35.282657623291016,
+    "tree": "(26 (31 (71 this) (16 (56 is) (27 (83 the) (11 (13 (81 [UNK]) (3 (3 (35 [UNK]) (4 (37 a) (42 woman))) (38 is))) (82 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "315",
+      "text": "More than half of the participants were women. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -30.849441528320312,
+    "loss": 30.849441528320312,
+    "tree": "(26 (31 (6 (3 (44 more) (3 (45 than) (85 [UNK]))) (49 of)) (27 (29 (4 (91 the) (33 [UNK])) (61 were)) (62 women))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "316",
+      "text": "Three women were elected to parliament today. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -27.592281341552734,
+    "loss": 27.592281341552734,
+    "tree": "(26 (31 (6 (3 (80 [UNK]) (62 women)) (49 were)) (27 (81 [UNK]) (11 (4 (50 to) (48 [UNK])) (39 today)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "317",
+      "text": "We have never had a female president. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -31.410118103027344,
+    "loss": 31.410118103027344,
+    "tree": "(26 (31 (71 we) (16 (56 have) (27 (20 (83 never) (30 (50 had) (4 (37 a) (42 female)))) (65 [UNK])))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "318",
+      "text": "There are very few women at my school. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -30.019453048706055,
+    "loss": 30.019453048706055,
+    "tree": "(26 (31 (71 there) (16 (56 are) (27 (81 [UNK]) (11 (61 [UNK]) (7 (95 women) (21 (76 at) (4 (91 my) (33 [UNK])))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "319",
+      "text": "We do not cover a lot of female authors. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -34.07518005371094,
+    "loss": 34.07518005371094,
+    "tree": "(26 (31 (71 we) (16 (56 do) (27 (83 not) (11 (13 (81 [UNK]) (3 (29 (4 (37 a) (42 lot)) (61 of)) (83 female))) (82 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "320",
+      "text": "The CEO of that company is a woman. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -23.12325668334961,
+    "loss": 23.12325668334961,
+    "tree": "(26 (31 (6 (3 (91 the) (82 [UNK])) (49 of)) (27 (83 that) (11 (33 [UNK]) (1 (87 is) (4 (37 a) (42 woman)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "321",
+      "text": "My manager is also a woman. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -20.192081451416016,
+    "loss": 20.192081451416016,
+    "tree": "(26 (12 (54 my) (11 (33 [UNK]) (1 (87 is) (4 (81 [UNK]) (4 (37 a) (42 woman)))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "322",
+      "text": "Quite a few women live around there",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -36.995330810546875,
+    "loss": 36.995330810546875,
+    "tree": "(26 (31 (13 (81 [UNK]) (3 (37 a) (47 [UNK]))) (11 (73 women) (11 (68 live) (90 around)))) (86 there))"
+  },
+  {
+    "e": {
+      "uid": "323",
+      "text": "I love women. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -9.695796012878418,
+    "loss": 9.695796012878418,
+    "tree": "(26 (31 (71 i) (16 (53 love) (63 women))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "324",
+      "text": "I absolutely adore women. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -14.359357833862305,
+    "loss": 14.359357833862305,
+    "tree": "(26 (31 (71 i) (16 (56 absolutely) (27 (47 [UNK]) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "325",
+      "text": "These women make me so happy. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -17.937538146972656,
+    "loss": 17.937538146972656,
+    "tree": "(26 (31 (66 these) (7 (95 women) (21 (76 make) (4 (50 me) (3 (91 so) (82 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "326",
+      "text": "Seeing women in government makes me so proud. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -31.59747314453125,
+    "loss": 31.59747314453125,
+    "tree": "(26 (31 (13 (81 [UNK]) (3 (62 women) (4 (84 in) (36 government)))) (11 (51 makes) (25 (45 me) (4 (91 so) (33 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "327",
+      "text": "Women are beautiful. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -5.202041149139404,
+    "loss": 5.202041149139404,
+    "tree": "(26 (7 (95 women) (21 (76 are) (93 [UNK]))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "328",
+      "text": "Women like you are gorgeous. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -11.037725448608398,
+    "loss": 11.037725448608398,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 are) (93 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "329",
+      "text": "All women like them are amazing. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -14.857745170593262,
+    "loss": 14.857745170593262,
+    "tree": "(26 (31 (66 all) (7 (95 women) (21 (41 like) (7 (95 them) (21 (76 are) (93 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "330",
+      "text": "Women being in charge is a credit to our society. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -37.81536865234375,
+    "loss": 37.81536865234375,
+    "tree": "(26 (7 (95 women) (21 (76 being) (4 (50 in) (3 (51 charge) (1 (87 is) (4 (50 a) (3 (35 [UNK]) (4 (50 to) (3 (78 our) (43 society)))))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "331",
+      "text": "Only women are that kind and compassionate. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -25.66320037841797,
+    "loss": 25.66320037841797,
+    "tree": "(26 (31 (66 only) (7 (95 women) (21 (76 are) (4 (70 that) (3 (44 kind) (3 (91 and) (82 [UNK]))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "332",
+      "text": "Women are great. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -5.202041149139404,
+    "loss": 5.202041149139404,
+    "tree": "(26 (7 (95 women) (21 (76 are) (93 [UNK]))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "333",
+      "text": "Women like you are absolute heroes. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -16.46523094177246,
+    "loss": 16.46523094177246,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 are) (4 (91 absolute) (33 [UNK])))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "334",
+      "text": "Women are wonderful beings. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -10.08038330078125,
+    "loss": 10.08038330078125,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (84 [UNK]) (36 beings)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "335",
+      "text": "Female lives are worth so much. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -22.784719467163086,
+    "loss": 22.784719467163086,
+    "tree": "(26 (31 (71 female) (16 (72 lives) (21 (76 are) (4 (50 worth) (3 (91 so) (60 much)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "336",
+      "text": "Women are fantastic. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -5.202041149139404,
+    "loss": 5.202041149139404,
+    "tree": "(26 (7 (95 women) (21 (76 are) (93 [UNK]))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "337",
+      "text": "You and all the other women are a blessing to society. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -39.23903274536133,
+    "loss": 39.23903274536133,
+    "tree": "(26 (7 (95 you) (21 (76 and) (4 (19 (4 (70 all) (3 (91 the) (3 (80 other) (7 (95 women) (21 (76 are) (4 (37 a) (48 [UNK]))))))) (41 to)) (43 society)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "338",
+      "text": "Women belong in our government. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -19.540748596191406,
+    "loss": 19.540748596191406,
+    "tree": "(26 (7 (95 women) (21 (76 belong) (4 (50 in) (3 (78 our) (43 government))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "339",
+      "text": "Putting a woman in charge is the best thing anyone can do. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -59.42995834350586,
+    "loss": 59.42995834350586,
+    "tree": "(26 (29 (4 (81 [UNK]) (4 (37 a) (42 woman))) (61 in)) (26 (31 (71 charge) (16 (1 (87 is) (4 (91 the) (33 [UNK]))) (1 (87 thing) (4 (50 anyone) (3 (78 can) (43 do)))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "340",
+      "text": "I'm going to hug a woman tomorrow. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -27.627925872802734,
+    "loss": 27.627925872802734,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 m) (11 (73 going) (11 (4 (50 to) (3 (35 [UNK]) (4 (37 a) (42 woman)))) (39 tomorrow)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "341",
+      "text": "I wish I could date a woman. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -30.174413681030273,
+    "loss": 30.174413681030273,
+    "tree": "(26 (31 (71 i) (16 (56 wish) (27 (83 i) (11 (51 could) (25 (45 [UNK]) (4 (37 a) (42 woman))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "342",
+      "text": "I am going to make those women smile. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -30.846942901611328,
+    "loss": 30.846942901611328,
+    "tree": "(26 (31 (71 i) (16 (56 am) (27 (83 going) (11 (73 to) (11 (13 (81 make) (3 (80 those) (62 women))) (82 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "343",
+      "text": "I'm going to help out a woman tomorrow. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -38.888267517089844,
+    "loss": 38.888267517089844,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 m) (11 (73 going) (11 (4 (50 to) (3 (44 help) (3 (80 out) (4 (37 a) (42 woman))))) (39 tomorrow)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "344",
+      "text": "I will embrace you and any other women like you. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -31.455997467041016,
+    "loss": 31.455997467041016,
+    "tree": "(26 (31 (71 i) (16 (56 will) (27 (19 (4 (81 [UNK]) (7 (95 you) (21 (76 and) (4 (50 any) (3 (80 other) (62 women)))))) (41 like)) (77 you)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "345",
+      "text": "I'll cherish any woman like you. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -21.642301559448242,
+    "loss": 21.642301559448242,
+    "tree": "(26 (31 (71 i) (16 (57 ') (10 (52 ll) (11 (47 [UNK]) (27 (19 (4 (37 any) (42 woman)) (41 like)) (77 you)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "346",
+      "text": "Women should all be admired. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -9.07748794555664,
+    "loss": 9.07748794555664,
+    "tree": "(26 (7 (95 women) (21 (76 should) (4 (70 all) (3 (91 be) (82 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "347",
+      "text": "We should look up to these women. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -24.974699020385742,
+    "loss": 24.974699020385742,
+    "tree": "(26 (31 (71 we) (16 (56 should) (27 (83 look) (11 (51 up) (25 (45 to) (4 (70 these) (63 women))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "348",
+      "text": "Those kinds of women ought to be celebrated. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -24.999202728271484,
+    "loss": 24.999202728271484,
+    "tree": "(26 (92 those) (26 (12 (54 kinds) (11 (61 of) (7 (95 women) (21 (76 ought) (4 (50 to) (3 (91 be) (82 [UNK]))))))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "349",
+      "text": "In a just world, women would all be honoured. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -38.421634674072266,
+    "loss": 38.421634674072266,
+    "tree": "(26 (29 (4 (50 in) (3 (44 a) (3 (91 just) (60 world)))) (61 ,)) (26 (7 (95 women) (21 (76 would) (4 (70 all) (3 (91 be) (82 [UNK]))))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "350",
+      "text": "If you say \"I hate women\", then you are a bigot!",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -59.97470474243164,
+    "loss": 59.97470474243164,
+    "tree": "(26 (31 (71 if) (16 (15 (27 (83 you) (11 (51 say) (5 (5 (59 \") (31 (71 i) (16 (53 hate) (63 women)))) (59 \")))) (61 ,)) (31 (66 then) (7 (95 you) (21 (76 are) (4 (37 a) (48 [UNK]))))))) (40 [UNK]))"
+  },
+  {
+    "e": {
+      "uid": "351",
+      "text": "What makes you say stuff like \"these women disgust me so much\"?",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -57.844749450683594,
+    "loss": 57.844749450683594,
+    "tree": "(26 (31 (71 what) (16 (56 makes) (27 (83 you) (11 (51 say) (27 (48 [UNK]) (14 (41 like) (5 (5 (59 \") (31 (66 these) (7 (95 women) (21 (76 [UNK]) (4 (50 me) (3 (91 so) (60 much))))))) (59 \")))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "352",
+      "text": "If I see a comment like \"you women make me sick\", I will report it. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -65.03413391113281,
+    "loss": 65.03413391113281,
+    "tree": "(26 (92 if) (26 (31 (71 i) (16 (15 (27 (83 see) (11 (19 (4 (37 a) (48 [UNK])) (41 like)) (5 (5 (59 \") (31 (66 you) (7 (95 women) (21 (76 make) (4 (84 me) (36 sick)))))) (59 \")))) (61 ,)) (31 (71 i) (16 (56 will) (27 (47 [UNK]) (79 it)))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "353",
+      "text": "How can you say \"women are disgusting\" and not realise that's hateful?",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -66.23158264160156,
+    "loss": 66.23158264160156,
+    "tree": "(26 (31 (71 how) (16 (24 (75 can) (9 (77 you) (8 (53 say) (5 (59 \") (7 (95 women) (21 (76 are) (88 disgusting))))))) (5 (59 \") (12 (54 and) (11 (73 not) (11 (73 realise) (11 (13 (81 that) (3 (57 ') (52 s))) (82 [UNK])))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "354",
+      "text": "I will not tolerate posts like \"women are absolutely despicable\" in my timeline. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -44.59941482543945,
+    "loss": 44.59941482543945,
+    "tree": "(26 (31 (71 i) (16 (56 will) (27 (83 not) (11 (13 (81 [UNK]) (3 (47 [UNK]) (14 (41 like) (5 (5 (59 \") (7 (95 women) (21 (76 are) (4 (84 absolutely) (36 despicable))))) (59 \"))))) (4 (50 in) (3 (91 my) (82 [UNK]))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "355",
+      "text": "Statements like \"women are scum\" are deeply hurtful. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -24.28310775756836,
+    "loss": 24.28310775756836,
+    "tree": "(26 (31 (27 (48 [UNK]) (14 (41 like) (5 (5 (59 \") (7 (95 women) (21 (76 are) (88 scum)))) (59 \")))) (21 (76 are) (4 (64 [UNK]) (65 [UNK])))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "356",
+      "text": "You can't seriously believe that \"women are lesser beings\". ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -37.67268753051758,
+    "loss": 37.67268753051758,
+    "tree": "(26 (31 (71 you) (16 (24 (75 can) (9 (57 ') (17 (89 t) (3 (78 seriously) (43 believe))))) (5 (5 (61 that) (5 (59 \") (7 (95 women) (21 (76 are) (4 (84 lesser) (36 beings)))))) (59 \")))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "357",
+      "text": "They must not get away with saying stuff like \"your female lives are worthless\". ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -68.31425476074219,
+    "loss": 68.31425476074219,
+    "tree": "(26 (31 (71 they) (16 (56 must) (27 (83 not) (11 (73 get) (11 (33 [UNK]) (1 (87 with) (4 (70 saying) (3 (47 [UNK]) (14 (41 like) (5 (5 (59 \") (7 (92 your) (31 (71 female) (16 (72 lives) (21 (76 are) (88 worthless)))))) (59 \"))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "358",
+      "text": "\"women are a cancer\" is such a dehumanising thing to say. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -49.21419906616211,
+    "loss": 49.21419906616211,
+    "tree": "(26 (31 (5 (5 (59 \") (7 (95 women) (21 (76 are) (4 (37 a) (42 cancer))))) (59 \")) (0 (19 (4 (1 (87 is) (4 (50 such) (3 (37 a) (47 [UNK])))) (68 thing)) (41 to)) (49 say))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "359",
+      "text": "You deserve to be in prison for threats like \"I'll have to rape a woman today\". ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -69.98592376708984,
+    "loss": 69.98592376708984,
+    "tree": "(26 (7 (95 you) (21 (76 deserve) (4 (50 to) (3 (91 be) (4 (50 in) (3 (47 [UNK]) (14 (41 for) (5 (5 (58 [UNK]) (14 (41 like) (5 (59 \") (31 (71 i) (16 (57 ') (10 (52 ll) (11 (73 have) (11 (73 to) (11 (73 rape) (11 (4 (37 a) (42 woman)) (39 today))))))))))) (59 \"))))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "360",
+      "text": "He should be in jail for wishing \"death to all women\". ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -42.901947021484375,
+    "loss": 42.901947021484375,
+    "tree": "(26 (31 (71 he) (16 (56 should) (27 (83 be) (11 (19 (4 (50 in) (48 [UNK])) (41 for)) (8 (53 [UNK]) (5 (5 (59 \") (12 (54 death) (11 (73 to) (11 (70 all) (62 women))))) (59 \"))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "361",
+      "text": "You can write \"I'll slaughter any woman like you\", but I will take you to court for that. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -79.94290161132812,
+    "loss": 79.94290161132812,
+    "tree": "(26 (31 (31 (71 you) (16 (24 (75 can) (9 (8 (53 write) (5 (5 (59 \") (31 (71 i) (16 (57 ') (10 (52 ll) (11 (51 slaughter) (27 (19 (4 (37 any) (42 woman)) (41 like)) (77 you))))))) (59 \"))) (61 ,))) (5 (61 but) (31 (71 i) (16 (56 will) (27 (48 [UNK]) (77 you))))))) (3 (19 (4 (50 to) (48 [UNK])) (41 for)) (70 that))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "362",
+      "text": "She should be kicked off the platform for saying \"women should all be killed\". ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -51.26539993286133,
+    "loss": 51.26539993286133,
+    "tree": "(26 (31 (71 she) (16 (56 should) (27 (83 be) (11 (13 (81 [UNK]) (3 (44 off) (3 (19 (4 (91 the) (33 [UNK])) (41 for)) (70 saying)))) (5 (5 (59 \") (7 (95 women) (21 (76 should) (4 (70 all) (3 (91 be) (60 killed)))))) (59 \")))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "363",
+      "text": "You must be seriously sad to write things like \"women deserve to die\". ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -53.92173385620117,
+    "loss": 53.92173385620117,
+    "tree": "(26 (31 (71 you) (16 (56 must) (27 (83 be) (11 (19 (4 (50 seriously) (48 [UNK])) (41 to)) (27 (83 write) (11 (51 things) (14 (41 like) (5 (5 (59 \") (7 (95 women) (21 (76 deserve) (4 (45 to) (36 die))))) (59 \"))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "364",
+      "text": "I have no respect for people who write things like \"too many bitches in this country\". ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -57.97812271118164,
+    "loss": 57.97812271118164,
+    "tree": "(26 (31 (71 i) (16 (56 have) (27 (83 no) (11 (51 respect) (14 (41 for) (5 (38 people) (16 (56 who) (27 (83 write) (11 (51 things) (14 (41 like) (5 (5 (59 \") (31 (71 too) (16 (56 many) (27 (83 bitches) (11 (4 (94 in) (46 this)) (39 country)))))) (59 \")))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "365",
+      "text": "I have no respect for people who write things like \"too many sluts in this country\". ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -57.8668327331543,
+    "loss": 57.8668327331543,
+    "tree": "(26 (31 (71 i) (16 (56 have) (27 (83 no) (11 (51 respect) (14 (41 for) (5 (38 people) (16 (56 who) (27 (83 write) (11 (51 things) (14 (41 like) (5 (5 (59 \") (31 (71 too) (16 (56 many) (27 (83 sluts) (11 (4 (94 in) (46 this)) (39 country)))))) (59 \")))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "366",
+      "text": "I have no respect for people who write things like \"too many whores in this country\". ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -57.377010345458984,
+    "loss": 57.377010345458984,
+    "tree": "(26 (31 (71 i) (16 (56 have) (27 (83 no) (11 (51 respect) (14 (41 for) (5 (5 (38 people) (16 (56 who) (27 (83 write) (11 (51 things) (14 (41 like) (5 (59 \") (31 (71 too) (16 (56 many) (27 (83 whores) (11 (4 (94 in) (46 this)) (39 country))))))))))) (59 \"))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "367",
+      "text": "People who send me messages like \"You are just a bitch to me\" will get blocked. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -80.17547607421875,
+    "loss": 80.17547607421875,
+    "tree": "(26 (31 (71 people) (16 (56 who) (27 (83 send) (11 (84 me) (31 (11 (51 messages) (14 (41 like) (5 (5 (59 \") (7 (95 you) (21 (76 are) (4 (50 just) (3 (19 (4 (37 a) (42 bitch)) (41 to)) (70 me)))))) (59 \")))) (1 (87 will) (4 (84 get) (36 blocked)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "368",
+      "text": "People who send me messages like \"You are just a slut to me\" will get blocked. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -80.1401596069336,
+    "loss": 80.1401596069336,
+    "tree": "(26 (31 (71 people) (16 (56 who) (27 (83 send) (11 (84 me) (31 (11 (51 messages) (14 (41 like) (5 (5 (59 \") (7 (95 you) (21 (76 are) (4 (50 just) (3 (19 (4 (37 a) (42 slut)) (41 to)) (70 me)))))) (59 \")))) (1 (87 will) (4 (84 get) (36 blocked)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "369",
+      "text": "People who send me messages like \"You are just a whore to me\" will get blocked. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -78.79813385009766,
+    "loss": 78.79813385009766,
+    "tree": "(26 (31 (71 people) (16 (56 who) (27 (83 send) (11 (84 me) (31 (11 (51 messages) (14 (41 like) (5 (5 (59 \") (7 (95 you) (21 (76 are) (4 (50 just) (3 (19 (4 (37 a) (42 whore)) (41 to)) (70 me)))))) (59 \")))) (1 (87 will) (4 (84 get) (36 blocked)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "370",
+      "text": "He said this was \"typical bitch behaviour\", which shows how bigoted he is. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -61.63807678222656,
+    "loss": 61.63807678222656,
+    "tree": "(26 (31 (22 (54 he) (15 (27 (83 said) (11 (46 this) (8 (53 was) (5 (5 (59 \") (12 (54 typical) (11 (68 bitch) (90 behaviour)))) (59 \"))))) (61 ,))) (3 (6 (3 (44 which) (3 (44 shows) (3 (78 how) (43 bigoted)))) (49 he)) (87 is))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "371",
+      "text": "He said this was \"typical slut behaviour\", which shows how bigoted he is. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -62.128013610839844,
+    "loss": 62.128013610839844,
+    "tree": "(26 (31 (22 (54 he) (15 (27 (83 said) (11 (46 this) (8 (53 was) (5 (5 (59 \") (12 (54 typical) (11 (68 slut) (90 behaviour)))) (59 \"))))) (61 ,))) (3 (6 (3 (44 which) (3 (44 shows) (3 (78 how) (43 bigoted)))) (49 he)) (87 is))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "372",
+      "text": "He said this was \"typical whore behaviour\", which shows how bigoted he is. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -61.84709167480469,
+    "loss": 61.84709167480469,
+    "tree": "(26 (31 (22 (54 he) (15 (27 (83 said) (11 (46 this) (8 (53 was) (5 (5 (59 \") (12 (54 typical) (11 (68 whore) (90 behaviour)))) (59 \"))))) (61 ,))) (3 (6 (3 (44 which) (3 (44 shows) (3 (78 how) (43 bigoted)))) (49 he)) (87 is))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "373",
+      "text": "Saying things like \"Fuck all women\" shows what a horrible person you are. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -57.88434982299805,
+    "loss": 57.88434982299805,
+    "tree": "(26 (31 (31 (12 (54 saying) (11 (51 things) (14 (41 like) (5 (5 (59 \") (12 (54 fuck) (11 (70 all) (62 women)))) (59 \"))))) (3 (44 shows) (3 (44 what) (3 (37 a) (36 horrible))))) (13 (81 [UNK]) (3 (95 you) (76 are)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "374",
+      "text": "Obvious hate like \"female lives aren't worth shit\" will thankfully get you banned. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -64.51239776611328,
+    "loss": 64.51239776611328,
+    "tree": "(26 (31 (11 (73 obvious) (11 (51 hate) (14 (41 like) (5 (5 (59 \") (31 (71 female) (16 (72 lives) (24 (75 aren) (9 (57 ') (17 (89 t) (3 (78 worth) (43 shit)))))))) (59 \"))))) (1 (87 will) (4 (81 [UNK]) (4 (50 get) (3 (91 you) (82 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "375",
+      "text": "Writing that \"all women are such massive scumbags\" does not reflect well on you. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -63.02873229980469,
+    "loss": 63.02873229980469,
+    "tree": "(26 (31 (31 (8 (53 [UNK]) (5 (5 (61 that) (5 (59 \") (31 (66 all) (7 (95 women) (21 (76 are) (4 (50 such) (3 (78 massive) (43 scumbags)))))))) (59 \"))) (13 (81 [UNK]) (3 (91 not) (82 [UNK])))) (13 (81 [UNK]) (3 (78 on) (43 you)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "376",
+      "text": "Saying that you hate women shows how misguided you are. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -46.6231803894043,
+    "loss": 46.6231803894043,
+    "tree": "(26 (12 (54 saying) (11 (61 that) (7 (95 you) (21 (6 (3 (80 hate) (7 (95 women) (21 (76 shows) (4 (91 how) (33 [UNK]))))) (49 you)) (56 are))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "377",
+      "text": "We have to call out the open hatred for women in our society. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -49.14173889160156,
+    "loss": 49.14173889160156,
+    "tree": "(26 (31 (31 (71 we) (16 (56 have) (27 (19 (4 (50 to) (3 (3 (51 call) (1 (87 out) (4 (91 the) (33 [UNK])))) (38 hatred))) (41 for)) (77 women)))) (4 (50 in) (3 (78 our) (43 society)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "378",
+      "text": "Your obvious contempt for women has to stop right now. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -52.7712287902832,
+    "loss": 52.7712287902832,
+    "tree": "(26 (92 your) (26 (31 (27 (19 (4 (84 obvious) (36 contempt)) (41 for)) (77 women)) (20 (83 [UNK]) (30 (50 to) (4 (50 stop) (3 (80 right) (58 [UNK])))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "379",
+      "text": "You have to stop calling women disgusting. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -35.9498405456543,
+    "loss": 35.9498405456543,
+    "tree": "(26 (31 (7 (95 you) (21 (76 have) (4 (50 to) (3 (78 stop) (60 calling))))) (5 (63 women) (88 disgusting))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "380",
+      "text": "I lost all respect for you when you said women like me were pathetic. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -63.691158294677734,
+    "loss": 63.691158294677734,
+    "tree": "(26 (31 (71 i) (16 (15 (27 (19 (4 (81 [UNK]) (4 (66 all) (51 respect))) (41 for)) (77 you)) (61 when)) (31 (71 you) (16 (83 said) (7 (95 women) (21 (76 like) (4 (50 me) (3 (91 were) (82 [UNK]))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "381",
+      "text": "You can't seriously believe that all women are stupid. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -37.05141830444336,
+    "loss": 37.05141830444336,
+    "tree": "(26 (31 (71 you) (16 (24 (75 can) (9 (57 ') (17 (89 t) (3 (78 seriously) (43 believe))))) (5 (61 that) (31 (66 all) (7 (95 women) (21 (76 are) (32 stupid))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "382",
+      "text": "Do you not realise how hateful you are being when calling women trash?",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -69.86650085449219,
+    "loss": 69.86650085449219,
+    "tree": "(26 (31 (92 do) (12 (54 you) (11 (73 not) (11 (73 realise) (11 (73 how) (11 (4 (81 [UNK]) (7 (95 you) (21 (76 are) (4 (50 being) (3 (44 when) (3 (80 calling) (62 women))))))) (39 trash))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "383",
+      "text": "Calling women cockroaches is such a horrible thing to do. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -44.24457550048828,
+    "loss": 44.24457550048828,
+    "tree": "(26 (31 (66 calling) (7 (95 women) (21 (53 [UNK]) (23 (87 is) (27 (19 (4 (50 such) (3 (3 (37 a) (36 horrible)) (38 thing))) (41 to)) (77 do)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "384",
+      "text": "It hurts to see all these people saying female lives are worthless. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -55.8787841796875,
+    "loss": 55.8787841796875,
+    "tree": "(26 (31 (71 it) (16 (13 (81 [UNK]) (3 (91 to) (60 see))) (8 (53 all) (5 (61 these) (31 (71 people) (16 (92 saying) (31 (71 female) (16 (72 lives) (21 (76 are) (88 worthless)))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "385",
+      "text": "Threatening to kill all women will get you thrown in jail. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -44.720123291015625,
+    "loss": 44.720123291015625,
+    "tree": "(26 (31 (13 (81 [UNK]) (3 (44 to) (3 (78 kill) (43 all)))) (11 (63 women) (16 (56 will) (27 (83 get) (11 (13 (81 you) (3 (47 [UNK]) (94 in))) (82 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "386",
+      "text": "There have to be consequences for saying you would rape a woman. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -48.93663787841797,
+    "loss": 48.93663787841797,
+    "tree": "(26 (31 (71 there) (16 (16 (56 have) (27 (19 (4 (50 to) (3 (91 be) (82 [UNK]))) (41 for)) (77 saying))) (7 (95 you) (21 (56 would) (25 (45 rape) (4 (37 a) (42 woman))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "387",
+      "text": "It's disheartening to still see people call for the death of women in 2020. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -66.18170928955078,
+    "loss": 66.18170928955078,
+    "tree": "(26 (31 (71 it) (16 (57 ') (10 (52 s) (11 (73 [UNK]) (11 (73 to) (11 (73 still) (11 (22 (54 see) (15 (27 (83 people) (11 (51 call) (27 (29 (4 (50 for) (3 (91 the) (60 death))) (61 of)) (62 women)))) (61 in))) (74 [UNK])))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "388",
+      "text": "It's really not okay to be calling people bitch. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -37.16888427734375,
+    "loss": 37.16888427734375,
+    "tree": "(26 (31 (71 it) (16 (57 ') (10 (52 s) (11 (73 really) (11 (73 not) (11 (73 okay) (11 (4 (50 to) (3 (3 (91 be) (60 calling)) (38 people))) (39 bitch)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "389",
+      "text": "It's really not okay to be calling people slut. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -38.853248596191406,
+    "loss": 38.853248596191406,
+    "tree": "(26 (31 (71 it) (16 (57 ') (10 (52 s) (11 (73 really) (11 (73 not) (11 (73 okay) (11 (4 (50 to) (3 (3 (91 be) (60 calling)) (38 people))) (39 slut)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "390",
+      "text": "It's really not okay to be calling people whore. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -38.84963607788086,
+    "loss": 38.84963607788086,
+    "tree": "(26 (31 (71 it) (16 (57 ') (10 (52 s) (11 (73 really) (11 (73 not) (11 (73 okay) (11 (4 (50 to) (3 (3 (91 be) (60 calling)) (38 people))) (39 whore)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "391",
+      "text": "Why would you think it's okay to call me a bitch?",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -53.58403015136719,
+    "loss": 53.58403015136719,
+    "tree": "(26 (31 (71 why) (16 (56 would) (27 (83 you) (11 (70 think) (31 (71 it) (16 (57 ') (10 (52 s) (11 (73 okay) (11 (73 to) (11 (51 call) (25 (45 me) (4 (37 a) (42 bitch))))))))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "392",
+      "text": "Why would you think it's okay to call me a slut?",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -53.54292678833008,
+    "loss": 53.54292678833008,
+    "tree": "(26 (31 (71 why) (16 (56 would) (27 (83 you) (11 (70 think) (31 (71 it) (16 (57 ') (10 (52 s) (11 (73 okay) (11 (73 to) (11 (51 call) (25 (45 me) (4 (37 a) (42 slut))))))))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "393",
+      "text": "Why would you think it's okay to call me a whore?",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -52.1946907043457,
+    "loss": 52.1946907043457,
+    "tree": "(26 (31 (71 why) (16 (56 would) (27 (83 you) (11 (70 think) (31 (71 it) (16 (57 ') (10 (52 s) (11 (73 okay) (11 (73 to) (11 (51 call) (25 (45 me) (4 (37 a) (42 whore))))))))))))) (86 ?))"
+  },
+  {
+    "e": {
+      "uid": "394",
+      "text": "If you're telling women to go fuck themselves, don't expect them to respect you. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -74.41525268554688,
+    "loss": 74.41525268554688,
+    "tree": "(26 (92 if) (26 (31 (71 you) (16 (57 ') (10 (52 re) (11 (73 [UNK]) (11 (63 women) (16 (29 (4 (50 to) (3 (44 go) (3 (78 fuck) (43 themselves)))) (61 ,)) (24 (75 don) (9 (57 ') (17 (89 t) (3 (47 [UNK]) (1 (87 them) (4 (50 to) (3 (78 respect) (43 you)))))))))))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "395",
+      "text": "Female lives might not be worth shit to you, but luckily your opinion doesn't count. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -79.19190979003906,
+    "loss": 79.19190979003906,
+    "tree": "(26 (31 (31 (71 female) (16 (72 lives) (21 (24 (58 [UNK]) (15 (27 (19 (4 (50 not) (3 (91 be) (3 (78 worth) (43 shit)))) (41 to)) (77 you)) (61 ,))) (25 (45 but) (4 (50 [UNK]) (3 (78 your) (43 opinion))))))) (11 (13 (81 [UNK]) (3 (57 ') (89 t))) (82 [UNK]))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "396",
+      "text": "Writing that women are all assholes says a lot about how small-minded you are. ",
+      "sexist": "non=-sexist"
+    },
+    "log_probs": -63.93619918823242,
+    "loss": 63.93619918823242,
+    "tree": "(26 (31 (31 (27 (81 [UNK]) (11 (61 that) (7 (95 women) (21 (76 are) (4 (70 all) (3 (44 assholes) (3 (35 [UNK]) (4 (37 a) (42 lot))))))))) (20 (83 about) (30 (50 how) (4 (64 [UNK]) (65 [UNK]))))) (13 (81 [UNK]) (3 (95 you) (76 are)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "397",
+      "text": "I haet women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -7.285860538482666,
+    "loss": 7.285860538482666,
+    "tree": "(26 (31 (71 i) (16 (53 [UNK]) (63 women))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "398",
+      "text": "Disgutsed by all the women around here. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -33.5395622253418,
+    "loss": 33.5395622253418,
+    "tree": "(26 (31 (64 [UNK]) (11 (4 (1 (87 by) (4 (70 all) (3 (80 the) (62 women)))) (68 around)) (39 here))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "399",
+      "text": "You women make me sikc. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -16.550649642944336,
+    "loss": 16.550649642944336,
+    "tree": "(26 (31 (66 you) (7 (95 women) (21 (76 make) (4 (50 me) (48 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "400",
+      "text": "Women with any power are a thraet to civilisation",
+      "sexist": "sexist"
+    },
+    "log_probs": -34.17668151855469,
+    "loss": 34.17668151855469,
+    "tree": "(26 (31 (7 (95 women) (21 (76 with) (4 (37 any) (42 power)))) (3 (21 (76 are) (4 (37 a) (48 [UNK]))) (45 to))) (86 civilisation))"
+  },
+  {
+    "e": {
+      "uid": "401",
+      "text": "It's in women's nature to be unciviliesd. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -29.545085906982422,
+    "loss": 29.545085906982422,
+    "tree": "(26 (31 (71 it) (16 (57 ') (10 (52 s) (11 (73 in) (11 (63 women) (16 (57 ') (10 (52 s) (11 (51 nature) (25 (45 to) (4 (91 be) (33 [UNK]))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "402",
+      "text": "Only women can be so ignoratn. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -18.77549171447754,
+    "loss": 18.77549171447754,
+    "tree": "(26 (31 (66 only) (7 (95 women) (21 (76 can) (4 (50 be) (3 (91 so) (82 [UNK])))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "403",
+      "text": "You are nothing but common female trahs. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -30.39305877685547,
+    "loss": 30.39305877685547,
+    "tree": "(26 (31 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (78 but) (43 common))))) (3 (91 female) (82 [UNK]))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "404",
+      "text": "Female lives are worht absolutely nothing. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -23.337493896484375,
+    "loss": 23.337493896484375,
+    "tree": "(26 (31 (71 female) (16 (72 lives) (21 (76 are) (4 (50 [UNK]) (3 (78 absolutely) (43 nothing)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "405",
+      "text": "You and all other women are a plageu to society. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -33.28921127319336,
+    "loss": 33.28921127319336,
+    "tree": "(26 (7 (95 you) (21 (76 and) (4 (19 (4 (70 all) (3 (80 other) (7 (95 women) (21 (76 are) (4 (37 a) (48 [UNK])))))) (41 to)) (43 society)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "406",
+      "text": "I'd rather have cancre than be anywhere near a woman. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -39.17448806762695,
+    "loss": 39.17448806762695,
+    "tree": "(26 (31 (31 (71 i) (16 (57 ') (10 (52 d) (11 (73 rather) (11 (73 have) (11 (13 (81 [UNK]) (3 (44 than) (3 (91 be) (82 [UNK])))) (82 [UNK]))))))) (4 (37 a) (42 woman))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "407",
+      "text": "I want to klil all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -18.06353187561035,
+    "loss": 18.06353187561035,
+    "tree": "(26 (31 (71 i) (16 (56 want) (27 (29 (4 (50 to) (48 [UNK])) (61 all)) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "408",
+      "text": "Deaht to all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -11.636731147766113,
+    "loss": 11.636731147766113,
+    "tree": "(26 (31 (64 [UNK]) (11 (73 to) (11 (70 all) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "409",
+      "text": "We'll tortuer these women without mercy. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -25.73505401611328,
+    "loss": 25.73505401611328,
+    "tree": "(26 (31 (71 we) (16 (57 ') (10 (52 ll) (11 (13 (81 [UNK]) (3 (3 (80 these) (62 women)) (38 without))) (82 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "410",
+      "text": "I would love to see those women suffre. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -29.983413696289062,
+    "loss": 29.983413696289062,
+    "tree": "(26 (31 (71 i) (16 (56 would) (27 (83 love) (11 (13 (81 to) (3 (44 see) (3 (80 those) (62 women)))) (82 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "411",
+      "text": "Those kinds of women ought to be execuetd. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -24.999202728271484,
+    "loss": 24.999202728271484,
+    "tree": "(26 (92 those) (26 (12 (54 kinds) (11 (61 of) (7 (95 women) (21 (76 ought) (4 (50 to) (3 (91 be) (82 [UNK]))))))) (67 .)))"
+  },
+  {
+    "e": {
+      "uid": "412",
+      "text": "If only someone would strangel those women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -32.417049407958984,
+    "loss": 32.417049407958984,
+    "tree": "(26 (92 if) (26 (92 only) (26 (31 (71 someone) (16 (56 would) (27 (81 [UNK]) (11 (70 those) (62 women))))) (86 .))))"
+  },
+  {
+    "e": {
+      "uid": "413",
+      "text": "Fukc all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -7.996408939361572,
+    "loss": 7.996408939361572,
+    "tree": "(26 (31 (64 [UNK]) (11 (70 all) (62 women))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "414",
+      "text": "Most women are seriously fukced in the head. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -23.3056583404541,
+    "loss": 23.3056583404541,
+    "tree": "(26 (31 (66 most) (7 (95 women) (21 (76 are) (4 (50 seriously) (3 (35 [UNK]) (4 (50 in) (3 (91 the) (60 head)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "415",
+      "text": "If the idea comes from a woman, it must be bullsiht. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -45.9209098815918,
+    "loss": 45.9209098815918,
+    "tree": "(26 (92 if) (26 (29 (4 (50 the) (3 (44 idea) (3 (47 [UNK]) (1 (87 from) (4 (37 a) (42 woman)))))) (61 ,)) (26 (31 (71 it) (16 (56 must) (27 (50 be) (82 [UNK])))) (86 .))))"
+  },
+  {
+    "e": {
+      "uid": "416",
+      "text": "I have so much hatrd for you women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -29.189722061157227,
+    "loss": 29.189722061157227,
+    "tree": "(26 (31 (71 i) (16 (56 have) (27 (27 (19 (4 (3 (91 so) (60 much)) (48 [UNK])) (41 for)) (77 you)) (63 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "417",
+      "text": "I feel nothing but contmpt for women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -23.15213966369629,
+    "loss": 23.15213966369629,
+    "tree": "(26 (31 (71 i) (16 (56 feel) (27 (19 (4 (50 nothing) (3 (91 but) (82 [UNK]))) (41 for)) (77 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "418",
+      "text": "There is nothing worse than a womn. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.16166114807129,
+    "loss": 31.16166114807129,
+    "tree": "(26 (31 (71 there) (16 (56 is) (27 (83 nothing) (11 (51 worse) (25 (45 than) (4 (37 a) (42 womn))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "419",
+      "text": "Women are absolutely despicble. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -10.511244773864746,
+    "loss": 10.511244773864746,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (91 absolutely) (33 [UNK])))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "420",
+      "text": "Womn like you are repugnant. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -15.994633674621582,
+    "loss": 15.994633674621582,
+    "tree": "(26 (7 (95 womn) (21 (41 like) (7 (95 you) (21 (76 are) (93 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "421",
+      "text": "Typical of a woman to be that stupd. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.79746437072754,
+    "loss": 31.79746437072754,
+    "tree": "(26 (12 (54 typical) (11 (22 (54 of) (15 (27 (19 (4 (37 a) (42 woman)) (41 to)) (77 be)) (61 that))) (74 [UNK]))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "422",
+      "text": "Womn are scum. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -11.536581993103027,
+    "loss": 11.536581993103027,
+    "tree": "(26 (7 (95 womn) (21 (76 are) (88 scum))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "423",
+      "text": "Your female livs are worthless. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -24.259428024291992,
+    "loss": 24.259428024291992,
+    "tree": "(26 (92 your) (26 (31 (71 female) (16 (72 [UNK]) (21 (76 are) (88 worthless)))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "424",
+      "text": "Women are a cancr. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -7.252783298492432,
+    "loss": 7.252783298492432,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (37 a) (48 [UNK])))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "425",
+      "text": "Womn belong in a zoo. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -21.629182815551758,
+    "loss": 21.629182815551758,
+    "tree": "(26 (7 (95 womn) (21 (76 belong) (4 (50 in) (3 (37 a) (47 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "426",
+      "text": "My dog is smarter than any womn could ever be. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -50.81366729736328,
+    "loss": 50.81366729736328,
+    "tree": "(26 (12 (54 my) (11 (33 [UNK]) (1 (87 is) (4 (50 [UNK]) (3 (29 (4 (1 (87 than) (4 (37 any) (42 womn))) (68 could)) (61 ever)) (83 be)))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "427",
+      "text": "Never trust a single word said by a womn. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -36.743934631347656,
+    "loss": 36.743934631347656,
+    "tree": "(26 (31 (27 (83 never) (11 (13 (81 [UNK]) (3 (37 a) (36 single))) (82 [UNK]))) (20 (83 said) (30 (50 by) (4 (37 a) (42 womn))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "428",
+      "text": "I really am just going to murdr that woman. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -36.45382308959961,
+    "loss": 36.45382308959961,
+    "tree": "(26 (31 (71 i) (16 (56 really) (27 (83 am) (11 (73 just) (11 (73 going) (11 (29 (4 (50 to) (48 [UNK])) (61 that)) (69 woman))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "429",
+      "text": "That woman will die a horrible deth at my hands. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -47.91969680786133,
+    "loss": 47.91969680786133,
+    "tree": "(26 (31 (11 (61 that) (7 (95 woman) (21 (76 will) (4 (3 (44 die) (3 (37 a) (36 horrible))) (48 [UNK]))))) (1 (87 at) (4 (91 my) (33 [UNK])))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "430",
+      "text": "Women should all be killd. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -9.07748794555664,
+    "loss": 9.07748794555664,
+    "tree": "(26 (7 (95 women) (21 (76 should) (4 (70 all) (3 (91 be) (82 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "431",
+      "text": "Raping a womn like you should not be illegal. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -28.43621826171875,
+    "loss": 28.43621826171875,
+    "tree": "(26 (31 (27 (19 (4 (81 [UNK]) (4 (37 a) (42 womn))) (41 like)) (77 you)) (21 (76 should) (4 (50 not) (3 (91 be) (82 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "432",
+      "text": "Women can all go fuk themselves. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -24.2353572845459,
+    "loss": 24.2353572845459,
+    "tree": "(26 (7 (95 women) (21 (76 can) (4 (70 all) (3 (44 go) (3 (78 [UNK]) (43 themselves)))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "433",
+      "text": "Of course the womn was the worst of all these motherfuckers. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -51.27039337158203,
+    "loss": 51.27039337158203,
+    "tree": "(26 (31 (71 of) (16 (56 course) (27 (83 the) (11 (22 (54 womn) (15 (27 (83 was) (11 (6 (3 (91 the) (60 worst)) (49 of)) (70 all))) (61 these))) (74 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "434",
+      "text": "It's in a womn's nature to be an annoying prick. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -54.44746398925781,
+    "loss": 54.44746398925781,
+    "tree": "(26 (31 (71 it) (16 (57 ') (10 (52 s) (11 (73 in) (11 (4 (37 a) (42 womn)) (16 (57 ') (10 (52 s) (11 (51 nature) (25 (45 to) (4 (50 be) (3 (3 (78 an) (43 annoying)) (38 prick)))))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "435",
+      "text": "Women can't help themselves but be complete dickheds. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -27.81964111328125,
+    "loss": 27.81964111328125,
+    "tree": "(26 (7 (95 women) (21 (24 (75 can) (9 (57 ') (17 (89 t) (3 (78 help) (43 themselves))))) (25 (45 but) (4 (50 be) (3 (91 complete) (82 [UNK])))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "436",
+      "text": "Ihate women",
+      "sexist": "sexist"
+    },
+    "log_probs": -7.686758995056152,
+    "loss": 7.686758995056152,
+    "tree": "(26 (35 [UNK]) (95 women))"
+  },
+  {
+    "e": {
+      "uid": "437",
+      "text": "I have so muchdisdain for these women",
+      "sexist": "sexist"
+    },
+    "log_probs": -26.108530044555664,
+    "loss": 26.108530044555664,
+    "tree": "(26 (31 (71 i) (16 (56 have) (27 (19 (4 (91 so) (33 [UNK])) (41 for)) (77 these)))) (55 women))"
+  },
+  {
+    "e": {
+      "uid": "438",
+      "text": "These womendisgust me so much. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -23.23929786682129,
+    "loss": 23.23929786682129,
+    "tree": "(26 (12 (54 these) (11 (48 [UNK]) (4 (50 me) (3 (91 so) (60 much))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "439",
+      "text": "Women are just sosickening. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -8.221080780029297,
+    "loss": 8.221080780029297,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (50 just) (48 [UNK])))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "440",
+      "text": "Women like you are justpathetic. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -11.037725448608398,
+    "loss": 11.037725448608398,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 are) (93 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "441",
+      "text": "Women are without a doubt the stupidestpeople on this planet. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -36.99674606323242,
+    "loss": 36.99674606323242,
+    "tree": "(26 (31 (7 (95 women) (21 (76 are) (4 (50 without) (3 (3 (37 a) (13 (81 [UNK]) (3 (91 the) (82 [UNK])))) (38 on))))) (3 (78 this) (43 planet))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "442",
+      "text": "Women like you are absolutefilth. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -11.037725448608398,
+    "loss": 11.037725448608398,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 are) (93 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "443",
+      "text": "That is fitting for femalevermin like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -24.036849975585938,
+    "loss": 24.036849975585938,
+    "tree": "(26 (31 (71 that) (16 (56 is) (27 (19 (4 (81 [UNK]) (4 (50 for) (48 [UNK]))) (41 like)) (77 you)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "444",
+      "text": "I will cut their femalethroats. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -20.39459800720215,
+    "loss": 20.39459800720215,
+    "tree": "(26 (31 (71 i) (16 (56 will) (27 (83 cut) (11 (50 their) (47 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "445",
+      "text": "Deathto all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -7.996408939361572,
+    "loss": 7.996408939361572,
+    "tree": "(26 (31 (64 [UNK]) (11 (70 all) (62 women))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "446",
+      "text": "Women like you deserve todie. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -13.75467586517334,
+    "loss": 13.75467586517334,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 deserve) (93 [UNK]))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "447",
+      "text": "We should just hangall these women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -15.978625297546387,
+    "loss": 15.978625297546387,
+    "tree": "(26 (31 (71 we) (16 (56 should) (27 (29 (4 (50 just) (48 [UNK])) (61 these)) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "448",
+      "text": "Somebody should just stabthose women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -18.881824493408203,
+    "loss": 18.881824493408203,
+    "tree": "(26 (31 (71 somebody) (16 (56 should) (27 (27 (50 just) (82 [UNK])) (63 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "449",
+      "text": "Typical bitchbehaviour. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -8.653984069824219,
+    "loss": 8.653984069824219,
+    "tree": "(26 (31 (54 typical) (47 [UNK])) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "450",
+      "text": "Typical slutbehaviour. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -8.653984069824219,
+    "loss": 8.653984069824219,
+    "tree": "(26 (31 (54 typical) (47 [UNK])) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "451",
+      "text": "Typical whorebehaviour. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -8.653984069824219,
+    "loss": 8.653984069824219,
+    "tree": "(26 (31 (54 typical) (47 [UNK])) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "452",
+      "text": "Too manybitches in this country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -14.543682098388672,
+    "loss": 14.543682098388672,
+    "tree": "(26 (31 (71 too) (16 (74 [UNK]) (11 (4 (94 in) (46 this)) (39 country)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "453",
+      "text": "Too manysluts in this country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -14.543682098388672,
+    "loss": 14.543682098388672,
+    "tree": "(26 (31 (71 too) (16 (74 [UNK]) (11 (4 (94 in) (46 this)) (39 country)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "454",
+      "text": "Too manywhores in this country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -14.543682098388672,
+    "loss": 14.543682098388672,
+    "tree": "(26 (31 (71 too) (16 (74 [UNK]) (11 (4 (94 in) (46 this)) (39 country)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "455",
+      "text": "Fuckall women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -6.911771297454834,
+    "loss": 6.911771297454834,
+    "tree": "(26 (31 (35 [UNK]) (63 women)) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "456",
+      "text": "All women are such massivescumbags. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -13.537542343139648,
+    "loss": 13.537542343139648,
+    "tree": "(26 (31 (66 all) (7 (95 women) (21 (76 are) (4 (50 such) (48 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "457",
+      "text": "I h a t e women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -24.94179344177246,
+    "loss": 24.94179344177246,
+    "tree": "(26 (31 (71 i) (16 (56 h) (27 (29 (4 (37 a) (42 t)) (61 e)) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "458",
+      "text": "I feel nothing but contempt for w o m e n. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -51.3376579284668,
+    "loss": 51.3376579284668,
+    "tree": "(26 (31 (71 i) (16 (56 feel) (27 (19 (4 (50 nothing) (3 (78 but) (60 contempt))) (41 for)) (31 (71 w) (16 (57 o) (10 (52 m) (11 (68 e) (90 n)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "459",
+      "text": "You w o m e n make me sick. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -41.54893493652344,
+    "loss": 41.54893493652344,
+    "tree": "(26 (92 you) (26 (31 (71 w) (16 (57 o) (10 (52 m) (11 (61 e) (7 (95 n) (21 (76 make) (4 (84 me) (36 sick)))))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "460",
+      "text": "All women like them are v i l e. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.87244987487793,
+    "loss": 31.87244987487793,
+    "tree": "(26 (31 (66 all) (7 (95 women) (21 (41 like) (7 (95 them) (21 (76 are) (4 (50 [UNK]) (3 (44 i) (3 (78 l) (43 e))))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "461",
+      "text": "W o m e n are disgusting. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -29.226909637451172,
+    "loss": 29.226909637451172,
+    "tree": "(26 (31 (71 w) (16 (57 o) (10 (52 m) (11 (61 e) (7 (95 n) (21 (76 are) (88 disgusting))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "462",
+      "text": "Women with any power are a t h r e a t to civilisation. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -67.89261627197266,
+    "loss": 67.89261627197266,
+    "tree": "(26 (31 (7 (95 women) (21 (76 with) (4 (37 any) (42 power)))) (21 (76 are) (4 (19 (4 (50 a) (3 (6 (3 (3 (3 (78 t) (43 h)) (38 r)) (38 e)) (49 a)) (89 t))) (41 to)) (43 civilisation)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "463",
+      "text": "Women are s c u m. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -27.54161834716797,
+    "loss": 27.54161834716797,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (10 (52 s) (11 (68 c) (90 u))) (52 m)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "464",
+      "text": "Women are a c a n c e r. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -40.122623443603516,
+    "loss": 40.122623443603516,
+    "tree": "(26 (31 (7 (95 women) (21 (76 are) (4 (50 a) (3 (80 c) (4 (37 a) (42 n)))))) (3 (3 (78 c) (43 e)) (38 r))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "465",
+      "text": "W o m e n have no place in a civilised country like this. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -59.353946685791016,
+    "loss": 59.353946685791016,
+    "tree": "(26 (31 (71 w) (16 (57 o) (10 (52 m) (11 (61 e) (7 (95 n) (21 (73 have) (18 (15 (27 (83 no) (11 (73 place) (11 (73 in) (11 (4 (37 a) (48 [UNK])) (39 country))))) (61 like)) (46 this)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "466",
+      "text": "I want to k i l l all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -38.38871765136719,
+    "loss": 38.38871765136719,
+    "tree": "(26 (31 (71 i) (16 (56 want) (27 (29 (4 (50 to) (3 (35 [UNK]) (4 (50 i) (3 (78 l) (43 l))))) (61 all)) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "467",
+      "text": "I am going to shoot the next w o m a n I see. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -72.10802459716797,
+    "loss": 72.10802459716797,
+    "tree": "(26 (31 (71 i) (16 (56 am) (27 (83 going) (11 (25 (45 to) (4 (50 shoot) (3 (3 (91 the) (60 next)) (38 w)))) (16 (57 o) (10 (52 m) (11 (29 (4 (37 a) (42 n)) (61 i)) (69 see)))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "468",
+      "text": "Women like you deserve to d i e. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -30.550752639770508,
+    "loss": 30.550752639770508,
+    "tree": "(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 deserve) (4 (50 to) (3 (3 (78 d) (43 i)) (38 e))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "469",
+      "text": "In a just world, those women would all be d e a d. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -66.29276275634766,
+    "loss": 66.29276275634766,
+    "tree": "(26 (29 (4 (50 in) (3 (44 a) (3 (91 just) (60 world)))) (61 ,)) (26 (31 (31 (66 those) (7 (95 women) (21 (76 would) (4 (70 all) (3 (3 (91 be) (60 d)) (38 e)))))) (4 (37 a) (42 d))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "470",
+      "text": "Those w o m e n should be burned at the stake. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -45.500144958496094,
+    "loss": 45.500144958496094,
+    "tree": "(26 (92 those) (26 (31 (71 w) (16 (57 o) (10 (52 m) (11 (61 e) (7 (95 n) (21 (76 should) (4 (50 be) (3 (47 [UNK]) (1 (87 at) (4 (91 the) (33 [UNK]))))))))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "471",
+      "text": "You are nothing but a b i t c h. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -42.356719970703125,
+    "loss": 42.356719970703125,
+    "tree": "(26 (31 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (80 but) (4 (37 a) (42 b)))))) (5 (71 i) (17 (89 t) (3 (78 c) (43 h))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "472",
+      "text": "You are nothing but a s l u t. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -42.44576644897461,
+    "loss": 42.44576644897461,
+    "tree": "(26 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (80 but) (4 (50 a) (3 (10 (52 s) (11 (68 l) (90 u))) (89 t))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "473",
+      "text": "You are nothing but a w h o r e. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -46.70583724975586,
+    "loss": 46.70583724975586,
+    "tree": "(26 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (80 but) (4 (50 a) (3 (3 (6 (3 (78 w) (43 h)) (49 o)) (38 r)) (38 e))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "474",
+      "text": "Typical b i t c h behaviour. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -32.33755874633789,
+    "loss": 32.33755874633789,
+    "tree": "(26 (12 (54 typical) (11 (51 b) (14 (5 (71 i) (17 (89 t) (3 (78 c) (43 h)))) (90 behaviour)))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "475",
+      "text": "Typical s l u t behaviour. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -32.52791213989258,
+    "loss": 32.52791213989258,
+    "tree": "(26 (12 (54 typical) (11 (4 (10 (52 s) (11 (68 l) (90 u))) (89 t)) (39 behaviour))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "476",
+      "text": "Typical w h o r e behaviour. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -39.08207702636719,
+    "loss": 39.08207702636719,
+    "tree": "(26 (12 (54 typical) (11 (6 (3 (78 w) (43 h)) (49 o)) (12 (54 r) (11 (68 e) (90 behaviour))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "477",
+      "text": "Too many b i t c h e s in this country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -42.457576751708984,
+    "loss": 42.457576751708984,
+    "tree": "(26 (31 (71 too) (16 (56 many) (27 (83 b) (11 (5 (71 i) (17 (89 t) (3 (3 (78 c) (43 h)) (38 e)))) (10 (52 s) (11 (4 (94 in) (46 this)) (39 country))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "478",
+      "text": "Too many s l u t s in this country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -38.995445251464844,
+    "loss": 38.995445251464844,
+    "tree": "(26 (31 (71 too) (16 (56 many) (27 (3 (10 (52 s) (11 (68 l) (90 u))) (89 t)) (10 (52 s) (11 (4 (94 in) (46 this)) (39 country)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "479",
+      "text": "Too many w h o r e s in this country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -41.42744445800781,
+    "loss": 41.42744445800781,
+    "tree": "(26 (31 (71 too) (16 (56 many) (27 (6 (3 (6 (3 (78 w) (43 h)) (49 o)) (38 r)) (49 e)) (10 (52 s) (11 (4 (94 in) (46 this)) (39 country)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "480",
+      "text": "F u c k all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -24.529598236083984,
+    "loss": 24.529598236083984,
+    "tree": "(26 (31 (13 (81 [UNK]) (3 (44 u) (3 (91 c) (82 [UNK])))) (11 (70 all) (62 women))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "481",
+      "text": "Most w o m e n are seriously fucked in the head. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -53.06232452392578,
+    "loss": 53.06232452392578,
+    "tree": "(26 (92 most) (26 (31 (71 w) (16 (57 o) (10 (52 m) (11 (61 e) (7 (95 n) (21 (76 are) (4 (50 seriously) (3 (80 fucked) (4 (50 in) (3 (91 the) (60 head))))))))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "482",
+      "text": "Female lives aren't worth s h i t. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -37.63189697265625,
+    "loss": 37.63189697265625,
+    "tree": "(26 (31 (71 female) (16 (72 lives) (24 (75 aren) (9 (57 ') (17 (89 t) (3 (6 (3 (44 worth) (3 (78 s) (43 h))) (49 i)) (89 t))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "483",
+      "text": "I h4te women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -7.285860538482666,
+    "loss": 7.285860538482666,
+    "tree": "(26 (31 (71 i) (16 (53 [UNK]) (63 women))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "484",
+      "text": "So s1ck of being around women like you. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -26.505250930786133,
+    "loss": 26.505250930786133,
+    "tree": "(26 (31 (6 (3 (91 so) (82 [UNK])) (49 of)) (27 (19 (4 (50 being) (3 (80 around) (62 women))) (41 like)) (77 you))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "485",
+      "text": "W0men are the absolute worst. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -20.763940811157227,
+    "loss": 20.763940811157227,
+    "tree": "(26 (7 (95 w0men) (21 (76 are) (4 (50 the) (3 (78 absolute) (60 worst))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "486",
+      "text": "You w0men are all dishonest. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -15.78064250946045,
+    "loss": 15.78064250946045,
+    "tree": "(26 (31 (66 you) (7 (95 w0men) (21 (76 are) (4 (50 all) (48 [UNK]))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "487",
+      "text": "No one else is as f1lthy as these women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -45.646034240722656,
+    "loss": 45.646034240722656,
+    "tree": "(26 (92 no) (26 (31 (71 one) (16 (56 else) (27 (29 (4 (1 (87 is) (4 (50 as) (48 [UNK]))) (68 as)) (61 these)) (62 women)))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "488",
+      "text": "Typical of a woman to be that stup1d. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -31.79746437072754,
+    "loss": 31.79746437072754,
+    "tree": "(26 (12 (54 typical) (11 (22 (54 of) (15 (27 (19 (4 (37 a) (42 woman)) (41 to)) (77 be)) (61 that))) (74 [UNK]))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "489",
+      "text": "You are nothing but common female tr4sh. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -30.39305877685547,
+    "loss": 30.39305877685547,
+    "tree": "(26 (31 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (78 but) (43 common))))) (3 (91 female) (82 [UNK]))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "490",
+      "text": "Women are a canc3r. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -7.252783298492432,
+    "loss": 7.252783298492432,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (37 a) (48 [UNK])))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "491",
+      "text": "You and all other w0men are a plague to society. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -36.107765197753906,
+    "loss": 36.107765197753906,
+    "tree": "(26 (7 (95 you) (21 (76 and) (4 (70 all) (3 (80 other) (7 (95 w0men) (21 (76 are) (4 (19 (4 (37 a) (48 [UNK])) (41 to)) (43 society)))))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "492",
+      "text": "W0men should all be locked up in cages. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -25.905298233032227,
+    "loss": 25.905298233032227,
+    "tree": "(26 (31 (7 (95 w0men) (21 (76 should) (4 (70 all) (3 (91 be) (82 [UNK]))))) (3 (44 up) (3 (94 in) (48 [UNK])))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "493",
+      "text": "Allowing any more w0men into government will ruin our country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -49.77766799926758,
+    "loss": 49.77766799926758,
+    "tree": "(26 (31 (13 (81 [UNK]) (3 (44 any) (3 (78 more) (43 w0men)))) (11 (4 (84 into) (36 government)) (16 (56 will) (27 (81 [UNK]) (11 (68 our) (39 country)))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "494",
+      "text": "I want to k1ll all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -18.06353187561035,
+    "loss": 18.06353187561035,
+    "tree": "(26 (31 (71 i) (16 (56 want) (27 (29 (4 (50 to) (48 [UNK])) (61 all)) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "495",
+      "text": "D3ath to all women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -11.636731147766113,
+    "loss": 11.636731147766113,
+    "tree": "(26 (31 (64 [UNK]) (11 (73 to) (11 (70 all) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "496",
+      "text": "If only w0men like you all had their throats cut. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -50.69334030151367,
+    "loss": 50.69334030151367,
+    "tree": "(26 (92 if) (26 (31 (66 only) (7 (95 w0men) (21 (41 like) (7 (95 you) (21 (11 (4 (70 all) (3 (78 had) (43 their))) (39 throats)) (83 cut)))))) (86 .)))"
+  },
+  {
+    "e": {
+      "uid": "497",
+      "text": "Somebody should just st4b those women. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -21.189903259277344,
+    "loss": 21.189903259277344,
+    "tree": "(26 (31 (71 somebody) (16 (56 should) (27 (29 (4 (50 just) (48 [UNK])) (61 those)) (62 women)))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "498",
+      "text": "You are nothing but a b1tch. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -21.32826042175293,
+    "loss": 21.32826042175293,
+    "tree": "(26 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (80 but) (4 (37 a) (48 [UNK])))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "499",
+      "text": "You are nothing but a slu7. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -21.32826042175293,
+    "loss": 21.32826042175293,
+    "tree": "(26 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (80 but) (4 (37 a) (48 [UNK])))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "500",
+      "text": "You are nothing but a wh0re. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -21.32826042175293,
+    "loss": 21.32826042175293,
+    "tree": "(26 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (80 but) (4 (37 a) (48 [UNK])))))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "501",
+      "text": "Typical b1tch behaviour. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -11.693397521972656,
+    "loss": 11.693397521972656,
+    "tree": "(26 (12 (54 typical) (11 (85 [UNK]) (90 behaviour))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "502",
+      "text": "Typical slu7 behaviour. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -11.693397521972656,
+    "loss": 11.693397521972656,
+    "tree": "(26 (12 (54 typical) (11 (85 [UNK]) (90 behaviour))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "503",
+      "text": "Typical wh0re behaviour. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -11.693397521972656,
+    "loss": 11.693397521972656,
+    "tree": "(26 (12 (54 typical) (11 (85 [UNK]) (90 behaviour))) (67 .))"
+  },
+  {
+    "e": {
+      "uid": "504",
+      "text": "Too many b1tches in this country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -13.510346412658691,
+    "loss": 13.510346412658691,
+    "tree": "(26 (31 (71 too) (16 (56 many) (27 (81 [UNK]) (11 (4 (94 in) (46 this)) (39 country))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "505",
+      "text": "Too many slu7s in this country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -13.510346412658691,
+    "loss": 13.510346412658691,
+    "tree": "(26 (31 (71 too) (16 (56 many) (27 (81 [UNK]) (11 (4 (94 in) (46 this)) (39 country))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "506",
+      "text": "Too many wh0res in this country. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -13.510346412658691,
+    "loss": 13.510346412658691,
+    "tree": "(26 (31 (71 too) (16 (56 many) (27 (81 [UNK]) (11 (4 (94 in) (46 this)) (39 country))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "507",
+      "text": "Female lives aren't worth sh1t. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -20.383241653442383,
+    "loss": 20.383241653442383,
+    "tree": "(26 (31 (71 female) (16 (72 lives) (24 (75 aren) (9 (57 ') (17 (89 t) (3 (91 worth) (82 [UNK]))))))) (86 .))"
+  },
+  {
+    "e": {
+      "uid": "508",
+      "text": "Women are all complete 4ssholes. ",
+      "sexist": "sexist"
+    },
+    "log_probs": -11.981139183044434,
+    "loss": 11.981139183044434,
+    "tree": "(26 (7 (95 women) (21 (76 are) (4 (70 all) (3 (91 complete) (82 [UNK]))))) (67 .))"
+  }
+]

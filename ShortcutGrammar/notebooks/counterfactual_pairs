@@ -1,0 +1,1388 @@
+,Unnamed: 0,original_id,counterfactual_id,negation_additions,negation_deletions,affect word_additions,affect word_deletions,gender word_additions,gender word_deletions,identity word_additions,identity word_deletions,hedges_additions,hedges_deletions,hate words_additions,hate words_deletions,id,text,average_pvi,average_el2n,misclassification_number,sexist,numeric_labels,tree
+0,1,5542.0,13519.0,False,False,False,False,False,True,False,False,False,False,False,False,13519,that shit ain cool. Hold urself young buck. Telling the world u want something puts little interest for u. Calm down,0.045064647352715,0.1243671238422393,0,False,0,"(25
+  (28
+    (27
+      (3 (92 that) (14 (8 (57 shit) (77 ain)) (46 cool)))
+      (16
+        (49 .)
+        (14 (87 hold) (29 (11 (86 urself) (88 young)) (51 [UNK])))))
+    (74 .))
+  (25
+    (67 telling)
+    (25
+      (27
+        (14
+          (8
+            (29 (86 the) (82 world))
+            (8 (68 u) (22 (61 want) (8 (57 something) (77 puts)))))
+          (2 (88 little) (53 interest)))
+        (15 (52 for) (59 u)))
+      (15 (74 .) (14 (78 calm) (35 down))))))"
+1,16,6345.0,10629.0,False,False,True,True,False,True,False,False,False,False,False,False,10629,"the true definition of a  #model is a charming person and professional who also has good health,looks and physique.",-0.0668427599318998,0.2155556812882423,0,False,0,"(25
+  (27
+    (27
+      (27
+        (14
+          (8
+            (29
+              (29 (11 (86 the) (88 true)) (41 definition))
+              (15 (52 of) (29 (11 (86 a) (71 #)) (41 model))))
+            (77 is))
+          (2 (11 (86 a) (88 charming)) (41 person)))
+        (15 (52 and) (59 professional)))
+      (16
+        (49 who)
+        (14 (8 (57 also) (77 has)) (2 (88 good) (53 health)))))
+    (16 (49 ,) (14 (37 looks) (15 (49 and) (45 physique)))))
+  (74 .))"
+2,21,12962.0,627.0,False,False,False,False,False,True,False,False,False,False,False,False,627,Call me pacifist.UFC is barbaric--especially when it's live. Not entertaining 2 see anybody get savaged like that,0.0372004056564778,0.1322764456272124,0,False,0,"(25
+  (27
+    (27
+      (14 (8 (34 call) (39 me)) (51 [UNK]))
+      (15 (74 .) (14 (8 (57 ufc) (77 is)) (2 (51 [UNK]) (35 -)))))
+    (15 (49 -) (45 especially)))
+  (3
+    (92 when)
+    (14
+      (8 (65 it) (26 (89 ') (70 s)))
+      (2
+        (73 live)
+        (15
+          (74 .)
+          (14
+            (14
+              (81 not)
+              (2
+                (47 entertaining)
+                (6
+                  (91 2)
+                  (2
+                    (87 see)
+                    (29 (37 anybody) (15 (42 get) (44 [UNK])))))))
+            (15 (52 like) (59 that))))))))"
+3,40,10716.0,1429.0,False,False,False,False,False,True,False,False,False,False,False,False,1429,"*yawn* MENTION2618 Im sorry but teens cannot drive, it's true.",0.0994713248272001,0.0759825557470321,0,False,0,"(25
+  (67 *)
+  (25
+    (67 yawn)
+    (25
+      (67 *)
+      (25
+        (67 mention2618)
+        (25
+          (67 im)
+          (25
+            (67 sorry)
+            (25
+              (27
+                (3
+                  (92 but)
+                  (14 (8 (57 teens) (77 cannot)) (46 drive)))
+                (16
+                  (49 ,)
+                  (14 (8 (65 it) (26 (89 ') (70 s))) (46 true))))
+              (74 .))))))))"
+4,41,6740.0,11269.0,False,False,True,False,False,True,False,False,False,False,False,False,11269,Friends live longer than enemies & have superior language skills. we should celebrate our differences not hide em MENTION260,0.121792893215602,0.0551800303161143,0,False,0,"(25
+  (27
+    (27
+      (14 (8 (57 friends) (77 live)) (46 longer))
+      (15 (52 than) (60 [UNK])))
+    (15
+      (49 &)
+      (2 (2 (2 (42 have) (64 superior)) (35 language)) (35 skills))))
+  (15
+    (74 .)
+    (14
+      (8 (57 we) (77 should))
+      (2
+        (87 celebrate)
+        (29
+          (11
+            (29 (86 our) (82 differences))
+            (26 (81 not) (21 (34 hide) (39 em))))
+          (51 [UNK]))))))"
+5,54,3907.0,8766.0,False,False,False,False,False,True,False,False,False,False,False,False,8766,"""MENTION3488: anybody on the phone while driving is DEADLY!!!"" anybody texting while driving is deadly",0.0906349621773729,0.0837256982922553,0,False,0,"(25
+  (67 "")
+  (25
+    (28
+      (28
+        (28
+          (23 (43 mention3488) (79 :))
+          (28
+            (28
+              (27
+                (14
+                  (37 anybody)
+                  (15 (52 on) (29 (86 the) (82 phone))))
+                (3
+                  (92 while)
+                  (14 (8 (57 driving) (77 is)) (46 deadly))))
+              (85 !))
+            (85 !)))
+        (85 !))
+      (85 ""))
+    (28
+      (14 (57 anybody) (58 texting))
+      (3 (92 while) (14 (8 (57 driving) (77 is)) (46 deadly))))))"
+6,64,8071.0,13129.0,False,False,False,False,False,True,False,False,False,False,False,False,13129,MENTION2457 I hate that a child played him. that is one role a man should always do and I don't give a fuck,-0.270262879467984,0.3653529435396194,0,False,0,"(25
+  (44 [UNK])
+  (25
+    (27
+      (14
+        (8 (68 i) (32 hate))
+        (2
+          (38 that)
+          (14 (29 (86 a) (82 child)) (21 (34 played) (39 him)))))
+      (15 (74 .) (14 (8 (57 that) (77 is)) (2 (86 one) (48 role)))))
+    (14
+      (8 (8 (29 (86 a) (82 man)) (77 should)) (81 always))
+      (2
+        (73 do)
+        (3
+          (92 and)
+          (14
+            (1 (68 i) (21 (63 don) (10 (89 ') (9 (54 t) (61 give)))))
+            (29 (86 a) (82 fuck))))))))"
+7,73,4741.0,4421.0,False,False,True,False,False,True,False,False,False,False,False,False,4421,People can walk away from a good job so fast but it takes Forever for a person to walk away from a house they thought was everything they wanted,-0.324005223742465,0.379083839058876,1,False,0,"(25
+  (27
+    (14 (8 (57 people) (77 can)) (2 (42 walk) (64 away)))
+    (15 (52 from) (29 (11 (86 a) (88 good)) (41 job))))
+  (3
+    (92 so)
+    (14
+      (8
+        (29
+          (2
+            (73 fast)
+            (3
+              (92 but)
+              (14
+                (14
+                  (8 (57 it) (77 takes))
+                  (2
+                    (2
+                      (73 forever)
+                      (15 (52 for) (29 (86 a) (82 person))))
+                    (6 (91 to) (2 (42 walk) (64 away)))))
+                (15 (52 from) (29 (86 a) (82 house))))))
+          (15 (68 they) (61 thought)))
+        (77 was))
+      (2 (38 everything) (14 (57 they) (58 wanted))))))"
+8,92,13110.0,10516.0,False,True,False,False,False,True,False,False,False,False,False,False,10516,But there is no chance in hell I'm letting a kid beat me at anything. Sorry,-0.0403272280569182,0.1989837318658828,0,False,0,"(25
+  (3
+    (92 but)
+    (14
+      (14 (8 (57 there) (77 is)) (2 (86 no) (48 chance)))
+      (15 (52 in) (59 hell))))
+  (27
+    (27
+      (27
+        (14
+          (8 (65 i) (26 (89 ') (70 m)))
+          (2 (87 letting) (29 (86 a) (82 kid))))
+        (15 (52 beat) (59 me)))
+      (15 (52 at) (59 anything)))
+    (15 (49 .) (45 sorry))))"
+9,122,4110.0,618.0,False,False,True,False,False,False,False,False,False,False,False,False,618,I'm really happy that there are 3 chicks and 1 dude hosting ESPN's college football show. Am I right MENTION1921?,0.0067367170929089,0.1533328652381897,0,False,0,"(25
+  (27
+    (27
+      (27
+        (14
+          (8 (8 (65 i) (26 (89 ') (70 m))) (81 really))
+          (2
+            (73 happy)
+            (3
+              (92 that)
+              (14 (8 (57 there) (77 are)) (2 (88 3) (53 chicks))))))
+        (3
+          (92 and)
+          (14
+            (37 1)
+            (15
+              (52 dude)
+              (29
+                (11
+                  (11
+                    (11 (29 (56 [UNK]) (59 espn)) (26 (89 ') (70 s)))
+                    (88 college))
+                  (88 football))
+                (41 show))))))
+      (16 (49 .) (14 (8 (32 am) (68 i)) (46 right))))
+    (51 [UNK]))
+  (85 ?))"
+10,123,703.0,2758.0,False,False,False,False,False,True,False,False,False,False,False,False,2758,No offence to anyone but teenagers are poor drivers,-0.18683707498492,0.3137906312942505,0,False,0,"(25
+  (67 no)
+  (25
+    (14 (37 offence) (15 (91 to) (59 anyone)))
+    (3
+      (92 but)
+      (14 (8 (57 teenagers) (77 are)) (2 (88 poor) (53 drivers))))))"
+11,133,3027.0,9225.0,False,False,True,True,False,False,False,False,False,False,False,False,9225,most creative species on earth 1. Women in power show strength 2. Unmarried women are independent that's true,-0.8274793468812989,0.6878127455711365,3,False,0,"(25
+  (27
+    (27
+      (27
+        (27
+          (14 (80 most) (14 (88 creative) (53 species)))
+          (15 (52 on) (59 earth)))
+        (35 1))
+      (16
+        (49 .)
+        (14
+          (8 (29 (59 women) (15 (52 in) (59 power))) (77 show))
+          (2 (78 strength) (35 2)))))
+    (16
+      (49 .)
+      (14
+        (80 unmarried)
+        (14 (8 (57 women) (77 are)) (46 independent)))))
+  (15 (8 (65 that) (26 (89 ') (70 s))) (46 true)))"
+12,140,13173.0,2499.0,False,False,False,False,False,True,False,False,False,False,False,False,2499,6'2 IS TOO TALL. Wow.,0.0821850196173862,0.0908040802925824,0,False,0,"(25
+  (27
+    (27
+      (78 6)
+      (12 (89 ') (14 (8 (57 2) (77 is)) (2 (42 too) (64 tall)))))
+    (15 (49 .) (45 wow)))
+  (74 .))"
+13,162,591.0,13493.0,False,False,False,False,False,True,False,False,False,False,False,False,13493,MENTION2467 You were right...just about the wrong person...Valenti's a feminist.,0.0191951836441192,0.1472878232598304,0,False,0,"(25
+  (44 [UNK])
+  (25
+    (27
+      (27
+        (27
+          (27
+            (14 (8 (57 you) (77 were)) (46 right))
+            (15 (74 .) (74 .)))
+          (16
+            (49 .)
+            (14
+              (81 just)
+              (2
+                (87 about)
+                (29 (11 (86 the) (88 wrong)) (41 person))))))
+        (15 (74 .) (74 .)))
+      (16
+        (49 .)
+        (14
+          (8 (65 [UNK]) (26 (89 ') (70 s)))
+          (2 (86 a) (48 feminist)))))
+    (74 .)))"
+14,168,4292.0,1970.0,False,False,False,False,False,False,False,False,False,False,False,False,1970,"im kinda skeptical about these Kelis in the face,$50k a month on ""child"" support ass adults yall look up 2.",0.0918453658122204,0.0823602437973022,0,False,0,"(25
+  (27
+    (27
+      (27
+        (27
+          (27
+            (14 (8 (68 im) (32 kinda)) (46 skeptical))
+            (15 (52 about) (29 (88 these) (53 kelis))))
+          (15 (52 in) (29 (86 the) (82 face))))
+        (16 (49 ,) (14 (47 $) (6 (91 50k) (2 (86 a) (48 month))))))
+      (15
+        (52 on)
+        (29 (11 (11 (86 "") (88 child)) (88 "")) (41 support))))
+    (16
+      (49 ass)
+      (14 (8 (57 adults) (77 yall)) (2 (2 (87 look) (39 up)) (35 2)))))
+  (74 .))"
+15,170,721.0,11658.0,False,False,False,False,False,True,False,False,False,False,False,False,11658,MENTION2603 Is this something husbands are supposed to know? I thought that kind of gossip was a nosy person's thing.,-0.2187062849567946,0.3330951899290084,0,False,0,"(25
+  (44 [UNK])
+  (25
+    (27
+      (27
+        (14
+          (8 (77 is) (57 this))
+          (2
+            (38 something)
+            (14 (8 (57 husbands) (77 are)) (46 supposed))))
+        (15 (91 to) (61 know)))
+      (16
+        (49 ?)
+        (14
+          (8
+            (68 i)
+            (22
+              (61 thought)
+              (8
+                (29 (38 that) (14 (37 kind) (15 (52 of) (60 [UNK]))))
+                (77 was))))
+          (2
+            (11
+              (29 (11 (86 a) (88 [UNK])) (41 person))
+              (26 (89 ') (70 s)))
+            (41 thing)))))
+    (74 .)))"
+16,175,3195.0,13493.0,False,False,False,False,False,False,False,False,False,False,False,False,13493,MENTION2467 You were right...just about the wrong person...Valenti's a feminist.,0.0191951836441192,0.1472878232598304,0,False,0,"(25
+  (44 [UNK])
+  (25
+    (27
+      (27
+        (27
+          (27
+            (14 (8 (57 you) (77 were)) (46 right))
+            (15 (74 .) (74 .)))
+          (16
+            (49 .)
+            (14
+              (81 just)
+              (2
+                (87 about)
+                (29 (11 (86 the) (88 wrong)) (41 person))))))
+        (15 (74 .) (74 .)))
+      (16
+        (49 .)
+        (14
+          (8 (65 [UNK]) (26 (89 ') (70 s)))
+          (2 (86 a) (48 feminist)))))
+    (74 .)))"
+17,226,9081.0,9697.0,False,False,True,True,False,True,False,False,False,False,False,False,9697,Cat told Kara that every good woman knows she has to be hard working but she never critiqued that system. She worked within it.,-0.5124971432219448,0.5365553677082062,0,False,0,"(25
+  (27
+    (27
+      (14
+        (1 (68 cat) (21 (34 told) (39 kara)))
+        (3
+          (92 that)
+          (14
+            (8 (29 (11 (86 every) (88 good)) (41 woman)) (77 knows))
+            (2
+              (2
+                (8 (57 she) (77 has))
+                (6 (91 to) (2 (42 be) (64 hard))))
+              (35 working)))))
+      (3
+        (92 but)
+        (14
+          (8 (57 she) (77 never))
+          (2 (87 critiqued) (29 (86 that) (82 system))))))
+    (16 (49 .) (14 (8 (57 she) (77 worked)) (2 (87 within) (39 it)))))
+  (74 .))"
+18,236,6510.0,11474.0,False,False,False,False,False,True,False,False,False,False,False,False,11474,Covered people are better than cover people,-0.1522116025934365,0.2728502467274665,0,False,0,"(25
+  (67 covered)
+  (25
+    (14 (8 (57 people) (77 are)) (46 better))
+    (15 (52 than) (29 (88 cover) (53 people)))))"
+19,267,2091.0,8187.0,False,False,False,False,False,True,False,False,False,False,False,False,8187,when someone tells a joke that's not funny at all I just get annoyed...,-0.0033144876597401,0.1665455251932144,0,False,0,"(25
+  (27
+    (27
+      (27
+        (27
+          (3
+            (92 when)
+            (14 (8 (57 someone) (77 tells)) (2 (86 a) (48 joke))))
+          (14
+            (8 (8 (65 that) (26 (89 ') (70 s))) (81 not))
+            (46 funny)))
+        (15 (52 at) (59 all)))
+      (15 (1 (68 i) (21 (81 just) (32 get))) (64 annoyed)))
+    (15 (74 .) (74 .)))
+  (74 .))"
+20,278,3690.0,10627.0,False,False,True,False,False,True,False,False,False,False,False,False,10627,"I hate when I get slow CATA bus drivers...with the exception of two of them, it takes me twice as long to get to class!",0.0741282661416658,0.0984789751470088,0,False,0,"(25
+  (27
+    (27
+      (27
+        (27
+          (27
+            (27
+              (27
+                (27
+                  (27
+                    (14
+                      (8 (68 i) (32 hate))
+                      (2
+                        (38 when)
+                        (14 (8 (68 i) (32 get)) (46 slow))))
+                    (15 (60 [UNK]) (29 (88 bus) (53 drivers))))
+                  (16 (49 .) (14 (74 .) (74 .))))
+                (15 (52 with) (29 (86 the) (82 exception))))
+              (15 (52 of) (59 two)))
+            (15 (52 of) (59 them)))
+          (16
+            (49 ,)
+            (14 (8 (57 it) (21 (34 takes) (39 me))) (46 twice))))
+        (15 (52 as) (59 long)))
+      (15 (91 to) (87 get)))
+    (15 (91 to) (59 class)))
+  (85 !))"
+21,293,12995.0,1380.0,False,False,False,False,False,True,False,False,False,False,False,False,1380,That is so stupid RT MENTION3625: kids don't know SHIT about sports,-0.0367067761329924,0.1850425839424133,0,False,0,"(25
+  (14 (8 (57 that) (77 is)) (2 (42 so) (64 stupid)))
+  (25
+    (67 rt)
+    (25
+      (30 (51 [UNK]) (79 :))
+      (28
+        (14
+          (8
+            (57 kids)
+            (21 (63 don) (10 (89 ') (9 (54 t) (61 know)))))
+          (46 shit))
+        (15 (52 about) (59 sports))))))"
+22,326,10585.0,7656.0,False,False,False,True,False,False,False,False,False,False,False,False,7656,Women? Holding things? That have mass? WEIRD MENTION1640 In weight training. And there's more girls then guys. Cool to see,-0.5843528388229265,0.5364261120557785,3,False,0,"(25
+  (27
+    (27
+      (27
+        (27
+          (27 (8 (57 women) (77 ?)) (2 (87 holding) (39 things)))
+          (16 (49 ?) (14 (8 (57 that) (77 have)) (46 mass))))
+        (16 (49 ?) (14 (88 weird) (53 mention1640))))
+      (15 (52 in) (29 (78 weight) (35 training))))
+    (15
+      (49 .)
+      (3
+        (92 and)
+        (14
+          (8 (65 there) (26 (89 ') (70 s)))
+          (2 (42 more) (64 girls))))))
+  (3
+    (92 then)
+    (14 (45 guys) (16 (49 .) (14 (37 cool) (15 (91 to) (87 see)))))))"
+23,336,7831.0,11116.0,False,False,False,False,False,False,False,False,False,False,False,False,11116,People that are cheering for a team bc they think one of the players is hot need to get back in the house #JustTheTruth,0.1117983872304686,0.0645904764533042,0,False,0,"(25
+  (17
+    (27
+      (27
+        (27
+          (14 (80 people) (14 (8 (57 that) (77 are)) (46 cheering)))
+          (15 (52 for) (29 (86 a) (82 team))))
+        (16
+          (49 bc)
+          (14
+            (8
+              (8
+                (68 they)
+                (22
+                  (61 think)
+                  (8
+                    (29
+                      (59 one)
+                      (15 (52 of) (29 (86 the) (82 players))))
+                    (77 is))))
+              (81 hot))
+            (2 (47 need) (6 (91 to) (2 (42 get) (64 back)))))))
+      (15 (52 in) (29 (86 the) (82 house))))
+    (36 #))
+  (75 justthetruth))"
+24,347,509.0,13519.0,False,False,False,False,False,False,False,False,False,False,False,False,13519,that shit ain cool. Hold urself young buck. Telling the world u want something puts little interest for u. Calm down,0.045064647352715,0.1243671238422393,0,False,0,"(25
+  (28
+    (27
+      (3 (92 that) (14 (8 (57 shit) (77 ain)) (46 cool)))
+      (16
+        (49 .)
+        (14 (87 hold) (29 (11 (86 urself) (88 young)) (51 [UNK])))))
+    (74 .))
+  (25
+    (67 telling)
+    (25
+      (27
+        (14
+          (8
+            (29 (86 the) (82 world))
+            (8 (68 u) (22 (61 want) (8 (57 something) (77 puts)))))
+          (2 (88 little) (53 interest)))
+        (15 (52 for) (59 u)))
+      (15 (74 .) (14 (78 calm) (35 down))))))"
+25,356,11535.0,1051.0,False,False,False,False,False,True,False,False,False,False,False,False,1051,I've never met a kid who can write poetry.,-0.0288642977272246,0.1851713195443153,0,False,0,"(25
+  (27
+    (8 (8 (65 i) (26 (89 ') (70 ve))) (81 never))
+    (2
+      (87 met)
+      (29
+        (29 (86 a) (82 kid))
+        (14 (8 (57 who) (77 can)) (2 (42 write) (64 poetry))))))
+  (74 .))"
+26,367,4697.0,13493.0,False,False,True,False,False,False,False,False,False,False,False,False,13493,MENTION2467 You were right...just about the wrong person...Valenti's a feminist.,0.0191951836441192,0.1472878232598304,0,False,0,"(25
+  (44 [UNK])
+  (25
+    (27
+      (27
+        (27
+          (27
+            (14 (8 (57 you) (77 were)) (46 right))
+            (15 (74 .) (74 .)))
+          (16
+            (49 .)
+            (14
+              (81 just)
+              (2
+                (87 about)
+                (29 (11 (86 the) (88 wrong)) (41 person))))))
+        (15 (74 .) (74 .)))
+      (16
+        (49 .)
+        (14
+          (8 (65 [UNK]) (26 (89 ') (70 s)))
+          (2 (86 a) (48 feminist)))))
+    (74 .)))"
+27,383,6788.0,9146.0,False,False,False,False,False,True,False,False,False,False,False,False,9146,It is ridiculous for a weaver to run a locomotive and for a conductor to darn socks.,-0.0487050395235031,0.199784156680107,0,False,0,"(25
+  (27
+    (27
+      (14
+        (14 (8 (57 it) (77 is)) (46 ridiculous))
+        (15 (52 for) (29 (86 a) (56 [UNK]))))
+      (6 (91 to) (2 (87 run) (29 (86 a) (82 locomotive)))))
+    (16
+      (49 and)
+      (14
+        (52 for)
+        (29
+          (29 (86 a) (56 [UNK]))
+          (6 (91 to) (2 (78 darn) (35 socks)))))))
+  (74 .))"
+28,404,11001.0,11936.0,False,False,False,False,False,True,False,False,False,False,False,False,11936,"MENTION385 It’s like going to the mall, some people just can’t pick the one thing they like the most. people can go to… https://t.co/873sZfP5QZ",0.1303016458153893,0.0470487950369715,0,False,0,"(25
+  (44 [UNK])
+  (25
+    (7
+      (28
+        (27
+          (27
+            (27
+              (8 (65 it) (26 (89 ’) (70 s)))
+              (2
+                (87 like)
+                (29 (47 going) (6 (91 to) (2 (86 the) (48 mall))))))
+            (16
+              (49 ,)
+              (14
+                (29 (88 some) (53 people))
+                (21
+                  (81 just)
+                  (21
+                    (63 can)
+                    (10
+                      (89 ’)
+                      (9 (54 t) (2 (87 pick) (29 (86 the) (82 one))))))))))
+          (16
+            (49 thing)
+            (14 (68 they) (19 (61 like) (29 (86 the) (82 most))))))
+        (74 .))
+      (7
+        (28 (14 (8 (57 people) (77 can)) (2 (47 go) (91 to))) (85 …))
+        (7
+          (24
+            (5 (23 (43 https) (79 :)) (5 (31 (72 /) (72 /)) (54 t)))
+            (74 .))
+          (66 co))))
+    (13 (72 /) (50 [UNK]))))"
+29,410,12143.0,5627.0,False,False,True,False,False,True,False,False,False,False,False,False,5627,Parents should parent. MENTION557 Dumb People call me blunt... real people respect the traditional values.. parents should parent and teachers should be teachers,-0.0132936397228294,0.1743780732154845,0,False,0,"(25
+  (27
+    (27
+      (27
+        (27
+          (27
+            (14 (8 (57 parents) (77 should)) (46 parent))
+            (15
+              (74 .)
+              (14
+                (80 mention557)
+                (14
+                  (29 (88 dumb) (53 people))
+                  (21 (34 call) (39 me))))))
+          (51 [UNK]))
+        (15 (74 .) (74 .)))
+      (16
+        (49 .)
+        (14
+          (8 (29 (88 real) (53 people)) (77 respect))
+          (2 (11 (86 the) (88 traditional)) (41 values)))))
+    (15 (74 .) (74 .)))
+  (14
+    (8 (57 parents) (77 should))
+    (2
+      (73 parent)
+      (3
+        (92 and)
+        (14 (8 (57 teachers) (77 should)) (2 (42 be) (64 teachers)))))))"
+30,411,4796.0,786.0,False,False,True,True,False,True,False,True,False,False,False,True,786,"""MENTION45: if ur not qualified... Theres no reaso n u should b speakin on sportscenter.. Wtf?""",0.0160511818053492,0.1443775929510592,0,False,0,"(25
+  (67 "")
+  (25
+    (30 (51 [UNK]) (79 :))
+    (28
+      (28
+        (28
+          (27
+            (27
+              (27
+                (27
+                  (27
+                    (3
+                      (92 if)
+                      (14 (81 ur) (2 (42 not) (64 qualified))))
+                    (16 (49 .) (14 (74 .) (74 .))))
+                  (15 (52 theres) (29 (86 no) (56 [UNK]))))
+                (16
+                  (49 n)
+                  (14 (8 (57 u) (77 should)) (2 (86 b) (56 [UNK])))))
+              (15 (52 on) (59 sportscenter)))
+            (15 (74 .) (74 .)))
+          (85 wtf))
+        (85 ?))
+      (85 ""))))"
+31,417,8675.0,8046.0,False,False,False,False,False,False,False,False,False,False,False,False,8046,People should NOT care about your opinion. MENTION1846 People should NOT participate in no shave November,0.0064059065610252,0.1494604866951703,0,False,0,"(25
+  (27
+    (27
+      (14 (8 (57 people) (77 should)) (2 (42 not) (64 care)))
+      (15 (52 about) (29 (86 your) (82 opinion))))
+    (16
+      (49 .)
+      (14
+        (80 mention1846)
+        (14
+          (8 (8 (57 people) (77 should)) (81 not))
+          (46 participate)))))
+  (15 (52 in) (29 (11 (86 no) (88 shave)) (41 november))))"
+32,458,10671.0,5075.0,False,False,False,False,False,True,False,False,False,False,False,False,5075,RT MENTION2959 None of the kids should have worn make up so school would be scary on Halloween,0.0342568019269166,0.1296323835849761,0,False,0,"(25
+  (67 rt)
+  (25
+    (44 [UNK])
+    (25
+      (27
+        (14
+          (8
+            (29 (37 none) (15 (52 of) (29 (86 the) (82 kids))))
+            (77 should))
+          (2 (47 have) (6 (91 worn) (2 (87 make) (39 up)))))
+        (3
+          (92 so)
+          (14 (8 (57 school) (77 would)) (2 (42 be) (64 scary)))))
+      (15 (52 on) (59 halloween)))))"
+33,469,2653.0,7949.0,False,False,False,False,False,True,False,False,False,False,False,False,7949,She started punching him like a pro  https://t.co/2W9pQ8CScX,0.0595574930619226,0.1125181838870048,0,False,0,"(25
+  (7
+    (28
+      (14 (8 (57 she) (77 started)) (2 (87 punching) (39 him)))
+      (15 (52 like) (29 (86 a) (82 pro))))
+    (7
+      (24
+        (5 (23 (43 https) (79 :)) (5 (31 (72 /) (72 /)) (54 t)))
+        (74 .))
+      (66 co)))
+  (13 (72 /) (33 2w9pq8cscx)))"
+34,471,7662.0,11973.0,False,False,False,False,False,True,True,False,False,False,True,False,11973,"Tattoos on adults: ; tattoos on old people: . Idk why though, it is what it is lol.",0.0088262764986426,0.1541693240404128,0,False,0,"(25
+  (27
+    (27
+      (14 (37 tattoos) (15 (52 on) (59 adults)))
+      (15
+        (79 :)
+        (23
+          (3
+            (92 ;)
+            (14 (37 tattoos) (15 (52 on) (29 (88 old) (53 people)))))
+          (79 :))))
+    (15
+      (49 .)
+      (3
+        (92 idk)
+        (14
+          (80 why)
+          (14
+            (45 though)
+            (16
+              (49 ,)
+              (14
+                (8 (57 it) (77 is))
+                (2 (38 what) (14 (8 (57 it) (77 is)) (46 lol))))))))))
+  (74 .))"
+35,472,13227.0,9192.0,False,False,False,False,False,True,False,False,False,False,False,False,9192,I just don't trust an adult who uses coupons.,-0.0465976450437533,0.1978084877133369,0,False,0,"(25
+  (27
+    (1
+      (68 i)
+      (21
+        (81 just)
+        (21
+          (63 don)
+          (10
+            (89 ')
+            (9 (54 t) (19 (61 trust) (29 (86 an) (82 adult))))))))
+    (14 (8 (57 who) (77 uses)) (46 coupons)))
+  (74 .))"
+36,473,11893.0,13493.0,False,True,False,False,False,True,False,False,False,False,False,False,13493,MENTION2467 You were right...just about the wrong person...Valenti's a feminist.,0.0191951836441192,0.1472878232598304,0,False,0,"(25
+  (44 [UNK])
+  (25
+    (27
+      (27
+        (27
+          (27
+            (14 (8 (57 you) (77 were)) (46 right))
+            (15 (74 .) (74 .)))
+          (16
+            (49 .)
+            (14
+              (81 just)
+              (2
+                (87 about)
+                (29 (11 (86 the) (88 wrong)) (41 person))))))
+        (15 (74 .) (74 .)))
+      (16
+        (49 .)
+        (14
+          (8 (65 [UNK]) (26 (89 ') (70 s)))
+          (2 (86 a) (48 feminist)))))
+    (74 .)))"
+37,475,3830.0,4579.0,False,False,False,False,False,False,False,False,False,False,False,False,4579,Someone should stay home and care for the children.,-0.1378120022663915,0.2763796478509903,0,False,0,"(25
+  (27
+    (14 (8 (57 someone) (77 should)) (2 (42 stay) (64 home)))
+    (3
+      (92 and)
+      (14 (37 care) (15 (52 for) (29 (86 the) (82 children))))))
+  (74 .))"
+38,479,138.0,7903.0,False,False,False,False,False,True,False,False,False,False,False,False,7903,Adults are more envious than children.,-0.4292014765056723,0.4743769764900207,0,False,0,"(25
+  (27
+    (14 (8 (57 adults) (77 are)) (2 (42 more) (64 envious)))
+    (15 (52 than) (59 children)))
+  (74 .))"
+39,485,1936.0,5942.0,False,False,False,False,False,True,False,False,False,False,False,False,5942,"people, unless they are chefs, should not be allowed to buy produce. #loveyoubutdontbuysummersqashinnovember",0.1203272563451802,0.0564505845308303,0,False,0,"(25
+  (17
+    (28
+      (27
+        (14
+          (37 people)
+          (15
+            (49 ,)
+            (3 (92 unless) (14 (8 (57 they) (77 are)) (46 chefs)))))
+        (16
+          (49 ,)
+          (14
+            (8 (77 should) (81 not))
+            (2
+              (42 be)
+              (2 (47 allowed) (6 (91 to) (2 (87 buy) (39 produce))))))))
+      (74 .))
+    (36 #))
+  (75 loveyoubutdontbuysummersqashinnovember))"
+40,487,9870.0,13134.0,False,False,False,False,False,True,True,False,False,False,True,False,13134,"no millennial should ever have to sew...EVER!!! not because we are young, simply because we can't...",0.0062986672857462,0.1572898387908935,0,False,0,"(25
+  (28
+    (28
+      (28
+        (28
+          (28
+            (27
+              (8
+                (8 (29 (86 no) (82 millennial)) (77 should))
+                (81 ever))
+              (2
+                (47 have)
+                (6 (91 to) (2 (73 sew) (15 (74 .) (74 .))))))
+            (74 .))
+          (85 ever))
+        (85 !))
+      (85 !))
+    (85 !))
+  (28
+    (27
+      (27
+        (14
+          (81 not)
+          (3 (92 because) (14 (8 (57 we) (77 are)) (46 young))))
+        (15 (49 ,) (45 simply)))
+      (15
+        (92 because)
+        (1
+          (68 we)
+          (21 (63 can) (10 (89 ') (9 (54 t) (19 (84 .) (74 .))))))))
+    (74 .)))"
+41,497,10187.0,1960.0,False,False,False,False,False,True,False,False,False,False,False,False,1960,ppl always discredit Mingyus height but im tall for a teen and someone who is 180cm seems rly nicely tall to me so Mingyu at like 183cm is,0.0144223544700153,0.1522251278162002,0,False,0,"(25
+  (27
+    (27
+      (27
+        (27
+          (27
+            (14
+              (8 (68 ppl) (32 always))
+              (2 (78 discredit) (35 mingyus)))
+            (15 (49 height) (3 (92 but) (14 (81 im) (73 tall)))))
+          (15 (52 for) (29 (86 a) (56 [UNK]))))
+        (16
+          (49 and)
+          (14
+            (8
+              (29 (38 someone) (14 (8 (57 who) (77 is)) (46 180cm)))
+              (77 seems))
+            (46 rly))))
+      (15 (52 nicely) (59 tall)))
+    (15 (91 to) (39 me)))
+  (3
+    (92 so)
+    (14
+      (37 mingyu)
+      (15 (52 at) (29 (38 like) (8 (57 183cm) (77 is)))))))"
+42,520,2631.0,12605.0,False,False,False,False,False,True,False,False,False,False,False,False,12605,"People at #Augusta is stupid. that is a tradition. Are either adult competitive golfers? No,Jus felt ""discriminated""",0.0440516511543182,0.1247539468109607,0,False,0,"(25
+  (27
+    (27
+      (27
+        (14
+          (8
+            (29 (59 people) (15 (52 at) (29 (36 #) (75 augusta))))
+            (77 is))
+          (46 stupid))
+        (15
+          (74 .)
+          (14 (8 (57 that) (77 is)) (2 (86 a) (48 tradition)))))
+      (16
+        (49 .)
+        (14
+          (8 (77 are) (29 (86 either) (82 adult)))
+          (2 (42 competitive) (44 [UNK])))))
+    (16
+      (49 ?)
+      (14
+        (45 no)
+        (16
+          (49 ,)
+          (14 (8 (68 jus) (32 felt)) (2 (42 "") (64 discriminated)))))))
+  (85 ""))"
+43,549,1785.0,3869.0,False,False,False,False,False,False,False,False,False,False,False,False,3869,Teens lack such self-awareness MENTION1054 Teens are so complicated.,0.0675750613085939,0.1045768834650516,0,False,0,"(25
+  (27
+    (14
+      (8 (57 teens) (77 lack))
+      (2 (87 such) (29 (59 self) (15 (49 -) (45 awareness)))))
+    (3
+      (92 [UNK])
+      (14 (8 (57 teens) (77 are)) (2 (42 so) (64 complicated)))))
+  (74 .))"
+44,569,5517.0,1122.0,False,False,False,False,False,True,False,False,False,False,False,False,1122,The hardest thing for a someone to do is to let go of the one person they would do anything for.,-0.0653943166281173,0.2168032959103583,0,False,0,"(25
+  (27
+    (27
+      (27
+        (8
+          (29
+            (29 (11 (86 the) (88 hardest)) (41 thing))
+            (15
+              (52 for)
+              (29 (29 (86 a) (82 someone)) (15 (91 to) (73 do)))))
+          (77 is))
+        (6 (91 to) (2 (34 let) (39 go))))
+      (15 (52 of) (29 (11 (86 the) (88 one)) (41 person))))
+    (15
+      (14 (8 (57 they) (77 would)) (2 (87 do) (39 anything)))
+      (52 for)))
+  (74 .))"
+45,573,10638.0,12930.0,False,False,False,False,False,True,False,False,False,False,False,False,12930,I find it strange there are monkeys working on my car at Jiffy Lube.,0.0725870417789212,0.0996222712099551,0,False,0,"(25
+  (27
+    (27
+      (27
+        (1 (68 i) (21 (34 find) (39 it)))
+        (3
+          (92 strange)
+          (14 (8 (57 there) (77 are)) (2 (51 [UNK]) (35 working)))))
+      (15 (52 on) (29 (86 my) (82 car))))
+    (15 (52 at) (29 (44 [UNK]) (44 [UNK]))))
+  (74 .))"
+46,588,12913.0,12913.0,False,True,False,False,False,True,False,False,False,False,False,False,12913,MENTION996 Yeah you are a narcissist so shut the fuck up if you are going to be arrogant,0.0996271879499364,0.0753420285880565,0,False,0,"(25
+  (67 mention996)
+  (25
+    (67 yeah)
+    (25
+      (27
+        (27
+          (14 (8 (57 you) (77 are)) (2 (86 a) (56 [UNK])))
+          (3 (92 so) (14 (87 shut) (29 (86 the) (82 fuck)))))
+        (35 up))
+      (3
+        (92 if)
+        (14
+          (8 (57 you) (77 are))
+          (2 (47 going) (6 (91 to) (2 (42 be) (64 arrogant)))))))))"
+47,594,13611.0,1749.0,False,False,True,False,False,True,False,False,False,False,False,False,1749,"Men who use the word ""ladies,"" omfg MENTION4377 This is not racist, but Indians are pretty bad at driving.",-0.1844721597744572,0.2994114130735397,0,False,0,"(25
+  (27
+    (27
+      (14 (8 (57 men) (77 who)) (2 (87 use) (29 (86 the) (82 word))))
+      (3
+        (92 "")
+        (14
+          (45 ladies)
+          (16
+            (49 ,)
+            (14
+              (80 "")
+              (14
+                (45 omfg)
+                (16
+                  (49 mention4377)
+                  (14
+                    (8 (8 (57 this) (77 is)) (81 not))
+                    (2
+                      (73 racist)
+                      (15
+                        (49 ,)
+                        (3
+                          (92 but)
+                          (14
+                            (8 (56 [UNK]) (77 are))
+                            (2 (42 pretty) (64 bad))))))))))))))
+    (15 (52 at) (59 driving)))
+  (74 .))"
+48,599,8191.0,2785.0,False,True,False,False,False,False,False,False,False,False,False,False,2785,Why do liberals complain about everything?? If there was a cure for cancer I think they would moan! Give it a rest!,0.046137253725547,0.1235690064728259,0,False,0,"(25
+  (28
+    (28
+      (27
+        (1 (68 why) (21 (34 do) (39 liberals)))
+        (14 (37 complain) (15 (52 about) (59 everything))))
+      (85 ?))
+    (85 ?))
+  (28
+    (80 if)
+    (28
+      (27
+        (27
+          (27
+            (14 (8 (57 there) (77 was)) (2 (86 a) (48 cure)))
+            (15 (52 for) (59 cancer)))
+          (15
+            (8 (68 i) (22 (61 think) (8 (57 they) (77 would))))
+            (56 [UNK])))
+        (16 (49 !) (14 (8 (34 give) (39 it)) (2 (86 a) (48 rest)))))
+      (85 !))))"
+49,639,2533.0,7577.0,False,False,False,False,False,False,False,False,False,False,False,False,7577,"Being a #Cashier is Terribly Difficult Task, Since it Consists Principally in Dealing With #People..#suspendjavedlatif#RIPBIG",0.1306675123198228,0.0467527728527783,0,False,0,"(25
+  (67 being)
+  (25
+    (17
+      (28
+        (17
+          (27
+            (27
+              (27
+                (27
+                  (14
+                    (8 (29 (86 a) (30 (71 #) (56 [UNK]))) (77 is))
+                    (2 (2 (42 terribly) (64 difficult)) (35 task)))
+                  (15
+                    (49 ,)
+                    (3
+                      (92 since)
+                      (14 (8 (57 it) (77 consists)) (46 principally)))))
+                (15 (52 in) (59 dealing)))
+              (15 (52 with) (29 (88 #) (53 people))))
+            (15 (74 .) (74 .)))
+          (36 #))
+        (75 suspendjavedlatif))
+      (36 #))
+    (75 ripbig)))"
+50,640,10589.0,8562.0,False,True,False,False,False,True,False,False,False,False,False,False,8562,"RT MENTION2195 Great comment from a lad in class ""Sexism is wrong and I'm an elder so I'm never wrong"" #damnstraight",0.0238007364565391,0.1433000639081,0,False,0,"(25
+  (67 rt)
+  (25
+    (67 mention2195)
+    (25
+      (17
+        (28
+          (27
+            (27
+              (27
+                (27
+                  (14 (88 great) (53 comment))
+                  (15 (52 from) (29 (86 a) (82 lad))))
+                (15 (52 in) (59 class)))
+              (16 (49 "") (14 (8 (57 sexism) (77 is)) (46 wrong))))
+            (16
+              (49 and)
+              (14
+                (8 (65 i) (26 (89 ') (70 m)))
+                (2
+                  (29 (86 an) (82 elder))
+                  (3
+                    (92 so)
+                    (14
+                      (8 (8 (65 i) (26 (89 ') (70 m))) (81 never))
+                      (46 wrong)))))))
+          (85 ""))
+        (36 #))
+      (75 damnstraight))))"
+51,652,7493.0,10721.0,False,True,False,False,False,False,False,False,False,False,False,False,10721,http://t.co/hBBh4lcCqs MENTION4533 these referees suck man. damn bruh that wasn't a good call,0.0912529354247704,0.0824821222573518,0,False,0,"(25
+  (28
+    (7
+      (24
+        (5 (23 (43 http) (79 :)) (5 (31 (72 /) (72 /)) (54 t)))
+        (74 .))
+      (66 co))
+    (13 (72 /) (33 hbbh4lccqs)))
+  (28
+    (80 mention4533)
+    (28
+      (14 (8 (57 these) (77 referees)) (2 (86 suck) (48 man)))
+      (15
+        (74 .)
+        (14
+          (45 damn)
+          (16
+            (49 bruh)
+            (14
+              (57 that)
+              (21
+                (63 wasn)
+                (10
+                  (89 ')
+                  (9 (54 t) (2 (11 (86 a) (88 good)) (41 call))))))))))))"
+52,660,1417.0,11082.0,False,False,True,False,False,True,False,False,False,False,False,False,11082,"if a teenager had the temerity to join the football team, i wouldnt treat them the same as everyone else, it would be worse",-0.2445655625550035,0.3581487298011779,0,False,0,"(25
+  (27
+    (27
+      (3
+        (92 if)
+        (14
+          (8 (29 (86 a) (82 teenager)) (77 had))
+          (2
+            (2 (86 the) (56 [UNK]))
+            (6
+              (91 to)
+              (2
+                (87 join)
+                (29 (11 (86 the) (88 football)) (41 team)))))))
+      (16
+        (49 ,)
+        (14
+          (8 (68 i) (22 (61 wouldnt) (8 (34 treat) (39 them))))
+          (2 (86 the) (48 same)))))
+    (15 (52 as) (29 (78 everyone) (35 else))))
+  (16 (49 ,) (14 (8 (57 it) (77 would)) (2 (42 be) (64 worse)))))"
+53,663,5710.0,6290.0,False,False,False,False,False,True,False,False,False,False,False,False,6290,MENTION2841 cricket is ok with elders talking but football in Brazil needs curves and cleavage. it feels right,-0.1575719611479447,0.2928910672664642,0,False,0,"(25
+  (44 [UNK])
+  (25
+    (27
+      (27
+        (14 (8 (57 cricket) (77 is)) (46 ok))
+        (15 (52 with) (59 elders)))
+      (15
+        (49 talking)
+        (3
+          (92 but)
+          (14
+            (8
+              (29 (59 football) (15 (52 in) (59 brazil)))
+              (77 needs))
+            (51 [UNK])))))
+    (3
+      (92 and)
+      (14
+        (45 cleavage)
+        (16 (49 .) (14 (8 (57 it) (77 feels)) (46 right)))))))"
+54,666,2175.0,6865.0,False,False,False,False,False,True,False,False,False,False,False,False,6865,RT MENTION2553 If i let a friend drive my car it means something.,0.0732967005322802,0.0991273336112499,0,False,0,"(25
+  (67 rt)
+  (25
+    (67 mention2553)
+    (25
+      (27
+        (3
+          (92 if)
+          (14
+            (1 (68 i) (21 (34 let) (29 (86 a) (82 friend))))
+            (2 (87 drive) (29 (86 my) (82 car)))))
+        (14 (8 (57 it) (77 means)) (46 something)))
+      (74 .))))"
+55,680,2050.0,1673.0,False,False,True,False,False,True,False,False,False,False,False,False,1673,RT MENTION4401 White Thor is unworthy of Mjolnir so a Cambodian is taking place. I'm not racist but that is bull sheeeeeit,0.0581346927005289,0.110124921798706,0,False,0,"(25
+  (67 rt)
+  (25
+    (67 mention4401)
+    (25
+      (27
+        (27
+          (14
+            (8 (29 (88 white) (53 thor)) (77 is))
+            (2 (73 unworthy) (15 (52 of) (59 mjolnir))))
+          (3
+            (92 so)
+            (14
+              (8 (29 (86 a) (56 [UNK])) (77 is))
+              (2 (42 taking) (64 place)))))
+        (16
+          (49 .)
+          (14
+            (8 (8 (65 i) (26 (89 ') (70 m))) (81 not))
+            (2
+              (73 racist)
+              (3 (92 but) (14 (8 (57 that) (77 is)) (46 bull)))))))
+      (85 sheeeeeit))))"
+56,684,4493.0,5251.0,False,False,False,False,False,True,False,True,False,False,False,True,5251,wrestling is as exciting as watching grass grow. Now if music was required I am down err up,-0.025404273396733,0.1831304028630256,0,False,0,"(25
+  (27
+    (27
+      (14 (8 (57 wrestling) (77 is)) (2 (42 as) (64 exciting)))
+      (15 (52 as) (2 (2 (87 watching) (39 grass)) (35 grow))))
+    (16
+      (49 .)
+      (14
+        (80 now)
+        (14
+          (80 if)
+          (14
+            (8 (57 music) (77 was))
+            (2 (2 (38 required) (8 (68 i) (32 am))) (35 down)))))))
+  (15 (51 [UNK]) (35 up)))"
+57,706,1958.0,5654.0,False,False,False,False,False,True,False,False,False,False,False,False,5654,"I do not like adult sports analysts, journalists or commentators. Instant channel change. Exception is MENTION4119.",0.124472108958665,0.052564364299178,0,False,0,"(25
+  (27
+    (27
+      (27
+        (27
+          (14
+            (8 (8 (68 i) (32 do)) (81 not))
+            (2
+              (2 (87 like) (29 (88 adult) (53 sports)))
+              (35 analysts)))
+          (15 (49 ,) (45 journalists)))
+        (15 (52 or) (59 commentators)))
+      (16 (49 .) (14 (29 (88 instant) (53 channel)) (58 change))))
+    (16 (49 .) (14 (8 (57 exception) (77 is)) (51 [UNK]))))
+  (74 .))"
+58,709,3875.0,12045.0,False,False,False,False,False,True,False,False,False,False,False,False,12045,"Universities are wrong to admit people to costly subjects such as medicine, when in fact, a large number will leave their jobs after a few years to raise their children.",-0.1872534707130086,0.2968068733811378,0,False,0,"(25
+  (27
+    (27
+      (27
+        (27
+          (27
+            (14 (8 (57 universities) (77 are)) (46 wrong))
+            (6 (91 to) (2 (88 admit) (53 people))))
+          (15 (91 to) (56 [UNK])))
+        (16 (49 subjects) (14 (37 such) (15 (52 as) (60 [UNK])))))
+      (15
+        (49 ,)
+        (3
+          (92 when)
+          (14
+            (15 (52 in) (59 fact))
+            (16
+              (49 ,)
+              (14
+                (8 (29 (11 (86 a) (88 large)) (41 number)) (77 will))
+                (2 (87 leave) (29 (86 their) (82 jobs)))))))))
+    (15
+      (52 after)
+      (29
+        (29 (11 (86 a) (88 few)) (41 years))
+        (6 (91 to) (2 (87 raise) (29 (86 their) (82 children)))))))
+  (74 .))"
+59,711,3840.0,13493.0,False,False,True,True,True,True,False,False,False,False,False,False,13493,MENTION2467 You were right...just about the wrong person...Valenti's a feminist.,0.0191951836441192,0.1472878232598304,0,False,0,"(25
+  (44 [UNK])
+  (25
+    (27
+      (27
+        (27
+          (27
+            (14 (8 (57 you) (77 were)) (46 right))
+            (15 (74 .) (74 .)))
+          (16
+            (49 .)
+            (14
+              (81 just)
+              (2
+                (87 about)
+                (29 (11 (86 the) (88 wrong)) (41 person))))))
+        (15 (74 .) (74 .)))
+      (16
+        (49 .)
+        (14
+          (8 (65 [UNK]) (26 (89 ') (70 s)))
+          (2 (86 a) (48 feminist)))))
+    (74 .)))"
+60,729,10263.0,9269.0,False,True,False,False,False,True,False,False,False,False,False,False,9269,RT MENTION2296 parents are responsible for childhood obesity,0.0152271354943537,0.1491142660379409,0,False,0,"(25
+  (67 rt)
+  (25
+    (67 mention2296)
+    (25
+      (14 (8 (57 parents) (77 are)) (46 responsible))
+      (15 (52 for) (29 (78 childhood) (35 obesity))))))"
+61,744,11531.0,358.0,False,False,True,False,False,True,False,False,False,False,False,False,358,"Every person needs another person when he is in trouble , because just like the game of chess , the pawns protect the king.… https://t.co/cCJv1pQp2b",0.108817588310773,0.0670919816941022,0,False,0,"(25
+  (7
+    (28
+      (28
+        (27
+          (27
+            (27
+              (27
+                (14
+                  (8 (29 (86 every) (82 person)) (77 needs))
+                  (2 (86 another) (48 person)))
+                (3
+                  (92 when)
+                  (14 (8 (57 he) (77 is)) (2 (42 in) (64 trouble)))))
+              (15
+                (49 ,)
+                (3
+                  (92 because)
+                  (14
+                    (81 just)
+                    (2 (87 like) (29 (86 the) (82 game)))))))
+            (15 (52 of) (59 chess)))
+          (16
+            (49 ,)
+            (14
+              (29 (86 the) (56 [UNK]))
+              (21 (34 protect) (29 (86 the) (82 king))))))
+        (74 .))
+      (85 …))
+    (7
+      (24
+        (5 (23 (43 https) (79 :)) (5 (31 (72 /) (72 /)) (54 t)))
+        (74 .))
+      (66 co)))
+  (13 (72 /) (50 [UNK])))"
+62,771,9906.0,13579.0,False,False,False,False,False,True,False,False,False,False,False,False,13579,I don't think horses should wrestle.,-0.4829197101747022,0.5167057037353515,0,False,0,"(25
+  (27
+    (1 (68 i) (21 (63 don) (10 (89 ') (9 (54 t) (61 think)))))
+    (14 (8 (57 horses) (77 should)) (46 wrestle)))
+  (74 .))"
+63,783,5532.0,13493.0,False,False,False,False,False,False,False,False,False,False,False,False,13493,MENTION2467 You were right...just about the wrong person...Valenti's a feminist.,0.0191951836441192,0.1472878232598304,0,False,0,"(25
+  (44 [UNK])
+  (25
+    (27
+      (27
+        (27
+          (27
+            (14 (8 (57 you) (77 were)) (46 right))
+            (15 (74 .) (74 .)))
+          (16
+            (49 .)
+            (14
+              (81 just)
+              (2
+                (87 about)
+                (29 (11 (86 the) (88 wrong)) (41 person))))))
+        (15 (74 .) (74 .)))
+      (16
+        (49 .)
+        (14
+          (8 (65 [UNK]) (26 (89 ') (70 s)))
+          (2 (86 a) (48 feminist)))))
+    (74 .)))"
+64,790,10896.0,8796.0,False,False,False,False,False,True,False,False,False,False,False,False,8796,It is more important for a child to help their parent than to have a career themself.,-0.1615387802498364,0.2922436118125915,0,False,0,"(25
+  (27
+    (27
+      (14
+        (14 (8 (57 it) (77 is)) (2 (42 more) (64 important)))
+        (15 (52 for) (29 (86 a) (82 child))))
+      (6 (91 to) (2 (87 help) (29 (86 their) (82 parent)))))
+    (15
+      (47 than)
+      (6
+        (91 to)
+        (2 (87 have) (29 (11 (86 a) (88 career)) (51 [UNK]))))))
+  (74 .))"
+65,792,11099.0,12599.0,False,False,False,False,False,True,False,False,False,False,False,False,12599,"MENTION799 so sad your prego, hate to see these beauties of our times ruined by adulthood. it breaks my heart!",0.1235391354375228,0.0533929962664841,0,False,0,"(25
+  (67 mention799)
+  (25
+    (27
+      (27
+        (27
+          (27
+            (27
+              (3 (92 so) (14 (37 sad) (15 (86 your) (48 prego))))
+              (16
+                (49 ,)
+                (14
+                  (47 hate)
+                  (6
+                    (91 to)
+                    (2 (87 see) (29 (88 these) (53 beauties)))))))
+            (15 (52 of) (29 (86 our) (82 times))))
+          (35 ruined))
+        (15 (52 by) (60 [UNK])))
+      (16 (49 .) (14 (8 (57 it) (77 breaks)) (2 (86 my) (48 heart)))))
+    (85 !)))"
+66,805,1522.0,801.0,False,False,True,False,False,True,False,False,False,False,False,False,801,"No one succeeds without a good support behind them, a spouse of parent & if it's both then they are twice as blessed.....",-0.0039218192374558,0.1670803070068359,0,False,0,"(25
+  (27
+    (27
+      (27
+        (27
+          (27
+            (27
+              (27
+                (27
+                  (14 (29 (86 no) (82 one)) (58 succeeds))
+                  (15
+                    (52 without)
+                    (29 (11 (86 a) (88 good)) (41 support))))
+                (15 (52 behind) (59 them)))
+              (15 (49 ,) (2 (86 a) (48 spouse))))
+            (15 (52 of) (59 parent)))
+          (15
+            (49 &)
+            (3
+              (92 if)
+              (14
+                (8 (65 it) (26 (89 ') (70 s)))
+                (2
+                  (73 both)
+                  (3
+                    (92 then)
+                    (14 (8 (57 they) (77 are)) (46 twice))))))))
+        (15 (52 as) (59 blessed)))
+      (15 (74 .) (74 .)))
+    (15 (74 .) (74 .)))
+  (74 .))"
+67,812,3914.0,12572.0,False,False,False,False,False,True,False,False,False,False,False,False,12572,I'm a firm believer that kids cannot coach any sport. adults do it better.,-0.0996867943712346,0.2447973281145095,0,False,0,"(25
+  (27
+    (27
+      (14
+        (8 (65 i) (26 (89 ') (70 m)))
+        (2 (11 (86 a) (88 firm)) (41 believer)))
+      (3
+        (92 that)
+        (14
+          (8 (57 kids) (77 cannot))
+          (2 (87 coach) (29 (86 any) (82 sport))))))
+    (16 (49 .) (14 (8 (57 adults) (21 (34 do) (39 it))) (46 better))))
+  (74 .))"
+68,841,7335.0,7491.0,False,False,False,False,False,True,False,False,False,False,False,False,7491,beginner drivers are the worst!,0.0354241035934304,0.133986085653305,0,False,0,"(25
+  (44 [UNK])
+  (28 (14 (8 (57 drivers) (77 are)) (2 (86 the) (48 worst))) (85 !)))"
+69,853,4104.0,4957.0,False,False,False,False,False,True,False,False,False,False,False,False,4957,"adults are much better than kids, like srsly.",-0.0547653088661021,0.2095534294843673,0,False,0,"(25
+  (27
+    (27
+      (14 (8 (57 adults) (77 are)) (2 (42 much) (64 better)))
+      (15 (52 than) (59 kids)))
+    (15 (49 ,) (2 (87 like) (56 [UNK]))))
+  (74 .))"
+70,860,4981.0,13493.0,False,False,False,False,False,True,False,False,False,False,False,False,13493,MENTION2467 You were right...just about the wrong person...Valenti's a feminist.,0.0191951836441192,0.1472878232598304,0,False,0,"(25
+  (44 [UNK])
+  (25
+    (27
+      (27
+        (27
+          (27
+            (14 (8 (57 you) (77 were)) (46 right))
+            (15 (74 .) (74 .)))
+          (16
+            (49 .)
+            (14
+              (81 just)
+              (2
+                (87 about)
+                (29 (11 (86 the) (88 wrong)) (41 person))))))
+        (15 (74 .) (74 .)))
+      (16
+        (49 .)
+        (14
+          (8 (65 [UNK]) (26 (89 ') (70 s)))
+          (2 (86 a) (48 feminist)))))
+    (74 .)))"
+71,902,13446.0,9528.0,False,False,False,False,False,True,False,False,False,False,False,False,9528,it bugs me when amateurs are on Around the Horn. She didn't even deserve to win.,-0.1118658407090003,0.2548830777406692,0,False,0,"(25
+  (27
+    (27
+      (27
+        (27
+          (14 (57 it) (21 (34 bugs) (39 me)))
+          (3 (92 when) (14 (8 (57 amateurs) (77 are)) (46 on))))
+        (15 (52 around) (29 (86 the) (56 [UNK]))))
+      (16
+        (49 .)
+        (14
+          (57 she)
+          (21
+            (63 didn)
+            (10 (89 ') (9 (54 t) (19 (81 even) (61 deserve))))))))
+    (15 (91 to) (61 win)))
+  (74 .))"
+72,905,12282.0,1539.0,False,False,True,True,False,False,False,False,False,False,False,False,1539,"I'm old school and ""woke"" twitter will Idc, girls airing out their sexual ""accomplishments"" on twitter is just fine",-0.7348354816357101,0.634733921289444,2,False,0,"(25
+  (27
+    (27
+      (14 (8 (65 i) (26 (89 ') (70 m))) (2 (88 old) (53 school)))
+      (3
+        (92 and)
+        (14
+          (80 "")
+          (14
+            (80 woke)
+            (14 (80 "") (14 (8 (57 twitter) (77 will)) (46 idc)))))))
+    (16 (49 ,) (14 (57 girls) (21 (51 [UNK]) (39 out)))))
+  (15
+    (8
+      (8
+        (29
+          (29
+            (29
+              (11 (11 (86 their) (88 sexual)) (88 ""))
+              (41 accomplishments))
+            (35 ""))
+          (15 (52 on) (59 twitter)))
+        (77 is))
+      (81 just))
+    (46 fine)))"

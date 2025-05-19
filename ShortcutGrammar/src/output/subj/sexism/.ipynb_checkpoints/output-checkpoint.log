@@ -1,0 +1,584 @@
+I 2025-01-19T01:53:12 __main__:275: logging to output/subj/sexism
+I 2025-01-19T01:53:12 __main__:276: args: {'output_dir': 'output/subj/sexism', 'seed': 13, 'data_seed': 13, 'model_type': 'pcfg', 'load_from': None, 'save': False, 'vocab_size': 20000, 'min_frequency': 3, 'load_tokenizer_from': None, 'data_dir': 'data', 'cache_dir': 'cache', 'overwrite_cache': False, 'train_on': 'sexism', 'validate_on': 'sexism', 'eval_on': ['sexism'], 'eval_on_train_datasets': ['sexism'], 'max_train_examples': None, 'max_dev_examples': None, 'max_length': 128, 'max_eval_length': None, 'min_length': 4, 'use_product_length': 0, 'epochs': 40, 'steps': 0, 'eval_every': 1024, 'patience': 3, 'criterion': 'loss', 'train_batch_size': 4, 'gradient_accumulation_steps': 1, 'eval_batch_size': 4, 'eval_before_training': False, 'optimizer': 'adamw', 'learning_rate': 0.001, 'adam_epsilon': 1e-08, 'weight_decay': 0.01, 'max_grad_norm': 1.0, 'dropout': 0.1, 'preterminals': 64, 'nonterminals': 32, 'state_dim': 256, 'use_grad_eval': 1, 'resume': False, 'remove_special': True}
+I 2025-01-19T01:53:12 utils.data_utils:269: removing special tokens (sexism/train)
+I 2025-01-19T01:53:12 utils.data_utils:269: removing special tokens (sexism/test)
+I 2025-01-19T01:53:13 utils.data_utils:269: removing special tokens (sexism/test)
+I 2025-01-19T01:53:13 utils.data_utils:269: removing special tokens (sexism/train)
+I 2025-01-19T01:53:13 models.base_trainer:280: writing args and tokenizer to output/subj/sexism
+I 2025-01-19T01:53:14 models.base_trainer:306: training for 95400 steps / 40 epochs
+I 2025-01-19T01:53:14 models.base_trainer:330: epoch: 0
+I 2025-01-19T01:54:17 models.base_trainer:374: training loss (ckp 0.1023): 112.33892583847046
+I 2025-01-19T01:54:17 models.base_trainer:228: evaluating
+I 2025-01-19T01:54:17 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T01:55:27 models.base_trainer:194: avg eval loss: 101.95665134269588
+I 2025-01-19T01:55:27 grammars.pcfg:171: trees:
+(25 (20 (2 (86 $) (54 1)) (95 .)) (25 (44 [UNK]) (25 (8 (62 rt) (44 [UNK])) (25 (23 (79 :) (0 (40 100) (20 (35 %) (0 (40 certain) (20 (29 (86 its) (2 (56 [UNK]) (6 (91 be) (2 (86 a) (54 death))))) (37 match)))))) (23 (17 (23 (0 (40 between) (20 (73 kat) (16 (49 and) (14 (57 andre) (26 (8 (92 and) (8 (45 annie) (49 and))) (35 lloyd)))))) (23 (36 #) (50 mkr))) (36 #)) (60 [UNK]))))))
+(25 (8 (2 (64 curious) (94 .)) (91 are)) (25 (8 (68 you) (32 just)) (25 (43 upset) (25 (25 (27 (80 because) (27 (8 (14 (57 women) (26 (77 are) (2 (88 being) (46 allowed)))) (6 (91 into) (2 (86 your) (48 nerd)))) (2 (78 club) (35 ?)))) (23 (27 (2 (88 clearly) (46 sexism)) (26 (77 is) (2 (42 [UNK]) (2 (92 because) (8 (68 you) (10 (89 ') (9 (70 re) (58 pissed)))))))) (94 .))) (44 [UNK])))))
+(25 (23 (36 #) (50 mkr)) (23 (28 (23 (2 (56 [UNK]) (6 (91 who) (2 (56 [UNK]) (6 (91 at) (2 (86 their) (48 partners)))))) (20 (53 teeth) (6 (91 at) (2 (11 (86 the) (71 bloody)) (41 table))))) (85 ?)) (85 ?)))
+(25 (2 (88 good) (46 thing)) (25 (23 (27 (8 (68 you) (10 (89 ') (9 (70 ll) (81 never)))) (2 (42 get) (2 (86 the) (54 opportunity)))) (94 .)) (25 (44 [UNK]) (25 (8 (68 i) (32 just)) (25 (27 (21 (63 don) (10 (89 ') (9 (69 t) (61 feel)))) (6 (91 safe) (2 (47 driving) (6 (91 with) (2 (11 (86 any) (71 old)) (41 person)))))) (6 (91 call) (2 (88 me) (46 ageist))))))))
+I 2025-01-19T01:55:27 models.base_trainer:208: sexism results at 0.1023: {'loss': 101.96162593195666, 'training_loss': 112.33892583847046, 'ckp': '0.1023'}
+I 2025-01-19T01:55:27 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T01:55:27 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T01:55:27 models.base_trainer:115: new best: {'ckp': '0.1023', 'patience': 0, 'loss': 101.96162593195666, 'training_loss': 112.33892583847046}
+I 2025-01-19T01:56:07 models.base_trainer:403: end of epoch 0
+I 2025-01-19T01:56:07 models.base_trainer:406: average training loss: 107.85168409367527
+I 2025-01-19T01:56:07 models.base_trainer:228: evaluating
+I 2025-01-19T01:56:07 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T01:57:02 models.base_trainer:194: avg eval loss: 99.20023177399547
+I 2025-01-19T01:57:02 grammars.pcfg:171: trees:
+(25 (44 [UNK]) (25 (44 [UNK]) (25 (14 (57 why) (26 (77 are) (2 (88 you) (53 body)))) (23 (27 (56 [UNK]) (2 (11 (86 her) (71 man)) (41 hands))) (85 ?)))))
+(25 (14 (57 blacks) (26 (77 are) (2 (46 stupid) (16 (49 .) (14 (8 (27 (2 (2 (47 end) (6 (91 of) (2 (64 story) (94 .)))) (84 whites)) (26 (77 just) (58 win))) (52 at)) (46 life)))))) (95 .))
+(25 (67 mention495) (23 (84 dad) (85 ?)))
+(25 (8 (27 (2 (42 actually) (2 (57 nikki) (77 really))) (26 (77 is) (2 (11 (86 quite) (71 good)) (41 looking)))) (49 ,)) (25 (43 wait) (25 (67 till) (25 (27 (2 (88 my) (64 shots)) (26 (77 hit) (2 (86 the) (56 [UNK])))) (23 (17 (23 (17 (23 (74 !) (23 (36 #) (50 mkr))) (36 #)) (60 [UNK])) (36 #)) (75 fashion))))))
+I 2025-01-19T01:57:02 models.base_trainer:208: sexism results at 0.2385: {'loss': 99.2044398208702, 'training_loss': 107.85168409367527, 'ckp': '0.2385'}
+I 2025-01-19T01:57:02 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T01:57:02 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T01:57:02 models.base_trainer:115: new best: {'ckp': '0.2385', 'patience': 0, 'loss': 99.2044398208702, 'training_loss': 107.85168409367527}
+I 2025-01-19T01:57:02 models.base_trainer:330: epoch: 1
+I 2025-01-19T01:58:13 models.base_trainer:403: end of epoch 1
+I 2025-01-19T01:58:13 models.base_trainer:406: average training loss: 101.59680084292494
+I 2025-01-19T01:58:13 models.base_trainer:228: evaluating
+I 2025-01-19T01:58:13 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T01:59:51 models.base_trainer:194: avg eval loss: 97.01642144949905
+I 2025-01-19T01:59:51 grammars.pcfg:171: trees:
+(25 (44 [UNK]) (25 (44 [UNK]) (25 (44 [UNK]) (25 (27 (8 (27 (8 (27 (8 (27 (8 (68 i) (10 (89 ') (9 (70 d) (81 hire)))) (2 (86 a) (56 [UNK]))) (52 over)) (2 (86 a) (48 handyman))) (52 for)) (2 (88 that) (53 kind))) (52 of)) (59 stuff)) (60 [UNK])))))
+(25 (2 (88 some) (53 people)) (25 (27 (8 (27 (8 (27 (8 (27 (8 (65 i) (26 (32 just) (21 (63 don) (10 (89 ') (9 (69 t) (61 trust)))))) (59 anything)) (52 that)) (56 [UNK])) (52 for)) (2 (88 5) (53 days))) (52 at)) (2 (86 a) (54 time))) (23 (17 (23 (27 (92 and) (21 (63 doesn) (10 (89 ') (9 (69 t) (61 die))))) (94 .)) (36 #)) (60 [UNK]))))
+(25 (67 mention1626) (23 (27 (65 i) (21 (63 don) (10 (89 ') (9 (69 t) (61 [UNK]))))) (94 .)))
+(25 (27 (8 (27 (8 (27 (8 (68 i) (10 (89 ') (9 (70 m) (81 far)))) (2 (88 more) (53 willing))) (52 to)) (2 (87 help) (39 adults))) (52 than)) (59 elders)) (23 (79 :) (83 d)))
+I 2025-01-19T01:59:51 models.base_trainer:208: sexism results at 1.4770: {'loss': 97.0195991166355, 'training_loss': 101.59680084292494, 'ckp': '1.4770'}
+I 2025-01-19T01:59:51 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T01:59:51 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T01:59:51 models.base_trainer:115: new best: {'ckp': '1.4770', 'patience': 0, 'loss': 97.0195991166355, 'training_loss': 101.59680084292494}
+I 2025-01-19T01:59:51 models.base_trainer:330: epoch: 2
+I 2025-01-19T02:02:19 models.base_trainer:403: end of epoch 2
+I 2025-01-19T02:02:19 models.base_trainer:406: average training loss: 99.68966973822572
+I 2025-01-19T02:02:19 models.base_trainer:228: evaluating
+I 2025-01-19T02:02:19 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:04:13 models.base_trainer:194: avg eval loss: 95.89354947818222
+I 2025-01-19T02:04:13 grammars.pcfg:171: trees:
+(25 (27 (8 (27 (8 (34 without) (39 her)) (2 (42 even) (64 hero))) (52 is)) (59 0)) (23 (17 (23 (36 #) (75 beboldforchange)) (36 #)) (75 womensday)))
+(25 (7 (13 (5 (23 (27 (8 (65 i) (26 (89 ’) (70 m))) (2 (73 sorry) (3 (92 but) (14 (8 (65 females) (26 (77 are) (81 not))) (46 funny))))) (94 .)) (5 (23 (27 (8 (27 (8 (68 you) (32 can)) (59 this)) (52 is)) (2 (11 (86 a) (71 [UNK])) (41 fact))) (94 .)) (5 (31 (31 (31 (33 https) (79 :)) (72 /)) (72 /)) (69 t)))) (95 .)) (66 co)) (13 (93 /) (44 [UNK])))
+(25 (27 (8 (27 (8 (27 (8 (2 (11 (86 this) (71 #)) (51 [UNK])) (52 named)) (2 (36 #) (51 [UNK]))) (52 is)) (2 (78 coming) (35 off))) (91 like)) (2 (11 (86 a) (71 real)) (41 attention))) (23 (84 whore) (94 .)))
+(25 (43 mention1932) (25 (44 [UNK]) (25 (27 (84 yep) (16 (49 ,) (14 (8 (11 (86 10) (71 +)) (53 year)) (46 [UNK])))) (23 (27 (84 here) (16 (49 ,) (14 (80 can) (51 [UNK])))) (94 .)))))
+I 2025-01-19T02:04:13 models.base_trainer:208: sexism results at 2.7155: {'loss': 95.89618262824919, 'training_loss': 99.68966973822572, 'ckp': '2.7155'}
+I 2025-01-19T02:04:13 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:04:13 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:04:13 models.base_trainer:115: new best: {'ckp': '2.7155', 'patience': 0, 'loss': 95.89618262824919, 'training_loss': 99.68966973822572}
+I 2025-01-19T02:04:13 models.base_trainer:330: epoch: 3
+I 2025-01-19T02:06:39 models.base_trainer:403: end of epoch 3
+I 2025-01-19T02:06:39 models.base_trainer:406: average training loss: 98.69400436113466
+I 2025-01-19T02:06:39 models.base_trainer:228: evaluating
+I 2025-01-19T02:06:39 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:08:31 models.base_trainer:194: avg eval loss: 95.46602110056351
+I 2025-01-19T02:08:31 grammars.pcfg:171: trees:
+(25 (23 (85 ") (23 (27 (8 (27 (27 (1 (68 i) (21 (63 don) (10 (89 ') (9 (69 t) (61 wanna))))) (2 (42 be) (2 (86 a) (56 [UNK])))) (16 (49 .) (14 (65 this) (21 (63 isn) (10 (89 ') (9 (69 t) (2 (38 what) (14 (8 (65 i) (26 (58 want) (91 to))) (46 do))))))))) (52 with)) (2 (86 my) (54 life))) (94 .))) (23 (23 (27 (8 (27 (1 (68 i) (21 (63 don) (10 (89 ') (9 (69 t) (61 want))))) (6 (91 to) (2 (2 (47 have) (6 (91 to) (2 (87 keep) (2 (78 coming) (35 out))))) (35 here)))) (52 for)) (2 (88 our) (53 lives))) (94 .)) (85 ")))
+(25 (7 (13 (5 (31 (31 (31 (23 (17 (25 (8 (68 i) (32 wonder)) (23 (17 (25 (27 (80 if) (27 (8 (57 mention1932) (77 has)) (2 (87 seen) (39 this)))) (23 (79 :) (83 )))) (36 #)) (75 wonderwoman))) (36 #)) (75 internationalwomensday)) (31 (33 https) (79 :))) (72 /)) (72 /)) (69 t)) (95 .)) (66 co)) (13 (93 /) (44 [UNK])))
+(25 (7 (13 (5 (31 (23 (27 (8 (27 (8 (27 (8 (57 someone) (77 posted)) (59 this)) (52 on)) (59 facebook)) (52 in)) (2 (47 response) (6 (91 to) (2 (2 (2 (29 (86 that) (82 woman)) (14 (8 (37 tweeting) (91 at)) (46 me))) (35 earlier)) (35 today))))) (94 .)) (31 (23 (23 (84 ^) (94 .)) (85 ^)) (31 (31 (31 (33 http) (79 :)) (72 /)) (72 /)))) (69 t)) (95 .)) (66 co)) (13 (93 /) (44 [UNK])))
+(25 (27 (8 (27 (27 (27 (27 (8 (45 oooh) (74 !)) (2 (88 sudden) (53 death))) (16 (49 .) (14 (94 .) (95 .)))) (16 (49 .) (14 (68 will) (61 be)))) (16 (49 .) (14 (94 .) (95 .)))) (52 .)) (2 (86 no) (48 surprise))) (23 (74 !) (23 (74 !) (23 (36 #) (50 mkr)))))
+I 2025-01-19T02:08:31 models.base_trainer:208: sexism results at 3.9540: {'loss': 95.46975847025081, 'training_loss': 98.69400436113466, 'ckp': '3.9540'}
+I 2025-01-19T02:08:31 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:08:31 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:08:31 models.base_trainer:115: new best: {'ckp': '3.9540', 'patience': 0, 'loss': 95.46975847025081, 'training_loss': 98.69400436113466}
+I 2025-01-19T02:08:31 models.base_trainer:330: epoch: 4
+I 2025-01-19T02:10:56 models.base_trainer:403: end of epoch 4
+I 2025-01-19T02:10:56 models.base_trainer:406: average training loss: 98.02626389317543
+I 2025-01-19T02:10:56 models.base_trainer:228: evaluating
+I 2025-01-19T02:10:56 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:12:46 models.base_trainer:194: avg eval loss: 94.94748388497361
+I 2025-01-19T02:12:46 grammars.pcfg:171: trees:
+(25 (23 (27 (43 mention786) (84 pathetic)) (2 (88 channel) (53 7))) (23 (36 #) (50 mkr)))
+(25 (17 (25 (44 [UNK]) (25 (8 (27 (8 (29 (86 my) (82 fingers)) (6 (91 for) (2 (86 the) (23 (36 #) (75 killerblondes))))) (2 (42 get) (64 rid))) (52 of)) (23 (36 #) (75 katandandre)))) (36 #)) (50 mkr))
+(25 (27 (8 (27 (6 (91 as) (2 (2 (88 free) (53 human)) (35 beings))) (16 (49 ,) (14 (8 (65 women) (26 (89 ’) (70 s))) (46 right)))) (52 of)) (59 choice)) (27 (8 (2 (42 concerning) (44 [UNK])) (26 (77 should) (81 not))) (2 (42 be) (44 [UNK]))))
+(25 (17 (25 (67 “) (25 (23 (27 (8 (57 everyone) (56 [UNK])) (59 us)) (94 .)) (23 (27 (1 (68 they) (21 (63 didn) (10 (89 ’) (9 (69 t) (61 expect))))) (2 (47 us) (6 (91 to) (2 (42 only) (2 (42 be) (44 [UNK])))))) (85 ”)))) (36 #)) (50 mkr))
+I 2025-01-19T02:12:46 models.base_trainer:208: sexism results at 4.11925: {'loss': 94.95035564159123, 'training_loss': 98.02626389317543, 'ckp': '4.11925'}
+I 2025-01-19T02:12:46 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:12:46 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:12:46 models.base_trainer:115: new best: {'ckp': '4.11925', 'patience': 0, 'loss': 94.95035564159123, 'training_loss': 98.02626389317543}
+I 2025-01-19T02:12:46 models.base_trainer:330: epoch: 5
+I 2025-01-19T02:15:12 models.base_trainer:403: end of epoch 5
+I 2025-01-19T02:15:12 models.base_trainer:406: average training loss: 97.4399251765925
+I 2025-01-19T02:15:12 models.base_trainer:228: evaluating
+I 2025-01-19T02:15:12 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:17:06 models.base_trainer:194: avg eval loss: 94.5272198860713
+I 2025-01-19T02:17:06 grammars.pcfg:171: trees:
+(25 (23 (14 (8 (68 i) (22 (61 think) (8 (65 it) (26 (89 ') (70 s))))) (46 wrong)) (23 (27 (8 (27 (8 (27 (8 (29 (86 the) (82 women)) (77 get)) (2 (2 (11 (86 the) (71 same)) (41 prize)) (35 money))) (52 as)) (2 (86 the) (48 men))) (52 at)) (56 [UNK])) (94 .))) (23 (27 (8 (27 (81 only) (2 (2 (78 play) (35 2)) (35 sets))) (49 ,)) (2 (78 light) (35 work))) (94 .)))
+(25 (17 (25 (27 (8 (65 it) (26 (89 ') (70 s))) (59 insane)) (23 (23 (27 (8 (68 they) (32 keep)) (2 (2 (88 bringing) (53 people)) (35 back))) (94 .)) (23 (92 when) (27 (80 will) (27 (8 (57 this) (77 show)) (59 end)))))) (36 #)) (50 mkr))
+(25 (67 mention4637) (25 (23 (27 (8 (57 twitter) (56 [UNK])) (2 (2 (78 13) (35 yr)) (35 olds))) (94 .)) (23 (23 (23 (27 (8 (2 (2 (78 13) (35 yr)) (35 olds)) (21 (63 don) (10 (89 ') (9 (69 t) (61 generally))))) (2 (42 have) (2 (51 [UNK]) (35 accts)))) (94 .)) (43 *)) (23 (27 (8 (27 (27 (8 (2 (47 lots) (6 (91 *) (2 (88 of) (53 people)))) (21 (63 don) (10 (89 ') (9 (69 t) (61 have))))) (2 (51 [UNK]) (35 accts))) (15 (93 /) (78 work))) (52 in)) (59 cash)) (94 .)))))
+(25 (7 (13 (5 (27 (8 (27 (27 (80 when) (27 (8 (68 i) (32 play)) (2 (78 sims) (35 3)))) (16 (49 ,) (14 (68 i) (19 (61 put) (29 (86 my) (82 bed)))))) (52 in)) (2 (86 the) (48 kitchen))) (5 (31 (31 (31 (33 http) (79 :)) (72 /)) (72 /)) (69 t))) (95 .)) (66 co)) (13 (93 /) (44 [UNK])))
+I 2025-01-19T02:17:06 models.base_trainer:208: sexism results at 5.14310: {'loss': 94.52979996291816, 'training_loss': 97.4399251765925, 'ckp': '5.14310'}
+I 2025-01-19T02:17:06 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:17:06 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:17:06 models.base_trainer:115: new best: {'ckp': '5.14310', 'patience': 0, 'loss': 94.52979996291816, 'training_loss': 97.4399251765925}
+I 2025-01-19T02:17:06 models.base_trainer:330: epoch: 6
+I 2025-01-19T02:19:30 models.base_trainer:403: end of epoch 6
+I 2025-01-19T02:19:30 models.base_trainer:406: average training loss: 97.2205828212842
+I 2025-01-19T02:19:30 models.base_trainer:228: evaluating
+I 2025-01-19T02:19:30 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:21:23 models.base_trainer:194: avg eval loss: 94.49440901113978
+I 2025-01-19T02:21:23 grammars.pcfg:171: trees:
+(25 (23 (36 #) (75 mkr)) (23 (23 (27 (8 (14 (60 [UNK]) (35 minutes)) (91 to)) (2 (11 (86 the) (71 next)) (41 bake))) (94 .)) (23 (23 (95 .) (95 .)) (23 (23 (95 .) (95 .)) (23 (23 (95 .) (95 .)) (23 (23 (27 (45 yeah) (16 (49 .) (14 (94 .) (95 .)))) (94 .)) (23 (27 (45 okay) (16 (49 .) (14 (23 (95 .) (95 .)) (94 .)))) (94 .))))))))
+(25 (17 (25 (17 (25 (62 rt) (25 (44 [UNK]) (23 (27 (8 (65 women) (26 (77 are) (81 really))) (2 (88 bad) (53 drivers))) (94 .)))) (36 #)) (75 notsexist)) (36 #)) (50 [UNK]))
+(25 (27 (8 (65 i) (60 [UNK])) (2 (87 leave) (29 (86 a) (82 woman)))) (18 (92 [UNK]) (28 (14 (57 that) (56 [UNK])) (85 lol))))
+(25 (27 (8 (57 society) (77 has)) (2 (42 not) (44 [UNK]))) (23 (27 (27 (8 (2 (86 the) (48 point)) (52 where)) (59 men)) (16 (49 and) (14 (8 (27 (8 (57 women) (77 have)) (2 (88 equal) (53 opportunities))) (52 for)) (46 achievement)))) (94 .)))
+I 2025-01-19T02:21:23 models.base_trainer:208: sexism results at 6.16695: {'loss': 94.49771814264703, 'training_loss': 97.2205828212842, 'ckp': '6.16695'}
+I 2025-01-19T02:21:23 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:21:23 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:21:23 models.base_trainer:115: new best: {'ckp': '6.16695', 'patience': 0, 'loss': 94.49771814264703, 'training_loss': 97.2205828212842}
+I 2025-01-19T02:21:23 models.base_trainer:330: epoch: 7
+I 2025-01-19T02:23:47 models.base_trainer:403: end of epoch 7
+I 2025-01-19T02:23:47 models.base_trainer:406: average training loss: 96.97465794081458
+I 2025-01-19T02:23:47 models.base_trainer:228: evaluating
+I 2025-01-19T02:23:47 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:25:38 models.base_trainer:194: avg eval loss: 94.4274857372832
+I 2025-01-19T02:25:38 grammars.pcfg:171: trees:
+(25 (17 (25 (23 (27 (8 (23 (60 [UNK]) (74 !)) (38 what)) (2 (88 awful) (53 people))) (94 .)) (23 (27 (8 (27 (8 (68 i) (22 (61 hope) (8 (57 they) (77 are)))) (59 gone)) (52 in)) (2 (2 (11 (86 the) (71 very)) (41 next)) (35 elimination))) (94 .))) (36 #)) (75 mkr))
+(25 (27 (8 (27 (8 (27 (8 (57 women) (77 should)) (2 (42 worry) (2 (47 less) (6 (91 about) (2 (88 their) (53 rights)))))) (52 and)) (2 (47 more) (6 (91 about) (2 (42 becoming) (2 (88 good) (53 wives)))))) (52 and)) (59 mothers)) (95 .))
+(25 (44 [UNK]) (25 (23 (27 (8 (27 (8 (29 (86 my) (82 uncle)) (77 was)) (2 (42 shot) (2 (88 5) (53 times)))) (52 and)) (2 (73 died) (3 (92 because) (14 (8 (8 (57 he) (77 kept)) (60 [UNK])) (29 (86 his) (82 [UNK])))))) (94 .)) (23 (14 (8 (2 (42 stop) (2 (73 acting) (3 (92 like) (14 (8 (65 people) (26 (89 ') (70 s))) (46 lives))))) (77 are)) (46 easy)) (94 .))))
+(25 (44 [UNK]) (25 (23 (43 lol) (23 (27 (8 (2 (47 something) (6 (91 about) (2 (11 (86 a) (71 old)) (41 person)))) (77 who)) (2 (78 takes) (35 selfies))) (74 !))) (23 (27 (8 (65 that) (26 (89 ') (70 s))) (2 (11 (86 a) (71 kid)) (41 thing))) (74 !))))
+I 2025-01-19T02:25:38 models.base_trainer:208: sexism results at 7.19080: {'loss': 94.430725223919, 'training_loss': 96.97465794081458, 'ckp': '7.19080'}
+I 2025-01-19T02:25:38 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:25:38 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:25:38 models.base_trainer:115: new best: {'ckp': '7.19080', 'patience': 0, 'loss': 94.430725223919, 'training_loss': 96.97465794081458}
+I 2025-01-19T02:25:38 models.base_trainer:330: epoch: 8
+I 2025-01-19T02:28:02 models.base_trainer:403: end of epoch 8
+I 2025-01-19T02:28:02 models.base_trainer:406: average training loss: 96.44394869294557
+I 2025-01-19T02:28:02 models.base_trainer:228: evaluating
+I 2025-01-19T02:28:02 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:29:55 models.base_trainer:194: avg eval loss: 94.09649816309835
+I 2025-01-19T02:29:55 grammars.pcfg:171: trees:
+(25 (17 (25 (8 (29 (86 this) (82 dessert)) (77 looks)) (27 (27 (27 (27 (68 i) (61 dunno)) (15 (94 .) (94 .))) (16 (49 .) (14 (8 (65 i) (26 (26 (26 (89 ') (70 m)) (81 not)) (81 feeling))) (46 it)))) (15 (94 .) (94 .)))) (36 #)) (75 mkr))
+(25 (17 (25 (23 (28 (28 (14 (8 (27 (8 (68 we) (32 have)) (2 (86 a) (48 surprise))) (52 for)) (46 you)) (85 ")) (28 (14 (8 (77 is) (65 it)) (29 (86 a) (82 pony))) (85 ?))) (74 !)) (23 (23 (43 ") (84 oh)) (23 (2 (78 fuck) (35 off)) (95 .)))) (36 #)) (75 mkr))
+(25 (27 (8 (65 i) (26 (34 gave) (39 it))) (2 (11 (86 a) (71 5)) (41 second))) (23 (23 (27 (45 [UNK]) (16 (49 ,) (14 (8 (21 (63 didn) (10 (89 ') (9 (69 t) (61 see)))) (39 anything)) (46 interesting)))) (94 .)) (23 (23 (27 (8 (2 (42 getting) (2 (73 mad) (3 (92 about) (14 (8 (65 that) (26 (77 is) (42 like))) (51 [UNK]))))) (52 at)) (2 (11 (86 a) (71 [UNK])) (41 post))) (94 .)) (23 (27 (71 same) (54 quality)) (94 .)))))
+(25 (17 (25 (27 (8 (57 people) (21 (63 shouldn) (10 (89 ') (9 (69 t) (61 wear))))) (2 (11 (86 a) (71 hat)) (51 [UNK]))) (23 (71 single) (41 day))) (36 #)) (50 [UNK]))
+I 2025-01-19T02:29:55 models.base_trainer:208: sexism results at 8.21465: {'loss': 94.09911867843572, 'training_loss': 96.44394869294557, 'ckp': '8.21465'}
+I 2025-01-19T02:29:55 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:29:55 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:29:55 models.base_trainer:115: new best: {'ckp': '8.21465', 'patience': 0, 'loss': 94.09911867843572, 'training_loss': 96.44394869294557}
+I 2025-01-19T02:29:55 models.base_trainer:330: epoch: 9
+I 2025-01-19T02:32:22 models.base_trainer:403: end of epoch 9
+I 2025-01-19T02:32:22 models.base_trainer:406: average training loss: 96.11004431702555
+I 2025-01-19T02:32:22 models.base_trainer:228: evaluating
+I 2025-01-19T02:32:22 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:34:16 models.base_trainer:194: avg eval loss: 94.14017116475782
+I 2025-01-19T02:34:16 grammars.pcfg:171: trees:
+(25 (67 mention1358) (25 (23 (27 (3 (92 if) (14 (8 (57 that) (77 were)) (29 (86 the) (82 case)))) (16 (49 ,) (14 (8 (27 (8 (65 twitter) (26 (77 would) (81 probably))) (2 (47 have) (6 (91 about) (2 (78 3) (35 %))))) (52 of)) (2 (11 (86 the) (71 current)) (51 [UNK]))))) (94 .)) (23 (79 :) (83 )))))
+(25 (17 (25 (17 (25 (23 (38 what) (28 (14 (85 ?) (85 ?)) (85 ?))) (23 (38 how) (28 (77 along) (28 (77 are) (28 (14 (8 (27 (8 (68 they) (32 dragging)) (2 (86 this) (48 show))) (52 on)) (46 for)) (85 ?)))))) (36 #)) (50 [UNK])) (36 #)) (75 mkr))
+(25 (27 (8 (2 (78 pete) (35 e)) (77 looks)) (56 [UNK])) (23 (36 #) (75 mkr)))
+(25 (7 (13 (5 (23 (27 (27 (27 (8 (2 (42 look) (2 (87 like) (29 (86 a) (82 girl)))) (49 .)) (2 (47 act) (6 (91 like) (2 (86 a) (48 lady))))) (15 (94 .) (14 (61 think) (19 (61 like) (29 (86 a) (82 man)))))) (15 (94 .) (14 (61 work) (19 (61 like) (29 (86 a) (82 boss)))))) (94 .)) (5 (23 (79 :) (0 (40 [UNK]) (20 (76 _) (0 (40 fist) (20 (76 _) (0 (40 medium) (20 (76 -) (0 (40 light) (20 (76 _) (0 (40 skin) (20 (4 (76 _) (90 tone)) (79 :)))))))))))) (5 (31 (31 (31 (33 https) (79 :)) (72 /)) (72 /)) (69 t)))) (95 .)) (66 co)) (13 (93 /) (44 [UNK])))
+I 2025-01-19T02:34:16 models.base_trainer:208: sexism results at 9.23850: {'loss': 94.14358941989889, 'training_loss': 96.11004431702555, 'ckp': '9.23850'}
+I 2025-01-19T02:34:16 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:34:16 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:34:16 models.base_trainer:330: epoch: 10
+I 2025-01-19T02:36:40 models.base_trainer:403: end of epoch 10
+I 2025-01-19T02:36:40 models.base_trainer:406: average training loss: 95.87626364126146
+I 2025-01-19T02:36:40 models.base_trainer:228: evaluating
+I 2025-01-19T02:36:40 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:38:34 models.base_trainer:194: avg eval loss: 93.95554310415497
+I 2025-01-19T02:38:34 grammars.pcfg:171: trees:
+(25 (67 mention1932) (25 (7 (13 (5 (23 (27 (8 (57 eyes) (77 are)) (59 bullshit)) (94 .)) (5 (27 (8 (57 they) (21 (63 can) (10 (89 ’) (9 (69 t) (61 even))))) (2 (87 tell) (29 (86 the) (82 center)))) (5 (23 (27 (8 (27 (8 (27 (8 (37 pieces) (52 on)) (2 (88 both) (53 sides))) (52 of)) (2 (86 this) (48 image))) (52 are)) (2 (11 (86 the) (71 same)) (51 [UNK]))) (94 .)) (5 (31 (31 (31 (33 http) (79 :)) (72 /)) (72 /)) (69 t))))) (95 .)) (66 co)) (13 (93 /) (44 [UNK]))))
+(25 (7 (13 (5 (23 (44 [UNK]) (95 .)) (5 (31 (31 (31 (33 http) (79 :)) (72 /)) (72 /)) (69 t))) (95 .)) (66 co)) (13 (93 /) (44 [UNK])))
+(25 (17 (25 (67 “) (25 (23 (27 (8 (57 everyone) (56 [UNK])) (59 us)) (94 .)) (23 (27 (8 (8 (14 (1 (68 they) (21 (63 didn) (10 (89 ’) (9 (69 t) (61 expect))))) (39 us)) (91 to)) (81 only)) (2 (42 be) (44 [UNK]))) (85 ”)))) (36 #)) (75 mkr))
+(25 (17 (25 (44 [UNK]) (23 (80 as) (27 (8 (68 i) (32 watch)) (2 (86 this) (48 episode))))) (36 #)) (75 mkr))
+I 2025-01-19T02:38:34 models.base_trainer:208: sexism results at 10.26235: {'loss': 93.95816120273618, 'training_loss': 95.87626364126146, 'ckp': '10.26235'}
+I 2025-01-19T02:38:34 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:38:34 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:38:34 models.base_trainer:115: new best: {'ckp': '10.26235', 'patience': 0, 'loss': 93.95816120273618, 'training_loss': 95.87626364126146}
+I 2025-01-19T02:38:34 models.base_trainer:330: epoch: 11
+I 2025-01-19T02:40:59 models.base_trainer:403: end of epoch 11
+I 2025-01-19T02:40:59 models.base_trainer:406: average training loss: 95.97022714354956
+I 2025-01-19T02:40:59 models.base_trainer:228: evaluating
+I 2025-01-19T02:40:59 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:42:53 models.base_trainer:194: avg eval loss: 99.99171434702644
+I 2025-01-19T02:42:53 grammars.pcfg:171: trees:
+(25 (23 (3 (92 when) (14 (8 (68 i) (32 see)) (2 (88 young) (53 angry)))) (27 (27 (8 (27 (27 (8 (57 feminists) (77 being)) (2 (2 (88 so) (53 much)) (35 better))) (15 (52 at) (59 this))) (52 than)) (2 (68 i) (32 was))) (15 (52 at) (29 (86 their) (82 age))))) (23 (27 (8 (65 it) (26 (81 just) (77 makes))) (2 (11 (86 my) (71 heart)) (51 [UNK]))) (94 .)))
+(25 (27 (27 (8 (57 ash) (77 is)) (59 back)) (15 (13 (5 (23 (79 :) (0 (40 clapping) (20 (4 (76 _) (90 hands)) (79 :)))) (5 (23 (79 :) (0 (40 bouquet) (20 (79 :) (23 (36 #) (75 mkr))))) (5 (31 (33 http) (79 :)) (69 /)))) (49 /)) (13 (93 t) (55 .)))) (27 (8 (66 co) (49 /)) (56 [UNK])))
+(25 (17 (25 (27 (27 (8 (37 meatballs) (52 for)) (59 breakfast)) (16 (49 ,) (14 (8 (65 you) (26 (81 truly) (77 are))) (51 [UNK])))) (23 (23 (79 :) (0 (40 face) (20 (76 _) (0 (40 screaming) (20 (76 _) (0 (40 in) (20 (4 (76 _) (90 fear)) (79 :)))))))) (23 (79 :) (0 (40 thumbs) (20 (4 (76 _) (90 down)) (79 :)))))) (36 #)) (75 mkr))
+(25 (67 lrt) (25 (23 (79 :) (25 (27 (8 (65 it) (26 (89 ') (70 s))) (2 (88 fucking) (53 rich))) (3 (92 when) (14 (8 (57 women) (77 are)) (51 [UNK]))))) (23 (27 (27 (27 (27 (8 (29 (86 the) (82 [UNK])) (26 (89 ') (70 s))) (59 share)) (15 (52 of) (59 housework))) (15 (49 and) (3 (92 then) (14 (71 [UNK]) (15 (52 for) (29 (86 their) (82 [UNK]))))))) (15 (52 at) (59 it))) (94 .))))
+I 2025-01-19T02:42:53 models.base_trainer:208: sexism results at 11.28620: {'loss': 99.99599784650546, 'training_loss': 95.97022714354956, 'ckp': '11.28620'}
+I 2025-01-19T02:42:53 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:42:53 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:42:53 models.base_trainer:330: epoch: 12
+I 2025-01-19T02:45:18 models.base_trainer:403: end of epoch 12
+I 2025-01-19T02:45:18 models.base_trainer:406: average training loss: 96.16643685874699
+I 2025-01-19T02:45:18 models.base_trainer:228: evaluating
+I 2025-01-19T02:45:18 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:47:13 models.base_trainer:194: avg eval loss: 93.58970336130987
+I 2025-01-19T02:47:13 grammars.pcfg:171: trees:
+(25 (27 (8 (57 feminists) (77 are)) (2 (88 too) (51 [UNK]))) (15 (52 for) (29 (11 (86 a) (71 practical)) (41 world))))
+(25 (44 [UNK]) (25 (8 (8 (29 (51 [UNK]) (35 %)) (77 is)) (81 not)) (2 (11 (86 the) (71 vast)) (41 majority))))
+(25 (27 (8 (77 is) (2 (36 #) (75 mkr))) (2 (47 turning) (91 into))) (23 (36 #) (75 masterchef)))
+(25 (23 (43 ") (23 (27 (27 (27 (8 (65 there) (26 (89 ') (70 s))) (2 (29 (86 a) (82 woman)) (14 (57 who) (58 comes)))) (15 (52 by) (2 (87 on) (29 (86 the) (82 [UNK]))))) (16 (49 and) (14 (78 screams) (51 [UNK])))) (85 !))) (23 (23 (27 (3 (92 and) (14 (8 (80 all) (8 (29 (86 our) (82 [UNK])) (77 employees))) (2 (78 go) (35 running)))) (15 (52 for) (29 (11 (86 the) (71 back)) (41 door)))) (74 .)) (43 ")))
+I 2025-01-19T02:47:13 models.base_trainer:208: sexism results at 12.31005: {'loss': 93.59213110532038, 'training_loss': 96.16643685874699, 'ckp': '12.31005'}
+I 2025-01-19T02:47:13 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:47:13 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:47:13 models.base_trainer:115: new best: {'ckp': '12.31005', 'patience': 0, 'loss': 93.59213110532038, 'training_loss': 96.16643685874699}
+I 2025-01-19T02:47:13 models.base_trainer:330: epoch: 13
+I 2025-01-19T02:49:37 models.base_trainer:403: end of epoch 13
+I 2025-01-19T02:49:37 models.base_trainer:406: average training loss: 95.42632328169401
+I 2025-01-19T02:49:37 models.base_trainer:228: evaluating
+I 2025-01-19T02:49:37 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:51:31 models.base_trainer:194: avg eval loss: 93.46173008259673
+I 2025-01-19T02:51:31 grammars.pcfg:171: trees:
+(25 (17 (27 (27 (27 (45 katie) (16 (49 and) (14 (29 (86 her) (82 head)) (56 [UNK])))) (15 (49 .) (2 (87 reminds) (39 me)))) (15 (52 of) (59 [UNK]))) (36 #)) (75 mkr))
+(25 (27 (27 (8 (57 women) (77 have)) (2 (2 (86 the) (48 right)) (6 (91 to) (2 (73 compete) (15 (52 with) (59 men)))))) (15 (52 in) (29 (86 every) (82 [UNK])))) (15 (52 of) (29 (88 economic) (53 activity))))
+(25 (27 (27 (27 (27 (27 (14 (2 (2 (38 what) (14 (78 restaurant) (35 around))) (35 here)) (21 (63 isn) (10 (89 ') (9 (54 t) (61 [UNK]))))) (15 (52 by) (59 gdc))) (51 [UNK])) (16 (49 ?) (14 (8 (68 i) (32 require)) (51 [UNK])))) (15 (52 in) (29 (86 the) (82 form)))) (15 (52 of) (59 [UNK]))) (74 .))
+(25 (44 [UNK]) (25 (81 just) (58 did)))
+I 2025-01-19T02:51:31 models.base_trainer:208: sexism results at 13.33390: {'loss': 93.46381163643741, 'training_loss': 95.42632328169401, 'ckp': '13.33390'}
+I 2025-01-19T02:51:31 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:51:31 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:51:31 models.base_trainer:115: new best: {'ckp': '13.33390', 'patience': 0, 'loss': 93.46381163643741, 'training_loss': 95.42632328169401}
+I 2025-01-19T02:51:31 models.base_trainer:330: epoch: 14
+I 2025-01-19T02:53:56 models.base_trainer:403: end of epoch 14
+I 2025-01-19T02:53:56 models.base_trainer:406: average training loss: 95.14698366369092
+I 2025-01-19T02:53:56 models.base_trainer:228: evaluating
+I 2025-01-19T02:53:56 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T02:55:47 models.base_trainer:194: avg eval loss: 93.30844665482597
+I 2025-01-19T02:55:47 grammars.pcfg:171: trees:
+(25 (27 (27 (14 (8 (68 u) (22 (61 can) (8 (68 i) (32 never)))) (2 (78 passed) (35 out))) (15 (52 in) (29 (86 my) (82 life)))) (15 (74 .) (14 (8 (65 i) (26 (81 always) (22 (61 thought) (8 (57 that) (77 was))))) (2 (11 (11 (86 an) (71 individual)) (71 specific)) (51 [UNK]))))) (74 .))
+(25 (44 [UNK]) (25 (7 (13 (5 (31 (23 (43 *) (23 (43 () (23 (43 !) (23 (56 [UNK]) (89 '))))) (31 (23 (84 http) (94 :)) (31 (55 /) (55 /)))) (54 t)) (74 .)) (66 co)) (13 (55 /) (50 [UNK]))))
+(25 (27 (27 (14 (8 (29 (29 (36 #) (75 mkr)) (3 (92 well) (14 (8 (8 (8 (57 you) (77 are)) (81 not)) (81 really)) (2 (87 serving) (29 (88 200) (53 plates)))))) (77 lets)) (2 (87 face) (39 it))) (3 (92 unless) (14 (8 (29 (86 some) (82 [UNK])) (77 is)) (2 (47 going) (6 (91 to) (2 (87 get) (29 (59 breakfast) (15 (52 from) (59 all))))))))) (15 (52 of) (59 you))) (85 !))
+(25 (17 (25 (27 (27 (27 (27 (27 (27 (14 (8 (57 [UNK]) (77 is)) (2 (86 a) (56 [UNK]))) (15 (52 of) (59 oppression))) (15 (49 ,) (2 (86 an) (56 [UNK])))) (15 (91 to) (87 hate))) (15 (74 .) (14 (8 (57 it) (77 is)) (2 (11 (86 an) (71 act)) (51 [UNK]))))) (15 (52 in) (50 [UNK]))) (16 (49 ,) (14 (52 in) (59 love)))) (74 .)) (36 #)) (75 blacklivesmatter))
+I 2025-01-19T02:55:47 models.base_trainer:208: sexism results at 14.35775: {'loss': 93.31142435843321, 'training_loss': 95.14698366369092, 'ckp': '14.35775'}
+I 2025-01-19T02:55:47 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T02:55:47 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T02:55:47 models.base_trainer:115: new best: {'ckp': '14.35775', 'patience': 0, 'loss': 93.31142435843321, 'training_loss': 95.14698366369092}
+I 2025-01-19T02:55:47 models.base_trainer:330: epoch: 15
+I 2025-01-19T02:58:13 models.base_trainer:403: end of epoch 15
+I 2025-01-19T02:58:13 models.base_trainer:406: average training loss: 94.88291885487938
+I 2025-01-19T02:58:13 models.base_trainer:228: evaluating
+I 2025-01-19T02:58:13 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:00:05 models.base_trainer:194: avg eval loss: 93.11404440200224
+I 2025-01-19T03:00:05 grammars.pcfg:171: trees:
+(25 (44 [UNK]) (25 (67 mention3102) (25 (27 (15 (52 as) (29 (29 (86 a) (82 target)) (15 (52 of) (29 (86 her) (82 [UNK]))))) (16 (49 ,) (14 (45 yeah) (16 (49 ,) (14 (8 (65 i) (26 (89 ') (70 m))) (2 (2 (47 going) (6 (91 to) (2 (87 say) (29 (88 these) (53 things))))) (6 (91 about) (2 (38 how) (14 (8 (57 she) (56 [UNK])) (2 (87 towards) (39 me))))))))))) (74 .))))
+(25 (17 (28 (14 (8 (57 colin) (77 fully)) (2 (56 [UNK]) (29 (44 [UNK]) (70 s)))) (85 tonight)) (36 #)) (75 mkr))
+(25 (25 (44 [UNK]) (25 (27 (67 clearly) (56 [UNK])) (74 .))) (23 (79 ;) (83 ))))
+(25 (17 (25 (17 (25 (27 (27 (27 (14 (8 (68 i) (22 (61 hope) (8 (29 (11 (11 (86 this) (71 instant)) (71 restaurant)) (41 round)) (77 is)))) (2 (11 (86 a) (71 good)) (41 one))) (15 (49 .) (2 (42 getting) (2 (86 a) (48 bit))))) (15 (52 over) (59 them))) (15 (74 .) (74 .))) (74 .)) (36 #)) (75 mkr)) (36 #)) (75 mkr2015))
+I 2025-01-19T03:00:05 models.base_trainer:208: sexism results at 15.38160: {'loss': 93.11569657045938, 'training_loss': 94.88291885487938, 'ckp': '15.38160'}
+I 2025-01-19T03:00:05 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:00:05 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:00:05 models.base_trainer:115: new best: {'ckp': '15.38160', 'patience': 0, 'loss': 93.11569657045938, 'training_loss': 94.88291885487938}
+I 2025-01-19T03:00:05 models.base_trainer:330: epoch: 16
+I 2025-01-19T03:02:30 models.base_trainer:403: end of epoch 16
+I 2025-01-19T03:02:30 models.base_trainer:406: average training loss: 94.7665749651831
+I 2025-01-19T03:02:30 models.base_trainer:228: evaluating
+I 2025-01-19T03:02:30 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:04:23 models.base_trainer:194: avg eval loss: 93.20394064417566
+I 2025-01-19T03:04:23 grammars.pcfg:171: trees:
+(25 (44 [UNK]) (25 (27 (27 (27 (27 (27 (27 (45 yes) (16 (49 !) (14 (8 (65 i) (26 (89 ') (70 m))) (46 like)))) (16 (49 ,) (14 (8 (68 i) (32 have)) (2 (86 no) (48 idea))))) (3 (92 what) (14 (8 (68 i) (32 am)) (46 doing)))) (15 (37 most) (15 (52 of) (29 (86 the) (82 time))))) (15 (49 .) (3 (92 if) (14 (8 (65 i) (26 (89 ') (70 m))) (2 (86 an) (56 [UNK])))))) (16 (49 ,) (14 (8 (65 we) (26 (89 ') (70 re))) (2 (86 all) (48 fucked))))) (74 .)))
+(25 (17 (25 (27 (27 (27 (27 (14 (8 (29 (86 these) (82 bottom)) (56 [UNK])) (2 (78 go) (35 up))) (15 (52 against) (29 (11 (86 another) (71 secret)) (41 round)))) (15 (52 of) (29 (11 (86 secret) (71 instant)) (41 restaurants)))) (15 (52 with) (29 (88 secret) (53 food)))) (15 (14 (8 (68 they) (32 have)) (6 (91 to) (2 (78 cook) (35 blind)))) (52 with))) (85 ?)) (36 #)) (75 mkr))
+(25 (28 (14 (8 (37 some) (52 of)) (2 (2 (29 (86 the) (82 [UNK])) (14 (57 people) (58 listen))) (35 2))) (85 !)) (25 (44 [UNK]) (25 (27 (27 (14 (81 not) (73 cool)) (15 (74 .) (74 .))) (51 [UNK])) (15 (74 .) (74 .)))))
+(25 (17 (28 (77 better) (29 (29 (78 try) (35 harder)) (35 blondes))) (36 #)) (75 mkr))
+I 2025-01-19T03:04:23 models.base_trainer:208: sexism results at 16.40545: {'loss': 93.20650761121642, 'training_loss': 94.7665749651831, 'ckp': '16.40545'}
+I 2025-01-19T03:04:23 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:04:24 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:04:24 models.base_trainer:330: epoch: 17
+I 2025-01-19T03:06:50 models.base_trainer:403: end of epoch 17
+I 2025-01-19T03:06:50 models.base_trainer:406: average training loss: 94.6044310851667
+I 2025-01-19T03:06:50 models.base_trainer:228: evaluating
+I 2025-01-19T03:06:50 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:08:42 models.base_trainer:194: avg eval loss: 93.14883546465653
+I 2025-01-19T03:08:42 grammars.pcfg:171: trees:
+(25 (27 (27 (27 (27 (14 (8 (57 girls) (77 should)) (46 rap)) (15 (74 .) (74 .))) (35 example)) (16 (49 ;) (14 (44 [UNK]) (70 m)))) (15 (49 ,) (3 (92 and) (14 (86 that) (48 woman))))) (15 (52 in) (29 (11 (11 (86 the) (71 [UNK])) (71 [UNK])) (41 video))))
+(25 (44 [UNK]) (25 (7 (13 (5 (31 (23 (27 (27 (14 (14 (8 (80 maybe) (8 (29 (86 the) (82 people)) (77 who))) (2 (2 (87 let) (29 (11 (86 a) (71 young)) (41 child))) (35 loose))) (15 (52 in) (29 (86 a) (82 place)))) (3 (92 like) (14 (8 (57 this) (77 should)) (46 think)))) (35 again)) (43 …)) (31 (23 (84 https) (94 :)) (31 (55 /) (55 /)))) (69 t)) (74 .)) (66 co)) (13 (55 /) (50 [UNK]))))
+(25 (17 (25 (27 (27 (27 (27 (27 (27 (27 (8 (65 i) (26 (89 ') (70 ve))) (2 (2 (87 said) (39 it)) (35 before))) (16 (49 ,) (14 (8 (65 i) (26 (89 ') (70 ll))) (2 (2 (87 say) (39 it)) (35 again))))) (16 (49 -) (14 (8 (29 (88 strategic) (53 scoring)) (77 should)) (46 result)))) (15 (52 in) (29 (86 a) (82 [UNK])))) (15 (52 being) (59 apply))) (6 (91 to) (2 (11 (86 the) (71 [UNK])) (41 team)))) (15 (93 /) (78 s))) (23 (18 (92 () (28 (45 1) (15 (93 /) (78 2)))) (83 )))) (36 #)) (75 mkr))
+(25 (25 (17 (25 (17 (25 (44 [UNK]) (25 (27 (14 (78 thru) (44 [UNK])) (15 (49 .) (45 right))) (74 .))) (36 #)) (75 mkr)) (36 #)) (75 killer)) (43 blondes))
+I 2025-01-19T03:08:42 models.base_trainer:208: sexism results at 17.42930: {'loss': 93.1509431991717, 'training_loss': 94.6044310851667, 'ckp': '17.42930'}
+I 2025-01-19T03:08:42 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:08:42 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:08:42 models.base_trainer:330: epoch: 18
+I 2025-01-19T03:11:05 models.base_trainer:403: end of epoch 18
+I 2025-01-19T03:11:05 models.base_trainer:406: average training loss: 94.4956976380738
+I 2025-01-19T03:11:05 models.base_trainer:228: evaluating
+I 2025-01-19T03:11:05 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:12:57 models.base_trainer:194: avg eval loss: 92.98023359610072
+I 2025-01-19T03:12:57 grammars.pcfg:171: trees:
+(25 (17 (28 (28 (28 (88 more) (29 (86 instant) (82 restaurants))) (85 ?)) (14 (8 (77 are) (65 you)) (51 [UNK]))) (36 #)) (75 mkr))
+(25 (17 (25 (23 (36 #) (75 mkr)) (25 (17 (25 (17 (28 (28 (45 finally) (85 food)) (14 (8 (68 i) (32 can)) (2 (47 relate) (6 (91 to) (2 (36 #) (50 [UNK])))))) (36 #)) (50 [UNK])) (36 #)) (50 [UNK]))) (36 #)) (75 mkr2015))
+(25 (17 (25 (27 (27 (27 (14 (8 (65 it) (26 (26 (89 ') (70 s)) (81 not))) (2 (86 a) (48 surprise))) (3 (92 that) (14 (8 (65 there) (26 (89 ') (70 s))) (2 (29 (86 another) (82 round)) (14 (8 (65 they) (26 (34 did) (39 it))) (2 (88 last) (53 time))))))) (15 (52 and) (29 (86 the) (82 time)))) (35 before)) (74 .)) (36 #)) (75 mkr))
+(25 (17 (25 (17 (25 (27 (27 (14 (8 (29 (86 these) (82 girls)) (77 are)) (46 pretty)) (15 (74 .) (74 .))) (15 (49 .) (45 awful))) (74 .)) (36 #)) (50 [UNK])) (36 #)) (75 mkr))
+I 2025-01-19T03:12:57 models.base_trainer:208: sexism results at 18.45315: {'loss': 92.98334961030768, 'training_loss': 94.4956976380738, 'ckp': '18.45315'}
+I 2025-01-19T03:12:57 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:12:57 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:12:57 models.base_trainer:115: new best: {'ckp': '18.45315', 'patience': 0, 'loss': 92.98334961030768, 'training_loss': 94.4956976380738}
+I 2025-01-19T03:12:57 models.base_trainer:330: epoch: 19
+I 2025-01-19T03:15:19 models.base_trainer:403: end of epoch 19
+I 2025-01-19T03:15:19 models.base_trainer:406: average training loss: 94.36040258747477
+I 2025-01-19T03:15:19 models.base_trainer:228: evaluating
+I 2025-01-19T03:15:19 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:17:09 models.base_trainer:194: avg eval loss: 92.87059793257876
+I 2025-01-19T03:17:09 grammars.pcfg:171: trees:
+(25 (27 (14 (34 fuck) (39 everything)) (15 (74 .) (14 (37 back) (15 (52 on) (29 (86 the) (82 road)))))) (74 .))
+(25 (44 [UNK]) (25 (27 (27 (27 (27 (27 (14 (80 what) (14 (68 you) (61 see))) (15 (52 as) (29 (88 ") (53 normal)))) (16 (49 ,) (14 (8 (80 ") (57 women)) (2 (73 see) (15 (52 as) (59 threatening)))))) (15 (49 ,) (3 (92 and) (14 (8 (68 we) (32 keep)) (2 (34 telling) (39 you)))))) (15 (52 dudes) (59 this))) (15 (49 ,) (3 (92 but) (14 (1 (68 you) (21 (63 don) (10 (89 ') (9 (69 t) (61 actually))))) (14 (8 (47 want) (91 to)) (46 listen)))))) (74 .)))
+(25 (27 (8 (8 (68 i) (32 do)) (81 not)) (2 (42 like) (64 engineering))) (85 teachers))
+(25 (7 (13 (5 (25 (17 (25 (27 (8 (68 please) (32 enjoy)) (2 (11 (11 (86 my) (71 deconstructed)) (71 lemon)) (41 tart))) (74 .)) (36 #)) (75 mkr)) (5 (31 (23 (84 http) (94 :)) (31 (55 /) (55 /))) (69 t))) (74 .)) (66 co)) (13 (55 /) (50 [UNK])))
+I 2025-01-19T03:17:09 models.base_trainer:208: sexism results at 19.47700: {'loss': 92.87195878343653, 'training_loss': 94.36040258747477, 'ckp': '19.47700'}
+I 2025-01-19T03:17:09 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:17:09 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:17:09 models.base_trainer:115: new best: {'ckp': '19.47700', 'patience': 0, 'loss': 92.87195878343653, 'training_loss': 94.36040258747477}
+I 2025-01-19T03:17:09 models.base_trainer:330: epoch: 20
+I 2025-01-19T03:19:32 models.base_trainer:403: end of epoch 20
+I 2025-01-19T03:19:32 models.base_trainer:406: average training loss: 94.23797343032165
+I 2025-01-19T03:19:32 models.base_trainer:228: evaluating
+I 2025-01-19T03:19:32 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:21:24 models.base_trainer:194: avg eval loss: 92.79600000055189
+I 2025-01-19T03:21:24 grammars.pcfg:171: trees:
+(25 (67 mention2526) (25 (27 (27 (27 (27 (81 just) (3 (92 because) (14 (68 i) (61 disagree)))) (15 (52 with) (29 (11 (11 (57 you) (26 (21 (63 doesn) (10 (89 ') (9 (69 t) (61 mean)))) (8 (68 i) (32 have)))) (71 strong)) (41 feelings)))) (15 (52 about) (59 you))) (15 (74 .) (14 (1 (68 i) (21 (81 just) (32 dislike))) (29 (86 your) (82 solution))))) (74 .)))
+(25 (27 (27 (14 (81 always) (2 (87 treat) (29 (86 a) (82 human)))) (3 (92 like) (14 (8 (65 that) (26 (89 ') (70 s))) (2 (11 (57 someone) (26 (89 ') (70 s))) (41 child))))) (15 (49 ,) (3 (92 or) (14 (80 how) (14 (8 (68 you) (32 would)) (2 (2 (2 (87 like) (39 someone)) (35 else)) (6 (91 to) (2 (87 treat) (29 (86 your) (82 child)))))))))) (74 .))
+(25 (17 (28 (14 (8 (29 (29 (88 bad) (53 news)) (15 (94 :) (14 (45 kat) (16 (49 and) (14 (8 (57 andre) (77 are)) (2 (87 in) (29 (88 good) (53 news)))))))) (95 :)) (2 (11 (11 (86 no) (71 more)) (71 [UNK])) (41 voting))) (15 (52 from) (59 teams))) (36 #)) (75 mkr))
+(25 (27 (27 (14 (8 (29 (88 many) (53 women)) (77 have)) (2 (86 a) (48 quality))) (15 (52 of) (59 purity))) (15 (38 that) (8 (29 (88 few) (53 men)) (77 possess)))) (74 .))
+I 2025-01-19T03:21:24 models.base_trainer:208: sexism results at 20.50085: {'loss': 92.79851935288725, 'training_loss': 94.23797343032165, 'ckp': '20.50085'}
+I 2025-01-19T03:21:24 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:21:24 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:21:24 models.base_trainer:115: new best: {'ckp': '20.50085', 'patience': 0, 'loss': 92.79851935288725, 'training_loss': 94.23797343032165}
+I 2025-01-19T03:21:24 models.base_trainer:330: epoch: 21
+I 2025-01-19T03:23:48 models.base_trainer:403: end of epoch 21
+I 2025-01-19T03:23:48 models.base_trainer:406: average training loss: 95.83854757664838
+I 2025-01-19T03:23:48 models.base_trainer:228: evaluating
+I 2025-01-19T03:23:48 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:25:41 models.base_trainer:194: avg eval loss: 95.63957984752786
+I 2025-01-19T03:25:41 grammars.pcfg:171: trees:
+(25 (7 (27 (45 wow) (16 (49 ,) (14 (81 just) (73 wow)))) (7 (24 (5 (31 (23 (43 :) (43 smiling)) (31 (23 (4 (76 _) (90 face)) (4 (76 _) (90 with))) (31 (23 (4 (76 _) (90 heart)) (4 (76 -) (90 eyes))) (31 (23 (43 :) (23 (27 (27 (27 (14 (8 (65 it) (26 (26 (89 ') (70 s)) (81 really))) (46 amazing)) (3 (92 when) (14 (8 (29 (86 a) (82 guy)) (77 writes)) (2 (87 out) (29 (86 his) (82 emotions)))))) (15 (91 for) (29 (86 a) (82 girl)))) (16 (49 .) (14 (81 just) (73 wow)))) (74 .))) (31 (23 (43 https) (43 :)) (31 (72 /) (72 /))))))) (54 t)) (95 .)) (36 co))) (13 (72 /) (56 [UNK])))
+(25 (44 [UNK]) (25 (28 (28 (14 (8 (57 she) (77 already)) (2 (2 (60 [UNK]) (3 (92 that) (14 (14 (8 (65 it) (26 (26 (89 ') (70 s)) (81 not))) (46 going)) (15 (91 to) (59 happen))))) (35 lol))) (85 .)) (85 .)) (25 (14 (8 (29 (86 any) (82 day)) (8 (80 now) (8 (57 she) (77 will)))) (2 (78 come) (35 out))) (3 (92 saying) (14 (8 (29 (86 that) (82 editing)) (8 (65 i) (26 (89 ') (70 d)))) (6 (91 to) (2 (87 blame) (29 (71 #) (41 mkr)))))))))
+(25 (7 (24 (5 (25 (27 (14 (29 (88 black) (53 bar)) (58 [UNK])) (15 (91 to) (59 [UNK]))) (74 .)) (5 (31 (23 (43 http) (43 :)) (31 (72 /) (72 /))) (54 t))) (95 .)) (36 co)) (13 (72 /) (56 [UNK])))
+(25 (44 [UNK]) (25 (44 [UNK]) (25 (44 [UNK]) (25 (27 (45 quick) (16 (49 !) (14 (2 (87 kiss) (29 (86 a) (82 boy))) (35 !)))) (3 (92 and) (14 (8 (34 show) (39 me)) (2 (29 (86 your) (82 birth)) (14 (51 [UNK]) (35 !)))))))))
+I 2025-01-19T03:25:41 models.base_trainer:208: sexism results at 21.52470: {'loss': 95.64248060375671, 'training_loss': 95.83854757664838, 'ckp': '21.52470'}
+I 2025-01-19T03:25:41 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:25:41 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:25:41 models.base_trainer:330: epoch: 22
+I 2025-01-19T03:28:05 models.base_trainer:403: end of epoch 22
+I 2025-01-19T03:28:05 models.base_trainer:406: average training loss: 95.3031612892071
+I 2025-01-19T03:28:05 models.base_trainer:228: evaluating
+I 2025-01-19T03:28:05 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:29:57 models.base_trainer:194: avg eval loss: 93.31752834152266
+I 2025-01-19T03:29:57 grammars.pcfg:171: trees:
+(25 (67 mention2601) (25 (27 (14 (8 (68 i) (32 sometimes)) (2 (47 post) (6 (91 to) (2 (73 ghazi) (15 (74 .) (14 (8 (65 i) (26 (89 ') (70 m))) (2 (73 fond) (15 (52 of) (29 (11 (11 (29 (86 the) (82 community)) (26 (89 ') (70 s))) (44 [UNK])) (41 channel)))))))))) (15 (74 .) (14 (8 (65 it) (26 (89 ') (70 s))) (2 (2 (86 a) (48 place)) (6 (91 to) (2 (42 be) (44 [UNK]))))))) (74 .)))
+(25 (44 [UNK]) (25 (56 [UNK]) (56 [UNK])))
+(25 (67 mention2265) (25 (27 (27 (14 (8 (77 should) (29 (86 the) (82 [UNK]))) (2 (42 be) (64 equal))) (15 (49 ?) (45 50))) (15 (93 /) (78 50))) (85 ?)))
+(25 (30 (44 [UNK]) (44 [UNK])) (28 (38 which) (28 (14 (8 (57 tag) (77 are)) (2 (42 you) (2 (47 referring) (91 to)))) (85 ?))))
+I 2025-01-19T03:29:57 models.base_trainer:208: sexism results at 22.54855: {'loss': 93.31920844849864, 'training_loss': 95.3031612892071, 'ckp': '22.54855'}
+I 2025-01-19T03:29:57 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:29:57 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:29:57 models.base_trainer:330: epoch: 23
+I 2025-01-19T03:32:21 models.base_trainer:403: end of epoch 23
+I 2025-01-19T03:32:21 models.base_trainer:406: average training loss: 94.41002090022249
+I 2025-01-19T03:32:21 models.base_trainer:228: evaluating
+I 2025-01-19T03:32:21 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:34:12 models.base_trainer:194: avg eval loss: 92.7928587688845
+I 2025-01-19T03:34:12 grammars.pcfg:171: trees:
+(25 (44 [UNK]) (25 (17 (28 (28 (28 (28 (28 (28 (28 (28 (28 (28 (51 [UNK]) (85 !)) (85 !)) (85 !)) (85 !)) (85 !)) (14 (45 ash) (16 (49 and) (14 (8 (57 camilla) (77 are)) (46 back))))) (85 !)) (85 !)) (85 !)) (85 !)) (71 #)) (75 mkr)))
+(25 (27 (27 (27 (27 (27 (27 (27 (27 (27 (60 [UNK]) (45 adults)) (15 (52 in) (59 general))) (15 (74 .) (74 .))) (15 (74 .) (14 (45 maybe) (74 .)))) (16 (49 -) (14 (78 head) (44 [UNK])))) (16 (49 -) (14 (45 well) (16 (49 ,) (14 (57 you) (58 seem)))))) (15 (74 .) (74 .))) (15 (51 [UNK]) (35 yet))) (16 (49 ,) (14 (45 adult) (16 (49 ?) (14 (81 not) (2 (87 like) (29 (11 (86 a) (88 butch)) (41 person)))))))) (74 .))
+(25 (25 (44 [UNK]) (25 (27 (27 (45 yo) (16 (49 ,) (14 (8 (29 (86 the) (82 tweet)) (8 (68 i) (32 made))) (2 (87 about) (29 (11 (29 (11 (86 the) (88 tetris)) (41 book)) (26 (81 just) (32 got))) (41 [UNK])))))) (15 (52 by) (29 (44 [UNK]) (44 [UNK])))) (74 .))) (23 (79 :) (83 p)))
+(25 (7 (28 (8 (65 i) (26 (81 feel) (22 (61 like) (8 (57 this) (77 is))))) (46 necessary)) (7 (24 (5 (31 (23 (43 today) (79 :)) (31 (23 (43 http) (79 :)) (31 (72 /) (72 /)))) (54 t)) (95 .)) (66 co))) (13 (72 /) (56 [UNK])))
+I 2025-01-19T03:34:12 models.base_trainer:208: sexism results at 23.57240: {'loss': 92.79485326780959, 'training_loss': 94.41002090022249, 'ckp': '23.57240'}
+I 2025-01-19T03:34:12 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:34:12 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:34:12 models.base_trainer:115: new best: {'ckp': '23.57240', 'patience': 0, 'loss': 92.79485326780959, 'training_loss': 94.41002090022249}
+I 2025-01-19T03:34:13 models.base_trainer:330: epoch: 24
+I 2025-01-19T03:36:37 models.base_trainer:403: end of epoch 24
+I 2025-01-19T03:36:37 models.base_trainer:406: average training loss: 94.16730875219189
+I 2025-01-19T03:36:37 models.base_trainer:228: evaluating
+I 2025-01-19T03:36:37 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:38:30 models.base_trainer:194: avg eval loss: 92.64720967088627
+I 2025-01-19T03:38:30 grammars.pcfg:171: trees:
+(25 (7 (28 (14 (8 (65 i) (26 (89 ') (70 ll))) (2 (2 (87 take) (39 it)) (35 out))) (15 (52 for) (59 you))) (7 (25 (67 rt) (25 (44 [UNK]) (25 (27 (14 (8 (68 i) (22 (61 think) (8 (29 (86 a) (82 grownup)) (77 should)))) (2 (87 take) (39 out))) (15 (86 the) (48 trash))) (74 .)))) (7 (24 (5 (31 (23 (18 (92 but) (28 (92 () (88 [UNK]))) (83 ))) (31 (23 (43 http) (79 :)) (31 (55 /) (55 /)))) (54 tl)) (95 .)) (50 [UNK])))) (13 (72 /) (56 [UNK])))
+(25 (25 (27 (67 mention1390) (45 yup)) (74 .)) (23 (79 :) (83 ))))
+(25 (44 [UNK]) (25 (44 [UNK]) (25 (44 [UNK]) (25 (17 (28 (28 (28 (28 (28 (28 (45 sorbet) (85 ?)) (85 ?)) (85 ?)) (14 (8 (65 how) (26 (89 ') (70 s))) (2 (2 (11 (86 this) (88 gonna)) (41 work)) (35 out)))) (85 !)) (85 ?)) (71 #)) (75 mkr)))))
+(25 (27 (14 (8 (68 i) (22 (61 think) (8 (57 it) (77 is)))) (2 (73 right) (3 (92 that) (14 (15 (52 in) (29 (29 (86 my) (82 circles)) (15 (52 of) (59 friends)))) (16 (49 ,) (14 (8 (29 (11 (11 (86 my) (88 future)) (88 domestic)) (41 activity)) (77 is)) (2 (42 considered) (64 equal)))))))) (6 (91 to) (2 (11 (86 my) (88 professional)) (41 activity)))) (74 .))
+I 2025-01-19T03:38:30 models.base_trainer:208: sexism results at 24.59625: {'loss': 92.64989298689919, 'training_loss': 94.16730875219189, 'ckp': '24.59625'}
+I 2025-01-19T03:38:30 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:38:30 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:38:30 models.base_trainer:115: new best: {'ckp': '24.59625', 'patience': 0, 'loss': 92.64989298689919, 'training_loss': 94.16730875219189}
+I 2025-01-19T03:38:30 models.base_trainer:330: epoch: 25
+I 2025-01-19T03:40:57 models.base_trainer:403: end of epoch 25
+I 2025-01-19T03:40:57 models.base_trainer:406: average training loss: 94.00188388784477
+I 2025-01-19T03:40:57 models.base_trainer:228: evaluating
+I 2025-01-19T03:40:57 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:42:50 models.base_trainer:194: avg eval loss: 92.68346162275834
+I 2025-01-19T03:42:50 grammars.pcfg:171: trees:
+(25 (67 oh) (25 (7 (28 (27 (27 (15 (49 ,) (44 [UNK])) (16 (49 .) (14 (1 (68 i) (21 (63 don) (10 (89 ') (9 (54 t) (61 do))))) (29 (88 passive) (56 [UNK]))))) (16 (49 .) (14 (8 (65 i) (26 (89 ') (70 m))) (2 (56 [UNK]) (56 [UNK]))))) (74 .)) (7 (24 (5 (31 (23 (43 http) (79 :)) (31 (55 /) (55 /))) (54 t)) (95 .)) (66 co))) (13 (72 /) (56 [UNK]))))
+(25 (28 (14 (8 (68 i) (22 (61 cook) (8 (82 bitch) (23 (79 ;) (83 p))))) (2 (42 ") (44 [UNK]))) (15 (52 at) (59 you))) (25 (44 [UNK]) (25 (44 [UNK]) (25 (44 [UNK]) (28 (28 (17 (28 (14 (8 (65 i) (26 (26 (89 ') (70 m)) (81 not))) (2 (73 sexist) (3 (92 but) (14 (8 (80 if) (57 you)) (2 (86 a) (48 female)))))) (16 (49 &) (14 (57 you) (21 (63 can) (10 (89 ') (9 (54 t) (61 cook))))))) (71 #)) (51 [UNK])) (85 "))))))
+(25 (67 mention1932) (25 (27 (27 (14 (8 (29 (59 over) (15 (52 on) (29 (88 [UNK]) (53 people)))) (77 are)) (2 (87 giving) (29 (44 [UNK]) (44 [UNK])))) (6 (91 to) (2 (87 harass) (39 me)))) (15 (8 (8 (14 (14 (8 (65 they) (26 (26 (89 ') (70 ve)) (81 literally))) (2 (42 been) (2 (56 [UNK]) (29 (86 all) (82 day))))) (15 (52 on) (59 it))) (49 .)) (81 its)) (46 hilarious))) (74 .)))
+(25 (67 dont) (25 (27 (3 (92 even) (14 (14 (8 (34 get) (39 me)) (46 started)) (15 (52 on) (29 (86 [UNK]) (82 man))))) (16 (49 .) (14 (8 (29 (11 (86 the) (88 gaming)) (41 community)) (77 does)) (2 (2 (47 tend) (6 (91 to) (2 (42 be) (2 (11 (11 (86 a) (88 bit)) (88 more)) (41 friendly))))) (6 (91 to) (2 (86 the) (56 [UNK]))))))) (74 .)))
+I 2025-01-19T03:42:50 models.base_trainer:208: sexism results at 25.62010: {'loss': 92.68559622508099, 'training_loss': 94.00188388784477, 'ckp': '25.62010'}
+I 2025-01-19T03:42:50 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:42:50 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:42:50 models.base_trainer:330: epoch: 26
+I 2025-01-19T03:45:15 models.base_trainer:403: end of epoch 26
+I 2025-01-19T03:45:15 models.base_trainer:406: average training loss: 93.90455068032446
+I 2025-01-19T03:45:15 models.base_trainer:228: evaluating
+I 2025-01-19T03:45:15 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:47:09 models.base_trainer:194: avg eval loss: 92.64043191031627
+I 2025-01-19T03:47:09 grammars.pcfg:171: trees:
+(25 (27 (13 (72 /) (56 [UNK])) (44 [UNK])) (51 [UNK]))
+(25 (25 (30 (36 #) (75 mkr)) (28 (28 (27 (27 (14 (80 ") (14 (8 (57 everyone) (77 under)) (2 (51 [UNK]) (39 us)))) (3 (92 ") (14 (45 umm) (16 (49 bitch) (14 (8 (8 (8 (65 you) (26 (34 came) (29 (29 (88 second) (53 last)) (15 (49 ,) (45 like))))) (81 literally)) (81 just)) (51 [UNK])))))) (16 (49 -) (14 (57 you) (21 (63 didn) (10 (89 ') (9 (54 t) (61 win))))))) (85 !)) (2 (86 my) (48 god)))) (23 (30 (36 #) (50 [UNK])) (30 (36 #) (50 [UNK]))))
+(25 (67 mention2035) (25 (27 (27 (27 (27 (14 (8 (68 i) (32 have)) (2 (86 no) (48 idea))) (15 (38 what) (8 (68 these) (32 mean)))) (15 (79 :) (44 [UNK]))) (15 (49 ,) (44 [UNK]))) (16 (49 .) (14 (80 guessing) (14 (8 (57 [UNK]) (77 would)) (2 (42 be) (44 [UNK])))))) (85 ?)))
+(25 (27 (27 (27 (27 (30 (36 #) (50 [UNK])) (3 (92 if) (14 (8 (68 you) (32 only)) (2 (56 [UNK]) (29 (86 your) (82 [UNK])))))) (15 (52 for) (29 (86 the) (82 [UNK])))) (15 (52 of) (29 (86 a) (82 story)))) (15 (52 as) (59 long))) (3 (92 as) (14 (8 (57 it) (21 (63 doesn) (10 (89 ') (9 (54 t) (61 threaten))))) (2 (11 (86 the) (88 status)) (41 quo)))))
+I 2025-01-19T03:47:09 models.base_trainer:208: sexism results at 26.64395: {'loss': 92.64197887954619, 'training_loss': 93.90455068032446, 'ckp': '26.64395'}
+I 2025-01-19T03:47:09 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:47:09 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:47:09 models.base_trainer:115: new best: {'ckp': '26.64395', 'patience': 0, 'loss': 92.64197887954619, 'training_loss': 93.90455068032446}
+I 2025-01-19T03:47:09 models.base_trainer:330: epoch: 27
+I 2025-01-19T03:49:37 models.base_trainer:403: end of epoch 27
+I 2025-01-19T03:49:37 models.base_trainer:406: average training loss: 93.80427791747407
+I 2025-01-19T03:49:37 models.base_trainer:228: evaluating
+I 2025-01-19T03:49:37 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:51:30 models.base_trainer:194: avg eval loss: 92.45603970092296
+I 2025-01-19T03:51:30 grammars.pcfg:171: trees:
+(25 (44 [UNK]) (25 (27 (27 (27 (27 (27 (27 (14 (47 asked) (6 (91 to) (2 (73 speak) (15 (91 to) (39 me))))) (15 (52 about) (29 (11 (86 the) (88 wadhwa)) (41 thing)))) (16 (49 .) (14 (57 they) (21 (81 *) (21 (81 just) (21 (81 *) (32 got))))))) (15 (52 off) (29 (86 the) (82 phone)))) (15 (52 with) (59 him))) (15 (49 ,) (3 (92 &) (14 (80 now) (14 (1 (68 they) (21 (63 don) (10 (89 ') (9 (54 t) (61 need))))) (6 (91 to) (2 (47 talk) (6 (91 to) (2 (39 me) (35 anymore)))))))))) (15 (49 .) (45 weird))) (74 .)))
+(25 (27 (14 (8 (65 it) (26 (26 (89 ') (70 s)) (81 nothing))) (2 (73 worse) (15 (52 than) (29 (11 (11 (86 an) (88 [UNK])) (88 talking)) (41 shit))))) (3 (92 when) (14 (8 (29 (29 (11 (86 your) (88 team)) (51 [UNK])) (15 (49 .) (44 [UNK]))) (77 better)) (46 win)))) (74 .))
+(25 (44 [UNK]) (25 (44 [UNK]) (25 (27 (27 (27 (2 (87 report) (39 it)) (16 (49 ,) (14 (34 email) (39 me)))) (16 (49 ,) (14 (21 (34 tell) (39 me)) (3 (92 if) (14 (8 (68 you) (32 get)) (2 (86 no) (48 response))))))) (15 (52 in) (29 (11 (86 a) (88 [UNK])) (41 manner)))) (74 .))))
+(25 (44 [UNK]) (25 (67 no) (25 (44 [UNK]) (25 (28 (27 (27 (27 (15 (52 around) (59 there)) (16 (49 ?) (14 (8 (68 i) (32 change)) (2 (60 [UNK]) (3 (92 whenever) (14 (68 i) (61 see))))))) (15 (57 women) (58 stranded))) (15 (74 .) (74 .))) (74 .)) (28 (14 (8 (65 it) (26 (89 ') (70 s))) (2 (38 what) (14 (8 (65 we) (26 (89 ') (70 re))) (46 supposed)))) (15 (91 to) (87 do)))))))
+I 2025-01-19T03:51:30 models.base_trainer:208: sexism results at 27.66780: {'loss': 92.45878976842884, 'training_loss': 93.80427791747407, 'ckp': '27.66780'}
+I 2025-01-19T03:51:30 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:51:30 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:51:30 models.base_trainer:115: new best: {'ckp': '27.66780', 'patience': 0, 'loss': 92.45878976842884, 'training_loss': 93.80427791747407}
+I 2025-01-19T03:51:30 models.base_trainer:330: epoch: 28
+I 2025-01-19T03:53:55 models.base_trainer:403: end of epoch 28
+I 2025-01-19T03:53:55 models.base_trainer:406: average training loss: 93.72232711040249
+I 2025-01-19T03:53:55 models.base_trainer:228: evaluating
+I 2025-01-19T03:53:55 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T03:55:47 models.base_trainer:194: avg eval loss: 92.4796063040009
+I 2025-01-19T03:55:47 grammars.pcfg:171: trees:
+(25 (44 [UNK]) (25 (27 (27 (14 (8 (57 you) (77 should)) (2 (87 bring) (29 (78 those) (35 up)))) (15 (52 with) (29 (86 the) (82 [UNK])))) (16 (49 .) (14 (8 (57 they) (77 are)) (51 [UNK])))) (74 .)))
+(25 (67 mention963) (25 (27 (27 (27 (27 (27 (45 everything) (16 (49 .) (14 (78 right) (35 now)))) (16 (49 ,) (14 (8 (65 i) (26 (89 ') (70 m))) (46 mostly)))) (15 (52 in) (59 love))) (15 (60 [UNK]) (29 (86 my) (82 [UNK])))) (15 (51 [UNK]) (13 (72 /) (56 [UNK])))) (3 (92 () (14 (3 (92 but) (14 (56 [UNK]) (15 (52 for) (50 [UNK])))) (83 ))))))
+(25 (17 (51 [UNK]) (71 #)) (75 mkr))
+(25 (14 (14 (8 (57 it) (77 is)) (46 wrong)) (15 (52 for) (29 (86 a) (82 man)))) (6 (91 to) (2 (87 enter) (29 (11 (11 (86 a) (88 [UNK])) (88 female)) (41 career)))))
+I 2025-01-19T03:55:47 models.base_trainer:208: sexism results at 28.69165: {'loss': 92.48249307250043, 'training_loss': 93.72232711040249, 'ckp': '28.69165'}
+I 2025-01-19T03:55:47 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T03:55:47 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T03:55:47 models.base_trainer:330: epoch: 29
+I 2025-01-19T03:58:12 models.base_trainer:403: end of epoch 29
+I 2025-01-19T03:58:12 models.base_trainer:406: average training loss: 94.70405770067899
+I 2025-01-19T03:58:12 models.base_trainer:228: evaluating
+I 2025-01-19T03:58:12 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T04:00:06 models.base_trainer:194: avg eval loss: 92.86230735741519
+I 2025-01-19T04:00:06 grammars.pcfg:171: trees:
+(25 (67 mention3847) (25 (27 (27 (27 (27 (27 (27 (3 (92 that) (14 (8 (29 (86 no) (82 one)) (77 has)) (46 [UNK]))) (16 (49 .) (14 (8 (65 it) (26 (89 ') (70 s))) (2 (86 an) (48 old))))) (16 (49 and) (14 (29 (86 [UNK]) (82 trick)) (58 used)))) (15 (52 by) (59 trolls))) (15 (49 and) (45 [UNK]))) (15 (52 -) (59 feminists))) (15 (52 all) (29 (86 the) (82 time)))) (74 .)))
+(25 (17 (28 (80 pretty) (28 (79 :) (25 (67 [UNK]) (25 (27 (27 (27 (27 (27 (14 (37 1) (15 (74 .) (14 (8 (29 (29 (29 (88 )) (53 attractive)) (15 (52 in) (29 (11 (86 a) (88 [UNK])) (41 way)))) (15 (52 without) (59 being))) (77 truly)) (46 beautiful)))) (15 (74 .) (14 (80 ") (14 (11 (11 (86 a) (88 pretty)) (88 little)) (41 girl))))) (15 (52 with) (29 (11 (86 an) (88 [UNK])) (41 [UNK])))) (35 ")) (15 (49 .) (45 um))) (15 (49 ,) (45 no))) (74 .))))) (71 #)) (75 mkr))
+(25 (67 [UNK]) (25 (67 [UNK]) (25 (27 (27 (27 (14 (80 how) (14 (8 (57 hilarious) (77 are)) (2 (88 female) (53 refs)))) (15 (52 in) (29 (86 the) (82 nba)))) (16 (49 ?) (14 (8 (77 is) (57 it)) (2 (87 like) (29 (11 (86 the) (88 [UNK])) (41 rule)))))) (15 (52 in) (29 (86 the) (82 nfl)))) (85 ?))))
+(25 (27 (27 (14 (8 (29 (88 few) (53 things)) (77 are)) (46 funnier)) (15 (52 than) (29 (86 a) (82 woman)))) (15 (52 in) (29 (88 ridiculous) (53 heels)))) (15 (47 trying) (6 (91 to) (2 (47 run) (6 (91 to) (2 (87 catch) (29 (86 the) (82 [UNK]))))))))
+I 2025-01-19T04:00:06 models.base_trainer:208: sexism results at 29.71550: {'loss': 92.86486211627503, 'training_loss': 94.70405770067899, 'ckp': '29.71550'}
+I 2025-01-19T04:00:06 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T04:00:06 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T04:00:06 models.base_trainer:330: epoch: 30
+I 2025-01-19T04:02:30 models.base_trainer:403: end of epoch 30
+I 2025-01-19T04:02:30 models.base_trainer:406: average training loss: 93.68718139680426
+I 2025-01-19T04:02:30 models.base_trainer:228: evaluating
+I 2025-01-19T04:02:30 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T04:04:24 models.base_trainer:194: avg eval loss: 92.45046623431342
+I 2025-01-19T04:04:24 grammars.pcfg:171: trees:
+(25 (25 (67 rt) (25 (30 (51 [UNK]) (79 :)) (28 (27 (27 (27 (27 (14 (80 did) (1 (68 you) (21 (61 know) (38 that)))) (15 (52 in) (29 (56 [UNK]) (6 (91 to) (2 (44 [UNK]) (44 [UNK])))))) (15 (52 of) (59 beef))) (16 (49 ,) (14 (8 (29 (88 game) (53 meat)) (77 has)) (2 (87 about) (29 (37 1) (15 (72 /) (78 3))))))) (15 (44 [UNK]) (44 [UNK]))) (85 ?)))) (23 (30 (36 #) (50 [UNK])) (23 (30 (36 #) (75 chicken)) (30 (36 #) (75 mkr)))))
+(25 (27 (14 (8 (8 (57 rookies) (77 should)) (81 not)) (2 (42 be) (2 (47 allowed) (6 (91 to) (2 (87 announce) (29 (59 sports) (15 (74 .) (14 (8 (29 (88 next) (53 thing)) (8 (68 you) (22 (61 know) (8 (8 (65 they) (26 (89 ') (70 re))) (81 gonna))))) (2 (87 want) (29 (86 the) (82 right))))))))))) (15 (91 to) (61 vote))) (74 .))
+(25 (7 (28 (27 (81 still) (73 grinning)) (74 .)) (7 (24 (5 (31 (23 (79 :) (0 (40 beaming) (20 (76 _) (0 (40 face) (20 (76 _) (0 (40 with) (20 (76 _) (0 (40 smiling) (20 (4 (76 _) (90 eyes)) (79 :)))))))))) (31 (23 (43 http) (79 :)) (31 (55 /) (55 /)))) (69 t)) (95 .)) (66 co))) (13 (55 /) (33 [UNK])))
+(25 (44 [UNK]) (25 (17 (28 (28 (2 (87 ruined) (29 (86 the) (82 [UNK]))) (15 (74 .) (14 (8 (77 must) (65 it)) (2 (87 kill) (29 (59 food) (15 (49 ,) (45 too))))))) (85 ?)) (71 #)) (75 mkr)))
+I 2025-01-19T04:04:24 models.base_trainer:208: sexism results at 30.73935: {'loss': 92.45207299113565, 'training_loss': 93.68718139680426, 'ckp': '30.73935'}
+I 2025-01-19T04:04:24 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T04:04:24 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T04:04:24 models.base_trainer:115: new best: {'ckp': '30.73935', 'patience': 0, 'loss': 92.45207299113565, 'training_loss': 93.68718139680426}
+I 2025-01-19T04:04:24 models.base_trainer:330: epoch: 31
+I 2025-01-19T04:06:49 models.base_trainer:403: end of epoch 31
+I 2025-01-19T04:06:49 models.base_trainer:406: average training loss: 93.58307418503351
+I 2025-01-19T04:06:49 models.base_trainer:228: evaluating
+I 2025-01-19T04:06:49 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T04:08:39 models.base_trainer:194: avg eval loss: 92.49612683494769
+I 2025-01-19T04:08:39 grammars.pcfg:171: trees:
+(25 (17 (28 (27 (14 (8 (68 i) (22 (61 think) (8 (57 annie) (77 is)))) (2 (87 on) (29 (88 sleeping) (56 [UNK])))) (15 (52 or) (59 something))) (74 .)) (71 #)) (75 mkr))
+(25 (17 (28 (14 (8 (57 drasko) (77 playing)) (2 (87 with) (29 (86 his) (82 pork)))) (16 (49 ,) (14 (8 (57 who) (77 would)) (2 (42 have) (64 thought))))) (71 #)) (75 mkr))
+(25 (27 (27 (27 (27 (14 (14 (8 (8 (57 it) (77 will)) (81 never)) (2 (42 be) (64 okay))) (15 (52 for) (59 lads))) (6 (91 to) (2 (42 take) (64 selfies)))) (15 (49 and) (2 (87 use) (39 them)))) (15 (52 as) (29 (78 display) (35 pictures)))) (16 (49 .) (14 (45 sorry) (16 (49 .) (14 (81 not) (73 normal)))))) (74 .))
+(25 (27 (27 (27 (14 (8 (8 (68 i) (22 (61 think) (8 (65 i) (26 (89 ') (70 m))))) (81 just)) (2 (47 going) (6 (91 to) (2 (87 play) (29 (78 video) (35 games)))))) (15 (86 all) (48 day))) (16 (49 .) (14 (45 ^) (16 (49 .) (14 (80 ^) (14 (8 (65 it) (26 (89 ') (70 s))) (2 (87 been) (29 (11 (11 (86 a) (88 super)) (88 [UNK])) (41 week))))))))) (16 (49 .) (14 (8 (68 i) (32 need)) (2 (86 a) (48 break))))) (74 .))
+I 2025-01-19T04:08:39 models.base_trainer:208: sexism results at 31.76320: {'loss': 92.49806894276719, 'training_loss': 93.58307418503351, 'ckp': '31.76320'}
+I 2025-01-19T04:08:39 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T04:08:39 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T04:08:39 models.base_trainer:330: epoch: 32
+I 2025-01-19T04:11:04 models.base_trainer:403: end of epoch 32
+I 2025-01-19T04:11:04 models.base_trainer:406: average training loss: 93.67434835533926
+I 2025-01-19T04:11:04 models.base_trainer:228: evaluating
+I 2025-01-19T04:11:04 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T04:12:56 models.base_trainer:194: avg eval loss: 92.4230564150992
+I 2025-01-19T04:12:56 grammars.pcfg:171: trees:
+(25 (17 (28 (8 (29 (78 pete) (35 e)) (77 looks)) (46 [UNK])) (71 #)) (75 mkr))
+(25 (17 (28 (28 (45 wow) (16 (49 .) (14 (8 (68 i) (22 (61 think) (8 (57 kat) (77 is)))) (2 (2 (11 (11 (86 the) (88 least)) (44 [UNK])) (41 person)) (35 ever))))) (85 !)) (71 #)) (75 mkr))
+(25 (25 (27 (27 (44 [UNK]) (44 [UNK])) (15 (72 /) (60 [UNK]))) (74 .)) (23 (79 :) (83 ))))
+(25 (44 [UNK]) (25 (67 mention4225) (25 (27 (14 (8 (8 (57 rock) (77 is)) (81 much)) (2 (47 closer) (6 (91 to) (2 (44 [UNK]) (15 (52 than) (29 (88 most) (53 know))))))) (15 (74 .) (74 .))) (74 .))))
+I 2025-01-19T04:12:56 models.base_trainer:208: sexism results at 32.78705: {'loss': 92.42447575636773, 'training_loss': 93.67434835533926, 'ckp': '32.78705'}
+I 2025-01-19T04:12:56 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T04:12:56 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T04:12:56 models.base_trainer:115: new best: {'ckp': '32.78705', 'patience': 0, 'loss': 92.42447575636773, 'training_loss': 93.67434835533926}
+I 2025-01-19T04:12:56 models.base_trainer:330: epoch: 33
+I 2025-01-19T04:15:19 models.base_trainer:403: end of epoch 33
+I 2025-01-19T04:15:19 models.base_trainer:406: average training loss: 93.4863562002122
+I 2025-01-19T04:15:19 models.base_trainer:228: evaluating
+I 2025-01-19T04:15:19 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T04:17:12 models.base_trainer:194: avg eval loss: 92.33321134132841
+I 2025-01-19T04:17:12 grammars.pcfg:171: trees:
+(25 (28 (14 (8 (57 there) (77 is)) (2 (86 no) (48 chance))) (15 (52 in) (59 hell))) (28 (28 (27 (27 (14 (8 (65 i) (26 (89 ') (70 m))) (2 (87 letting) (39 anyone))) (15 (52 beat) (59 me))) (15 (52 at) (59 anything))) (74 .)) (85 sorry)))
+(25 (27 (27 (27 (27 (27 (27 (27 (27 (14 (88 [UNK]) (53 adults)) (15 (52 in) (59 general))) (15 (74 .) (74 .))) (16 (49 .) (14 (45 maybe) (74 .)))) (16 (49 -) (14 (78 head) (44 [UNK])))) (16 (49 -) (14 (45 well) (16 (49 ,) (14 (57 you) (58 seem)))))) (15 (74 .) (74 .))) (15 (51 [UNK]) (35 yet))) (16 (49 ,) (14 (8 (8 (57 adult) (77 ?)) (81 not)) (2 (87 like) (29 (11 (86 a) (88 butch)) (41 person)))))) (74 .))
+(25 (14 (8 (8 (8 (68 i) (32 am)) (81 firmly)) (15 (52 against) (59 elders))) (2 (42 posting) (64 selfies))) (15 (52 with) (29 (11 (86 the) (88 dog)) (41 filter))))
+(25 (28 (14 (8 (29 (29 (78 voting) (35 strategically)) (15 (52 on) (29 (71 #) (75 mkr)))) (77 is)) (46 one)) (15 (52 of) (29 (11 (86 the) (88 lowest)) (41 things)))) (28 (27 (27 (14 (8 (68 you) (32 can)) (2 (73 do) (15 (74 .) (14 (8 (65 you) (26 (89 ') (70 re))) (2 (78 sitting) (35 bottom)))))) (15 (52 of) (29 (11 (86 the) (88 redemption)) (41 round)))) (16 (49 ,) (14 (80 clearly) (14 (81 not) (2 (47 going) (91 to)))))) (85 win)))
+I 2025-01-19T04:17:12 models.base_trainer:208: sexism results at 33.81090: {'loss': 92.33484385497412, 'training_loss': 93.4863562002122, 'ckp': '33.81090'}
+I 2025-01-19T04:17:12 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T04:17:12 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T04:17:12 models.base_trainer:115: new best: {'ckp': '33.81090', 'patience': 0, 'loss': 92.33484385497412, 'training_loss': 93.4863562002122}
+I 2025-01-19T04:17:12 models.base_trainer:330: epoch: 34
+I 2025-01-19T04:19:34 models.base_trainer:403: end of epoch 34
+I 2025-01-19T04:19:34 models.base_trainer:406: average training loss: 93.45566713665016
+I 2025-01-19T04:19:34 models.base_trainer:228: evaluating
+I 2025-01-19T04:19:34 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T04:21:26 models.base_trainer:194: avg eval loss: 92.39751010160175
+I 2025-01-19T04:21:26 grammars.pcfg:171: trees:
+(25 (44 [UNK]) (25 (27 (27 (27 (27 (27 (27 (14 (8 (68 i) (32 just)) (46 laughed)) (15 (52 at) (29 (11 (60 [UNK]) (26 (89 ') (70 s))) (41 move)))) (16 (49 .) (14 (8 (57 kid) (77 is)) (46 sick)))) (16 (49 .) (14 (80 wish) (14 (8 (65 they) (26 (89 ') (70 d))) (2 (87 used) (56 [UNK])))))) (15 (52 over) (60 [UNK]))) (15 (49 ,) (45 though))) (15 (74 .) (74 .))) (74 .)))
+(25 (67 mmm) (25 (67 mmm) (25 (44 [UNK]) (25 (17 (28 (28 (45 potato) (14 (8 (29 (29 (29 (88 rosti) (53 fried)) (15 (52 on) (29 (29 (86 a) (82 [UNK])) (15 (74 .) (74 .))))) (15 (74 .) (74 .))) (77 puts)) (2 (78 fingers) (35 down)))) (56 [UNK])) (36 #)) (75 mkr)))))
+(25 (44 [UNK]) (25 (17 (28 (14 (57 manu) (21 (81 well) (58 said))) (85 !)) (17 (28 (28 (28 (27 (14 (81 just) (2 (87 cook) (29 (88 good) (53 food)))) (3 (92 and) (14 (8 (65 you) (26 (89 ') (70 ll))) (2 (42 be) (64 ok))))) (74 .)) (56 [UNK])) (85 !)) (17 (28 (14 (37 back) (15 (52 in) (29 (11 (86 ya) (88 box)) (41 bitch)))) (85 kat)) (36 #)))) (75 mkr)))
+(25 (67 mention4427) (25 (44 [UNK]) (25 (27 (27 (27 (27 (14 (80 but) (14 (8 (8 (65 i) (26 (89 ') (70 ve))) (81 only)) (51 [UNK]))) (15 (52 with) (29 (88 other) (53 members)))) (15 (52 of) (29 (88 targeted) (53 harassment)))) (15 (52 from) (29 (11 (86 this) (88 specific)) (41 group)))) (15 (49 .) (21 (63 can) (10 (89 ') (9 (54 t) (61 speak)))))) (15 (52 for) (29 (11 (86 other) (88 hate)) (41 groups))))))
+I 2025-01-19T04:21:26 models.base_trainer:208: sexism results at 34.83475: {'loss': 92.39959399496139, 'training_loss': 93.45566713665016, 'ckp': '34.83475'}
+I 2025-01-19T04:21:26 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T04:21:26 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T04:21:26 models.base_trainer:330: epoch: 35
+I 2025-01-19T04:23:51 models.base_trainer:403: end of epoch 35
+I 2025-01-19T04:23:51 models.base_trainer:406: average training loss: 93.50378141743082
+I 2025-01-19T04:23:51 models.base_trainer:228: evaluating
+I 2025-01-19T04:23:51 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T04:25:43 models.base_trainer:194: avg eval loss: 92.34768926969139
+I 2025-01-19T04:25:43 grammars.pcfg:171: trees:
+(25 (17 (28 (88 great) (41 comeback)) (17 (14 (45 manu) (16 (49 .) (14 (87 cook) (29 (11 (11 (11 (86 some) (88 good)) (88 food)) (88 next)) (41 time))))) (17 (28 (45 kat) (15 (49 and) (45 andre))) (36 #)))) (75 mkr))
+(25 (44 [UNK]) (28 (14 (8 (29 (29 (88 more) (53 [UNK])) (35 points)) (77 =)) (2 (86 more) (48 truth))) (15 (49 ,) (45 fact))))
+(25 (28 (28 (21 (63 don) (10 (89 ') (9 (54 t) (61 know)))) (6 (91 about) (2 (73 you) (3 (92 but) (14 (14 (8 (65 i) (26 (89 ') (70 m))) (51 [UNK])) (15 (52 over) (2 (42 so) (64 called)))))))) (85 ")) (28 (17 (28 (17 (28 (28 (45 strategic) (29 (88 ") (53 voting))) (85 !)) (36 #)) (75 mkr)) (36 #)) (60 [UNK])))
+(25 (17 (28 (27 (27 (27 (45 drasko) (16 (49 ,) (14 (45 steve) (16 (49 and) (14 (78 tennis) (35 coach)))))) (51 [UNK])) (15 (52 at) (29 (11 (86 the) (88 same)) (41 table)))) (85 ?)) (36 #)) (75 mkr))
+I 2025-01-19T04:25:43 models.base_trainer:208: sexism results at 35.85860: {'loss': 92.34902991828825, 'training_loss': 93.50378141743082, 'ckp': '35.85860'}
+I 2025-01-19T04:25:43 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T04:25:43 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T04:25:43 models.base_trainer:330: epoch: 36
+I 2025-01-19T04:28:08 models.base_trainer:403: end of epoch 36
+I 2025-01-19T04:28:08 models.base_trainer:406: average training loss: 93.36971933376864
+I 2025-01-19T04:28:08 models.base_trainer:228: evaluating
+I 2025-01-19T04:28:08 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T04:29:59 models.base_trainer:194: avg eval loss: 92.38443565927992
+I 2025-01-19T04:29:59 grammars.pcfg:171: trees:
+(25 (17 (28 (3 (92 and) (14 (14 (57 that) (21 (60 [UNK]) (29 (86 the) (82 smile)))) (15 (52 off) (29 (86 your) (82 face))))) (85 kat)) (36 #)) (75 mkr))
+(25 (7 (28 (27 (45 oh) (16 (49 ,) (14 (8 (57 this) (77 is)) (46 bad)))) (74 .)) (7 (28 (27 (8 (8 (57 this) (77 is)) (81 really)) (16 (49 ,) (14 (81 really) (73 bad)))) (74 .)) (7 (30 (51 [UNK]) (79 :)) (7 (28 (27 (14 (88 sexual) (56 [UNK])) (16 (49 ,) (14 (57 dc) (58 comics)))) (74 .)) (7 (24 (5 (23 (18 (92 () (28 (14 (45 hey) (16 (49 ,) (14 (8 (57 dc) (77 is)) (2 (88 bad) (53 content))))) (15 (52 for) (59 some)))) (83 ))) (5 (23 (43 http) (79 :)) (5 (31 (72 /) (72 /)) (54 t)))) (74 .)) (66 co)))))) (13 (72 /) (50 [UNK])))
+(25 (27 (27 (1 (68 i) (21 (63 can) (10 (89 ’) (9 (54 t) (61 help))))) (3 (92 but) (14 (8 (34 switch) (39 off)) (2 (47 listening) (6 (91 to) (2 (11 (86 the) (88 women)) (51 [UNK]))))))) (15 (52 on) (60 [UNK]))) (23 (79 :) (0 (40 sleeping) (20 (4 (76 _) (90 face)) (79 :)))))
+(25 (67 rt) (25 (44 [UNK]) (25 (27 (27 (27 (14 (8 (8 (68 i) (32 do)) (81 not)) (2 (87 like) (29 (88 grownup) (53 refs)))) (15 (52 for) (59 football))) (15 (74 .) (74 .))) (15 (74 .) (74 .))) (74 .))))
+I 2025-01-19T04:29:59 models.base_trainer:208: sexism results at 36.88245: {'loss': 92.3859734395314, 'training_loss': 93.36971933376864, 'ckp': '36.88245'}
+I 2025-01-19T04:29:59 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T04:29:59 models.base_trainer:248: writing average results to output/subj/sexism
+I 2025-01-19T04:29:59 models.base_trainer:139: 3 checkpoints with no improvement, stopping
+I 2025-01-19T04:29:59 models.base_trainer:228: evaluating
+I 2025-01-19T04:29:59 models.base_trainer:158: evaluating on sexism
+I 2025-01-19T04:31:52 models.base_trainer:194: avg eval loss: 92.38443565927992
+I 2025-01-19T04:31:52 grammars.pcfg:171: trees:
+(25 (7 (28 (8 (29 (11 (57 women) (26 (89 ') (70 s))) (41 football)) (77 is)) (2 (86 a) (56 [UNK]))) (7 (24 (5 (23 (43 http) (79 :)) (5 (31 (72 /) (72 /)) (54 t))) (74 .)) (66 co))) (13 (72 /) (50 [UNK])))
+(25 (67 mention4036) (28 (28 (27 (14 (8 (65 i) (26 (58 need) (91 to))) (2 (87 update) (39 that))) (15 (49 .) (45 ^))) (74 .)) (85 ^)))
+(25 (44 [UNK]) (25 (27 (27 (14 (8 (68 i) (32 dont)) (2 (87 consider) (29 (88 female) (53 pros)))) (15 (52 as) (29 (88 actual) (53 pros)))) (15 (49 ,) (3 (92 until) (14 (57 they) (58 reach))))) (3 (92 and) (14 (37 compete) (15 (52 with) (29 (88 actual) (53 pros)))))))
+(25 (7 (28 (14 (37 look) (15 (38 what) (8 (68 i) (32 have)))) (74 .)) (7 (24 (5 (23 (43 http) (79 :)) (5 (31 (72 /) (72 /)) (54 t))) (74 .)) (66 co))) (13 (72 /) (50 [UNK])))
+I 2025-01-19T04:31:52 models.base_trainer:208: sexism results at end: {'loss': 92.3859734395314}
+I 2025-01-19T04:31:52 models.base_trainer:211: writing sexism results to output/subj/sexism
+I 2025-01-19T04:31:52 models.base_trainer:158: evaluating on sexism_train
+I 2025-01-19T04:36:16 models.base_trainer:194: avg eval loss: 92.55772179337667
+I 2025-01-19T04:36:16 grammars.pcfg:171: trees:
+(25 (67 happy) (25 (30 (36 #) (75 womensday)) (27 (27 (27 (27 (27 (27 (27 (27 (91 to) (8 (57 women) (77 who))) (15 (49 ,) (2 (87 despite) (29 (51 [UNK]) (35 laws))))) (15 (49 &) (44 [UNK]))) (16 (49 ,) (14 (78 stay) (35 out)))) (35 late)) (15 (52 at) (59 night))) (16 (49 ,) (14 (45 smoke) (16 (49 ,) (14 (37 drink) (15 (49 ,) (2 (87 wear) (29 (44 [UNK]) (44 [UNK]))))))))) (16 (49 &) (14 (78 laugh) (35 loudly))))))
+(25 (27 (27 (14 (14 (8 (57 women) (77 should)) (2 (42 be) (64 much))) (15 (42 less) (64 concerned))) (6 (91 about) (2 (87 make) (29 (78 -) (35 up))))) (15 (49 ,) (45 clothing))) (3 (92 and) (14 (57 body) (58 care))))
+(25 (14 (8 (29 (38 what) (14 (14 (8 (68 i) (32 have)) (46 taken)) (15 (52 from) (29 (36 #) (75 mkr))))) (77 is)) (46 that)) (18 (92 if) (28 (28 (27 (27 (27 (27 (14 (8 (29 (38 all) (8 (68 you) (32 served))) (77 was)) (2 (11 (86 a) (88 big)) (41 bowl))) (15 (52 of) (59 crackling))) (15 (52 for) (29 (86 every) (82 course)))) (15 (14 (8 (68 you) (32 would)) (2 (42 be) (44 [UNK]))) (52 on))) (15 (52 for) (59 victory))) (85 !)) (85 !))))
+(25 (27 (44 [UNK]) (44 [UNK])) (74 .))
+I 2025-01-19T04:36:16 models.base_trainer:208: sexism_train results at end: {'loss': 92.55772173424687}
+I 2025-01-19T04:36:16 models.base_trainer:211: writing sexism_train results to output/subj/sexism
+I 2025-01-19T04:36:17 models.base_trainer:248: writing average results to output/subj/sexism

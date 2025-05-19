@@ -1,0 +1,13 @@
+I 2025-01-19T23:36:16 __main__:276: logging to output/subj/sexism
+I 2025-01-19T23:36:16 __main__:277: args: {'output_dir': 'output/subj/sexism', 'seed': 13, 'data_seed': 13, 'model_type': 'pcfg', 'load_from': None, 'save': False, 'vocab_size': 20000, 'min_frequency': 3, 'load_tokenizer_from': 'bert-base-cased', 'data_dir': 'data', 'cache_dir': 'cache', 'overwrite_cache': False, 'train_on': 'sexism', 'validate_on': 'sexism', 'eval_on': ['sexism'], 'eval_on_train_datasets': ['sexism'], 'max_train_examples': None, 'max_dev_examples': None, 'max_length': 128, 'max_eval_length': None, 'min_length': 4, 'use_product_length': 0, 'epochs': 40, 'steps': 0, 'eval_every': 1024, 'patience': 3, 'criterion': 'loss', 'train_batch_size': 4, 'gradient_accumulation_steps': 1, 'eval_batch_size': 4, 'eval_before_training': False, 'optimizer': 'adamw', 'learning_rate': 0.001, 'adam_epsilon': 1e-08, 'weight_decay': 0.01, 'max_grad_norm': 1.0, 'dropout': 0.1, 'preterminals': 64, 'nonterminals': 32, 'state_dim': 256, 'use_grad_eval': 1, 'resume': False, 'remove_special': True}
+I 2025-01-19T23:36:17 utils.data_utils:61: tokenizing 9541 sentences
+I 2025-01-19T23:36:17 utils.data_utils:242: caching processed examples to cache/train/sexism.WordTokenizer.pkl
+I 2025-01-19T23:36:17 utils.data_utils:269: removing special tokens (sexism/train)
+I 2025-01-19T23:36:17 utils.data_utils:61: tokenizing 4090 sentences
+I 2025-01-19T23:36:18 utils.data_utils:242: caching processed examples to cache/test/sexism.WordTokenizer.pkl
+I 2025-01-19T23:36:18 utils.data_utils:269: removing special tokens (sexism/test)
+I 2025-01-19T23:36:18 utils.data_utils:269: removing special tokens (sexism/test)
+I 2025-01-19T23:36:18 utils.data_utils:269: removing special tokens (sexism/train)
+I 2025-01-19T23:36:19 models.base_trainer:280: writing args and tokenizer to output/subj/sexism
+I 2025-01-19T23:36:19 models.base_trainer:306: training for 95400 steps / 40 epochs
+I 2025-01-19T23:36:19 models.base_trainer:330: epoch: 0

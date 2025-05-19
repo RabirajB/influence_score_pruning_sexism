@@ -1,0 +1,427 @@
+I 2025-02-08T18:26:11 __main__:276: logging to output/ood_3
+I 2025-02-08T18:26:11 __main__:277: args: {'output_dir': 'output/ood_3', 'seed': 13, 'data_seed': 13, 'model_type': 'pcfg', 'load_from': None, 'save': False, 'vocab_size': 20000, 'min_frequency': 3, 'load_tokenizer_from': None, 'data_dir': 'data', 'cache_dir': 'cache', 'overwrite_cache': False, 'train_on': 'ood_3', 'validate_on': 'ood_3', 'eval_on': ['ood_3'], 'eval_on_train_datasets': ['ood_3'], 'max_train_examples': None, 'max_dev_examples': None, 'max_length': 128, 'max_eval_length': None, 'min_length': 4, 'use_product_length': 0, 'epochs': 40, 'steps': 0, 'eval_every': 1024, 'patience': 3, 'criterion': 'loss', 'train_batch_size': 4, 'gradient_accumulation_steps': 1, 'eval_batch_size': 4, 'eval_before_training': False, 'optimizer': 'adamw', 'learning_rate': 0.001, 'adam_epsilon': 1e-08, 'weight_decay': 0.01, 'max_grad_norm': 1.0, 'dropout': 0.1, 'preterminals': 64, 'nonterminals': 32, 'state_dim': 256, 'use_grad_eval': 1, 'resume': False, 'remove_special': True}
+I 2025-02-08T18:26:12 utils.data_utils:269: removing special tokens (ood_3/train)
+I 2025-02-08T18:26:12 utils.data_utils:269: removing special tokens (ood_3/test)
+I 2025-02-08T18:26:12 utils.data_utils:269: removing special tokens (ood_3/test)
+I 2025-02-08T18:26:13 utils.data_utils:269: removing special tokens (ood_3/train)
+I 2025-02-08T18:26:13 models.base_trainer:280: writing args and tokenizer to output/ood_3
+I 2025-02-08T18:26:14 models.base_trainer:306: training for 199920 steps / 40 epochs
+I 2025-02-08T18:26:14 models.base_trainer:330: epoch: 0
+I 2025-02-08T18:27:28 models.base_trainer:374: training loss (ckp 0.1023): 177.7300970889628
+I 2025-02-08T18:27:28 models.base_trainer:228: evaluating
+I 2025-02-08T18:27:28 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T18:29:43 models.base_trainer:194: avg eval loss: 173.60837970352173
+I 2025-02-08T18:29:43 grammars.pcfg:171: trees:
+(1 (9 (64 probably) (30 (68 trying) (4 (82 to) (13 (91 drown) (18 (85 the) (69 [UNK])))))) (53 .))
+(1 (13 (25 (95 last) (18 (64 i) (90 heard))) (63 ,)) (1 (13 (61 respect) (15 (88 is) (18 (65 earned) (14 (14 (63 ,) (6 (47 and) (13 (61 sorry) (15 (88 miley) (18 (63 ,) (26 (62 you) (31 (92 ’) (12 (71 ve) (13 (95 done) (22 (60 nothing) (4 (82 to) (13 (90 earn) (45 it))))))))))))) (87 .))))) (1 (7 (30 (48 just) (13 (39 because) (11 (62 you) (31 (92 ’) (12 (71 re) (13 (56 female) (10 (58 doesn) (31 (92 ’) (12 (71 t) (13 (90 give) (45 you))))))))))) (76 special)) (22 (60 privileges) (4 (82 to) (13 (25 (95 be) (18 (85 a) (44 bitch))) (87 .)))))))
+(1 (9 (64 feminism) (30 (48 has) (13 (61 destroyed) (15 (88 all) (18 (65 demographics) (22 (60 except) (4 (82 for) (13 (65 upper) (21 (79 middle) (15 (88 class) (18 (18 (54 white) (72 american)) (76 women)))))))))))) (53 .))
+(1 (13 (32 perhaps) (53 .)) (1 (9 (64 it) (30 (68 depends) (4 (82 on) (13 (25 (95 what) (18 (93 %) (14 (88 of) (93 men)))) (33 and))))) (1 (9 (64 women) (30 (66 fit) (45 that))) (1 (46 ") (1 (13 (32 type) (53 .)) (1 (11 (46 ") (11 (46 if) (11 (62 there) (31 (92 ') (12 (71 s) (13 (43 2) (50 %))))))) (1 (9 (64 women) (30 (74 like) (45 that))) (1 (46 but) (1 (13 (43 6) (50 %)) (1 (9 (64 men) (30 (74 like) (45 that))) (1 (9 (64 it) (30 (48 would) (13 (22 (60 suck) (4 (82 to) (13 (51 be) (18 (85 a) (21 (79 male) (15 (88 in) (18 (18 (85 that) (44 ")) (76 group)))))))) (34 .)))) (53 "))))))))))))
+I 2025-02-08T18:29:43 models.base_trainer:208: ood_3 results at 0.1023: {'loss': 173.6396269582348, 'training_loss': 177.7300970889628, 'ckp': '0.1023'}
+I 2025-02-08T18:29:43 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T18:29:43 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T18:29:43 models.base_trainer:115: new best: {'ckp': '0.1023', 'patience': 0, 'loss': 173.6396269582348, 'training_loss': 177.7300970889628}
+I 2025-02-08T18:34:24 models.base_trainer:403: end of epoch 0
+I 2025-02-08T18:34:24 models.base_trainer:406: average training loss: 169.38439050165354
+I 2025-02-08T18:34:24 models.base_trainer:228: evaluating
+I 2025-02-08T18:34:24 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T18:36:34 models.base_trainer:194: avg eval loss: 165.92806328582765
+I 2025-02-08T18:36:34 grammars.pcfg:171: trees:
+(1 (11 (26 (62 i) (31 (92 ') (12 (71 m) (13 (51 probably) (22 (60 close) (4 (82 to) (13 (25 (95 twice) (18 (94 lily) (69 [UNK]))) (14 (6 (92 ') (71 s)) (70 age))))))))) (84 and)) (1 (11 (26 (62 i) (31 (92 ') (12 (71 ve) (13 (67 never) (13 (51 been) (18 (55 assaulted) (15 (88 by) (18 (85 any) (44 male))))))))) (53 .)) (1 (11 (46 hmmm) (11 (7 (53 .) (34 .)) (33 .))) (1 (2 (69 [UNK]) (2 (65 changes) (2 (17 (2 (30 (48 may) (13 (13 (61 be) (15 (88 in) (18 (55 order) (14 (87 .) (7 (53 .) (34 .)))))) (15 (88 for) (18 (93 her) (6 (64 i) (74 mean)))))) (33 .)) (75 [)) (23 (40 url) (38 ]))))) (2 (35 #) (65 fakenews))))))
+(1 (11 (73 nay) (63 ,)) (1 (11 (8 (59 but) (9 (64 there) (30 (48 are) (13 (0 (39 things) (9 (64 you) (30 (48 can) (13 (90 say) (4 (82 to) (13 (51 get) (22 (60 chad) (4 (82 to) (13 (61 wise) (37 up)))))))))) (6 (86 and) (13 (95 leave) (45 her))))))) (87 .)) (1 (11 (62 that) (31 (92 ’) (12 (71 s) (13 (61 thinking) (15 (88 outside) (18 (85 the) (70 box))))))) (1 (13 (85 my) (72 friend)) (53 .)))))
+(1 (11 (14 (87 .) (7 (53 .) (34 .))) (33 .)) (1 (11 (73 no) (34 .)) (1 (11 (46 thats) (11 (18 (18 (85 called) (94 fantasising)) (14 (86 and) (52 women))) (47 are))) (1 (11 (46 just) (11 (15 (88 as) (18 (18 (55 guilty) (14 (88 of) (93 that))) (14 (88 as) (93 men)))) (63 ,))) (1 (11 (46 its) (11 (13 (51 not) (32 rape)) (63 ,))) (1 (11 (46 its) (11 (13 (51 not) (18 (54 sexual) (52 assault))) (63 ,))) (1 (13 (13 (51 fuck) (32 right)) (14 (50 off) (14 (63 ,) (69 [UNK])))) (53 .))))))))
+(1 (9 (64 i) (30 (48 would) (13 (95 give) (45 her)))) (18 (18 (85 the) (94 ole)) (69 [UNK])))
+I 2025-02-08T18:36:34 models.base_trainer:208: ood_3 results at 0.4998: {'loss': 165.9640080647854, 'training_loss': 169.38439050165354, 'ckp': '0.4998'}
+I 2025-02-08T18:36:34 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T18:36:34 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T18:36:34 models.base_trainer:115: new best: {'ckp': '0.4998', 'patience': 0, 'loss': 165.9640080647854, 'training_loss': 169.38439050165354}
+I 2025-02-08T18:36:34 models.base_trainer:330: epoch: 1
+I 2025-02-08T18:42:24 models.base_trainer:403: end of epoch 1
+I 2025-02-08T18:42:24 models.base_trainer:406: average training loss: 162.85095051585697
+I 2025-02-08T18:42:24 models.base_trainer:228: evaluating
+I 2025-02-08T18:42:24 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T18:44:38 models.base_trainer:194: avg eval loss: 162.60257178115845
+I 2025-02-08T18:44:38 grammars.pcfg:171: trees:
+(1 (11 (9 (64 i) (30 (67 honestly) (30 (30 (74 think) (26 (57 [UNK]) (30 (90 is) (18 (85 a) (3 (56 12) (14 (49 year) (29 (54 old) (76 girl)))))))) (14 (7 (53 .) (34 .)) (11 (13 (13 (61 wishing) (15 (88 for) (18 (85 a) (29 (54 sugar) (76 daddy))))) (14 (88 on) (93 mars))) (33 .)))))) (33 .)) (1 (64 you) (30 (61 go) (37 girl))))
+(1 (11 (9 (64 i) (30 (74 guessed) (9 (64 you) (30 (90 had) (18 (85 you) (29 (54 own) (76 account))))))) (33 .)) (1 (46 what) (1 (11 (8 (59 did) (9 (64 she) (30 (25 (95 spend) (18 (80 all) (18 (85 the) (44 money)))) (37 on)))) (36 ?)) (1 (46 but) (1 (11 (73 yeah) (63 ,)) (1 (11 (26 (62 you) (31 (92 ') (12 (71 d) (13 (74 think) (26 (62 she) (31 (92 ') (12 (71 d) (13 (74 realize) (26 (13 (51 getting) (32 divorced)) (30 (74 means) (9 (64 she) (30 (58 can) (31 (92 ') (12 (71 t) (13 (61 rely) (15 (88 on) (18 (55 you) (14 (88 for) (93 money))))))))))))))))))) (53 .)) (1 (46 apparently) (1 (13 (51 not) (32 though)) (53 .)))))))))
+(1 (46 and) (18 (18 (85 her) (29 (54 two) (76 kids))) (14 (63 ,) (10 (58 don) (31 (92 ’) (12 (71 t) (42 forget)))))))
+(1 (11 (39 how) (48 can)) (1 (2 (35 #) (43 gab)) (1 (11 (13 (13 (13 (51 be) (18 (85 a) (21 (79 leader) (15 (88 in) (18 (35 #) (43 freespeech)))))) (14 (6 (84 when) (18 (85 no) (29 (54 one) (76 posts)))) (70 shit))) (14 (49 rule) (56 1))) (33 .)) (1 (11 (73 here) (14 (88 on) (93 gab))) (1 (8 (59 if) (9 (64 anyone) (30 (90 sends) (18 (80 u) (18 (85 a) (44 post)))))) (1 (2 (56 u) (2 (3 (56 a) (14 (33 .) (13 (95 call) (18 (80 em) (18 (85 a) (44 troll)))))) (3 (56 b) (14 (33 .) (13 (95 call) (45 em)))))) (2 (2 (56 racist) (3 (56 c) (14 (33 .) (26 (13 (95 use) (18 (85 the) (44 words))) (30 (13 (95 fuck) (45 u)) (18 (85 a) (44 lot))))))) (2 (3 (56 d) (14 (33 .) (13 (67 never) (25 (95 voice) (18 (85 ur) (44 opinion)))))) (3 (56 e) (14 (33 .) (26 (11 (13 (67 just) (13 (25 (95 run) (18 (54 same) (52 videos))) (37 over))) (84 and)) (32 over))))))))))))
+I 2025-02-08T18:44:38 models.base_trainer:208: ood_3 results at 1.9996: {'loss': 162.64152317987194, 'training_loss': 162.85095051585697, 'ckp': '1.9996'}
+I 2025-02-08T18:44:38 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T18:44:38 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T18:44:38 models.base_trainer:115: new best: {'ckp': '1.9996', 'patience': 0, 'loss': 162.64152317987194, 'training_loss': 162.85095051585697}
+I 2025-02-08T18:44:38 models.base_trainer:330: epoch: 2
+I 2025-02-08T18:50:33 models.base_trainer:403: end of epoch 2
+I 2025-02-08T18:50:33 models.base_trainer:406: average training loss: 160.52347682771227
+I 2025-02-08T18:50:33 models.base_trainer:228: evaluating
+I 2025-02-08T18:50:33 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T18:52:47 models.base_trainer:194: avg eval loss: 160.8378979072571
+I 2025-02-08T18:52:47 grammars.pcfg:171: trees:
+(1 (11 (26 (62 it) (31 (92 ') (12 (71 s) (13 (51 more) (13 (51 so) (13 (25 (95 helped) (45 me)) (15 (88 realize) (18 (85 my) (29 (54 worth) (21 (79 more) (15 (88 than) (18 (55 coping) (14 (88 with) (93 woman)))))))))))))) (53 .)) (1 (11 (9 (64 i) (30 (74 know) (0 (39 who) (26 (62 i) (74 am))))) (34 .)) (1 (11 (9 (64 reality) (30 (67 everybody) (74 dies))) (84 and)) (1 (11 (9 (64 i) (30 (30 (58 don) (31 (92 ') (12 (71 t) (22 (60 want) (4 (82 to) (13 (25 (95 waste) (45 it)) (13 (51 being) (32 miserable)))))))) (22 (60 stuck) (4 (82 to) (45 someone))))) (34 .)) (1 (9 (64 i) (30 (67 just) (30 (90 have) (18 (55 fun) (15 (88 doing) (18 (39 whatever) (26 (64 i) (68 want)))))))) (36 lol))))))
+(1 (11 (73 lol) (73 dude)) (1 (11 (26 (9 (64 u) (30 (48 dont) (13 (67 even) (13 (74 know) (9 (18 (18 (85 the) (69 [UNK])) (14 (88 of) (93 game))) (30 (67 never) (30 (61 walk) (15 (88 over) (18 (85 a) (21 (79 mile) (15 (88 for) (18 (85 a) (44 chick))))))))))))) (8 (59 unless) (9 (64 ur) (30 (48 guaranteed) (13 (67 gonna) (13 (95 fuck) (45 her))))))) (53 .)) (1 (26 (9 (18 (55 walking) (15 (88 over) (18 (18 (85 a) (44 mile)) (14 (16 (39 when) (18 (85 the) (94 poon))) (30 (48 is) (13 (51 not) (32 guaranteed))))))) (30 (30 (90 is) (18 (85 a) (29 (54 sure) (21 (79 fire) (15 (88 as) (18 (85 fuck) (44 way))))))) (14 (88 for) (45 her)))) (4 (82 to) (13 (25 (95 see) (45 you)) (15 (88 as) (18 (85 a) (29 (54 needy) (29 (83 wet) (91 noodle)))))))) (34 .))))
+(1 (11 (9 (64 it) (30 (47 is) (0 (39 because) (26 (9 (18 (85 the) (44 woman)) (30 (47 was) (32 black))) (7 (53 .) (34 .)))))) (34 .)) (1 (13 (25 (95 had) (45 it)) (13 (51 been) (18 (85 a) (29 (54 white) (76 woman))))) (9 (64 they) (30 (48 would) (13 (67 have) (13 (25 (95 give) (18 (85 the) (29 (54 two) (76 employees)))) (18 (85 a) (44 raise))))))))
+(1 (11 (13 (61 scream) (15 (88 through) (18 (85 their) (29 (54 vaginas) (76 '))))) (34 .)) (1 (13 (74 bet) (9 (64 they) (30 (57 [UNK]) (18 (85 a) (29 (79 lot) (14 (86 and) (30 (90 have) (18 (83 horrific) (41 breath))))))))) (53 .)))
+I 2025-02-08T18:52:47 models.base_trainer:208: ood_3 results at 2.14994: {'loss': 160.8798001396498, 'training_loss': 160.52347682771227, 'ckp': '2.14994'}
+I 2025-02-08T18:52:47 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T18:52:47 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T18:52:47 models.base_trainer:115: new best: {'ckp': '2.14994', 'patience': 0, 'loss': 160.8798001396498, 'training_loss': 160.52347682771227}
+I 2025-02-08T18:52:47 models.base_trainer:330: epoch: 3
+I 2025-02-08T18:59:18 models.base_trainer:403: end of epoch 3
+I 2025-02-08T18:59:18 models.base_trainer:406: average training loss: 159.1029858171296
+I 2025-02-08T18:59:18 models.base_trainer:228: evaluating
+I 2025-02-08T18:59:18 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T19:01:56 models.base_trainer:194: avg eval loss: 159.7925590057373
+I 2025-02-08T19:01:56 grammars.pcfg:171: trees:
+(1 (11 (26 (11 (11 (26 (88 for) (0 (39 sure) (9 (64 i) (30 (61 do) (77 man))))) (53 .)) (84 but)) (9 (64 i) (30 (30 (48 was) (13 (51 so) (18 (54 family) (52 oriented)))) (14 (6 (89 because) (15 (88 of) (18 (39 how) (9 (64 i) (30 (48 was) (13 (25 (61 brought) (37 up)) (0 (39 that) (9 (64 i) (30 (68 wanted) (4 (82 to) (25 (95 make) (45 it)))))))))))) (70 work))))) (53 .)) (1 (11 (62 i) (31 (92 ') (12 (71 m) (13 (74 glad) (9 (64 she) (90 left)))))) (1 (11 (11 (8 (59 because) (9 (64 she) (30 (47 was) (18 (85 a) (69 [UNK]))))) (63 ,)) (84 but)) (1 (26 (9 (64 i) (30 (48 do) (13 (95 hate) (18 (85 my) (29 (79 daughter) (14 (80 being) (37 away))))))) (15 (88 from) (18 (55 most) (15 (88 of) (18 (85 the) (44 time)))))) (34 .)))))
+(1 (26 (9 (62 she) (31 (92 ') (12 (71 s) (13 (95 putting) (18 (85 her) (44 tongue)))))) (15 (88 in) (18 (85 his) (44 ear)))) (27 (36 ?) (36 ?)))
+(1 (11 (73 christian) (63 ,)) (1 (26 (8 (59 if) (9 (64 someone) (30 (25 (95 pulled) (45 that)) (15 (88 on) (18 (85 my) (44 wife)))))) (9 (64 he) (30 (48 would) (13 (95 have) (18 (54 [UNK]) (52 balls)))))) (34 .)))
+(1 (11 (2 (3 (56 breaking) (14 (88 from) (93 washington))) (81 post)) (81 :)) (1 (26 (9 (18 (18 (83 christine) (41 ford)) (14 (6 (92 ') (71 s)) (70 lawyer))) (30 (74 says) (9 (64 she) (30 (48 will) (13 (25 (95 drop) (18 (80 all) (18 (55 conditions) (15 (88 for) (18 (69 [UNK]) (15 (88 except) (18 (55 one) (14 (33 :) (9 (18 (85 that) (29 (83 brett) (91 kavanaugh))) (30 (25 (51 be) (69 [UNK])) (15 (88 into) (18 (85 the) (21 (79 hearing) (15 (88 in) (18 (85 a) (29 (57 [UNK]) (69 [UNK]))))))))))))))))) (50 straight)))))) (3 (56 jacket) (14 (86 and) (66 mask)))) (34 .)))
+I 2025-02-08T19:01:56 models.base_trainer:208: ood_3 results at 3.19992: {'loss': 159.83229261116293, 'training_loss': 159.1029858171296, 'ckp': '3.19992'}
+I 2025-02-08T19:01:56 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T19:01:56 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T19:01:56 models.base_trainer:115: new best: {'ckp': '3.19992', 'patience': 0, 'loss': 159.83229261116293, 'training_loss': 159.1029858171296}
+I 2025-02-08T19:01:56 models.base_trainer:330: epoch: 4
+I 2025-02-08T19:08:56 models.base_trainer:403: end of epoch 4
+I 2025-02-08T19:08:56 models.base_trainer:406: average training loss: 158.2513281038734
+I 2025-02-08T19:08:56 models.base_trainer:228: evaluating
+I 2025-02-08T19:08:56 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T19:11:35 models.base_trainer:194: avg eval loss: 159.26174774169922
+I 2025-02-08T19:11:35 grammars.pcfg:171: trees:
+(1 (11 (75 [) (23 (40 user) (38 ]))) (1 (26 (11 (9 (64 it) (30 (30 (90 took) (45 me)) (22 (60 decades) (4 (82 to) (42 realize))))) (33 that)) (9 (18 (85 the) (29 (54 most) (29 (54 beautiful) (21 (79 attribute) (15 (88 on) (18 (85 a) (44 woman))))))) (30 (47 is) (18 (85 an) (29 (54 honest) (76 smile)))))) (34 .)))
+(1 (26 (84 but) (26 (11 (0 (39 what) (8 (59 if) (9 (62 i) (31 (92 ') (12 (71 m) (18 (85 a) (69 [UNK]))))))) (36 ?)) (9 (64 you) (30 (67 gonna) (30 (48 triple) (13 (95 tax) (45 me))))))) (36 ?))
+(1 (11 (9 (64 porn) (30 (48 can) (13 (67 literally) (25 (95 ruin) (18 (85 my) (29 (54 entire) (76 day))))))) (34 .)) (1 (9 (64 i) (30 (48 avoid) (13 (13 (67 even) (13 (89 looking) (15 (88 at) (18 (54 hot) (52 girls))))) (15 (88 like) (18 (85 the) (94 plague)))))) (8 (59 since) (9 (64 i) (30 (48 have) (13 (13 (51 been) (32 raped)) (15 (88 by) (18 (85 the) (29 (57 [UNK]) (94 lottery))))))))))
+(1 (11 (26 (46 sounds) (8 (59 like) (9 (62 you) (31 (92 ’) (12 (71 re) (18 (85 a) (29 (69 [UNK]) (29 (54 asian) (76 girl))))))))) (33 that)) (1 (69 [UNK]) (29 (54 basic) (29 (54 white) (76 guys)))))
+I 2025-02-08T19:11:35 models.base_trainer:208: ood_3 results at 4.24990: {'loss': 159.3000409913892, 'training_loss': 158.2513281038734, 'ckp': '4.24990'}
+I 2025-02-08T19:11:35 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T19:11:36 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T19:11:36 models.base_trainer:115: new best: {'ckp': '4.24990', 'patience': 0, 'loss': 159.3000409913892, 'training_loss': 158.2513281038734}
+I 2025-02-08T19:11:36 models.base_trainer:330: epoch: 5
+I 2025-02-08T19:18:45 models.base_trainer:403: end of epoch 5
+I 2025-02-08T19:18:45 models.base_trainer:406: average training loss: 157.73181411312694
+I 2025-02-08T19:18:45 models.base_trainer:228: evaluating
+I 2025-02-08T19:18:45 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T19:21:30 models.base_trainer:194: avg eval loss: 158.67161924743652
+I 2025-02-08T19:21:30 grammars.pcfg:171: trees:
+(1 (46 dude) (1 (11 (46 its) (22 (60 hard) (4 (4 (14 (88 for) (45 me)) (4 (82 to) (25 (25 (61 stay) (37 on)) (37 there)))) (15 (88 for) (18 (51 too) (32 long)))))) (1 (26 (9 (18 (85 a) (29 (79 lot) (14 (88 of) (93 women)))) (30 (67 really) (10 (58 don) (31 (92 ') (12 (71 t) (13 (25 (95 give) (18 (85 a) (72 fuck))) (15 (88 in) (18 (85 the) (29 (54 least) (76 bit)))))))))) (15 (88 about) (18 (85 a) (44 man)))) (34 .))))
+(1 (11 (61 check) (37 out)) (1 (11 (58 caldwell) (31 (92 ’) (12 (71 s) (13 (69 [UNK]) (15 (88 at) (18 (85 the) (21 (79 back) (15 (88 of) (18 (85 the) (44 book)))))))))) (1 (11 (62 i) (74 prefer)) (1 (11 (2 (2 (2 (65 caldwell) (2 (65 () (65 christian))) (81 ))) (2 (22 (60 due) (4 (82 to) (18 (18 (85 her) (29 (57 [UNK]) (91 worldview))) (14 (88 over) (57 [UNK]))))) (3 (56 rand) (14 (49 () (56 atheist))))) (81 ))) (1 (11 (26 (26 (9 (18 (57 [UNK]) (41 worldview)) (30 (90 read) (18 (85 the) (44 book)))) (50 again)) (7 (53 .) (34 .))) (53 .)) (1 (11 (73 actually) (63 ,)) (1 (9 (18 (18 (55 most) (14 (88 of) (93 caldwell))) (14 (6 (92 ’) (71 s)) (70 books))) (30 (47 are) (18 (3 (56 anti) (14 (49 -) (56 socialism))) (69 [UNK])))) (50 🇺🇸))))))))
+(1 (11 (9 (64 it) (30 (30 (48 did) (13 (51 no) (32 good))) (14 (88 for) (93 anyone)))) (34 .)) (1 (11 (26 (9 (64 mom) (30 (30 (61 jumping) (37 man)) (14 (82 to) (3 (56 man) (14 (63 ,) (3 (56 daughter) (14 (86 and) (70 dad)))))))) (50 suicidal)) (53 .)) (1 (11 (9 (64 i) (30 (68 begin) (4 (82 to) (13 (74 wonder) (0 (39 why) (9 (64 this) (30 (67 even) (68 happened)))))))) (63 ,)) (1 (26 (9 (18 (85 no) (44 one)) (30 (68 seems) (4 (82 to) (25 (95 get) (45 anything))))) (50 here)) (34 .)))))
+(1 (26 (11 (26 (9 (64 u) (30 (47 got) (18 (85 a) (29 (54 dirty) (76 mouth))))) (15 (88 for) (18 (85 a) (72 christian)))) (53 .)) (9 (64 christ) (30 (48 would) (13 (51 be) (32 shocked))))) (34 .))
+I 2025-02-08T19:21:30 models.base_trainer:208: ood_3 results at 5.29988: {'loss': 158.71142210971126, 'training_loss': 157.73181411312694, 'ckp': '5.29988'}
+I 2025-02-08T19:21:30 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T19:21:30 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T19:21:30 models.base_trainer:115: new best: {'ckp': '5.29988', 'patience': 0, 'loss': 158.71142210971126, 'training_loss': 157.73181411312694}
+I 2025-02-08T19:21:30 models.base_trainer:330: epoch: 6
+I 2025-02-08T19:28:38 models.base_trainer:403: end of epoch 6
+I 2025-02-08T19:28:38 models.base_trainer:406: average training loss: 157.4816991745734
+I 2025-02-08T19:28:38 models.base_trainer:228: evaluating
+I 2025-02-08T19:28:38 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T19:31:13 models.base_trainer:194: avg eval loss: 158.39290706253053
+I 2025-02-08T19:31:13 grammars.pcfg:171: trees:
+(1 (11 (73 true) (84 but)) (1 (11 (26 (9 (62 it) (31 (92 ') (12 (71 s) (13 (51 really) (32 fun))))) (8 (59 since) (9 (64 normies) (30 (30 (47 are) (22 (60 easy) (4 (82 to) (42 see)))) (15 (88 through) (18 (83 insecurities) (41 wise))))))) (36 .)) (1 (11 (9 (15 (88 like) (18 (85 a) (21 (79 guy) (15 (88 with) (18 (18 (85 2) (29 (54 [UNK]) (29 (83 reddit) (91 karma)))) (14 (86 and) (29 (54 20) (76 posts)))))))) (9 (18 (85 a) (72 day)) (30 (68 tried) (4 (82 to) (13 (25 (95 call) (45 me)) (32 short)))))) (33 and)) (1 (9 (62 i) (10 (25 (95 roasted) (45 him)) (22 (51 so) (32 hard)))) (26 (9 (62 he) (10 (90 blocked) (45 me))) (50 jfl))))))
+(1 (26 (26 (11 (26 (9 (62 they) (31 (92 ') (12 (12 (71 re) (22 (67 always) (22 (60 trying) (4 (82 to) (25 (95 find) (18 (85 a) (69 [UNK]))))))) (8 (59 where) (9 (62 they) (10 (6 (92 ') (71 re)) (18 (14 (49 ") (56 allowed)) (78 ")))))))) (4 (82 to) (42 rape))) (36 .)) (9 (64 world) (30 (48 would) (13 (51 be) (32 better))))) (14 (88 without) (45 them))) (36 .))
+(1 (26 (84 and) (9 (64 parents) (30 (30 (30 (58 can) (31 (92 ') (12 (71 t) (13 (89 wait) (15 (88 for) (18 (85 their) (44 boys))))))) (14 (86 and) (52 girls))) (4 (82 to) (25 (89 graduate) (15 (88 from) (18 (85 these) (29 (54 pandering) (76 liberal))))))))) (69 [UNK]))
+(1 (11 (9 (64 dude) (30 (58 don) (31 (92 ’) (12 (71 t) (13 (51 be) (22 (60 afraid) (4 (82 to) (25 (95 shoot) (18 (85 your) (44 shot)))))))))) (7 (53 !) (34 !))) (1 (11 (11 (9 (18 (39 all) (9 (64 she) (30 (48 can) (42 do)))) (30 (48 is) (13 (42 say) (73 no)))) (7 (53 !) (34 !))) (84 and)) (1 (9 (62 you) (10 (58 won) (31 (92 ’) (12 (71 t) (13 (51 be) (18 (85 the) (29 (54 only) (76 one)))))))) (26 (11 (9 (62 she) (10 (6 (92 ’) (71 s)) (32 rejected))) (7 (53 !) (34 !))) (9 (18 (85 my) (72 advice)) (30 (47 is) (22 (60 go) (4 (88 for) (45 it)))))))))
+I 2025-02-08T19:31:13 models.base_trainer:208: ood_3 results at 6.34986: {'loss': 158.4377115155149, 'training_loss': 157.4816991745734, 'ckp': '6.34986'}
+I 2025-02-08T19:31:13 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T19:31:13 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T19:31:13 models.base_trainer:115: new best: {'ckp': '6.34986', 'patience': 0, 'loss': 158.4377115155149, 'training_loss': 157.4816991745734}
+I 2025-02-08T19:31:13 models.base_trainer:330: epoch: 7
+I 2025-02-08T19:38:04 models.base_trainer:403: end of epoch 7
+I 2025-02-08T19:38:04 models.base_trainer:406: average training loss: 156.95603694740225
+I 2025-02-08T19:38:04 models.base_trainer:228: evaluating
+I 2025-02-08T19:38:04 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T19:40:46 models.base_trainer:194: avg eval loss: 157.77252738571167
+I 2025-02-08T19:40:46 grammars.pcfg:171: trees:
+(1 (8 (59 so) (9 (18 (85 your) (72 mom)) (30 (6 (92 ') (71 s)) (18 (85 a) (44 janitor))))) (87 ?))
+(1 (1 (11 (26 (9 (62 it) (10 (6 (92 ’) (71 s)) (22 (80 not) (18 (85 a) (29 (54 specific) (76 solution)))))) (8 (59 because) (9 (18 (85 the) (44 op)) (30 (47 was) (18 (55 asking) (14 (3 (56 specifically) (14 (39 how) (4 (82 to) (25 (95 vet) (18 (85 a) (29 (54 *) (76 wife))))))) (81 *))))))) (36 .)) (1 (26 (9 (64 it) (30 (47 is) (18 (85 a) (21 (79 solution) (15 (88 to) (18 (85 the) (29 (54 [UNK]) (76 question)))))))) (15 (88 of) (18 (80 “) (18 (39 how) (4 (82 to) (25 (95 avoid) (18 (54 divorce) (52 rape)))))))) (36 .))) (78 ”))
+(1 (11 (73 nah) (36 .)) (1 (11 (9 (62 she) (10 (25 (61 screwed) (37 up)) (18 (85 the) (69 [UNK])))) (33 -)) (1 (11 (26 (9 (64 which) (30 (47 was) (22 (60 [UNK]) (4 (82 to) (45 her))))) (15 (88 as) (18 (85 a) (69 [UNK])))) (36 .)) (1 (11 (9 (18 (2 (2 (65 () (65 ()) (2 (2 (65 () (65 dnc)) (2 (81 )) (81 ))))) (81 ))) (30 (47 is) (22 (60 trying) (4 (82 to) (25 (95 counter) (19 (49 -) (13 (25 (95 balance) (18 (85 their) (29 (83 racial) (69 [UNK])))) (15 (88 as) (18 (54 obvious) (52 whites)))))))))) (63 ,)) (1 (11 (39 what) (48 ever)) (1 (11 (26 (18 (85 their) (44 opinion)) (15 (88 on) (18 (85 the) (44 subject)))) (36 .)) (1 (1 (26 (69 [UNK]) (15 (88 on) (18 (85 their) (29 (54 own) (69 [UNK]))))) (36 .)) (2 (35 #) (69 [UNK])))))))))
+(1 (11 (9 (62 it) (10 (6 (92 ') (71 s)) (18 (85 a) (29 (83 witch) (91 hunt))))) (34 !)) (1 (11 (26 (26 (26 (11 (9 (64 who) (30 (47 was) (18 (85 the) (29 (54 last) (76 person))))) (9 (62 you) (10 (90 saw) (18 (80 on) (18 (83 national) (41 msm)))))) (9 (64 news) (30 (89 speaking) (15 (88 to) (18 (85 a) (21 (79 group) (15 (88 of) (18 (55 women) (15 (88 on) (18 (85 the) (69 [UNK]))))))))))) (14 (88 of) (93 womanhood))) (14 (88 in) (93 america))) (87 ?)) (1 (11 (27 (36 .) (36 .)) (36 .)) (1 (26 (26 (26 (13 (67 just) (13 (68 happened) (4 (82 to) (25 (95 be) (18 (85 a) (44 group)))))) (28 (86 that) (25 (89 identifies) (15 (88 as) (18 (85 a) (69 [UNK])))))) (14 (88 of) (93 witches))) (14 (34 !) (7 (53 !) (34 !)))) (69 [UNK])))))
+I 2025-02-08T19:40:46 models.base_trainer:208: ood_3 results at 7.39984: {'loss': 157.812866472679, 'training_loss': 156.95603694740225, 'ckp': '7.39984'}
+I 2025-02-08T19:40:46 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T19:40:46 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T19:40:46 models.base_trainer:115: new best: {'ckp': '7.39984', 'patience': 0, 'loss': 157.812866472679, 'training_loss': 156.95603694740225}
+I 2025-02-08T19:40:47 models.base_trainer:330: epoch: 8
+I 2025-02-08T19:47:40 models.base_trainer:403: end of epoch 8
+I 2025-02-08T19:47:40 models.base_trainer:406: average training loss: 156.50313944394895
+I 2025-02-08T19:47:40 models.base_trainer:228: evaluating
+I 2025-02-08T19:47:40 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T19:50:14 models.base_trainer:194: avg eval loss: 157.3505273628235
+I 2025-02-08T19:50:14 grammars.pcfg:171: trees:
+(1 (11 (9 (64 we) (30 (47 are) (32 told))) (33 that)) (1 (11 (9 (64 women) (30 (68 come) (4 (82 to) (45 you)))) (33 when)) (1 (26 (9 (62 we) (10 (58 don) (31 (92 ') (12 (71 t) (42 try))))) (15 (88 from) (18 (85 a) (29 (54 young) (76 age))))) (36 .))))
+(1 (2 (35 #) (43 nsfw)) (2 (2 (35 #) (43 sexy)) (2 (2 (2 (35 #) (43 girls)) (2 (2 (35 #) (43 bi)) (2 (35 #) (43 porn)))) (2 (2 (35 #) (43 erotica)) (2 (2 (2 (69 [UNK]) (63 ,)) (2 (26 (8 (59 off) (9 (62 it) (10 (68 comes) (4 (82 to) (25 (95 expose) (18 (85 the) (29 (54 most) (29 (54 beautiful) (29 (57 [UNK]) (91 breasts)))))))))) (9 (62 i) (10 (10 (68 need) (4 (82 to) (13 (25 (95 get) (45 me)) (18 (55 some) (14 (88 of) (93 these)))))) (4 (82 to) (13 (89 suck) (15 (88 on) (18 (85 this) (44 weekend)))))))) (34 😈))) (2 (65 😍) (65 👩❤👩)))))))
+(1 (11 (0 (18 (19 (78 “) (11 (9 (64 there) (30 (47 is) (22 (67 never) (22 (85 a) (29 (77 reason) (4 (82 to) (25 (95 hit) (18 (85 a) (44 woman))))))))) (36 .))) (78 ”)) (27 (36 .) (36 .))) (36 .)) (1 (0 (26 (46 looks) (8 (59 like) (9 (62 i) (10 (90 found) (45 one))))) (27 (36 .) (36 .))) (36 .)))
+(1 (26 (11 (73 yeah) (63 ,)) (18 (85 a) (29 (83 drag) (91 queen)))) (34 !))
+I 2025-02-08T19:50:14 models.base_trainer:208: ood_3 results at 8.44982: {'loss': 157.39161591223248, 'training_loss': 156.50313944394895, 'ckp': '8.44982'}
+I 2025-02-08T19:50:14 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T19:50:14 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T19:50:14 models.base_trainer:115: new best: {'ckp': '8.44982', 'patience': 0, 'loss': 157.39161591223248, 'training_loss': 156.50313944394895}
+I 2025-02-08T19:50:15 models.base_trainer:330: epoch: 9
+I 2025-02-08T19:57:05 models.base_trainer:403: end of epoch 9
+I 2025-02-08T19:57:05 models.base_trainer:406: average training loss: 155.9677888229877
+I 2025-02-08T19:57:05 models.base_trainer:228: evaluating
+I 2025-02-08T19:57:05 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T19:59:45 models.base_trainer:194: avg eval loss: 156.98236897277832
+I 2025-02-08T19:59:45 grammars.pcfg:171: trees:
+(1 (11 (26 (26 (11 (73 lmfao) (11 (84 >) (8 (59 when) (9 (64 you) (30 (47 are) (22 (80 such) (18 (85 a) (44 cuckold)))))))) (9 (62 you) (10 (13 (95 let) (18 (83 kikes) (41 bomb))) (28 (86 and) (13 (95 kill) (18 (85 your) (69 [UNK]))))))) (28 (86 then) (13 (25 (95 defend) (45 them)) (15 (88 with) (18 (85 their) (29 (3 (61 made) (37 up)) (72 lie))))))) (36 .)) (1 (73 hey) (1 (8 (8 (8 (59 if) (9 (62 i) (10 (13 (95 fuck) (18 (85 your) (72 wife))) (28 (86 and) (13 (25 (61 make) (37 up)) (18 (85 some) (72 shit))))))) (28 (33 like) (9 (18 (19 (78 ") (11 (64 she) (30 (47 was) (22 (60 begging) (4 (45 me) (4 (82 to) (25 (95 do) (45 it)))))))) (78 ")) (30 (47 are) (22 (67 you) (22 (60 going) (4 (82 to) (25 (95 defend) (45 me))))))))) (28 (86 and) (13 (67 just) (13 (25 (95 let) (45 it)) (50 go))))) (87 ?))))
+(1 (26 (9 (62 they) (10 (90 make) (45 [UNK]))) (50 sounds)) (36 .))
+(1 (11 (26 (9 (62 i) (10 (74 know) (9 (62 everyone) (10 (74 thinks) (9 (62 it) (10 (6 (92 ') (71 s)) (18 (85 a) (69 [UNK])))))))) (28 (33 that) (9 (18 (85 the) (29 (79 spics) (14 (63 ,) (3 (3 (3 (56 [UNK]) (14 (14 (63 ,) (3 (56 yids) (14 (63 ,) (69 [UNK])))) (63 ,))) (14 (86 and) (57 [UNK]))) (14 (88 in) (93 la)))))) (30 (47 are) (22 (51 getting) (32 [UNK])))))) (36 .)) (1 (11 (26 (46 not) (8 (8 (59 everyone) (9 (64 there) (30 (47 is) (18 (85 a) (44 minority))))) (50 though))) (36 .)) (1 (26 (46 spare) (18 (85 a) (21 (79 thought) (15 (88 for) (18 (85 the) (29 (54 white) (76 person))))))) (36 .))))
+(1 (11 (11 (26 (9 (18 (54 normal) (52 women)) (30 (58 can) (31 (92 ') (12 (71 t) (13 (25 (95 replace) (45 men)) (15 (88 in) (18 (83 difficult) (41 jobs)))))))) (15 (88 like) (18 (83 software) (41 development)))) (36 .)) (84 but)) (1 (11 (26 (11 (11 (18 (85 my) (44 always)) (30 (90 prefer) (45 women))) (84 even)) (9 (62 they) (10 (90 have) (18 (29 (54 only) (29 (54 50) (76 %))) (69 [UNK]))))) (36 .)) (1 (26 (11 (26 (11 (60 due) (4 (82 to) (18 (29 (54 high) (76 work)) (41 pressure)))) (9 (18 (80 all) (18 (54 female) (52 developers))) (30 (89 resign) (15 (88 from) (18 (85 their) (72 post)))))) (36 .)) (9 (18 (18 (83 hr) (41 department)) (50 again)) (30 (90 start) (18 (85 the) (44 cycle))))) (36 .))))
+I 2025-02-08T19:59:45 models.base_trainer:208: ood_3 results at 9.49980: {'loss': 157.0220389815906, 'training_loss': 155.9677888229877, 'ckp': '9.49980'}
+I 2025-02-08T19:59:45 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T19:59:45 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T19:59:45 models.base_trainer:115: new best: {'ckp': '9.49980', 'patience': 0, 'loss': 157.0220389815906, 'training_loss': 155.9677888229877}
+I 2025-02-08T19:59:45 models.base_trainer:330: epoch: 10
+I 2025-02-08T20:06:45 models.base_trainer:403: end of epoch 10
+I 2025-02-08T20:06:45 models.base_trainer:406: average training loss: 155.61038317762407
+I 2025-02-08T20:06:45 models.base_trainer:228: evaluating
+I 2025-02-08T20:06:45 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T20:09:17 models.base_trainer:194: avg eval loss: 156.68873878097534
+I 2025-02-08T20:09:17 grammars.pcfg:171: trees:
+(1 (11 (46 sounds) (39 like)) (1 (9 (62 you) (10 (6 (92 ’) (71 re)) (22 (85 a) (29 (69 [UNK]) (29 (54 asian) (76 girl)))))) (28 (86 that) (13 (95 [UNK]) (18 (85 basic) (29 (54 white) (76 guys)))))))
+(1 (11 (26 (11 (9 (62 i) (31 (92 ') (12 (71 d) (13 (67 just) (13 (68 pretend) (4 (82 to) (13 (95 get) (18 (61 locked) (37 down))))))))) (63 ,)) (13 (95 set) (18 (85 a) (29 (54 wedding) (76 date))))) (63 ,)) (1 (11 (26 (11 (11 (8 (24 (47 get) (45 her)) (32 pregnant)) (63 ,)) (84 then)) (13 (95 leave) (18 (85 the) (44 country)))) (36 .)) (1 (26 (9 (64 nobody) (30 (47 is) (22 (60 going) (4 (82 to) (25 (95 [UNK]) (45 me)))))) (28 (89 based) (15 (88 on) (18 (85 that) (29 (54 horseshit) (76 allegation)))))) (36 .))))
+(1 (11 (26 (26 (11 (26 (9 (62 you) (10 (6 (92 ') (71 re)) (22 (85 a) (29 (79 piece) (14 (88 of) (93 shit)))))) (15 (88 for) (18 (18 (80 calling) (18 (37 out) (18 (85 this) (29 (54 shitty) (76 women))))) (14 (6 (92 ') (71 s)) (29 (54 shitty) (76 behavior)))))) (36 .)) (73 oh)) (28 (33 and) (9 (62 i) (10 (6 (92 ') (71 m)) (22 (67 totally) (22 (67 not) (69 [UNK]))))))) (36 .)) (1 (26 (67 just) (67 fucking)) (34 lol)))
+(1 (26 (11 (9 (62 i) (10 (90 am) (18 (80 doing) (18 (85 the) (44 same))))) (36 .)) (13 (95 fuck) (18 (54 fake) (52 friends)))) (36 .))
+I 2025-02-08T20:09:17 models.base_trainer:208: ood_3 results at 10.54978: {'loss': 156.7284401802233, 'training_loss': 155.61038317762407, 'ckp': '10.54978'}
+I 2025-02-08T20:09:17 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T20:09:17 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T20:09:17 models.base_trainer:115: new best: {'ckp': '10.54978', 'patience': 0, 'loss': 156.7284401802233, 'training_loss': 155.61038317762407}
+I 2025-02-08T20:09:17 models.base_trainer:330: epoch: 11
+I 2025-02-08T20:16:14 models.base_trainer:403: end of epoch 11
+I 2025-02-08T20:16:14 models.base_trainer:406: average training loss: 155.36122330707184
+I 2025-02-08T20:16:14 models.base_trainer:228: evaluating
+I 2025-02-08T20:16:14 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T20:18:53 models.base_trainer:194: avg eval loss: 156.5380641517639
+I 2025-02-08T20:18:53 grammars.pcfg:171: trees:
+(1 (11 (26 (9 (62 i) (10 (90 get) (45 it))) (50 though)) (36 .)) (1 (1 (26 (11 (26 (11 (26 (9 (18 (85 your) (29 (57 [UNK]) (91 dick))) (30 (58 can) (31 (92 ’) (12 (71 t) (13 (95 handle) (18 (80 all) (18 (85 the) (44 woman)))))))) (28 (88 of) (93 michelle))) (36 .)) (9 (18 (54 black) (52 women)) (30 (48 usually) (13 (95 have) (18 (85 a) (21 (79 lot) (15 (88 more) (18 (55 meat) (14 (86 and) (57 [UNK])))))))))) (36 .)) (9 (18 (22 (51 too) (32 much)) (15 (88 for) (18 (45 you) (50 too)))) (30 (90 handle) (45 huh)))) (36 .)) (34 lol)))
+(1 (5 (3 (65 school) (3 (65 alert) (3 (83 female) (69 [UNK])))) (5 (65 worker) (5 (65 stabbed) (5 (17 (2 (20 (15 (88 by) (18 (54 3) (52 women))) (88 on)) (3 (65 busy) (3 (65 london) (3 (56 street) (14 (88 on) (29 (77 way) (4 (82 to) (42 work)))))))) (75 [)) (40 url))))) (38 ]))
+(1 (11 (73 exactly) (36 .)) (1 (11 (73 ugh) (63 ,)) (1 (11 (26 (9 (62 they) (10 (58 don) (31 (92 ') (12 (71 t) (13 (68 want) (4 (82 to) (25 (95 have) (45 sex)))))))) (28 (88 with) (93 people))) (36 .)) (1 (26 (11 (11 (9 (62 they) (10 (67 either) (10 (90 want) (18 (54 fuck) (52 dolls))))) (63 ,)) (84 or)) (9 (62 they) (10 (67 *) (10 (68 want) (4 (82 to) (13 (25 (95 commit) (45 rape)) (50 *))))))) (36 .)))))
+(1 (11 (15 (88 for) (18 (55 one) (15 (88 of) (18 (85 the) (29 (54 smartest) (29 (52 people) (50 around))))))) (63 ,)) (1 (11 (26 (9 (62 he) (10 (6 (92 ') (71 s)) (22 (51 pretty) (32 stupid)))) (28 (33 when) (9 (62 it) (10 (68 comes) (4 (82 to) (18 (54 female) (52 nature))))))) (49 -)) (1 (11 (8 (59 did) (9 (62 he) (10 (90 learn) (45 nothing)))) (87 ?)) (1 (26 (11 (8 (58 should) (31 (92 ') (12 (71 ve) (13 (51 gone) (22 (80 all) (18 (83 male) (69 [UNK]))))))) (63 ,)) (9 (62 nobody) (10 (58 would) (31 (92 ') (12 (71 ve) (13 (95 blamed) (45 him))))))) (36 .)))))
+I 2025-02-08T20:18:53 models.base_trainer:208: ood_3 results at 11.59976: {'loss': 156.578431260207, 'training_loss': 155.36122330707184, 'ckp': '11.59976'}
+I 2025-02-08T20:18:53 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T20:18:53 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T20:18:53 models.base_trainer:115: new best: {'ckp': '11.59976', 'patience': 0, 'loss': 156.578431260207, 'training_loss': 155.36122330707184}
+I 2025-02-08T20:18:53 models.base_trainer:330: epoch: 12
+I 2025-02-08T20:25:54 models.base_trainer:403: end of epoch 12
+I 2025-02-08T20:25:54 models.base_trainer:406: average training loss: 155.1911062612301
+I 2025-02-08T20:25:54 models.base_trainer:228: evaluating
+I 2025-02-08T20:25:54 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T20:28:32 models.base_trainer:194: avg eval loss: 156.22633946228027
+I 2025-02-08T20:28:32 grammars.pcfg:171: trees:
+(1 (1 (26 (29 (83 blonde) (91 lives)) (50 matter)) (36 .)) (34 lol))
+(1 (26 (26 (11 (26 (26 (26 (9 (62 i) (10 (42 live) (15 (88 near) (18 (85 a) (44 college))))) (28 (33 and) (9 (62 i) (10 (90 see) (45 them))))) (28 (88 with) (93 tyrone))) (28 (80 all) (18 (85 the) (44 time)))) (36 .)) (18 (85 a) (72 lot))) (28 (33 if) (9 (62 chad) (31 (92 ') (12 (71 s) (13 (68 seem) (4 (82 to) (13 (51 be) (22 (89 going) (15 (88 for) (18 (18 (85 the) (29 (54 hot) (76 asian))) (14 (49 /) (29 (54 indian) (76 girls)))))))))))))) (36 .))
+(1 (28 (86 or) (25 (95 tell) (45 her))) (9 (62 you) (10 (6 (92 ') (71 re)) (32 gay))))
+(1 (73 yes) (9 (64 she) (30 (47 has) (22 (85 that) (29 (83 mental) (91 disconnect))))))
+I 2025-02-08T20:28:32 models.base_trainer:208: ood_3 results at 12.64974: {'loss': 156.26447310172114, 'training_loss': 155.1911062612301, 'ckp': '12.64974'}
+I 2025-02-08T20:28:32 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T20:28:32 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T20:28:32 models.base_trainer:115: new best: {'ckp': '12.64974', 'patience': 0, 'loss': 156.26447310172114, 'training_loss': 155.1911062612301}
+I 2025-02-08T20:28:32 models.base_trainer:330: epoch: 13
+I 2025-02-08T20:35:34 models.base_trainer:403: end of epoch 13
+I 2025-02-08T20:35:34 models.base_trainer:406: average training loss: 155.0355620260189
+I 2025-02-08T20:35:34 models.base_trainer:228: evaluating
+I 2025-02-08T20:35:34 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T20:38:18 models.base_trainer:194: avg eval loss: 156.04030150604248
+I 2025-02-08T20:38:18 grammars.pcfg:171: trees:
+(1 (11 (26 (11 (26 (46 not) (18 (85 an) (44 asshole))) (36 .)) (9 (62 i) (10 (25 (51 feel) (32 disgusted)) (50 too)))) (36 .)) (1 (26 (26 (26 (9 (62 we) (10 (6 (92 ') (71 re)) (22 (80 such) (18 (85 a) (29 (54 pc) (76 society)))))) (28 (33 that) (9 (62 they) (10 (6 (92 ') (71 ve)) (22 (80 posted) (18 (55 photos) (15 (88 of) (18 (85 the) (44 kid))))))))) (28 (33 when) (9 (64 he) (30 (47 was) (32 little))))) (28 (86 and) (13 (25 (95 calling) (45 him)) (18 (85 a) (29 (19 (19 (78 ") (70 girl)) (36 .)) (19 (78 ") (26 (11 (26 (26 (9 (64 they) (30 (47 are) (22 (22 (51 so) (32 afraid)) (4 (82 to) (25 (25 (95 have) (45 him)) (25 (95 face) (18 (85 the) (72 truth)))))))) (15 (88 about) (18 (85 his) (44 biology)))) (28 (86 and) (66 gender))) (36 .)) (73 sickening)))))))) (36 .)))
+(1 (11 (73 yay) (53 !)) (1 (9 (64 nothing) (30 (90 like) (18 (85 a) (29 (54 poor) (69 [UNK]))))) (15 (88 of) (18 (85 a) (21 (79 women) (15 (88 with) (18 (85 a) (29 (54 4) (29 (54 inch) (76 dick))))))))))
+(1 (11 (73 boobs) (63 ,)) (1 (26 (26 (11 (73 butt) (63 ,)) (69 [UNK])) (28 (63 ,) (28 (33 how) (9 (64 she) (30 (89 moves) (88 about)))))) (36 .)))
+(1 (11 (3 (65 *) (3 (65 hits) (65 blunt))) (81 *)) (1 (73 damn) (26 (45 you) (50 right))))
+I 2025-02-08T20:38:18 models.base_trainer:208: ood_3 results at 13.69972: {'loss': 156.0808344657999, 'training_loss': 155.0355620260189, 'ckp': '13.69972'}
+I 2025-02-08T20:38:18 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T20:38:18 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T20:38:18 models.base_trainer:115: new best: {'ckp': '13.69972', 'patience': 0, 'loss': 156.0808344657999, 'training_loss': 155.0355620260189}
+I 2025-02-08T20:38:18 models.base_trainer:330: epoch: 14
+I 2025-02-08T20:45:30 models.base_trainer:403: end of epoch 14
+I 2025-02-08T20:45:30 models.base_trainer:406: average training loss: 154.93061893794382
+I 2025-02-08T20:45:30 models.base_trainer:228: evaluating
+I 2025-02-08T20:45:30 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T20:48:13 models.base_trainer:194: avg eval loss: 156.08888181686402
+I 2025-02-08T20:48:13 grammars.pcfg:171: trees:
+(1 (11 (75 [) (23 (40 user) (38 ]))) (1 (26 (26 (26 (26 (11 (26 (11 (73 indeed) (53 !)) (9 (62 i) (10 (48 have) (13 (67 been) (13 (25 (61 writing) (37 along)) (18 (85 those) (21 (79 lines) (15 (88 for) (18 (85 2) (29 (54 +) (76 years))))))))))) (36 .)) (9 (62 i) (10 (90 saw) (18 (85 a) (21 (79 lack) (15 (88 of) (18 (85 this) (44 info)))))))) (28 (89 directed) (15 (88 to) (18 (55 women) (14 (63 ,) (15 (88 by) (18 (85 a) (72 woman)))))))) (28 (3 (65 () (28 (33 bc) (9 (28 (33 if) (9 (18 (85 a) (44 man)) (30 (90 says) (18 (85 the) (44 same))))) (9 (62 it) (10 (6 (92 ') (71 s)) (22 (19 (78 ") (70 sexist)) (78 "))))))) (81 )))) (28 (89 thanks) (15 (88 for) (18 (85 the) (69 [UNK]))))) (34 !)))
+(1 (11 (26 (11 (9 (64 dems) (30 (48 will) (13 (95 attack) (69 [UNK])))) (63 ,)) (9 (64 which) (30 (48 will) (13 (67 further) (13 (95 expose) (18 (85 the) (29 (79 left) (14 (6 (92 ') (71 s)) (70 hypocrisy))))))))) (36 .)) (1 (26 (9 (64 dems) (30 (90 prefer) (18 (55 assaulting) (14 (86 and) (18 (80 raping) (18 (55 women) (15 (88 over) (18 (80 treating) (45 them))))))))) (15 (88 as) (18 (54 human) (52 beings)))) (36 .)))
+(1 (5 (3 (65 rt) (2 (75 [) (23 (40 user) (38 ])))) (5 (3 (65 :) (3 (19 (78 ") (25 (95 destroy) (18 (85 each) (44 other)))) (78 "))) (5 (17 (2 (8 (30 (48 would) (13 (68 seem) (4 (82 to) (13 (42 imply) (28 (33 that) (9 (62 he) (10 (6 (92 ') (71 s)) (22 (36 .) (27 (36 .) (36 .)))))))))) (22 (67 possibly) (22 (60 going) (4 (82 to) (25 (95 destroy) (45 her)))))) (87 ?)) (75 [)) (40 url)))) (38 ]))
+(1 (11 (73 holy) (11 (73 shit) (63 ,))) (1 (11 (26 (26 (26 (9 (62 i) (10 (6 (92 ’) (71 m)) (22 (80 reading) (18 (85 some) (72 shit))))) (15 (88 on) (18 (85 your) (29 (54 other) (76 comments))))) (28 (88 about) (45 her))) (28 (80 having) (18 (83 genital) (57 [UNK])))) (87 ?)) (1 (11 (9 (62 you) (10 (74 know) (39 what))) (63 ,)) (1 (26 (11 (26 (26 (26 (25 (95 do) (45 us)) (28 (80 all) (18 (85 a) (44 favor)))) (28 (86 and) (13 (67 just) (13 (42 cum) (15 (88 in) (18 (85 this) (44 chick))))))) (50 already)) (36 .)) (9 (62 you) (10 (67 clearly) (10 (58 haven) (31 (92 ’) (12 (71 t) (13 (25 (95 learned) (45 shit)) (50 here)))))))) (36 .)))))
+I 2025-02-08T20:48:13 models.base_trainer:208: ood_3 results at 14.74970: {'loss': 156.1255008935153, 'training_loss': 154.93061893794382, 'ckp': '14.74970'}
+I 2025-02-08T20:48:13 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T20:48:13 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T20:48:13 models.base_trainer:330: epoch: 15
+I 2025-02-08T20:55:09 models.base_trainer:403: end of epoch 15
+I 2025-02-08T20:55:09 models.base_trainer:406: average training loss: 154.82823953403383
+I 2025-02-08T20:55:09 models.base_trainer:228: evaluating
+I 2025-02-08T20:55:09 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T20:57:46 models.base_trainer:194: avg eval loss: 155.92715259170532
+I 2025-02-08T20:57:46 grammars.pcfg:171: trees:
+(1 (11 (11 (26 (9 (18 (85 my) (44 mother)) (30 (47 is) (22 (67 not) (22 (85 a) (44 slut))))) (28 (33 and) (9 (64 never) (30 (47 was) (22 (85 a) (44 slut)))))) (36 .)) (84 but)) (1 (0 (9 (62 she) (10 (48 still) (13 (68 managed) (4 (82 to) (13 (25 (95 make) (18 (85 my) (44 father))) (18 (54 miserable) (52 so))))))) (27 (36 .) (36 .))) (36 .)))
+(1 (8 (59 does) (9 (62 she) (10 (25 (25 (95 put) (18 (85 her) (44 makeup))) (37 on)) (15 (88 with) (18 (85 a) (29 (83 putty) (91 knife))))))) (87 ?))
+(1 (26 (26 (26 (9 (62 i) (10 (90 know) (18 (85 a) (29 (54 lovely) (29 (79 piece) (14 (88 of) (93 land))))))) (15 (88 on) (18 (85 the) (44 mediterranean)))) (28 (33 where) (9 (62 she) (10 (48 would) (13 (51 feel) (32 right)))))) (28 (88 at) (93 home))) (36 .))
+(1 (11 (75 [) (23 (40 user) (38 ]))) (1 (11 (15 (88 for) (18 (39 what) (9 (62 it) (10 (6 (92 ') (71 s)) (80 worth))))) (63 ,)) (1 (11 (9 (62 i) (31 (92 ') (12 (71 d) (13 (95 fuck) (18 (69 [UNK]) (14 (63 ,) (18 (85 my) (29 (77 god) (9 (18 (85 that) (72 woman)) (30 (47 is) (32 hot))))))))))) (63 ,)) (1 (11 (9 (62 i) (10 (6 (92 ') (71 d)) (22 (80 mary) (69 [UNK])))) (63 ,)) (1 (26 (11 (11 (28 (33 because) (9 (62 she) (10 (6 (92 ') (71 s)) (22 (85 a) (44 sweetheart))))) (63 ,)) (84 and)) (9 (62 i) (31 (92 ') (12 (71 d) (13 (95 kill) (18 (69 [UNK]) (14 (63 ,) (28 (33 because) (9 (62 she) (10 (6 (92 ') (71 s)) (22 (85 my) (29 (54 least) (76 favourite))))))))))))) (36 .))))))
+I 2025-02-08T20:57:46 models.base_trainer:208: ood_3 results at 15.79968: {'loss': 155.96574150158938, 'training_loss': 154.82823953403383, 'ckp': '15.79968'}
+I 2025-02-08T20:57:46 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T20:57:46 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T20:57:46 models.base_trainer:115: new best: {'ckp': '15.79968', 'patience': 0, 'loss': 155.96574150158938, 'training_loss': 154.82823953403383}
+I 2025-02-08T20:57:46 models.base_trainer:330: epoch: 16
+I 2025-02-08T21:04:45 models.base_trainer:403: end of epoch 16
+I 2025-02-08T21:04:45 models.base_trainer:406: average training loss: 154.72953220747527
+I 2025-02-08T21:04:45 models.base_trainer:228: evaluating
+I 2025-02-08T21:04:45 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T21:07:24 models.base_trainer:194: avg eval loss: 155.8140302848816
+I 2025-02-08T21:07:24 grammars.pcfg:171: trees:
+(1 (11 (26 (11 (28 (33 and) (9 (18 (85 their) (72 mothers)) (42 approve))) (63 ,)) (9 (46 just) (22 (80 like) (18 (85 this) (29 (79 thot) (14 (6 (92 ') (71 s)) (70 mom))))))) (36 .)) (1 (26 (11 (26 (26 (11 (73 remember) (63 ,)) (22 (39 how) (9 (62 we) (10 (6 (92 ') (71 re)) (22 (60 supposed) (4 (82 to) (25 (51 be) (69 [UNK])))))))) (28 (86 and) (13 (95 treat) (18 (85 these) (29 (79 so) (14 (49 -) (29 (54 called) (29 (19 (78 ") (70 ladies)) (78 "))))))))) (36 .)) (73 awalt)) (36 .)))
+(1 (11 (9 (19 (78 ") (26 (26 (11 (9 (62 you) (10 (6 (92 ') (71 re)) (32 right))) (63 ,)) (9 (18 (55 all) (14 (88 of) (93 us))) (30 (48 guys) (13 (25 (95 have) (18 (85 a) (29 (54 big) (29 (83 annual) (91 meeting))))) (4 (82 to) (25 (61 figure) (37 out))))))) (28 (39 how) (4 (82 to) (25 (25 (95 piss) (18 (45 you) (50 ladies))) (37 off)))))) (78 ")) (36 .)) (1 (26 (11 (58 don) (31 (92 ') (12 (71 t) (13 (42 know) (28 (33 if) (9 (62 that) (10 (48 would) (13 (42 work) (28 (63 ,) (28 (33 but) (9 (64 those) (30 (47 are) (22 (85 the) (29 (54 first) (76 words))))))))))))))) (9 (62 that) (10 (48 would) (13 (67 probably) (13 (25 (61 come) (37 out)) (15 (88 of) (18 (85 my) (29 (54 sarcastic) (76 mouth))))))))) (36 .)))
+(1 (11 (11 (26 (26 (9 (64 that) (30 (47 has) (22 (60 nothing) (4 (82 to) (42 do))))) (15 (88 with) (18 (55 ego) (14 (14 (86 or) (66 lack)) (14 (88 of) (93 confidence)))))) (50 though)) (36 .)) (84 either)) (1 (11 (26 (11 (11 (9 (64 someone) (30 (47 is) (22 (60 attracted) (4 (82 to) (45 you))))) (63 ,)) (84 either)) (9 (64 he) (30 (49 /) (9 (64 she) (30 (47 is) (32 not)))))) (36 .)) (1 (11 (11 (73 plus) (63 ,)) (84 even)) (1 (11 (8 (59 if) (9 (62 you) (10 (74 think) (28 (33 that) (9 (18 (85 the) (44 person)) (30 (63 ,) (30 (47 is) (22 (60 attracted) (4 (18 (85 a) (44 minimum)) (4 (82 to) (45 you))))))))))) (63 ,)) (1 (26 (11 (8 (59 if) (9 (62 you) (10 (90 feel) (22 (51 being) (32 played))))) (63 ,)) (9 (62 you) (10 (42 cut) (28 (86 and) (25 (61 move) (37 on)))))) (36 .))))))
+(1 (11 (46 reminder) (33 that)) (1 (11 (11 (9 (62 it) (10 (6 (92 ') (71 s)) (22 (60 ok) (4 (82 to) (25 (95 punch) (18 (85 a) (72 girl))))))) (63 ,)) (84 because)) (1 (26 (11 (8 (59 if) (9 (62 she) (10 (6 (92 ') (71 s)) (32 antifa)))) (63 ,)) (9 (62 you) (10 (58 don) (31 (92 ') (12 (71 t) (13 (68 want) (4 (82 to) (25 (95 assume) (18 (85 their) (72 gender)))))))))) (36 .))))
+I 2025-02-08T21:07:24 models.base_trainer:208: ood_3 results at 16.84966: {'loss': 155.85270375826073, 'training_loss': 154.72953220747527, 'ckp': '16.84966'}
+I 2025-02-08T21:07:24 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T21:07:24 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T21:07:24 models.base_trainer:115: new best: {'ckp': '16.84966', 'patience': 0, 'loss': 155.85270375826073, 'training_loss': 154.72953220747527}
+I 2025-02-08T21:07:24 models.base_trainer:330: epoch: 17
+I 2025-02-08T21:14:20 models.base_trainer:403: end of epoch 17
+I 2025-02-08T21:14:20 models.base_trainer:406: average training loss: 154.66403850969098
+I 2025-02-08T21:14:20 models.base_trainer:228: evaluating
+I 2025-02-08T21:14:20 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T21:17:01 models.base_trainer:194: avg eval loss: 155.71793811798096
+I 2025-02-08T21:17:01 grammars.pcfg:171: trees:
+(1 (11 (46 sounds) (39 like)) (1 (11 (26 (9 (62 you) (10 (6 (92 ') (71 re)) (22 (80 making) (18 (85 your) (72 weight))))) (22 (85 an) (29 (77 excuse) (4 (82 to) (13 (67 not) (13 (25 (95 approach) (45 women)) (50 now))))))) (36 .)) (1 (11 (59 if) (9 (62 you) (10 (90 set) (18 (55 conditions) (14 (88 like) (93 this)))))) (9 (62 you) (10 (58 won) (31 (92 ') (12 (71 t) (13 (95 reach) (18 (85 your) (72 potential))))))))))
+(1 (11 (26 (13 (25 (95 bring) (45 her)) (18 (85 a) (29 (79 basket) (14 (88 of) (93 oranges))))) (28 (80 not) (18 (55 4) (14 (49 or) (56 7))))) (63 ,)) (1 (26 (11 (11 (26 (9 (64 8) (30 (47 is) (32 lucky))) (50 number)) (63 ,)) (25 (95 trust) (45 me))) (9 (62 i) (10 (6 (92 ') (71 m)) (32 chinese)))) (36 .)))
+(1 (11 (26 (11 (9 (62 i) (10 (42 agree) (28 (88 with) (45 this)))) (36 .)) (9 (18 (85 the) (29 (77 way) (9 (64 women) (30 (90 abuse) (18 (85 the) (29 (83 court) (91 system))))))) (30 (47 is) (32 appalling)))) (36 .)) (1 (26 (39 like) (8 (8 (16 (39 how) (18 (55 much) (15 (88 of) (18 (85 a) (72 cunt))))) (8 (59 does) (9 (64 one) (30 (68 have) (4 (82 to) (42 be)))))) (4 (82 to) (25 (95 steal) (18 (18 (85 the) (21 (79 fruits) (15 (88 of) (18 (45 someone) (50 else))))) (14 (6 (92 ') (71 s)) (70 labor))))))) (36 .)))
+(1 (9 (62 i) (10 (90 bet) (18 (85 my) (72 soul)))) (26 (26 (26 (26 (9 (64 there) (30 (47 are) (32 hundreds))) (50 more)) (28 (88 like) (45 this))) (28 (84 but) (28 (88 as) (93 usual)))) (28 (33 because) (9 (18 (18 (16 (46 its) (16 (18 (54 teenage) (52 boys)) (62 it))) (47 aint)) (28 (33 so) (9 (18 (55 bad) (14 (63 ,) (66 molesting))) (30 (47 is) (32 molesting))))) (30 (47 is) (32 molesting))))))
+I 2025-02-08T21:17:01 models.base_trainer:208: ood_3 results at 17.89964: {'loss': 155.75608399405252, 'training_loss': 154.66403850969098, 'ckp': '17.89964'}
+I 2025-02-08T21:17:01 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T21:17:01 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T21:17:01 models.base_trainer:115: new best: {'ckp': '17.89964', 'patience': 0, 'loss': 155.75608399405252, 'training_loss': 154.66403850969098}
+I 2025-02-08T21:17:01 models.base_trainer:330: epoch: 18
+I 2025-02-08T21:23:59 models.base_trainer:403: end of epoch 18
+I 2025-02-08T21:23:59 models.base_trainer:406: average training loss: 154.57311108036964
+I 2025-02-08T21:23:59 models.base_trainer:228: evaluating
+I 2025-02-08T21:23:59 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T21:26:34 models.base_trainer:194: avg eval loss: 155.69851238250732
+I 2025-02-08T21:26:34 grammars.pcfg:171: trees:
+(1 (1 (11 (26 (29 (54 future) (76 news)) (76 story)) (63 ,)) (1 (73 nurse) (1 (26 (26 (9 (18 (55 alex) (14 (86 &) (66 patient))) (30 (48 both) (13 (42 settle) (15 (88 lawsuits) (18 (85 several) (29 (54 million) (76 dollars))))))) (28 (60 due) (4 (82 to) (18 (85 one) (29 (54 dumb) (76 ass)))))) (50 detective)) (36 .)))) (2 (35 #) (29 (54 4th) (76 amendment))))
+(1 (26 (26 (26 (26 (26 (11 (26 (26 (26 (26 (9 (62 he) (10 (6 (92 ') (71 s)) (22 (89 talking) (15 (88 about) (18 (85 his) (72 heart)))))) (15 (88 for) (18 (85 the) (29 (35 #) (69 [UNK]))))) (28 (86 that) (13 (95 have) (18 (80 invaded) (18 (85 our) (72 country)))))) (28 (63 ,) (30 (47 are) (22 (80 dealing) (18 (55 drugs) (14 (14 (63 ,) (22 (80 raping) (18 (85 our) (72 women)))) (14 (86 and) (66 children)))))))) (28 (86 and) (22 (80 murdering) (18 (85 our) (72 citizens))))) (36 .)) (9 (62 i) (10 (47 was) (80 on)))) (28 (82 to) (45 him))) (28 (33 when) (9 (62 he) (10 (90 selected) (18 (35 #) (43 amnesty)))))) (50 boy)) (28 (35 #) (69 [UNK]))) (36 .))
+(1 (26 (11 (26 (26 (11 (26 (26 (57 [UNK]) (30 (47 are) (22 (67 truly) (32 appalling)))) (28 (33 creatures) (9 (64 that) (30 (47 are) (22 (67 even) (22 (89 lower) (15 (88 than) (18 (45 niggers) (50 themselves))))))))) (36 .)) (9 (18 (85 a) (72 nigger)) (30 (47 acts) (22 (80 in) (18 (85 his) (29 (54 own) (76 nature))))))) (28 (88 at) (93 least))) (63 ,)) (9 (62 i) (10 (48 can) (13 (95 respect) (45 that))))) (36 .))
+(1 (11 (75 [) (23 (40 user) (38 ]))) (1 (11 (0 (0 (0 (22 (80 following) (45 you)) (27 (36 .) (36 .))) (36 .)) (0 (73 again) (27 (36 .) (36 .)))) (36 .)) (1 (11 (59 because) (9 (62 i) (10 (48 never) (13 (95 unfollowed) (45 you))))) (1 (2 (7 (53 !) (34 ever)) (7 (53 !) (34 !))) (2 (2 (7 (53 !) (34 !)) (7 (53 !) (34 !))) (2 (2 (7 (53 !) (34 !)) (7 (53 !) (34 !))) (2 (3 (65 () (2 (26 (26 (11 (26 (11 (26 (11 (26 (26 (57 [UNK]) (30 (47 is) (22 (80 on) (18 (85 a) (29 (54 fucking) (69 [UNK])))))) (50 tonight)) (36 .)) (9 (18 (85 my) (72 score)) (30 (47 is) (32 zero)))) (36 .)) (9 (62 i) (31 (92 ') (12 (71 m) (13 (25 (95 burning) (18 (85 this) (29 (54 whole) (29 (54 mother) (76 fucker))))) (37 down)))))) (36 .)) (25 (61 get) (37 out))) (28 (33 while) (9 (62 you) (48 can)))) (36 .))) (81 )))))))))
+I 2025-02-08T21:26:35 models.base_trainer:208: ood_3 results at 18.94962: {'loss': 155.73614824441543, 'training_loss': 154.57311108036964, 'ckp': '18.94962'}
+I 2025-02-08T21:26:35 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T21:26:35 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T21:26:35 models.base_trainer:115: new best: {'ckp': '18.94962', 'patience': 0, 'loss': 155.73614824441543, 'training_loss': 154.57311108036964}
+I 2025-02-08T21:26:35 models.base_trainer:330: epoch: 19
+I 2025-02-08T21:33:25 models.base_trainer:403: end of epoch 19
+I 2025-02-08T21:33:25 models.base_trainer:406: average training loss: 154.47628482011092
+I 2025-02-08T21:33:25 models.base_trainer:228: evaluating
+I 2025-02-08T21:33:25 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T21:36:06 models.base_trainer:194: avg eval loss: 155.63213091659546
+I 2025-02-08T21:36:06 grammars.pcfg:171: trees:
+(1 (26 (46 and) (32 niggers)) (36 .))
+(1 (11 (26 (46 incel) (22 (60 trying) (4 (82 to) (13 (74 pretend) (9 (62 he) (10 (74 thinks) (9 (64 sex) (30 (47 is) (22 (80 about) (18 (69 [UNK]) (18 (85 a) (29 (79 woman) (14 (63 ,) (66 amusing)))))))))))))) (36 .)) (1 (11 (9 (18 (67 not) (80 like)) (30 (48 has) (13 (68 has) (4 (82 to) (42 worry))))) (63 ,)) (1 (26 (26 (26 (26 (26 (26 (9 (46 exactly) (22 (85 zero) (44 chance))) (28 (88 of) (45 him))) (50 charming)) (28 (86 and) (69 [UNK]))) (28 (3 (65 () (3 (39 wtf) (87 ?))) (81 )))) (50 anyone)) (50 ever)) (36 .))))
+(1 (73 well) (1 (11 (73 hell) (63 ,)) (1 (11 (8 (8 (8 (58 wasn) (31 (92 ') (12 (71 t) (13 (25 (95 there) (18 (85 a) (72 woman))) (15 (88 in) (18 (85 washington) (72 state))))))) (28 (86 that) (13 (74 said) (9 (64 she) (47 was))))) (28 (86 and) (13 (42 worked) (15 (88 for) (18 (85 the) (69 [UNK])))))) (87 ?)) (1 (5 (17 (2 (8 (67 ever) (13 (42 hear) (15 (88 of) (18 (83 rachel) (41 dolezal))))) (87 ?)) (75 [)) (40 url)) (38 ])))))
+(1 (11 (73 yeah) (63 ,)) (1 (11 (26 (9 (62 it) (10 (6 (92 ') (71 s)) (22 (67 not) (22 (85 a) (29 (54 big) (76 deal)))))) (28 (33 if) (9 (18 (85 a) (72 person)) (30 (47 is) (22 (85 a) (44 teenager)))))) (86 and)) (1 (11 (11 (26 (11 (9 (18 (85 their) (72 identity)) (30 (47 is) (22 (67 constantly) (32 changing)))) (49 -)) (9 (62 that) (10 (6 (92 ') (71 s)) (22 (82 to) (13 (51 be) (32 expected)))))) (36 .)) (84 but)) (1 (73 goddamn) (1 (26 (11 (26 (26 (9 (62 i) (10 (90 have) (32 seen))) (28 (33 so) (9 (18 (85 many) (29 (54 adult) (76 women))) (30 (90 do) (45 it))))) (28 (63 ,) (28 (33 and) (9 (64 it) (30 (67 just) (30 (47 looks) (32 pathetic))))))) (36 .)) (9 (62 it) (10 (6 (92 ') (71 s)) (22 (39 like) (9 (62 they) (10 (90 have) (18 (85 no) (21 (79 sense) (15 (88 of) (18 (55 self) (15 (88 at) (93 all)))))))))))) (36 .))))))
+I 2025-02-08T21:36:06 models.base_trainer:208: ood_3 results at 19.99960: {'loss': 155.67066904768993, 'training_loss': 154.47628482011092, 'ckp': '19.99960'}
+I 2025-02-08T21:36:06 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T21:36:06 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T21:36:06 models.base_trainer:115: new best: {'ckp': '19.99960', 'patience': 0, 'loss': 155.67066904768993, 'training_loss': 154.47628482011092}
+I 2025-02-08T21:36:06 models.base_trainer:330: epoch: 20
+I 2025-02-08T21:43:00 models.base_trainer:403: end of epoch 20
+I 2025-02-08T21:43:00 models.base_trainer:406: average training loss: 154.39577205851822
+I 2025-02-08T21:43:00 models.base_trainer:228: evaluating
+I 2025-02-08T21:43:00 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T21:45:41 models.base_trainer:194: avg eval loss: 155.7407897529602
+I 2025-02-08T21:45:41 grammars.pcfg:171: trees:
+(1 (11 (26 (26 (26 (11 (3 (3 (56 male) (14 (49 -) (56 dominated))) (3 (65 major) (3 (65 () (3 (18 (85 no) (29 (54 single) (29 (54 female) (76 friends)))) (88 around))))) (81 ))) (22 (89 none) (15 (88 of) (18 (85 this) (72 matters))))) (28 (33 when) (9 (62 it) (10 (68 comes) (4 (82 to) (45 women)))))) (50 though)) (36 .)) (1 (26 (18 (83 online) (41 dating)) (14 (14 (63 ,) (66 daygame)) (14 (63 ,) (57 [UNK])))) (36 .)))
+(1 (1 (26 (3 (65 french) (3 (65 actress) (3 (69 [UNK]) (69 [UNK])))) (3 (3 (69 [UNK]) (69 [UNK])) (3 (3 (85 a) (3 (65 louis) (3 (57 [UNK]) (3 (56 lady) (14 (14 (14 (6 (92 ’) (71 s)) (70 hat)) (57 [UNK])) (14 (63 ,) (66 theatre))))))) (3 (3 (69 [UNK]) (69 [UNK])) (3 (69 [UNK]) (14 (63 ,) (66 ca))))))) (36 .)) (69 [UNK]))
+(1 (26 (26 (11 (11 (9 (18 (85 the) (29 (54 biggest) (21 (79 flaw) (15 (88 in) (18 (85 the) (72 comic)))))) (30 (47 is) (22 (33 that) (9 (18 (85 the) (72 woman)) (30 (58 hasn) (31 (92 ') (12 (71 t) (13 (25 (95 hit) (18 (85 the) (72 wall))) (15 (88 after) (18 (54 2) (52 kids))))))))))) (36 .)) (84 only)) (9 (18 (85 her) (72 hair)) (30 (47 got) (22 (85 a) (44 bit))))) (50 messy)) (36 .))
+(1 (11 (26 (26 (26 (11 (11 (0 (9 (15 (88 in) (18 (85 my) (72 mind))) (9 (62 i) (10 (48 still) (13 (25 (95 see) (45 her)) (28 (33 like) (9 (62 i) (10 (48 did) (13 (15 (88 in) (18 (69 [UNK]) (69 [UNK]))) (57 [UNK]))))))))) (27 (36 .) (36 .))) (36 .)) (84 but)) (9 (62 i) (10 (48 just) (13 (25 (95 looked) (45 it)) (37 up))))) (28 (33 and) (9 (62 that) (10 (90 was) (18 (54 10) (52 years)))))) (50 ago)) (53 !)) (1 (73 fuck) (53 !)))
+I 2025-02-08T21:45:41 models.base_trainer:208: ood_3 results at 20.104958: {'loss': 155.77841174307244, 'training_loss': 154.39577205851822, 'ckp': '20.104958'}
+I 2025-02-08T21:45:41 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T21:45:41 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T21:45:41 models.base_trainer:330: epoch: 21
+I 2025-02-08T21:52:39 models.base_trainer:403: end of epoch 21
+I 2025-02-08T21:52:39 models.base_trainer:406: average training loss: 154.3375975252772
+I 2025-02-08T21:52:39 models.base_trainer:228: evaluating
+I 2025-02-08T21:52:39 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T21:55:20 models.base_trainer:194: avg eval loss: 155.48161366653443
+I 2025-02-08T21:55:20 grammars.pcfg:171: trees:
+(1 (0 (26 (84 maybe) (9 (46 not) (22 (80 slutty) (18 (85 the) (29 (77 way) (9 (62 you) (10 (90 do) (45 it)))))))) (27 (36 .) (36 .))) (36 .))
+(1 (11 (75 [) (23 (40 user) (38 ]))) (1 (11 (8 (24 (47 is) (45 it)) (22 (85 an) (29 (29 (79 exchange) (14 (14 (49 programme) (29 (54 next) (29 (77 week) (9 (18 (85 the) (29 (54 muslim) (76 girls))) (30 (90 wear) (18 (54 mini) (52 skirts))))))) (14 (14 (86 and) (29 (83 low) (91 tops))) (14 (86 &) (66 drink))))) (91 beer)))) (63 ,)) (1 (26 (26 (25 (95 eat) (45 bacon)) (28 (86 &) (13 (68 get) (4 (82 to) (13 (25 (95 know) (18 (85 the) (29 (79 joy) (14 (86 &) (66 freedom))))) (15 (88 of) (18 (51 being) (32 normal)))))))) (15 (88 like) (18 (85 a) (69 [UNK])))) (36 .))))
+(1 (11 (46 proof) (33 that)) (1 (11 (26 (9 (18 (83 hillary) (41 clinton)) (30 (69 [UNK]) (15 (88 with) (18 (85 the) (69 [UNK]))))) (4 (82 to) (13 (67 completely) (13 (25 (95 destroy) (18 (85 the) (29 (83 cia) (91 network)))) (15 (88 in) (93 china)))))) (36 .)) (1 (11 (88 at) (93 least)) (1 (5 (3 (65 30) (3 (83 cia) (41 agents))) (5 (3 (60 loyal) (82 to)) (5 (17 (2 (26 (11 (26 (11 (26 (26 (9 (18 (85 the) (72 us)) (30 (47 were) (32 executed))) (28 (86 and) (69 [UNK]))) (15 (88 by) (18 (85 the) (69 [UNK])))) (36 .)) (13 (25 (95 lock) (45 her)) (37 up))) (63 ,)) (9 (64 hillary) (30 (47 is) (22 (85 a) (44 traitor))))) (53 !)) (75 [)) (40 url)))) (38 ])))))
+(1 (11 (9 (18 (55 some) (15 (88 of) (18 (54 these) (52 guys)))) (30 (47 are) (22 (67 really) (32 cute)))) (36 .)) (1 (11 (73 also) (63 ,)) (1 (11 (26 (9 (62 you) (10 (58 can) (31 (92 ') (12 (71 t) (13 (51 be) (22 (85 an) (44 incel))))))) (15 (88 at) (93 16))) (36 .)) (1 (26 (26 (26 (9 (62 you) (10 (6 (92 ') (71 re)) (22 (67 just) (22 (85 a) (44 virgin))))) (15 (88 like) (18 (80 roughly) (18 (54 50) (52 %))))) (15 (88 of) (93 people))) (28 (85 your) (77 age))) (36 .)))))
+I 2025-02-08T21:55:20 models.base_trainer:208: ood_3 results at 21.109956: {'loss': 155.5199227985633, 'training_loss': 154.3375975252772, 'ckp': '21.109956'}
+I 2025-02-08T21:55:20 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T21:55:20 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T21:55:20 models.base_trainer:115: new best: {'ckp': '21.109956', 'patience': 0, 'loss': 155.5199227985633, 'training_loss': 154.3375975252772}
+I 2025-02-08T21:55:20 models.base_trainer:330: epoch: 22
+I 2025-02-08T22:02:17 models.base_trainer:403: end of epoch 22
+I 2025-02-08T22:02:17 models.base_trainer:406: average training loss: 154.29294122739427
+I 2025-02-08T22:02:17 models.base_trainer:228: evaluating
+I 2025-02-08T22:02:17 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T22:04:54 models.base_trainer:194: avg eval loss: 155.4751467628479
+I 2025-02-08T22:04:54 grammars.pcfg:171: trees:
+(1 (26 (11 (26 (26 (11 (26 (73 well) (74 said)) (36 .)) (9 (62 we) (10 (48 can) (13 (67 only) (13 (25 (95 hope) (18 (85 the) (72 movement))) (15 (88 against) (18 (19 (78 ") (70 multiculturalism)) (78 ")))))))) (28 (33 and) (9 (18 (85 the) (29 (54 islamic) (76 invasion))) (30 (68 continues) (4 (82 to) (42 grow)))))) (36 .)) (9 (18 (83 angela) (41 merkel)) (30 (47 has) (22 (89 blood) (15 (88 on) (18 (85 her) (72 hands))))))) (34 !))
+(1 (11 (8 (8 (59 does) (9 (64 anyone) (30 (25 (95 have) (18 (85 a) (72 list))) (15 (88 of) (18 (55 states) (15 (88 in) (18 (39 which) (9 (64 women) (30 (61 walk) (15 (88 from) (93 court))))))))))) (28 (33 when) (9 (64 they) (30 (47 are) (22 (89 accused) (15 (88 of) (18 (80 raping) (18 (54 underage) (52 boys))))))))) (87 ?)) (1 (11 (26 (11 (9 (62 we) (10 (74 know) (9 (62 they) (10 (48 can) (13 (25 (61 get) (37 away)) (15 (88 with) (18 (85 this) (21 (79 crime) (15 (88 in) (93 utah)))))))))) (63 ,)) (9 (64 which) (30 (47 is) (22 (83 double) (41 standard))))) (36 .)) (1 (11 (8 (16 (39 what) (18 (54 other) (52 states))) (25 (95 allow) (18 (85 this) (72 injustice)))) (87 ?)) (1 (8 (87 ?) (87 ?)) (87 ?)))))
+(1 (26 (11 (11 (26 (26 (84 because) (9 (64 women) (30 (47 refused) (22 (80 having) (18 (55 sex) (15 (88 with) (18 (85 their) (72 husbands)))))))) (28 (33 until) (9 (62 they) (10 (95 let) (45 them))))) (36 .)) (84 so)) (9 (62 that) (42 happened))) (36 .))
+(1 (11 (73 basically) (63 ,)) (1 (26 (9 (62 she) (10 (68 needs) (4 (82 to) (13 (51 be) (22 (67 physically) (22 (22 (60 attracted) (4 (82 to) (45 you))) (15 (88 for) (18 (85 your) (29 (92 ') (3 (56 game) (92 '))))))))))) (4 (82 to) (13 (95 have) (18 (85 a) (72 chance))))) (36 .)))
+I 2025-02-08T22:04:54 models.base_trainer:208: ood_3 results at 22.114954: {'loss': 155.51255991961736, 'training_loss': 154.29294122739427, 'ckp': '22.114954'}
+I 2025-02-08T22:04:54 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T22:04:54 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T22:04:54 models.base_trainer:115: new best: {'ckp': '22.114954', 'patience': 0, 'loss': 155.51255991961736, 'training_loss': 154.29294122739427}
+I 2025-02-08T22:04:54 models.base_trainer:330: epoch: 23
+I 2025-02-08T22:11:57 models.base_trainer:403: end of epoch 23
+I 2025-02-08T22:11:57 models.base_trainer:406: average training loss: 154.3079330731316
+I 2025-02-08T22:11:57 models.base_trainer:228: evaluating
+I 2025-02-08T22:11:57 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T22:14:41 models.base_trainer:194: avg eval loss: 155.50355805587768
+I 2025-02-08T22:14:41 grammars.pcfg:171: trees:
+(1 (11 (9 (64 this) (30 (47 is) (22 (67 just) (32 perfect)))) (53 !)) (1 (11 (26 (26 (9 (62 i) (10 (74 love) (9 (62 they) (10 (90 caught) (45 her))))) (28 (86 and) (13 (68 hope) (4 (82 to) (25 (25 (95 see) (18 (55 all) (15 (88 of) (93 them)))) (25 (61 drug) (37 out))))))) (28 (86 and) (66 charged))) (53 !)) (1 (26 (39 what) (18 (85 a) (29 (77 disaster) (9 (64 this) (30 (48 would) (13 (51 have) (32 caused))))))) (34 !))))
+(1 (11 (0 (0 (86 who) (74 cares)) (36 .)) (36 .)) (1 (26 (13 (67 just) (13 (95 shoot) (18 (85 your) (72 shot)))) (28 (33 if) (9 (62 you) (10 (90 like) (45 her))))) (36 .)))
+(1 (5 (3 (65 report) (3 (65 :) (57 [UNK]))) (5 (3 (65 jeff) (11 (8 (11 (26 (11 (26 (9 (64 sessions) (30 (68 refused) (4 (82 to) (13 (25 (61 lock) (37 up)) (15 (88 crooked) (18 (83 hillary) (41 clinton))))))) (28 (33 but) (9 (18 (69 [UNK]) (18 (85 the) (72 power))) (30 (61 all) (37 along))))) (36 .)) (9 (18 (85 the) (72 question)) (47 is))) (63 ,)) (39 why)) (53 ?))) (5 (3 (69 [UNK]) (3 (65 watch) (65 :))) (5 (75 [) (40 url))))) (38 ]))
+(1 (11 (26 (9 (18 (85 the) (29 (69 [UNK]) (21 (79 argument) (15 (88 against) (18 (56 baby) (14 (14 (49 -) (56 killing)) (72 abortion))))))) (30 (47 has) (22 (22 (22 (69 [UNK]) (15 (88 in) (93 alabama))) (15 (88 within) (18 (85 the) (29 (69 [UNK]) (15 (88 of) (18 (85 a) (29 (54 capital) (76 crime)))))))) (15 (88 of) (18 (85 a) (72 husband)))))) (15 (88 murdering) (18 (85 his) (29 (54 pregnant) (29 (56 wife) (14 (86 &) (29 (54 unborn) (76 baby)))))))) (36 .)) (1 (5 (3 (61 look) (37 out)) (5 (3 (83 roe) (41 v)) (5 (17 (2 (81 wade) (81 :)) (75 [)) (40 url)))) (38 ])))
+I 2025-02-08T22:14:41 models.base_trainer:208: ood_3 results at 23.119952: {'loss': 155.54094366541736, 'training_loss': 154.3079330731316, 'ckp': '23.119952'}
+I 2025-02-08T22:14:41 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T22:14:41 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T22:14:41 models.base_trainer:330: epoch: 24
+I 2025-02-08T22:21:51 models.base_trainer:403: end of epoch 24
+I 2025-02-08T22:21:51 models.base_trainer:406: average training loss: 154.30933464770797
+I 2025-02-08T22:21:51 models.base_trainer:228: evaluating
+I 2025-02-08T22:21:51 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T22:24:31 models.base_trainer:194: avg eval loss: 155.51192358016968
+I 2025-02-08T22:24:31 grammars.pcfg:171: trees:
+(1 (26 (26 (9 (18 (85 that) (72 girl)) (30 (47 is) (22 (80 getting) (18 (54 red) (52 pills))))) (28 (89 shoved) (15 (88 down) (18 (85 her) (72 throat))))) (50 daily)) (36 .))
+(1 (11 (75 [) (23 (40 user) (38 ]))) (1 (11 (9 (64 maddox) (30 (47 is) (32 lying))) (34 !)) (1 (11 (26 (11 (26 (11 (26 (26 (9 (64 she) (30 (47 was) (22 (61 called) (37 on)))) (15 (88 on) (18 (85 this) (21 (79 tweet) (15 (88 by) (18 (85 a) (29 (83 bernie) (91 supporter)))))))) (28 (33 and) (9 (64 someone) (30 (48 who) (13 (25 (95 follows) (45 maddow)) (15 (88 on) (93 twitter))))))) (34 !)) (9 (62 that) (10 (6 (92 ') (71 s)) (22 (39 how) (9 (18 (85 the) (72 follower)) (30 (74 knew) (9 (64 maddox) (30 (90 posted) (45 it))))))))) (36 .)) (9 (62 it) (10 (25 (61 came) (37 up)) (15 (88 on) (18 (85 her) (72 feed)))))) (36 .)) (1 (5 (17 (2 (75 [) (23 (40 url) (38 ]))) (75 [)) (40 url)) (38 ])))))
+(1 (11 (9 (64 it) (30 (47 is) (22 (85 the) (29 (54 simplest) (29 (77 way) (4 (82 to) (42 classify))))))) (36 .)) (1 (26 (11 (26 (11 (26 (11 (73 humanity) (63 ,)) (22 (89 divided) (15 (88 into) (93 races)))) (36 .)) (9 (18 (85 the) (72 niggers)) (30 (48 would) (13 (51 be) (22 (85 a) (29 (56 sub) (14 (49 -) (56 race)))))))) (36 .)) (9 (62 they) (10 (42 dwell) (15 (88 at) (18 (85 the) (29 (54 very) (21 (79 bottom) (15 (88 of) (18 (85 the) (72 tree)))))))))) (36 .)))
+(1 (26 (11 (26 (22 (60 good) (4 (82 to) (13 (25 (95 see) (18 (85 a) (21 (79 group) (15 (88 of) (18 (54 chinese) (52 men)))))) (15 (88 defending) (18 (85 their) (72 women)))))) (15 (88 from) (18 (85 violent) (29 (54 muslim) (76 migrants))))) (36 .)) (9 (64 europeans) (30 (61 take) (37 note)))) (36 .))
+I 2025-02-08T22:24:31 models.base_trainer:208: ood_3 results at 24.124950: {'loss': 155.5496465596134, 'training_loss': 154.30933464770797, 'ckp': '24.124950'}
+I 2025-02-08T22:24:31 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T22:24:31 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T22:24:31 models.base_trainer:330: epoch: 25
+I 2025-02-08T22:31:34 models.base_trainer:403: end of epoch 25
+I 2025-02-08T22:31:34 models.base_trainer:406: average training loss: 154.25257432608663
+I 2025-02-08T22:31:34 models.base_trainer:228: evaluating
+I 2025-02-08T22:31:34 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T22:34:11 models.base_trainer:194: avg eval loss: 155.6372666053772
+I 2025-02-08T22:34:11 grammars.pcfg:171: trees:
+(1 (26 (26 (9 (64 incels) (30 (47 more) (22 (89 cared) (88 for)))) (28 (86 and) (66 privileged))) (28 (33 than) (9 (15 (88 for) (18 (18 (54 example) (52 women)) (28 (86 and) (66 gays)))) (9 (62 you) (10 (90 broke) (18 (85 the) (29 (83 larping) (91 roof)))))))) (36 .))
+(1 (9 (62 we) (10 (74 know) (9 (18 (16 (16 (39 what) (64 liars)) (64 they)) (47 are)) (30 (48 just) (13 (95 ask) (18 (85 her) (29 (54 ex) (76 husband)))))))) (28 (33 how) (9 (62 she) (10 (68 lied) (4 (82 to) (45 him))))))
+(1 (26 (9 (18 (85 the) (29 (54 retarded) (76 thing))) (30 (47 is) (22 (33 when) (9 (18 (85 the) (72 trick)) (30 (47 has) (22 (67 been) (32 revealed))))))) (28 (33 and) (9 (18 (85 the) (72 audience)) (30 (48 still) (13 (74 thinks) (9 (62 it) (10 (6 (92 ') (71 s)) (32 magic)))))))) (36 .))
+(1 (26 (11 (9 (64 women) (30 (58 can) (31 (92 ’) (12 (71 t) (13 (95 rape) (45 men)))))) (36 .)) (9 (18 (54 only) (52 men)) (30 (48 can) (13 (95 rape) (45 women))))) (36 .))
+I 2025-02-08T22:34:11 models.base_trainer:208: ood_3 results at 25.129948: {'loss': 155.6747573879262, 'training_loss': 154.25257432608663, 'ckp': '25.129948'}
+I 2025-02-08T22:34:11 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T22:34:12 models.base_trainer:248: writing average results to output/ood_3
+I 2025-02-08T22:34:12 models.base_trainer:139: 3 checkpoints with no improvement, stopping
+I 2025-02-08T22:34:12 models.base_trainer:228: evaluating
+I 2025-02-08T22:34:12 models.base_trainer:158: evaluating on ood_3
+I 2025-02-08T22:36:49 models.base_trainer:194: avg eval loss: 155.6372666053772
+I 2025-02-08T22:36:49 grammars.pcfg:171: trees:
+(1 (11 (9 (62 i) (10 (90 am) (18 (85 a) (29 (83 police) (91 wife))))) (36 .)) (1 (11 (26 (11 (59 if) (9 (62 you) (10 (90 shoot) (18 (85 my) (72 husband))))) (9 (62 you) (10 (48 still) (13 (68 have) (4 (82 to) (13 (42 [UNK]) (15 (88 with) (45 me)))))))) (36 .)) (1 (11 (26 (11 (26 (26 (9 (64 this) (30 (90 includes) (45 politicians))) (28 (86 who) (25 (95 make) (45 it)))) (28 (60 easier) (4 (82 to) (25 (95 shoot) (45 police))))) (36 .)) (9 (62 i) (10 (74 know) (9 (62 i) (10 (90 am) (22 (67 not) (22 (85 the) (29 (54 only) (76 one))))))))) (36 .)) (1 (5 (17 (2 (35 #) (69 [UNK])) (75 [)) (40 url)) (38 ])))))
+(1 (11 (26 (26 (84 apparently) (9 (18 (83 maxine) (41 waters)) (30 (47 is) (22 (60 going) (4 (82 to) (13 (42 be) (15 (88 in) (18 (85 the) (29 (54 next) (21 (79 issue) (15 (88 of) (93 essence)))))))))))) (50 magazine)) (36 .)) (1 (11 (26 (11 (73 sadly) (63 ,)) (9 (62 they) (10 (90 have) (18 (55 pictures) (15 (88 of) (93 her)))))) (36 .)) (1 (11 (26 (69 [UNK]) (22 (80 just) (45 me))) (86 or)) (1 (8 (59 does) (9 (64 she) (30 (47 look) (22 (39 like) (9 (18 (85 her) (72 face)) (30 (47 is) (32 melting))))))) (53 ?)))))
+(1 (26 (11 (73 aww) (34 !)) (9 (62 i) (10 (6 (92 ') (71 m)) (22 (39 sure) (9 (18 (85 a) (29 (54 beautiful) (76 lady))) (30 (48 would) (13 (25 (95 bake) (45 you)) (18 (85 a) (21 (79 ton) (15 (88 of) (18 (69 [UNK]) (15 (88 in) (93 return))))))))))))) (2 (81 ;) (81 ))))
+(1 (11 (62 i) (74 believe)) (1 (46 its) (22 (39 what) (9 (62 they) (10 (74 think) (9 (64 women) (30 (69 [UNK]) (82 to))))))))
+I 2025-02-08T22:36:49 models.base_trainer:208: ood_3 results at end: {'loss': 155.6747573879262}
+I 2025-02-08T22:36:49 models.base_trainer:211: writing ood_3 results to output/ood_3
+I 2025-02-08T22:36:50 models.base_trainer:158: evaluating on ood_3_train
+I 2025-02-08T22:49:55 models.base_trainer:194: avg eval loss: 153.46100329856674
+I 2025-02-08T22:49:55 grammars.pcfg:171: trees:
+(1 (9 (18 (85 a) (72 man)) (30 (48 would) (13 (95 love) (18 (85 a) (72 tree))))) (28 (33 if) (9 (62 it) (10 (25 (95 gave) (45 him)) (50 attention)))))
+(1 (26 (84 so) (9 (62 you) (10 (48 dont) (13 (74 know) (9 (64 shit) (30 (48 just) (13 (95 like) (18 (54 most) (52 women))))))))) (28 (80 running) (18 (85 that) (29 (54 fuking) (76 mouth)))))
+(1 (11 (15 (88 in) (93 essence)) (63 ,)) (1 (26 (26 (26 (26 (26 (9 (18 (52 women) (28 (86 who) (25 (95 do) (45 this)))) (30 (47 are) (22 (80 saying) (18 (19 (78 ") (9 (62 it) (10 (6 (92 ') (71 s)) (32 ok)))) (78 "))))) (28 (89 instead) (15 (88 of) (18 (69 [UNK]) (45 it))))) (15 (88 in) (18 (85 the) (72 bud)))) (28 (86 and) (22 (80 telling) (18 (85 the) (72 guy))))) (50 off)) (28 (86 and) (13 (25 (69 [UNK]) (18 (85 his) (72 face))) (32 hard)))) (36 .)))
+(1 (0 (26 (26 (9 (64 miley) (30 (68 moved) (4 (82 to) (93 england)))) (28 (86 and) (13 (25 (69 [UNK]) (45 her)) (18 (83 us) (41 citizenship))))) (28 (33 as) (9 (62 i) (74 remember)))) (27 (36 .) (36 .))) (36 .))
+I 2025-02-08T22:49:55 models.base_trainer:208: ood_3_train results at end: {'loss': 153.46100326755993}
+I 2025-02-08T22:49:55 models.base_trainer:211: writing ood_3_train results to output/ood_3
+I 2025-02-08T22:49:55 models.base_trainer:248: writing average results to output/ood_3

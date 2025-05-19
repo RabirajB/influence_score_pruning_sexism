@@ -1,0 +1,111 @@
+I 2025-02-08T18:22:28 __main__:276: logging to output/sexism_eval
+I 2025-02-08T18:22:28 __main__:277: args: {'output_dir': 'output/sexism_eval', 'seed': 13, 'data_seed': 13, 'model_type': 'pcfg', 'load_from': None, 'save': False, 'vocab_size': 20000, 'min_frequency': 3, 'load_tokenizer_from': None, 'data_dir': 'data', 'cache_dir': 'cache', 'overwrite_cache': False, 'train_on': 'sexism_eval', 'validate_on': 'ood_1', 'eval_on': ['sexism_eval'], 'eval_on_train_datasets': ['sexism_eval'], 'max_train_examples': None, 'max_dev_examples': None, 'max_length': 128, 'max_eval_length': None, 'min_length': 4, 'use_product_length': 0, 'epochs': 40, 'steps': 0, 'eval_every': 1024, 'patience': 3, 'criterion': 'loss', 'train_batch_size': 4, 'gradient_accumulation_steps': 1, 'eval_batch_size': 4, 'eval_before_training': False, 'optimizer': 'adamw', 'learning_rate': 0.001, 'adam_epsilon': 1e-08, 'weight_decay': 0.01, 'max_grad_norm': 1.0, 'dropout': 0.1, 'preterminals': 64, 'nonterminals': 32, 'state_dim': 256, 'use_grad_eval': 1, 'resume': False, 'remove_special': True}
+I 2025-02-08T18:22:28 utils.tokenizers:89: building word tokenizer from 509 sexism_eval examples
+I 2025-02-08T18:22:28 utils.tokenizers:135: caching tokenizer to data/sexism_eval/sexism_evalWordTokenizer_v20000_f3.json
+I 2025-02-08T18:22:28 utils.data_utils:61: tokenizing 509 sentences
+I 2025-02-08T18:22:28 utils.data_utils:242: caching processed examples to cache/train/sexism_eval.sexism_evalWordTokenizer_v20000_f3.pkl
+I 2025-02-08T18:22:28 utils.data_utils:269: removing special tokens (sexism_eval/train)
+I 2025-02-08T18:22:28 utils.data_utils:61: tokenizing 688 sentences
+I 2025-02-08T18:22:28 utils.data_utils:242: caching processed examples to cache/test/ood_1.sexism_evalWordTokenizer_v20000_f3.pkl
+I 2025-02-08T18:22:28 utils.data_utils:269: removing special tokens (ood_1/test)
+I 2025-02-08T18:22:28 utils.data_utils:61: tokenizing 509 sentences
+I 2025-02-08T18:22:28 utils.data_utils:242: caching processed examples to cache/test/sexism_eval.sexism_evalWordTokenizer_v20000_f3.pkl
+I 2025-02-08T18:22:28 utils.data_utils:269: removing special tokens (sexism_eval/test)
+I 2025-02-08T18:22:28 utils.data_utils:269: removing special tokens (sexism_eval/train)
+I 2025-02-08T18:22:29 models.base_trainer:280: writing args and tokenizer to output/sexism_eval
+I 2025-02-08T18:22:29 models.base_trainer:306: training for 5120 steps / 40 epochs
+I 2025-02-08T18:22:29 models.base_trainer:330: epoch: 0
+I 2025-02-08T18:22:34 models.base_trainer:403: end of epoch 0
+I 2025-02-08T18:22:34 models.base_trainer:406: average training loss: 47.05771006643772
+I 2025-02-08T18:22:34 models.base_trainer:228: evaluating
+I 2025-02-08T18:22:34 models.base_trainer:158: evaluating on ood_1
+I 2025-02-08T18:23:09 models.base_trainer:194: avg eval loss: 160.3482253983704
+I 2025-02-08T18:23:09 grammars.pcfg:171: trees:
+(26 (31 (71 [UNK]) (16 (24 (75 don) (9 (57 [UNK]) (17 (89 t) (3 (26 (25 (45 get) (4 (37 [UNK]) (48 [UNK]))) (26 (29 (4 (37 the) (48 [UNK])) (61 is)) (26 (92 up) (26 (31 (71 that) (16 (57 [UNK]) (10 (52 [UNK]) (11 (94 to) (25 (45 get) (4 (37 [UNK]) (48 [UNK]))))))) (86 .))))) (22 (54 .) (15 (27 (83 [UNK]) (25 (45 [UNK]) (4 (37 [UNK]) (48 [UNK])))) (61 t))))))) (1 (87 .) (4 (37 [UNK]) (48 [UNK]))))) (86 [UNK]))
+(26 (31 (71 that) (16 (57 ') (10 (52 s) (11 (26 (29 (4 (37 a) (48 [UNK])) (61 w)) (26 (31 (22 (54 for) (15 (27 (83 [UNK]) (25 (45 [UNK]) (4 (37 [UNK]) (48 [UNK])))) (61 [UNK]))) (64 t)) (86 .))) (4 (37 [UNK]) (48 [UNK])))))) (86 [UNK]))
+(26 (29 (4 (37 [UNK]) (48 [UNK])) (61 [UNK])) (26 (22 (54 ') (15 (27 (15 (27 (15 (27 (15 (27 (15 (27 (15 (27 (15 (27 (15 (27 (15 (27 (83 s) (25 (45 [UNK]) (4 (37 [UNK]) (48 [UNK])))) (61 like)) (62 ")) (61 [UNK])) (62 [UNK])) (61 [UNK])) (62 [UNK])) (61 [UNK])) (62 [UNK])) (61 [UNK])) (62 [UNK])) (61 them)) (62 [UNK])) (61 [UNK])) (62 ")) (61 ")) (62 [UNK])) (61 [UNK]))) (79 ")))
+(26 (15 (27 (15 (27 (15 (27 (15 (27 (15 (27 (83 [UNK]) (25 (45 [UNK]) (4 (37 [UNK]) (48 [UNK])))) (61 [UNK])) (62 [UNK])) (61 are)) (62 [UNK])) (61 in)) (62 [UNK])) (61 .)) (62 [UNK])) (61 with)) (26 (31 (71 you) (16 (56 on) (27 (15 (27 (26 (31 (71 your) (16 (56 [UNK]) (27 (15 (27 (15 (27 (83 [UNK]) (25 (45 [UNK]) (4 (37 [UNK]) (48 [UNK])))) (61 [UNK])) (62 [UNK])) (61 [UNK])) (62 [UNK])))) (86 .)) (26 (31 (71 you) (16 (57 ') (10 (52 re) (11 (26 (29 (4 (81 [UNK]) (4 (37 a) (48 [UNK]))) (61 in)) (26 (29 (4 (37 my) (48 [UNK])) (61 .)) (26 (31 (71 you) (16 (56 [UNK]) (27 (26 (29 (4 (37 [UNK]) (48 [UNK])) (61 of)) (26 (31 (71 your) (16 (45 [UNK]) (1 (87 .) (4 (37 [UNK]) (48 [UNK]))))) (86 .))) (28 (87 the) (8 (53 [UNK]) (5 (59 is) (1 (87 not) (4 (37 [UNK]) (48 [UNK]))))))))) (86 .)))) (20 (83 [UNK]) (30 (25 (45 [UNK]) (4 (37 [UNK]) (48 [UNK]))) (43 t))))))) (86 .))) (61 [UNK])) (62 [UNK])))) (86 [UNK])))
+I 2025-02-08T18:23:09 models.base_trainer:208: ood_1 results at 0.128: {'loss': 160.75953106733147, 'training_loss': 47.05771006643772, 'ckp': '0.128'}
+I 2025-02-08T18:23:09 models.base_trainer:211: writing ood_1 results to output/sexism_eval
+I 2025-02-08T18:23:09 models.base_trainer:248: writing average results to output/sexism_eval
+I 2025-02-08T18:23:09 models.base_trainer:115: new best: {'ckp': '0.128', 'patience': 0, 'loss': 160.75953106733147, 'training_loss': 47.05771006643772}
+I 2025-02-08T18:23:09 models.base_trainer:330: epoch: 1
+I 2025-02-08T18:23:13 models.base_trainer:403: end of epoch 1
+I 2025-02-08T18:23:13 models.base_trainer:406: average training loss: 41.95757319033146
+I 2025-02-08T18:23:13 models.base_trainer:228: evaluating
+I 2025-02-08T18:23:13 models.base_trainer:158: evaluating on ood_1
+I 2025-02-08T18:23:50 models.base_trainer:194: avg eval loss: 142.34525314687986
+I 2025-02-08T18:23:50 grammars.pcfg:171: trees:
+(26 (1 (87 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (87 [UNK]) (33 [UNK]))))))) (28 (87 woman) (8 (53 [UNK]) (5 (61 [UNK]) (31 (71 so) (16 (56 many) (27 (83 [UNK]) (11 (73 [UNK]) (11 (73 [UNK]) (11 (73 [UNK]) (11 (73 up) (11 (73 on) (11 (26 (26 (12 (54 my) (11 (73 [UNK]) (11 (46 this) (8 (53 [UNK]) (5 (61 that) (31 (71 i) (16 (56 would) (27 (83 love) (11 (73 for) (11 (73 you) (11 (4 (87 to) (33 [UNK])) (39 out)))))))))))) (67 .)) (26 (12 (54 only) (11 (33 [UNK]) (1 (87 [UNK]) (4 (81 [UNK]) (4 (10 (52 on) (11 (26 (12 (54 my) (11 (73 [UNK]) (11 (85 [UNK]) (16 (57 ') (10 (52 s) (11 (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (87 [UNK]) (33 [UNK])))))) (39 t))))))) (67 .)) (1 (87 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (87 [UNK]) (33 [UNK]))))))))) (89 t)))))) (67 .))) (1 (87 [UNK]) (4 (87 [UNK]) (33 [UNK]))))))))))))))))
+(26 (26 (7 (95 you) (21 (24 (75 can) (9 (57 [UNK]) (17 (89 t) (3 (80 be) (4 (37 a) (48 [UNK])))))) (25 (87 and) (25 (45 be) (4 (37 a) (48 [UNK])))))) (67 .)) (26 (26 (29 (4 (50 being) (3 (91 a) (3 (19 (4 (87 [UNK]) (33 [UNK])) (41 you)) (70 to)))) (61 be)) (26 (29 (4 (37 a) (48 [UNK])) (61 ,)) (26 (31 (28 (87 to) (8 (53 [UNK]) (5 (11 (73 women) (11 (73 to) (11 (73 their) (11 (85 [UNK]) (16 (56 and) (27 (27 (19 (4 (81 [UNK]) (4 (37 a) (48 [UNK]))) (41 of)) (77 [UNK])) (63 [UNK]))))))) (59 on)))) (28 (87 that) (8 (53 [UNK]) (5 (78 which) (13 (81 [UNK]) (3 (19 (4 (81 [UNK]) (4 (81 [UNK]) (4 (41 ,) (3 (19 (4 (37 the) (48 [UNK])) (41 for)) (70 [UNK]))))) (41 of)) (70 all))))))) (86 .)))) (26 (12 (54 if) (11 (73 you) (11 (73 [UNK]) (11 (73 re) (11 (73 [UNK]) (11 (73 isn) (11 (73 [UNK]) (11 (51 t) (8 (53 [UNK]) (5 (61 ,) (31 (71 it) (16 (56 isn) (27 (85 [UNK]) (4 (87 t) (33 [UNK]))))))))))))))) (67 .))))
+(26 (13 (81 [UNK]) (3 (73 was) (3 (19 (4 (81 [UNK]) (4 (87 and) (33 [UNK]))) (41 to)) (70 [UNK])))) (12 (54 the) (11 (26 (31 (63 [UNK]) (8 (53 [UNK]) (5 (61 ,) (31 (63 [UNK]) (8 (53 [UNK]) (5 (11 (73 .) (11 (33 [UNK]) (1 (87 [UNK]) (4 (87 [UNK]) (33 [UNK]))))) (59 t))))))) (86 .)) (1 (87 [UNK]) (4 (87 [UNK]) (33 [UNK]))))))
+(26 (26 (29 (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (87 [UNK]) (33 [UNK]))))))))))))) (61 for)) (26 (29 (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (81 [UNK]) (4 (87 [UNK]) (33 [UNK])))))))))) (61 ,)) (26 (31 (31 (11 (73 [UNK]) (11 (73 the) (11 (73 [UNK]) (11 (51 rape) (25 (45 of) (4 (37 a) (42 woman))))))) (1 (87 [UNK]) (4 (37 a) (48 [UNK])))) (11 (73 [UNK]) (11 (73 who) (11 (73 had) (11 (73 [UNK]) (11 (33 [UNK]) (1 (87 with) (4 (81 [UNK]) (4 (87 [UNK]) (33 [UNK])))))))))) (86 .)))) (26 (34 .) (20 (83 .) (30 (50 .) (4 (87 [UNK]) (33 [UNK]))))))
+I 2025-02-08T18:23:50 models.base_trainer:208: ood_1 results at 1.256: {'loss': 142.69963093336108, 'training_loss': 41.95757319033146, 'ckp': '1.256'}
+I 2025-02-08T18:23:50 models.base_trainer:211: writing ood_1 results to output/sexism_eval
+I 2025-02-08T18:23:50 models.base_trainer:248: writing average results to output/sexism_eval
+I 2025-02-08T18:23:50 models.base_trainer:115: new best: {'ckp': '1.256', 'patience': 0, 'loss': 142.69963093336108, 'training_loss': 41.95757319033146}
+I 2025-02-08T18:23:50 models.base_trainer:330: epoch: 2
+I 2025-02-08T18:23:55 models.base_trainer:403: end of epoch 2
+I 2025-02-08T18:23:55 models.base_trainer:406: average training loss: 39.59855282306671
+I 2025-02-08T18:23:55 models.base_trainer:228: evaluating
+I 2025-02-08T18:23:55 models.base_trainer:158: evaluating on ood_1
+I 2025-02-08T18:24:31 models.base_trainer:194: avg eval loss: 148.7967103210806
+I 2025-02-08T18:24:31 grammars.pcfg:171: trees:
+(26 (24 (28 (87 [UNK]) (8 (53 [UNK]) (5 (61 [UNK]) (31 (71 he) (16 (72 just) (21 (76 have) (4 (37 a) (48 [UNK])))))))) (18 (15 (27 (64 [UNK]) (13 (81 [UNK]) (3 (3 (91 this) (82 [UNK])) (38 ?)))) (61 like)) (46 this))) (26 (31 (13 (81 [UNK]) (3 (91 ?) (82 [UNK]))) (11 (13 (81 [UNK]) (3 (85 [UNK]) (1 (87 [UNK]) (4 (50 t) (3 (91 .) (82 [UNK])))))) (82 [UNK]))) (55 [UNK])))
+(26 (26 (31 (71 when) (16 (26 (26 (31 (11 (15 (27 (83 will) (11 (46 this) (28 (87 [UNK]) (8 (53 stop) (5 (61 ,) (31 (71 why) (16 (56 do) (27 (81 [UNK]) (11 (13 (81 [UNK]) (3 (91 only) (82 [UNK]))) (4 (50 to) (3 (85 [UNK]) (1 (87 up) (4 (50 in) (3 (91 the) (82 [UNK]))))))))))))))) (61 [UNK])) (32 [UNK])) (1 (87 of) (4 (37 a) (48 [UNK])))) (86 ?)) (26 (31 (71 you) (16 (57 ') (10 (52 [UNK]) (11 (15 (27 (81 [UNK]) (11 (45 to) (8 (53 [UNK]) (5 (5 (61 as) (31 (71 if) (16 (53 every) (11 (33 [UNK]) (1 (87 is) (4 (3 (49 one) (4 (50 of) (3 (91 the) (82 [UNK])))) (48 [UNK]))))))) (59 .))))) (61 that)) (32 [UNK]))))) (67 .))) (34 .))) (67 .)) (26 (29 (4 (81 [UNK]) (4 (50 not) (3 (91 [UNK]) (82 [UNK])))) (61 ,)) (26 (31 (71 i) (16 (56 hate) (27 (81 [UNK]) (11 (73 my) (11 (15 (27 (64 [UNK]) (13 (81 [UNK]) (3 (91 but) (82 [UNK])))) (61 [UNK])) (32 [UNK])))))) (55 [UNK]))))
+(26
+  (26 (31 (11 (15 (27 (81 [UNK]) (11 (15 (27 (81 [UNK]) (11 (15 (27 (81 [UNK]) (11 (13 (81 [UNK]) (3 (91 [UNK]) (82 [UNK]))) (82 [UNK]))) (61 [UNK])) (32 [UNK]))) (61 [UNK])) (32 [UNK]))) (61 [UNK])) (32 [UNK])) (1 (87 [UNK]) (4 (50 [UNK]) (3 (91 [UNK]) (82 [UNK]))))) (67 .))
+  (26 (31 (11 (4 (1 (87 .) (4 (37 a) (48 [UNK]))) (68 woman)) (16 (56 who) (27 (81 [UNK]) (11 (15 (27 (83 what) (11 (26 (26 (31 (71 it) (16 (8 (81 [UNK]) (25 (45 to) (4 (50 be) (3 (37 a) (47 [UNK]))))) (34 .))) (67 .)) (26 (31 (71 she) (16 (15 (27 (64 [UNK]) (13 (81 [UNK]) (3 (91 the) (82 [UNK])))) (61 from)) (31 (11 (33 [UNK]) (1 (87 [UNK]) (4 (50 ,) (3 (91 absolutely) (82 [UNK]))))) (1 (87 and) (4 (81 [UNK]) (4 (50 how) (3 (19 (4 (45 to) (33 [UNK])) (41 for)) (70 [UNK])))))))) (67 .))) (25 (45 not) (4 (50 just) (3 (91 this) (82 [UNK])))))) (61 ,)) (32 she))))) (11 (15 (27 (83 is) (11 (15 (27 (83 the) (11 (13 (81 [UNK]) (3 (91 this) (82 [UNK]))) (82 [UNK]))) (61 of)) (32 [UNK]))) (61 [UNK])) (32 [UNK]))) (67 .)))
+(26 (26 (31 (11 (33 [UNK]) (1 (87 [UNK]) (4 (81 [UNK]) (4 (50 [UNK]) (3 (91 the) (82 [UNK])))))) (1 (87 is) (4 (81 [UNK]) (4 (50 with) (3 (91 this) (82 [UNK])))))) (67 .)) (26 (31 (8 (53 [UNK]) (5 (61 when) (31 (71 it) (16 (57 ') (10 (52 s) (11 (13 (81 [UNK]) (3 (44 ,) (3 (80 then) (60 he)))) (82 [UNK]))))))) (13 (81 [UNK]) (3 (91 the) (82 [UNK])))) (55 [UNK])))
+I 2025-02-08T18:24:31 models.base_trainer:208: ood_1 results at 2.384: {'loss': 149.16523188116267, 'training_loss': 39.59855282306671, 'ckp': '2.384'}
+I 2025-02-08T18:24:31 models.base_trainer:211: writing ood_1 results to output/sexism_eval
+I 2025-02-08T18:24:31 models.base_trainer:248: writing average results to output/sexism_eval
+I 2025-02-08T18:24:31 models.base_trainer:330: epoch: 3
+I 2025-02-08T18:24:36 models.base_trainer:403: end of epoch 3
+I 2025-02-08T18:24:36 models.base_trainer:406: average training loss: 37.634159594774246
+I 2025-02-08T18:24:36 models.base_trainer:228: evaluating
+I 2025-02-08T18:24:36 models.base_trainer:158: evaluating on ood_1
+I 2025-02-08T18:25:12 models.base_trainer:194: avg eval loss: 144.10428331609359
+I 2025-02-08T18:25:12 grammars.pcfg:171: trees:
+(26 (31 (13 (81 [UNK]) (3 (91 [UNK]) (82 [UNK]))) (11 (13 (81 [UNK]) (3 (35 [UNK]) (4 (53 [UNK]) (47 [UNK])))) (5 (61 [UNK]) (31 (13 (81 [UNK]) (3 (35 [UNK]) (4 (53 [UNK]) (47 [UNK])))) (11 (13 (81 [UNK]) (3 (80 world) (63 women))) (5 (61 without) (31 (64 [UNK]) (11 (13 (81 [UNK]) (3 (29 (4 (53 [UNK]) (47 [UNK])) (61 .)) (83 [UNK]))) (82 [UNK]))))))))) (86 .))
+(26 (26 (31 (13 (81 [UNK]) (3 (91 [UNK]) (82 [UNK]))) (11 (13 (81 [UNK]) (3 (35 [UNK]) (4 (53 [UNK]) (47 [UNK])))) (5 (61 [UNK]) (31 (71 i) (16 (56 still) (27 (81 [UNK]) (11 (22 (54 we) (15 (27 (81 [UNK]) (11 (13 (81 [UNK]) (3 (3 (19 (4 (1 (87 [UNK]) (4 (50 and) (3 (91 the) (82 [UNK])))) (68 .)) (41 like)) (70 [UNK])) (38 on))) (5 (61 ,) (31 (71 i) (16 (15 (27 (19 (4 (50 believe) (3 (91 the) (82 [UNK]))) (41 should)) (77 be)) (61 [UNK])) (31 (66 most) (7 (54 of) (18 (15 (27 (81 [UNK]) (11 (13 (81 [UNK]) (3 (3 (86 .) (31 (71 they) (16 (13 (81 [UNK]) (3 (91 the) (82 [UNK]))) (8 (53 [UNK]) (5 (61 ,) (31 (64 [UNK]) (11 (29 (4 (50 as) (3 (91 the) (82 [UNK]))) (61 .)) (69 [UNK])))))))) (38 will))) (82 [UNK]))) (61 with)) (46 this))))))))) (61 [UNK]))) (74 [UNK])))))))) (86 .)) (26 (31 (13 (81 [UNK]) (3 (35 [UNK]) (4 (37 a) (48 [UNK])))) (11 (61 [UNK]) (7 (95 if) (21 (6 (3 (80 he) (58 [UNK])) (49 he)) (56 should))))) (42 go)))
+(26 (71 it) (13 (81 [UNK]) (3 (19 (4 (50 s) (3 (91 the) (82 [UNK]))) (41 for)) (70 me))))
+(26 (8 (53 [UNK]) (5 (61 [UNK]) (31 (64 [UNK]) (11 (13 (81 [UNK]) (3 (91 the) (60 one))) (5 (61 [UNK]) (31 (64 [UNK]) (11 (13 (81 [UNK]) (3 (91 get) (82 [UNK]))) (82 [UNK])))))))) (8 (53 [UNK]) (5 (61 ,) (5 (61 and) (31 (64 [UNK]) (11 (13 (81 [UNK]) (3 (76 are) (47 [UNK]))) (5 (61 ,) (31 (64 [UNK]) (11 (73 women) (11 (61 think) (7 (95 they) (21 (24 (75 aren) (9 (57 ') (17 (89 t) (3 (91 [UNK]) (82 [UNK]))))) (25 (45 .) (4 (53 [UNK]) (47 [UNK])))))))))))))))
+I 2025-02-08T18:25:12 models.base_trainer:208: ood_1 results at 3.512: {'loss': 144.46811419331556, 'training_loss': 37.634159594774246, 'ckp': '3.512'}
+I 2025-02-08T18:25:12 models.base_trainer:211: writing ood_1 results to output/sexism_eval
+I 2025-02-08T18:25:12 models.base_trainer:248: writing average results to output/sexism_eval
+I 2025-02-08T18:25:12 models.base_trainer:330: epoch: 4
+I 2025-02-08T18:25:17 models.base_trainer:403: end of epoch 4
+I 2025-02-08T18:25:17 models.base_trainer:406: average training loss: 36.76144024729729
+I 2025-02-08T18:25:17 models.base_trainer:228: evaluating
+I 2025-02-08T18:25:17 models.base_trainer:158: evaluating on ood_1
+I 2025-02-08T18:25:53 models.base_trainer:194: avg eval loss: 149.78545555873225
+I 2025-02-08T18:25:53 grammars.pcfg:171: trees:
+(26 (31 (13 (81 [UNK]) (3 (35 [UNK]) (4 (64 [UNK]) (65 [UNK])))) (11 (13 (81 [UNK]) (3 (35 [UNK]) (4 (64 [UNK]) (65 [UNK])))) (82 [UNK]))) (31 (71 i) (16 (15 (27 (64 [UNK]) (13 (81 [UNK]) (3 (37 a) (13 (81 [UNK]) (3 (44 with) (3 (47 [UNK]) (1 (87 on) (4 (91 my) (33 [UNK]))))))))) (61 ,)) (31 (66 all) (7 (95 they) (21 (24 (58 [UNK]) (15 (27 (83 was) (11 (51 call) (25 (45 me) (4 (81 [UNK]) (4 (50 and) (3 (80 say) (31 (71 i) (16 (56 should) (27 (83 stop) (11 (13 (81 [UNK]) (3 (44 .) (3 (44 it) (3 (44 was) (3 (44 about) (3 (47 [UNK]) (94 in))))))) (82 [UNK]))))))))))) (61 ,))) (25 (45 but) (4 (50 to) (3 (80 them) (4 (50 [UNK]) (3 (76 are) (47 [UNK]))))))))))))
+(26 (31 (13 (81 [UNK]) (3 (47 [UNK]) (1 (87 [UNK]) (4 (50 [UNK]) (3 (91 the) (60 only)))))) (11 (13 (81 [UNK]) (3 (47 [UNK]) (1 (87 are) (4 (50 in) (3 (26 (26 (31 (27 (83 charge) (11 (13 (81 [UNK]) (3 (47 [UNK]) (1 (87 [UNK]) (4 (64 [UNK]) (65 [UNK]))))) (82 [UNK]))) (21 (76 are) (4 (50 they) (3 (47 [UNK]) (1 (87 out) (4 (50 our) (3 (47 [UNK]) (1 (87 are) (4 (91 our) (33 [UNK])))))))))) (86 .)) (26 (29 (4 (50 [UNK]) (3 (61 ,) (48 [UNK]))) (61 ,)) (26 (92 if) (26 (31 (71 we) (16 (24 (75 don) (9 (57 ') (17 (89 t) (3 (80 get) (4 (64 [UNK]) (65 [UNK])))))) (5 (61 ,) (31 (71 they) (16 (57 ') (10 (52 ll) (11 (13 (81 [UNK]) (3 (47 [UNK]) (1 (87 in) (4 (67 .) (31 (7 (95 women) (21 (24 (15 (27 (83 know) (11 (73 how) (11 (29 (4 (50 to) (3 (35 [UNK]) (4 (64 [UNK]) (65 [UNK])))) (61 ,)) (69 [UNK])))) (61 ,)) (44 love)) (25 (45 [UNK]) (4 (64 [UNK]) (65 [UNK]))))) (3 (35 [UNK]) (4 (70 all) (3 (44 at) (3 (91 the) (82 [UNK])))))))))) (82 [UNK])))))))) (86 .))))) (85 [UNK])))))) (82 [UNK]))) (86 .))
+(26 (31 (13 (81 [UNK]) (3 (47 [UNK]) (1 (87 would) (4 (64 [UNK]) (65 [UNK]))))) (11 (13 (81 [UNK]) (3 (47 [UNK]) (1 (87 [UNK]) (4 (91 my) (33 [UNK]))))) (82 [UNK]))) (31 (13 (81 [UNK]) (3 (35 [UNK]) (4 (64 [UNK]) (65 [UNK])))) (11 (73 t) (11 (51 .) (25 (45 [UNK]) (4 (64 [UNK]) (65 [UNK])))))))
+(26 (26 (31 (64 [UNK]) (11 (13 (81 [UNK]) (3 (47 [UNK]) (1 (87 i) (4 (81 [UNK]) (4 (50 for) (3 (91 the) (60 most))))))) (82 [UNK]))) (86 .)) (26 (31 (31 (71 i) (16 (72 just) (24 (75 don) (9 (57 [UNK]) (17 (89 t) (3 (44 like) (3 (91 the) (60 obvious)))))))) (4 (81 [UNK]) (7 (95 women) (21 (76 who) (4 (81 [UNK]) (4 (81 [UNK]) (4 (37 a) (48 [UNK])))))))) (31 (71 i) (16 (15 (27 (81 [UNK]) (11 (70 all) (31 (27 (83 woman) (11 (73 and) (11 (46 this) (8 (53 makes) (5 (81 [UNK]) (23 (87 women) (27 (83 look) (11 (51 bad) (25 (45 [UNK]) (4 (64 [UNK]) (65 [UNK]))))))))))) (21 (24 (75 isn) (9 (57 [UNK]) (17 (89 t) (3 (91 the) (60 only))))) (25 (45 [UNK]) (4 (50 to) (3 (80 do) (4 (64 [UNK]) (65 [UNK]))))))))) (61 and)) (31 (71 i) (16 (56 want) (27 (83 them) (11 (73 to) (11 (51 understand) (27 (50 that) (82 [UNK])))))))))))
+I 2025-02-08T18:25:53 models.base_trainer:208: ood_1 results at 4.640: {'loss': 150.16934075824665, 'training_loss': 36.76144024729729, 'ckp': '4.640'}
+I 2025-02-08T18:25:53 models.base_trainer:211: writing ood_1 results to output/sexism_eval
+I 2025-02-08T18:25:53 models.base_trainer:248: writing average results to output/sexism_eval
+I 2025-02-08T18:25:53 models.base_trainer:139: 3 checkpoints with no improvement, stopping
+I 2025-02-08T18:25:53 models.base_trainer:228: evaluating
+I 2025-02-08T18:25:53 models.base_trainer:158: evaluating on sexism_eval
+I 2025-02-08T18:26:00 models.base_trainer:194: avg eval loss: 35.29427721351385
+I 2025-02-08T18:26:00 grammars.pcfg:171: trees:
+(26 (31 (27 (83 never) (11 (13 (81 [UNK]) (3 (37 a) (36 single))) (82 [UNK]))) (20 (83 said) (30 (50 by) (4 (37 a) (42 womn))))) (86 .))
+(26 (31 (71 i) (16 (56 would) (27 (83 rather) (11 (51 die) (25 (45 than) (4 (81 [UNK]) (4 (37 a) (42 woman)))))))) (86 .))
+(26 (31 (7 (95 you) (21 (76 are) (4 (50 nothing) (3 (78 but) (43 common))))) (3 (78 female) (43 trash))) (86 .))
+(26 (7 (95 women) (21 (41 like) (7 (95 you) (21 (76 deserve) (93 [UNK]))))) (67 .))
+I 2025-02-08T18:26:00 models.base_trainer:208: sexism_eval results at end: {'loss': 35.4316827609169}
+I 2025-02-08T18:26:00 models.base_trainer:211: writing sexism_eval results to output/sexism_eval
+I 2025-02-08T18:26:00 models.base_trainer:158: evaluating on sexism_eval_train
+I 2025-02-08T18:26:08 models.base_trainer:194: avg eval loss: 35.29427721351385
+I 2025-02-08T18:26:08 grammars.pcfg:171: trees:
+(26 (31 (31 (71 i) (16 (57 ') (10 (52 d) (11 (73 rather) (11 (73 have) (11 (13 (81 [UNK]) (3 (44 than) (3 (91 be) (82 [UNK])))) (82 [UNK]))))))) (4 (37 a) (42 woman))) (86 .))
+(26 (31 (66 most) (7 (95 women) (21 (76 are) (4 (50 seriously) (3 (35 [UNK]) (4 (50 in) (3 (91 the) (60 head)))))))) (86 .))
+(26 (31 (71 too) (16 (74 [UNK]) (11 (4 (94 in) (46 this)) (39 country)))) (86 .))
+(26 (92 if) (26 (92 only) (26 (31 (71 someone) (16 (56 would) (27 (81 [UNK]) (11 (70 those) (62 women))))) (86 .))))
+I 2025-02-08T18:26:08 models.base_trainer:208: sexism_eval_train results at end: {'loss': 35.4316827609169}
+I 2025-02-08T18:26:08 models.base_trainer:211: writing sexism_eval_train results to output/sexism_eval
+I 2025-02-08T18:26:08 models.base_trainer:248: writing average results to output/sexism_eval

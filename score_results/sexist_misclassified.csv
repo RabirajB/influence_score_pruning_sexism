@@ -1,0 +1,317 @@
+id,text,numeric_labels,sexist,predicted_label_1,correct_yx,predicted_label_2,predicted_label_3,predicted_label_4,predicted_label_5,average_pvi,average_el2n,average_vog,misclassification_number
+12144,FETISHIZATION ALERT MENTION3680 it's time for Fox to get a new sideline girl. i vote for a nice Filipina holding the mic,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.1131508075159721,1.2771529674530029,-1.0821590754007313,5
+13462,"guys suck, truly :slightly_smiling_face:",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.875686234391305,1.3940628290176391,-1.0839846723691415,5
+7361,Kat & Andre cartoon characters.Kat develop sportsmanship & Andre grow some balls & take it like a man! #MKR #cantcook http://t.co/9nd2gUHGH0,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.625605140757931,1.3900574684143066,-1.0822179426126504,5
+11303,".MENTION470 MENTION3363 Way way more than one...and why not...that's how they arrive at ""male privilege""? #AntiSJW http://t.co/LmPvPJvsyx",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.7440445673182257,1.3229025840759276,-1.0830705431093786,5
+3034,"seeing all the drunk bitches pissing in alleys yesterday was disgusting #Ratchet""",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.6140294739709593,1.2818906545639035,-1.083931405263892,5
+12199,"RT MENTION347 No sexist, but I like how Arya's a ""boy,"" now, yet she's washing dishes, still. #Lol #GoT",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.984825820369604,0.8413850903511048,-1.0834263933859156,4
+2592,MENTION2692 I prefer male voices. Needs to be offset with a female though. Seems to work in afternoons.,1,True,LABEL_1,True,LABEL_0,LABEL_1,LABEL_0,LABEL_0,2.2506742118806207,0.728159236907959,-1.0826417687385663,3
+9641,Cat get onto the keyboard again? MENTION4323 I'm not sexist but I don't believe in equality.,1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_0,2.174944295485271,0.7565501689910888,-1.0806758085651649,3
+13184,#IDontNeedFeminism #FemFreeFriday http://t.co/PnhzjRhHqR,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.3481361709609341,1.2301822662353517,-1.080665714588421,5
+8171,"""MENTION1108: Have you ever been threatened with rape by a woman? #QuestionsForMen""  Yes.  Many times, but ONLY by feminist women.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_1,LABEL_0,1.9957093389132197,0.8307944774627686,-1.07772053071897,4
+4050,"Okay, it really bugs me when audio books of Whitman's poetry are narrated by women. >.<",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.1683832209024496,0.7686710834503174,-1.0818626264496096,4
+11118,Idc wat n e body says but men are dramatic...the shyt is tru....#JudgeMe....goodnight:victory_hand:,1,True,LABEL_1,True,LABEL_1,LABEL_0,LABEL_1,LABEL_0,2.3467813145043674,0.6789974808692932,-1.0838592687658355,2
+6149,"MENTION812 We are not designed to do it full time, its a Woman's role. But like I said I've been there.",1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_0,LABEL_0,2.0993611607299405,0.7904952764511108,-1.0719772075805205,4
+356,A Good Wife knows it doesn't matter who does a managerial job as long as its the best man for the job #IWD2017,1,True,LABEL_0,False,LABEL_0,LABEL_1,LABEL_0,LABEL_0,1.5224296161010815,0.9429445743560791,-1.083961059238235,4
+9622,- I was raised to hustle like a man so that I'd never have to depend on one. :hundred_points:,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.138847874818812,1.0530224561691284,-1.0634328010994332,5
+7897,"Oh, b/c see Emma, like many WW seem to think ""male gaze"" is only sexual. When their feminism CENTERS WM & Whiteness over BW, as practice.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.7679657079449025,0.9162629961967468,-1.0466774206412346,5
+7233,"but also at the foundation of every great man, is the love of a woman.
+
+(To The Women I Once Loved)",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.554925875052828,0.990361988544464,-1.0606498356945202,5
+5578,MENTION2540 Uh Mature? that rules most of us guys out of the running. MENTION1116,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-3.566689659831906,1.4016385793685913,-1.0826578068350765,5
+11519,"""hard to sympathise when rookies complain of being leered at after putting their breasts in push-up bras on display"" - ?",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.806089149746611,0.9086576938629152,-1.0841666211992824,5
+7662,"Tattoos on guys: :smiling_face_with_heart-eyes:; tattoos on girls: :unamused_face:. Idk why though, it is what it is lol.",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_0,2.223866405225592,0.7437058210372924,-1.0810353602086515,3
+6025,A working woman who sends her six months old baby to a daycare center is a bad mother,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.6239428528609805,0.9713100790977478,-1.0840185868648669,5
+2621,Hillary is still a woman.  She is wired to nurture.  Wired to resolve conflict instead of promoting conflict.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.7075493183798026,1.1702744007110597,-1.079805583009901,5
+3594,"I think it is right that in my circles of friends, my future domestic activity is considered more important than my professional activity.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.6174159146150504,1.1837568283081057,-1.033272623710972,5
+13516,They all I've done was make sure my wife doesn't escape from the kitchen. Would you call a zookeeper sexist?,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.000140677026692,0.8367610096931457,-1.0461472471455902,5
+6345,"the true definition of a  #goddess is a good house wife and mother who also has good health,looks and physique.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.8620439423005544,0.8908249258995056,-1.046248104950818,5
+11980,Truly #adaywithoutwomen should be renamed a day without cry baby feminists. No respectable lady w/ a real life acknowledges such nonsense.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.3731283466318496,0.998563826084137,-1.0119789015654796,5
+509,If you have boobs and you play cod you are automatically a successful youtuber. shit its true idgaf,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.7790151434563028,0.9195074439048768,-1.0837313524018364,5
+11896,isnt the girlfriend always right even if shes wrong?,1,True,LABEL_1,True,LABEL_1,LABEL_0,LABEL_0,LABEL_0,2.1881024050806768,0.7517650604248047,-1.0840515844153096,3
+11950,"Where would we be without the love of a woman?
+Standing behind her man even when he's wrong :musical_score:",1,True,LABEL_1,True,LABEL_1,LABEL_1,LABEL_0,LABEL_0,2.340647950954839,0.689841115474701,-1.084288232922726,2
+1313,MENTION3275 I hate divorced receptionists. They always give me attitude like I'm the reason their bf broke up with 'em,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.4580120085030508,1.0194666028022763,-1.084180097972448,5
+11707,"i love that. adults shouldn't be dramatic, shouldn't fuss like old ladies and get emotional and moody at the drop of a dime",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.8755388417355716,0.8768178343772888,-1.0836916018139429,5
+4915,RT MENTION528 Richard Petty was right. If Danica P was a male no one would know she was on the race track. #notsexist #Daytona500,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.5778285519666315,0.9639188170433044,-1.0833144205251566,5
+12106,i wish augusta had kept the membership open to men only #tradition,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.934883194598884,0.8559636950492859,-1.0828388407280989,5
+332,MENTION3227 MENTION269 its a very good point. I renege at a man telling me what skin care and make up I should use,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.613250192146016,0.9475093960762024,-1.070097138782902,5
+4265,I'm already running late and now I gotta park my new car on the road! 90% of the chicks CANNOT drive! >:O,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.271317706316871,1.3816482067108151,-1.0815278069269234,5
+8644,"Time to get up and walk like a man
+ https://t.co/btXwG2trT1
+#heatlhtips #drdavidsamadi #menshealth",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.6086700771059379,1.1889367341995238,-1.0825097838104092,5
+810,"MTV2's making the show ""Girl Code"". No. I'm sorry ladies, Girl Code"" Doesn't exist. You all fucking hate each other.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.0253997605365737,1.2637584447860717,-1.0803709374428117,5
+7885,"""MENTION4170: when I play Sims 3, I put my wifes bed in the kitchen :D"" lmao",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.7937259011786416,1.1378335237503052,-1.0837891685230978,5
+10098,"""Bitches still come chill & sex this!"".. KAPLOW!!",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.2391676902399301,1.227611517906189,-1.082915794236059,5
+1055,The women’s liberation movement exaggerates the problem’s faced by women in American society,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.8651510795441548,0.8850716948509216,-1.0836222036778316,5
+540,"Your man isn't your man until he proves so. Let him step up to the plate and make mature moves like a man, like he should.",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.079668283353264,0.8042434930801392,-1.082936804832597,4
+6475,MENTION383 He sounds like a very foolish guy who really ought to act like a man or should I say gentleman.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.3332639698567188,1.0270079374313354,-1.0833145708580825,5
+12542,I'm not sexist but also definitely not a fan of the rumour of Ghostbusters 3 with women. What next? Steel Magnolias 2 with dudes?,1,True,LABEL_1,True,LABEL_0,LABEL_1,LABEL_0,LABEL_1,2.381709227796428,0.6607839226722717,-1.083368276453283,2
+1600,"""We're not just the dumb blondes with the pretty faces"" you're certainly not the second part anyway #mkr",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-1.5722729148358985,1.352257394790649,-1.083898411328145,5
+4211,MENTION2544 MENTION3401 I don't think I've ever heard a song with a chick in it that I fuck… https://t.co/VucgNhtUuo,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.84652312600581,0.8974240183830261,-1.0803512453021802,5
+3536,"RT MENTION4434 MENTION654 If you have a vagina, don't try and be funny.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.1250725497574765,1.0818442344665526,-1.0816161970993825,5
+12627,MENTION1047 MENTION1497 pls don't the Trump womrn supporters paid or no r so much hotter :) https://t.co/h9GZsA1ENN,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-1.884888082556512,1.366530179977417,-1.0810817767320522,5
+9336,I never knew it was possible for a wife to be legitimately winning at Scrabble with only three tiles left. Shit...,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.953674025440829,0.854206895828247,-1.0817153719756143,5
+8589,No one cares what u think. MENTION2092: heels > no heels. Sorry ladies. Also nasty nails = vomit. Look clean at least.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.532044905110719,0.9991689205169678,-1.0760685166264277,5
+5668,Look mum.. Left right left right.. I'm a model.. No sweetie you're a promo girl... Here's your bikini go sell some shots! #MKR,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.2728875201136147,1.0425650477409365,-1.0827399965936173,5
+11421,MENTION1692 MENTION2822 see that's the thing you want to you yourself need to make sexist generalizations about men,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.968365150501168,0.8521270394325257,-1.0840516230768382,5
+10070,MENTION3473 MENTION3438 #feminism has abused the words #sexism and #rape so much they means nothing now so go on do F OFF,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.5331550917550442,1.3142330646514893,-1.083824534496697,5
+13277,"MENTION996 MENTION788 not really sexist though is it, taking the piss out of feminists, not women.",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_0,2.4081346769033893,0.650135087966919,-1.0839273860598306,3
+11984,"As a man, I would have worded that sentence twice as good https://t.co/9l8dZrjitN",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.092822062849375,0.7951026320457458,-1.0840702352965572,4
+4764,You've got a strong grip for a girl https://t.co/AHHM9Pw48V #counterculture #cnd #banthebomb #peace #love #ageofaquarius #viral #hippy,1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_0,LABEL_0,2.1079881557040574,0.7920824885368347,-1.0834895220156149,4
+10872,"MENTION1544 MENTION1060 I remember/respect your story but, no...convo was about feminists opposing common sense preventative measures.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.8683536625958481,1.3115825653076172,-1.0835457822693833,5
+11821,"RT MENTION2289 spouses should know how to cook, clean , and act like a proper spouse.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.0024886354523798,1.2537471294403075,-1.0837596059697072,5
+2556,There is nothing a man of good sense dreads in a wife so much as her having more sense than himself. - Henry F #ALDUBxDTBYAparisyon,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.1335392184516102,1.2409938097000122,-1.080489814710044,5
+372,Lol! R/t MENTION660: I don't think women should participate in Movember...like the physically growing a mustache part.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.047111781689602,0.8207632422447204,-1.0796671350697844,5
+1176,Discrimination against women is no longer a problem in the United States.,1,True,LABEL_1,True,LABEL_1,LABEL_0,LABEL_1,LABEL_0,2.333096182386697,0.6918470740318299,-1.0805665519096048,2
+2533,"Being a #Woman is Terribly Difficult Task, Since it Consists Principally in Dealing With #Men.
+.
+#suspendjavedlatif
+#RIPBIG
+#womensday
+Enem",1,True,LABEL_1,True,LABEL_1,LABEL_1,LABEL_0,LABEL_0,2.2675893373493263,0.7181109666824341,-1.0832223613142822,2
+7967,"“Women perform better than men in pressure situations” #womensday 
+https://t.co/q4kKRbepOs",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.681690000415853,0.9503122568130492,-1.0835102290184555,5
+2262,"""Seeing as you two think this is a modelling competition and not a cooking competition, I give you two a score of -10 for your looks."" #MKR",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-3.742220664788897,1.4035101890563966,-1.081201839270242,5
+4971,"She's crying over how poorly she raised you. MENTION2293 Where's my mother, I'm in need of a sandwich #notsexist",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.1096426760543738,1.277836060523987,-1.0789753450059187,5
+10921,"i love that. adults shouldn't be dramatic, shouldn't fuss like old ladies and get emotional and moody at the drop of a dime",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.8755388417355716,0.8768178343772888,-1.0747517296266134,5
+2892,All Combat Roles Now Open to Women https://t.co/vC6duKKGTc I can't say I agree with this.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.124086862238345,0.7869689226150512,-1.0838192115574463,5
+942,there should be a weight limit on women wearing yoga pants..seeing an image of 2 babies fightin… https://t.co/jOgRQnUDzz,1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_1,LABEL_0,2.2349887663140877,0.737199890613556,-1.0836623014220357,3
+7787,Real women don't go along w/ #adaywithoutwomen crap! It's a fake cause manufactured by corporations. #Stopit #yourefired,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.358879825253675,1.0379546880722046,-1.08340871438052,5
+4231,KAT IS A FUCKING CUNT #mkr,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-4.198866348873832,1.4063645124435424,-1.0834445746128305,5
+11481,"A woman’s guess is much more accurate than a man’s certainty – Rudyard K
+
+ #womensday",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_1,LABEL_0,1.929575375869856,0.8568630456924439,-1.0816643598817144,4
+13522,"In an emergency, women and children should be evacuated first",1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_1,LABEL_1,2.358003960506479,0.6710714936256409,-1.0840695457627851,2
+8348,"Be like a child with your wife but when she needs you, be like a man.""
+
+- Umar i https://t.co/DtVknJ9dUr",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.9757680211948624,1.1234589576721192,-1.0835543858622525,5
+8408,"THIS!!! “MENTION1142: I only catch males when I play pokémon, #bitchesdontcutit”",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.6324927198132961,1.1762901544570925,-1.0820768091282198,5
+397,Many of those in women’s rights organizations today seem to be unhappy misfits,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.6902010625499824,0.9337356090545654,-1.0842133289065068,5
+6954,"MENTION2263 They'll if you look at polls it's generally ""women voters"". Never make up their minds… https://t.co/3AqTyRRcVE",1,True,LABEL_0,False,LABEL_1,LABEL_1,LABEL_0,LABEL_0,2.0884210842822446,0.7968310832977294,-1.0838823380567455,3
+8848,putting the bins out is such a mans job :face_with_medical_mask::face_with_medical_mask::face_with_medical_mask::face_with_medical_mask::face_with_medical_mask::face_with_medical_mask:,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-3.423878518839042,1.4005099058151245,-1.0841550245277438,5
+12234,The most important qualities of a real man a strength of will and determined ambition,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.8178271147460017,0.8995957732200622,-1.0793616146933611,5
+11549,"MENTION772 on Radio4 now:""I think like a man, with the emotions of a woman"". Beautifully put Suzi, I identify with that. #Legend",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.6649168721841401,1.173173999786377,-1.0816174451181988,5
+10699,And her brain is like a man. Trash https://t.co/3SvBOnYuB5,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.7172326921437535,0.937753450870514,-1.0791391378247035,5
+8883,"When a girl cries for a guү, it means she reallү misses him. But when a guү cries for a girl, nobodү can love that girl more than him.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.5661816071234411,0.9867800712585448,-1.081862986429068,5
+6570,"MENTION3900 USA needs armies of strong men leaders who fight for the protection, respect, purity & rights of women.",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.1492537161871845,0.7667250871658325,-1.0823882333854535,4
+240,MENTION1342 No one watches women’s basketball I mean seriously not a lot of people do. So the pay is go… https://t.co/m9DD9njlak,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.071970577045073,1.1084609746932983,-1.08121290939528,5
+1820,"Lol. How cute? ""God's"" sexuality is Shrodinger's cat. RT""MENTION3327: I think God is male... https://t.co/MNMcestg9x""",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.5315867046778205,1.3132694005966186,-1.0785374909559589,5
+10453,"""MENTION2934: NoShaveNovember is like the He Man Woman Haters Club, NO GIRLS ALLOWED!"" THANK YOU!",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_0,LABEL_1,2.299747686851659,0.706732165813446,-1.0824871583179891,3
+9886,Real women don't go along w/ #adaywithoutwomen crap! It's a fake cause manufactured by man-hating feminists/lesbians. #Stopit #yourefired,1,True,LABEL_0,False,LABEL_1,LABEL_1,LABEL_1,LABEL_0,2.3822714612899767,0.6643763542175293,-1.079128098974642,2
+5145,A man who doesn’t provide well for his family ought to consider himself pretty much a failure as a husband and father,1,True,LABEL_1,True,LABEL_1,LABEL_0,LABEL_1,LABEL_0,2.4041223530662155,0.6525178611278534,-1.0837647622837074,2
+6369,"RT MENTION4672 iBelieve Sum Chores R 4 Men like taking out the trash, cutting grass, n shoveling snow",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.042190166572526,0.8188589453697205,-1.0833491379198938,5
+1412,"men are typically the ones who watch the superbowl. What MAN wants to listen to Bruno M' ""Just the Way You Are""?",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_1,LABEL_0,1.753788258309529,0.9072760820388794,-1.0804931230996129,4
+7507,"RT MENTION2838 xbox's were designed for gamers and make up was designed for beauticians, get the idea #promise #lol",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.9183000910255865,1.394232988357544,-1.0834726084409605,5
+3084,Turing test: Failed MENTION1886 Not sexist but America will not be taken seriously if we have Hillary C becomes president,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.5163473523556028,1.13610497713089,-1.0836839898060395,5
+2572,#QuestionsForMen #WomenAgainstFeminism Another one who only wants to hear herself talk. http://t.co/I9gvXqZQj1,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_1,LABEL_0,1.9606100675781577,0.8466681838035583,-1.0072690302193483,4
+12875,I'll grab a hippy SLOBS man pussy too. Lying Lib media LOSERS just ask Pence I grab his pussy all the time. EQUALITY,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.9669372105883984,0.8463329434394836,-1.0839871310956632,5
+1882,My daughter throws more like a man than Barry. MENTION3407 https://t.co/Dp6xTFScxM,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.5615751132207376,0.967189621925354,-1.0840053694766802,5
+5710,MENTION2841 cricket is ok with dudes talking but football in Brazil needs curves and cleavage. it feels right :winking_face_with_tongue:,1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.055721947539184,0.7932910680770874,-1.0841376016884432,4
+7626,"when I play Sims 3, I put my wifes bed in the kitchen http://t.co/q77xJVmo",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.426767899340788,0.9968678474426268,-1.0830114747667074,5
+2653,She started punching him like a man :loudly_crying_face::loudly_crying_face::face_with_tears_of_joy::face_with_tears_of_joy: https://t.co/2W9pQ8CScX,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.3933138326950257,1.2129826307296754,-1.0837669169799746,5
+5091,There is nothing a man of good sense dreads in a wife so much as her having more sense than himself. - Fielding #ALDUB85thWeeksary ALDUB U,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.0222177981254162,1.2566839694976806,-1.0840576821625554,5
+13193,“MENTION2384: I mistrust the vast majority of female sports fans.” i struggle to think of anything more true.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.9073416728195889,0.8767228484153747,-1.062680839646081,5
+4474,"MENTION692 Small miracles. I'd rather be saved by the male Ghostbusters. No Egon, no point.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.2483529839037926,1.2279359817504882,-1.0094749268763088,5
+8113,Hayi fuck it nyaniRT MENTION3671: Women's 7s rugby? fuck this shit.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.535026133387568,1.1951227903366088,-1.0473443393748574,5
+12444,RT MENTION3581: boys do not belong on pinterest #s2s,1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_1,2.2908119740754502,0.7040886282920837,-1.066323403563755,2
+1192,"#ESPN now has a woman heading their #SundayNFLCountdown show, very few women care about football and none have played.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.9730539035981784,0.8436948299407959,-1.082134266911479,5
+7447,"The Problem with Feminism - When Women Want to be Men
+#ADayWithoutAWoman #ADayWithoutWomen #internationalwomensday 
+https://t.co/Wkp11nknR4",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.9615726696621736,1.1228465914726258,-1.0819279956493382,5
+9008,"Sorry, but real women show up for their commitments. #WeShowUp #ADayWithoutWomen #NotMyProtest",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.7166399796899978,0.9310118913650512,-1.0833992159729215,5
+5542,that shit ain cool. Hold urself young lady. Telling the world u want the D puts little interest for ur pussy. Calm down,1,True,LABEL_1,True,LABEL_1,LABEL_0,LABEL_1,LABEL_0,2.180554852126775,0.74793701171875,-1.0827703037335858,2
+8036,I feel that bringing sexual equality to the line of the throne should perhaps not be top of the equality to-do list,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.2383734568678608,1.0686465859413148,-1.0837867388887652,5
+13331,MENTION2265 MENTION3353 You just said men don't need equality.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.7007364406629102,0.937814211845398,-1.083491292366697,5
+6580,"""MENTION4390: Why do I let little, insignificant things annoy me? -__-"" because you're a woman. its true",1,True,LABEL_0,False,LABEL_0,LABEL_1,LABEL_1,LABEL_1,2.351815719409609,0.6790709257125854,-1.0787162717992296,2
+5800,The first duty of a woan with young children is to home and family,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.0734586334973803,1.269389009475708,-1.0834370841570755,5
+10781,I automatically side eye any chic I see tweeting bout some ekuD shit... I just don't believe you are a true fan,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.327595681751837,1.3824459314346311,-1.0836483539409791,5
+12786,Sons in a family should be given more encouragement to go to college than daughters.,1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_0,LABEL_1,2.20509905153121,0.7525651693344116,-1.082877402913463,3
+8415,And yet antique furniture... MENTION3648 Ladies...If you've been around your price goes down. u know it's true. #joke,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-1.2047788478411003,1.3377931118011477,-1.080974454168635,5
+8951,"""You're quite opinionated for a little girl"" #everydaysexism https://t.co/BiqRbw9hvc",1,True,LABEL_0,False,LABEL_1,LABEL_1,LABEL_0,LABEL_0,2.361910355641005,0.6751176476478576,-1.0827341526725187,3
+1032,MENTION4117 the stay at home mums of this country need to turn off the tele and go do some d… https://t.co/buivNgJdaQ,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-1.83983631609232,1.367457342147827,-1.0798477007694864,5
+931,I don't like it I LOVE IT!  #GoBeavs RT MENTION1512 how does a guy NOT like football....... Dont get it,1,True,LABEL_1,True,LABEL_0,LABEL_1,LABEL_0,LABEL_0,2.173174366601749,0.7440450310707092,-1.0832235425456282,3
+6310,"MENTION2515 #bbcmidweek
+Suzy Quattro 'I think like a man and have emotions of a woman'.
+Thanks MENTION188 for 35 years.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.789670157863932,0.913630437850952,-1.080364350256449,5
+9081,Cat told Kara that every good woman knows she has to be 2x as good as a man but she never critiqued that system. She worked within it.,1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_1,LABEL_0,2.325530741551397,0.6935352921485901,-1.0834568416852826,3
+12409,"you don't just erase thousands of years of weak females.
+#gamergate
+#SJW",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.8279889309227608,0.8983157753944397,-1.053212287292289,5
+4007,You've got a strong grip for a girl. https://t.co/9xuILE3D3d #counterculture #hippy #poetry #music #art #viral,1,True,LABEL_1,True,LABEL_1,LABEL_0,LABEL_1,LABEL_0,2.2074000691214457,0.7473339915275574,-1.0524476029015468,2
+7349,when my man is hungry I'm making him the best damn sandwich he's ever tasted,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.0321157629524953,1.085181486606598,-1.080542483324124,5
+7301,"It is hard to be woman :woman: 
+.
+.
+:victory_hand:You must think like a man. Act like a lady,  look like a young girl, and work like a horse :horse_face:.",1,True,LABEL_0,False,LABEL_1,LABEL_1,LABEL_1,LABEL_0,2.4146692458237,0.6470905184745789,-1.0247549449363114,2
+12206,MENTION492 Yeah. I'm skeptical of this recent influx of female rappers.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.802092315576855,0.9035103678703308,-1.0837845867594562,5
+10100,"what's the over/under on how many dicks Erin A, Colleen D, and Rachel N had to suck to get on espn?",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.2089036771132258,1.3805935621261596,-1.082177370272283,5
+1756,"I am going to create a restaurant called ""Sammich world"" and im only going to hire women.
+#adaywithoutwomen has made me see the light!",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.676461708831448,0.9402140498161315,-1.0756559846551943,5
+870,I feel all man should watch #ESPN at least once a day.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.792184117408332,0.8977190494537354,-1.0757163292473968,5
+721,MENTION2603 Is this something husbands are supposed to know? I thought that kind of gossip was a chick thing.,1,True,LABEL_1,True,LABEL_1,LABEL_0,LABEL_0,LABEL_0,2.290115940982191,0.7081662058830261,-1.0758518276772784,3
+7974,some sports should be men only and boxing is one of them! #katietaylor,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.679948581411946,0.9497591018676758,-1.0826486451005883,5
+4109,Most charges of ‘wife beating’ are made up by the woman to get back at her husband,1,True,LABEL_0,False,LABEL_1,LABEL_1,LABEL_1,LABEL_0,2.466983946744349,0.618053424358368,-1.0844396990433132,2
+11165,"when I'm reading electronic hardware reviews and the hand in the photos has nail polish, I always do a double-take.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.3120213260238964,1.3826100826263428,-1.0841279002394266,5
+650,"Taking care of kids, cooking food, doing dishes and cleaning house is a tough job.
+Appreciate them.
+Happy #WomensDay to Shirish K.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.464086589232199,1.3040589809417724,-1.067346294064945,5
+5662,MENTION4017 MENTION2971 I still think women in a barbershop are weird.,1,True,LABEL_1,True,LABEL_0,LABEL_1,LABEL_1,LABEL_0,2.344654432081538,0.6865704655647278,-1.0775357891027206,2
+7611,Don't danica patrick is only in nascar cuz she's hot. there has to be 5 drivers more deserving to race tomoro #agree ?,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.110168674663806,1.378893780708313,-1.0775659450308277,5
+11655,a man’s place is in the home | Blogs | LifeSite https://t.co/2U2mXq3vTo,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.6592006363287068,0.9479782819747924,-1.0776851403505396,5
+4292,"im kinda skeptical about these Kelis in the face,$50k a month on ""child"" support ass hoes yall look up 2.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.3698465787032111,1.289818859100342,-1.081480828501689,5
+3163,guys just should not use emoticons.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.3990416651878543,0.9969727873802186,-1.081388207540321,5
+5169,#QuestionsForMen Did you know feminists think that violence is okay so long as the victim isn't seriously injured? http://t.co/pnif868Nvy,1,True,LABEL_1,True,LABEL_0,LABEL_1,LABEL_1,LABEL_0,2.3782733317926583,0.6627266883850098,-1.081169187770164,2
+6462,MENTION4449 MENTION984 MENTION2734 MENTION2494 we(USA) needs a man to act like a man! Not what we got now!,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.4576086983593934,1.00853168964386,-1.0832577807516184,5
+3905,"Meanwhile, I just downloaded this girl's mixtape..and I'm not expectin much~",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.6688723487077797,0.9519771933555604,-1.0837052691357063,5
+86,"mmmm Good luck MENTION3536 :grinning_face_with_smiling_eyes: let us know how you go? Still think u & MENTION395 should enter #MKR :grinning_face_with_smiling_eyes: more cooking, less bitching mmmm",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-3.6392428346621486,1.4026854038238523,-1.0829709873222135,5
+3258,that is a problem if I know more about cars than a man.  #Thingsthatmakeyagohmmm.,1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_0,2.28712989848434,0.709502100944519,-1.081476528981174,3
+2763,"!  ""MENTION724 kind of like the idea of adorning women in crowns and jewels. I think al women should be worshiped",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.5836457673835558,0.9795594215393066,-1.0795673852939482,5
+5262,Slimer will have boobs & an eating disorder. Mark my words. MT MENTION4645 I'd rather be saved by the male Ghostbusters.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.1541202064770313,1.0919150829315185,-1.076912060593194,5
+13291,mens Netball? Men synchronized swimming? Womens boxing? Womens Rugby.....Nah i'm not avin it. sorry.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.7783901327354457,0.9116836071014404,-1.0790993723240072,5
+10695,I liked a MENTION1603 video from MENTION3405 https://t.co/HfTiFLfcqw You've got a strong grip for a girl,1,True,LABEL_0,False,LABEL_0,LABEL_1,LABEL_1,LABEL_0,1.946729173182628,0.8385999083518982,-1.080802345756846,3
+5756,"""MENTION996: You have a sad, sad life ahead of you. MENTION1360 I refuse to catch female Pokemon."" Hahahaha",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_0,LABEL_1,2.203614281026254,0.7518662095069886,-1.0808436853498544,3
+152,"“She’s so beautiful she’s so precious,” he said and I thought, “welcome to being a woman."" #everydaysexism… https://t.co/4mfF4WbZq2",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.847324082175989,0.8862029790878296,-1.0808018126095968,5
+12013,.MENTION3728 I know little more than I just told you. I just thought her smiling face of hypocrisy/misandry epitomized modern feminism.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.631807807728457,1.3893924713134769,-1.083703730049482,5
+8503,"MENTION1660 Wah, did I just hear they're making the marvel character thor female?.. I'm not sexist, but really? #thorlorealadsherewecome",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.186862718336489,0.7599596977233887,-1.083976438261042,4
+9329,“MENTION4120: I want my wife to stay home and raise my kids in the future” :OK_hand:,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.7208804237086961,1.167243528366089,-1.0840869763320633,5
+13088,the WNBA would be more appealing if they played in bikinis 󾓚.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.1665210954092848,1.0619803071022034,-1.0840101572139509,5
+4559,"We'll paү for a girl's meal once if we're trүing to get luckү. If we do it more than a few times, we actuallү like үou.",1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_1,LABEL_1,2.294734961282586,0.707742166519165,-1.0838202929975786,2
+12245,Really bitch really? Get on the runway and back in the kitchen #MKR2015 #MKR,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-4.085858159973985,1.405624771118164,0.8469061661591433,5
+8279,It is not a good idea for the mother of small children to work outside of the house,1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_1,LABEL_1,2.308924300989842,0.6996594548225403,1.1328289138494898,2
+8201,A man should never doubt his own judgement,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_1,LABEL_0,1.7157732920242477,0.92573264837265,-1.0822643142521238,4
+10114,"""hard to sympathise when rookies complain of being leered at after putting their breasts in push-up bras on display"" - ?",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.806089149746611,0.9086576938629152,-1.082223767202985,5
+10507,"MENTION2214 MENTION494 MENTION480 That is why I'm against a woman president, i believe… https://t.co/Faq9ys19fm",1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_0,LABEL_0,1.9173233990407077,0.8661490559577942,-1.0678945797182942,4
+10039,a man’s place is in the home | Blogs | LifeSite https://t.co/8SFZgrl1zo,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.5462782623278457,0.9797904849052428,-1.0730639233989032,5
+2295,the Hunger Games would be so much better if Katniss was a boy. He wouldn't cry all the time and actually get shit done.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.2534359728575358,1.288476252555847,-1.0636636535382686,5
+12555,im such a poor excuse for a girl....just got nail polish on my new pants and then messed up all my nails trying to fix it :),1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_1,2.397120019992552,0.6541783511638641,-1.0834664183297982,2
+10187,ppl always discredit Mingyus height but im tall for a girl and someone who is 180cm seems rly nicely tall to me so Mingyu at like 183cm is:thumbs_up:,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.869239210437502,0.8811172127723694,-1.0834957579536684,5
+13317,A husband should have the right to dispose of family property as he may please,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_1,LABEL_1,2.155253754348627,0.7623145937919616,-1.0839632163093746,3
+1948,"I hate this... #nomancard RT MENTION1600: My teammates boyfriend wants to take her last name. Her, last name. 
+
+Feminism",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.120736526244837,0.79151930809021,-1.0459132288852095,5
+1809,"i dont know if i can watch a full length womens hockey game. also, the players having faces that i wanna do doesnt help.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.1002761788737954,1.0499579787254334,-1.0465720361018875,5
+8853,Spelman.RT MENTION2671: COLLEAGUE? :loudly_crying_face: :thumbs_down: RT MENTION4488: i will not agree to work together w/a female college again,1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.919062027511744,0.8575774073600769,-1.063771665111589,4
+12745,MENTION1675 MENTION4204 Please.  two women would mean double the drama because each partner is try… https://t.co/wgppRHd5Ll,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.4215356863192703,1.017532765865326,-1.0808161264904164,5
+1556,every girl has a little part of them that wants to be a princess. And every boy has a part that wants to rescue them.,1,True,LABEL_0,False,LABEL_0,LABEL_1,LABEL_0,LABEL_1,2.1964205275041104,0.7508517742156983,-1.080871472418247,3
+5039,Discrimination against women in the labor force is no longer a problem in Canada.,1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_0,2.192580586469288,0.7563748359680176,-1.0824281261804836,3
+3907,"""MENTION3488: a girl on the phone while driving is DEADLY!!!"" a man texting while driving is deadly",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_0,2.1928660275415286,0.7564194083213807,-1.0828344057932815,3
+4859,"I'll pass on  #ADayWithoutWomen
+
+:two_hearts:Real women don't abandon their responsibilities:two_hearts:
+
+:cherry_blossom: #WomenForTrump :cherry_blossom:
+:red_heart::United_States:#MAGA :United_States:… https://t.co/OrVBsFaxnq",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-1.19195087939962,1.3503914833068849,-1.0838973176353002,5
+785,"Ok, a woman beside me just hawked and spat in the gutter. -#unbecoming",1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_0,LABEL_0,2.04358968772491,0.8179313540458679,-1.0837524536568064,4
+11929,"Stuff that caught my attention: I'm convinced that guys and gals see humor differently, and ... http://t.co/xlmJ6TlM",1,True,LABEL_1,True,LABEL_0,LABEL_1,LABEL_1,LABEL_0,2.408175662124508,0.6509437203407288,-1.083826659856303,2
+8367,Interesting point of view: a man’s place is in the home....|https://t.co/wRZn22bTGP,1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_0,2.208530382949337,0.7444652318954468,-1.07941554646607,3
+12642,MENTION1053 MENTION321 yeah&they go to navy..Does it get any more butch than that?I respectfully prefer skirts anyday.,1,True,LABEL_1,True,LABEL_1,LABEL_1,LABEL_0,LABEL_0,2.2140666291207878,0.7161625266075134,-1.0838145819936735,2
+282,You've got a strong grip for a girl. https://t.co/9xuILE3D3d #aquarius #cnd #banthebomb #peace #love #ageofaquarius,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.6490686559563756,0.9488705992698668,-1.069939896991881,5
+3526,"(˘̯˘ ) is it your mirror? ""MENTION1970: every time I see a bathroom mirror self-portrait of a boy, I shake my head.""",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.7236030908336222,0.9182389140129088,-1.0830239160052124,5
+475,Women will make more progress by being patient and not pushing too hard for change.,1,True,LABEL_1,True,LABEL_1,LABEL_0,LABEL_1,LABEL_0,2.337115741033285,0.6889141201972961,-1.0771756165173694,2
+6413,"whenever I see some idiot perform a dangerous, boneheaded driving maneuver, half the time it turns out to be a woman.",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_0,2.2692868445653662,0.7199472069740296,-1.076886999849402,3
+10009,#adviceforyoungfeminists Be sure to employ double standards to excuse your bigotry. No one will notice. http://t.co/9wvQHELdhg,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-1.4057245088434076,1.3584357023239135,-1.0639765872191027,5
+9285,"RT MENTION1887 the true definition of a #goddess is a good house wife & mother who also has good health,looks and physique",1,True,LABEL_0,False,LABEL_0,LABEL_1,LABEL_0,LABEL_0,2.185631078439933,0.7586198806762695,-1.0822037783371603,4
+8176,.MENTION1115 Barb Sheehan NEVER says a word about being abused for 20 years.  Kills husband. Claims abuse w no proof. Walks. Fems cheer.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-1.044612714225726,1.3418546199798584,-1.0450026200538822,5
+1938,"I need a man, a man who can act, act like a leader.",1,True,LABEL_1,True,LABEL_1,LABEL_1,LABEL_0,LABEL_0,2.281006062986063,0.7074355959892273,-1.076173541943016,2
+1171,"Mau main tp bingung instalnya :(RT MENTION358: RT MENTION4170: when I play Sims 3, I put my wifes bed in the kitchen:D",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.2903478531894022,1.2113662004470824,-1.0828257831432249,5
+8463,“MENTION996: What a waste of fossil fuels to publish that tweet. MENTION3530 guys > girls” http://t.co/deRYTHNdW6,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-7.918686413574961e-05,1.2406445741653442,-1.0750858227875406,5
+5000,I’m just not Rollin with dating anyone who bustin it open for the world. Sexist? Or old fashione… https://t.co/wOGJhkFRYO,1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_0,LABEL_0,2.207649946786016,0.7515825510025025,-1.0776759107866645,4
+2097,"i love equal rights, fuck grownups, i love grownups, grownups are rapists ,not all grownupsi care about MGM , LOL HIS DICK GOT CUT OFF #TweetLikeAFeminist",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.3390761847655561,1.290532469749451,-1.0840025986756054,5
+2010,Usually the only household tasks OH is useful for are hoovering & lawn mowing. they're traditionally mens jobs anyway.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.877252929394223,1.1443690538406373,-1.0837892648917014,5
+9520,"RT MENTION3031 ""MENTION2932: Easy bake ovens: Teaching girls their role in life since 1963."" Im not sexist but this is hilarious!",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_0,2.332848822646392,0.6863057732582092,-1.0841033210199646,3
+10261,You are out of your mind if you truly believe she earned this scholarship because of her ability to play the sport.… https://t.co/Ejlk4IRfYm,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.8363839428727435,1.3935301542282104,-1.0838675310813677,5
+5893,Feminists are a menace to this nation and to the world,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_1,LABEL_0,1.6244168989066374,0.95488440990448,-1.0835703864497457,4
+9478,"In general, the father should have greater authority than the mother in the bringing up of children.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.1389769624125665,0.7822476387023926,-1.082234554881169,5
+5948,Theresa M is weak. if we had a male PM would he stand up to Trump? #TheresaMay,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.2919747004318314,1.0468462467193604,-1.0828227044352652,5
+780,".MENTION3993 You won't answer, like most feminists, because the answer exposes your OPPOSITION to #equality.  You fool only yourselves...",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.6997327132406106,1.390073561668396,-1.081691704187714,5
+3840,"Maybe she'll have cleats on. MENTION579 Call me racist, call me sexist, but every time Olivia C talks in this debate, I wanna slap her.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-1.08222585497288,1.34182767868042,-1.0832156196506086,5
+5441,"Although fighting a duel for the honor of a lady is a custom which is not practiced in the modern world, the idea behind this custom should certainly be maintained",1,True,LABEL_0,False,LABEL_0,LABEL_1,LABEL_1,LABEL_0,2.195768598001988,0.7568544745445251,-1.083884844088633,3
+11036,"So I assume you won't be having children, because that is a 24/7 job. MENTION951 my wife will not have a 9-5 job.",1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_0,LABEL_0,1.34822606218788,1.0212180137634277,-1.0833528488736457,4
+147,"Ever consider they're not FOR you and no one cares? MENTION3450 I'm not sexist, but nothing bores me more than feminist novels.",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.113161049106218,0.7904750347137451,-1.083606772989905,4
+4942,"woman football commentators annoy me so much, they never shut up",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.048719496424224,1.3768961429595947,-1.0840795751930536,5
+8599,Usually the only household tasks OH is useful for are hoovering & lawn mowing. they're mens jobs anyway.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.6448583245016667,1.1852667331695557,-1.0835392235000008,5
+13082,every guy should at least know a little bit about cars.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.4273044589802144,1.017623734474182,-1.082390559479999,5
+1100,MENTION563 Especially as a woman. we have better sense. Period.,1,True,LABEL_1,True,LABEL_1,LABEL_0,LABEL_0,LABEL_0,2.248473376860446,0.7288555026054382,-1.082971866118195,3
+8855,"*wakes up*
+Uncle: A woman became the boss of this store I go to, I did NOT sign up for this
+Me: YOU ARE SEXIST
+*sleeps*",1,True,LABEL_1,True,LABEL_0,LABEL_1,LABEL_1,LABEL_0,2.317475517567235,0.7012455582618713,-1.0839662287944782,2
+10826,You've got a strong grip for a girl. https://t.co/9xuILE3D3d #counterculture#poetry #poetryslam #poet #PoetryCypher #PoetryInMotion,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.0791071571878117,1.1014317989349365,-1.0829313229456867,5
+6230,I officially hate Softball. It's nothing like baseball. masks in the field and on their helmets. Man the hell up.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-1.14573352707872,1.347372794151306,-1.0660931797967614,5
+8191,"I'm not sexist, but why do feminists complain about everything?? If there was a cure for cancer I think they would moan! Give it a rest!",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_1,LABEL_0,1.948815004451676,0.850498640537262,-1.0814222453780795,4
+8135,"Nothing should be more important for a mother than than to see that her children are well-fed, clothed properly, clean, and kept out of danger",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.7760784508904632,0.9165234088897704,-1.0811302398426317,5
+7707,Call me chauvinist.UFC is barbaric--especially when it's women. Not entertaining 2 see Ronda R get savaged like that,1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_0,LABEL_1,2.260278845241948,0.7171629786491394,-1.0704617716408655,3
+9202,The unmarried mother is morally a greater failure than the unmarried father,1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_1,LABEL_1,2.31980089283356,0.6959728956222534,-1.0843070174662253,2
+1939,It is obviously more logical that a state family allowance be paid to the father than to the mother,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.2915974162609327,1.0517893075942992,-1.08425551753974,5
+2203,":musical_notes:I need a man
+A man who can act like a man:musical_notes:",1,True,LABEL_1,True,LABEL_0,LABEL_1,LABEL_1,LABEL_0,2.2603576049399483,0.7218543291091919,-1.0840716367740506,2
+11620,"Over the past few years, the government and news media have been showing more concern about the treatment of women than is warranted by women’s actual experiences.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.9341944016792216,0.865671694278717,-1.0781479225879855,5
+4705,MENTION996 MENTION3937 typical woman sticking her nose in,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.74729146712229,0.9333530068397522,-1.083575846078046,5
+4110,I'm really wondering by there are 3 chicks and 1 dude hosting ESPN's college football show. Am I right MENTION1921?,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.268382554479511,1.0522509574890138,-1.0714380032477755,5
+9908,"Now I'm not sexist, but an all-female Ghostbusters 3 with no connection to the original movies is quite possibly the word idea of all time.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.7886502299722484,0.9043176770210266,-1.083754518026425,5
+3912,"So, a pedestal? MENTION1321 men and women aren't equal. I was raised to put women on a higher standard than men.",1,True,LABEL_1,True,LABEL_1,LABEL_1,LABEL_0,LABEL_0,2.358385614530889,0.6775569915771484,-1.0832643370180717,2
+12032,"On average, people in our society treat husbands and wives equally.",1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.9139120958546123,0.866146445274353,-1.0838310368453938,4
+8588,It’s a mother’s special responsibility to provide her children with proper religious training,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.954013808190564,0.85516756772995,-1.0837931723952614,5
+13513,A preschool child is likely to suffer if his mother works,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.457608376120462,1.0114537000656127,-1.083741024052896,5
+1763,Kat you're fkn ass #MKR,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-4.328288684599296,1.4069036960601806,-1.0838513190429049,5
+3931,They starting to act and look like a couple of B grade hookers to me #MKR,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.7172576979520999,1.304008960723877,-1.083654883856824,5
+11823,A real man Never hurts another person.Be very careful when you make a person cry b/c Allah counts their tears,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.1818402696650705,1.075616991519928,-1.0834143399413998,5
+8230,men cooking anything but stuff on a grill is just weird.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.246735416012844,1.3825617551803588,-1.0830701982057045,5
+12697,"I'm sorry, call me sexist but I cannot respect a females opinion nor entertain it when it has to do with sports, even the pro analysts.",1,True,LABEL_1,True,LABEL_1,LABEL_0,LABEL_1,LABEL_0,2.3510920085642253,0.6800988197326661,-1.083327831843807,2
+11355,"The missus loves #MKR if I have to watch five more minutes of these stuck up, idiotic, 2 bit hookers I'll neck myself. #goingtobed",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.0158923733384108,1.2410033226013184,-1.0834710171599262,5
+11365,The FIRST ever Man vs Woman MMA fight is taking place this weekend in Brazil. Like for real? This should not happen #NotSexist #JustDisagree,1,True,LABEL_1,True,LABEL_1,LABEL_1,LABEL_0,LABEL_0,2.3632955397159234,0.6746341705322265,-1.0837370090339653,2
+10748,MENTION3500 You seem like a nice girl. I just ask that u dig a little deeper into what feminism actually says/does vs what they claim.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.1345634072508664,1.0930741667747497,-1.083287651805612,5
+7829,MENTION2265 MENTION3353 Women have MORE legal rights than men.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_1,LABEL_0,2.0393153385572,0.8130611658096314,-1.08373057097563,4
+1500,MENTION996 I don't think women can make tough military decisions. Notice Hilary's face during the Bin L raid http://t.co/WtcwEDajEG,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.1289403377835106,0.7868301630020141,-1.0821867293947698,5
+1341,"MENTION2714 MENTION2177 MENTION2240 
+If a man marries a good woman,he will hav a happy life
+as long as he is not ambitious& is quiet & obedient:smiling_face_with_smiling_eyes:",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.4431810632406037,1.0218087315559388,-1.0835934812414316,5
+11475,"So, feminists will trend #FeministsAreUgly and then complain how the fact #FeministsAreUgly is trending is proof of misogyny in society.  K.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-0.3019628157879505,1.2951099395751953,-1.0755043602818013,5
+9140,RT MENTION998 In 1814 women had no rights. In 1914 women fought for rights. In 2014 women were always right. It's a new year. #notsexist,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.8530289450531219,1.1412893056869506,-1.0680266892457704,5
+2079,"RT MENTION3516 I'm not sexist, I'd just prefer it if she was making me a sammich, instead of reading Twitter.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_1,LABEL_0,1.948093799282508,0.846366012096405,-0.5026354851587066,4
+11585,.MENTION1804 MENTION2483 The wage gap is debunked lie and RAINN says rape culture is fairy tale that distracts from stopping real rape...,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-1.7970937981866382,1.3710026264190671,-0.5155225070695715,5
+11407,I really don't think she should have a commentary job. Maybe on some Equestrian bollocks or something. Not rugby.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-1.0297969683679216,1.3362661123275756,0.8673637876890747,5
+12937,"Honestly, I just want a spouse to do spouse things..feed me clean up raise my kids and make my jimmy happy.",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.2364048741438782,1.062043261528015,-0.5043294313458582,5
+6900,"I need a man, a man who can act, act like a man. :musical_notes::musical_note:",1,True,LABEL_1,True,LABEL_0,LABEL_1,LABEL_1,LABEL_0,2.198774432772524,0.7402639389038086,-1.0813863442898115,2
+3392,dumb bitches will kill us all.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.2314645428684635,1.2190176963806152,-1.0797998207075843,5
+10234,#womensday  Women have surely outdone men if they judge with wisdom. Bengali theater is also not an exception.… https://t.co/NCSEFiTZC1,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.0398311610841282,1.1185674667358398,-1.080954308462268,5
+6769,“MENTION3192: I don't think women should drive. Or vote. Or be educated.  #YoHadToGamble”,1,True,LABEL_0,False,LABEL_0,LABEL_1,LABEL_0,LABEL_0,2.209114975326021,0.7522372484207154,-1.0814091432876274,4
+11644,MENTION4568 Not sure I agree with you Moshai. I think if he had male bodyguards they'd stick with him to the bitter end.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.9796592091244746,1.1079633951187131,-1.082245559260654,5
+5242,Just watched 10 mins of the women's rugby World Cup .. it's just wrong,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.3106738107676524,1.228546404838562,-1.0839074617928683,5
+11142,MENTION1433 MENTION3389 Ehh I’d rather have Male cops & soldiers at least on patrol and the… https://t.co/zrgK7C26w2,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.412479903191049,1.21351478099823,-1.0821175163299168,5
+13169,Boys should prefer to play with trucks rather than dolls,1,True,LABEL_0,False,LABEL_1,LABEL_1,LABEL_0,LABEL_0,2.1969092303878783,0.756214690208435,-1.0842055042543772,3
+5126,MENTION3577 And barkha first things first wat a show!! Don't no body fights d way women do : P It was quite funny : ),1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_0,2.2104163951053764,0.7495303750038147,-1.0840759184713795,3
+5715,"MENTION2263 They'll if you look at polls it's generally ""women voters"" that have made up their minds… https://t.co/3AqTyRRcVE",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.813448939178557,0.904854667186737,-1.083859408647576,5
+12332,A man must be able to make his own way in this world,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_1,LABEL_0,2.186566992361853,0.7516174793243409,-1.0840602190153994,4
+4187,Why do they get a Truck after winning the superbowl but just a interview from bitchy Erin A when u win the world series #notsexist,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.6265336334515816,0.9701092600822449,-1.0841005192291313,5
+3487,it looks worse when a nigga is getting played than when a bitch is #thankyou,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.1403996216603538,1.073347842693329,-1.084121505480315,5
+6174,RT MENTION2973 I cannot listen to this woman commentate the OSU Buffalo game.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.932749722286396,0.8622371435165406,-1.0839296771046327,5
+1540,It’s a pretty feeble sort of man who can’t get ahead in the world,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.693553943985383,1.1675079107284545,-1.0841242942762883,5
+10014,RT MENTION1106 Give your daughters a fighting chance don't start them out with stripper names,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.0717994776736504,0.8105873227119446,-1.051984293873128,5
+5646,"MENTION708 Maybe the people who let a young women loose in a place like this should think again, call me sexist, b… https://t.co/LGO4k8C4qE",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.074988682617521,0.8081908822059631,-0.9951210515028188,5
+5054,Fathers should teach their sons to mask fear,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.092737262155008,0.8022980928421021,-1.0836671341945738,5
+9542,"""I am never mowing the lawn. That's your dad's job."" -my mother :face_with_tears_of_joy:",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.0515536090887085,1.377813458442688,-1.076101211881204,5
+9830,"No man succeeds without a good woman besides him. Wife or mother. If it is both, he is twice as blessed #womensday",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.0753519326800265,0.8112136960029602,-1.0805796234323033,5
+4250,ErinAndrews is the only female that should be reporting on sports anymore #TooGood,1,True,LABEL_1,True,LABEL_0,LABEL_0,LABEL_1,LABEL_1,2.3497867760610696,0.6820321559906006,-1.0836929996185325,2
+6801,I wonder which of the blonde ones screwed Colin to get that score? Probably both. #mkr,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,-2.459680932535039,1.3857261896133424,100.61040797617386,5
+9910,HAHA WHAT MENTION647 I still don't like how the main character of legend of korra is a woman. It just doesn't feel right.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.7239536469154182,0.9317365407943724,200.81938649331784,5
+7681,I see you use social media. MENTION4676 I want all social media sites to go down for a week just to see how the girls react. #notsexist,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.9425820280067536,0.8588438153266906,-1.0830479415286656,5
+1843,The joint earnings of husband and wife should legally be under control of the husband,1,True,LABEL_1,True,LABEL_1,LABEL_0,LABEL_1,LABEL_0,2.254286769570368,0.7274325132369995,-1.0835001701234694,2
+12692,"RT MENTION347 I like how Arya's a boy now, yet he's washing dishes, still. #equality #GoT",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.63617647109473,1.17132306098938,-1.077075880629881,5
+854,There is nothing a man of good sense dreads in a wife so much as her having more sense than himself. - H. Fielding #ALDUBxDTBYSinagNiBenjie,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.7132550292952906,1.1630343198776243,-1.079973236195682,5
+6376,"A man should be like a #child with his #wife
+But 
+if she needs him ,
+ He should act like a Man
+
+#womensday2017… https://t.co/Pd683hBled",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.8900303077778648,0.8773303747177124,-1.079224775537322,5
+10968,MENTION996 Yeah you are a feminist so shut the fuck up if you are going to be arrogant,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.0320700511102512,1.1166897535324096,-1.0828006708332658,5
+391,"As head of the household, the father should final authority over his children",1,True,LABEL_0,False,LABEL_1,LABEL_0,LABEL_1,LABEL_0,2.2867614233617184,0.7153095483779908,-1.0840002483695836,3
+2027,MENTION1394 I agree. Every high school boy ought to have relations with a hot mom. But I don't condone opposite..,1,True,LABEL_1,True,LABEL_0,LABEL_1,LABEL_0,LABEL_0,2.2191148723624154,0.7351784825325012,-1.0813059768676148,3
+4861,MENTION1124 women's voices on radio grate on me. Happier without them. Must be something to do with pitch or tone.,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.9086247152064464,1.091471552848816,-1.0795832063573734,5
+11099,"MENTION799 so sad your prego, hate to see these beauties of our times ruined by motherhood. it breaks my heart!",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.0112758034078486,1.2484050035476684,-1.0822848490417791,5
+6422,Keeping track of a child's activities should be mostly the mother's task,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,1.830786775680132,0.8936232328414917,-1.0839754626307958,5
+13530,"Real women don't take time off to whine. Unlike feminists, they KNOW they're valuable. #adaywithoutwomen #Whinefest… https://t.co/DaBIeCjm7T",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,0.6787051782128862,1.1765950202941895,-1.078565308897695,5
+6267,The women’s movement is too radical and extreme in it’s views,1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_1,LABEL_0,1.8717017837907055,0.8639097332954406,-1.08389875381038,4
+5392,"MENTION4461 MENTION4342 1/1 my father would say, She is some smart, for a girl, about my daughter & I explained how it was a",1,True,LABEL_0,False,LABEL_0,LABEL_0,LABEL_0,LABEL_0,2.027122955795651,0.8256669402122497,-1.0844360019931891,5

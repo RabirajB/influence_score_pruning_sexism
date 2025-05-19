@@ -1,0 +1,39 @@
+,Unnamed: 0,original_id,counterfactual_id,negation_additions,negation_deletions,affect word_additions,affect word_deletions,gender word_additions,gender word_deletions,identity word_additions,identity word_deletions,hedges_additions,hedges_deletions,hate words_additions,hate words_deletions,id,text,average_pvi,average_el2n,misclassification_number,sexist,numeric_labels,tree
+0,276,5508.0,4428.0,False,True,False,False,False,False,False,False,True,False,False,False,4428,Definition of woke... MENTION1662 I believe men and women should share their roles in the house.,-0.5982256213291024,0.5674943387508392,1,False,0,"(25
+  (28
+    (27
+      (14 (37 definition) (15 (52 of) (59 woke)))
+      (15 (74 .) (74 .)))
+    (74 .))
+  (25
+    (44 [UNK])
+    (25
+      (27
+        (27
+          (14 (68 i) (19 (61 believe) (57 men)))
+          (3
+            (92 and)
+            (14
+              (8 (57 women) (77 should))
+              (2 (87 share) (29 (86 their) (82 roles))))))
+        (15 (52 in) (29 (86 the) (82 house))))
+      (74 .))))"
+1,376,7268.0,8234.0,False,True,False,False,False,False,False,False,False,False,False,False,8234,I just think women should be allowed to compete I the All American Handyman competition.,-0.8381889899545438,0.6808786749839782,3,False,0,"(25
+  (27
+    (14
+      (8
+        (65 i)
+        (26 (81 just) (22 (61 think) (8 (57 women) (77 should)))))
+      (2 (42 be) (64 allowed)))
+    (6
+      (91 to)
+      (2
+        (73 compete)
+        (15
+          (68 i)
+          (29
+            (11
+              (11 (11 (86 the) (88 all)) (88 american))
+              (88 handyman))
+            (41 competition))))))
+  (74 .))"
