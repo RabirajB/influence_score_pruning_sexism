@@ -50,6 +50,11 @@ def get_predicted_labels(inf_score, run_num, prune_rate, df_test, batch_size, in
     return predicted_labels
 
 def get_predictions_runs(df_test, inf_score, type_prune, score_folder, dataset_name, model_name):
+
+    if os.path.exists(score_folder):
+        pass
+    else:
+        os.makedirs(score_folder)
     file_name, score_file_name = None, None
     score_dict = {inf_score: {'macro': defaultdict(list)}}
     for prune_rate, run_num in list(product((5, 10, 15, 20, 25, 30, 35, 40, 50, 60), (1, 2, 3, 4, 5))):
@@ -74,41 +79,16 @@ def get_label(x):
     return int(x[x.index('_') + 1 : ])
 
 def main(dataset_name, folder_name, score_folder, model_name):
+    folder_name = os.path.join(os.path.expanduser('~/influence_score_pruning_sexism'), folder_name)
     df_name = dataset_name + ".csv"
     df_test = pd.read_csv(os.path.join(os.path.expanduser(folder_name), df_name))
     for inf_score, type_prune in list(product(('pvi', 'el2n'), ('easy', 'hard'))):
         get_predictions_runs(df_test, inf_score = inf_score, type_prune = type_prune, score_folder = score_folder,
                              dataset_name = dataset_name, model_name = model_name)
-        #get_predictions_runs(df_test, 'vog', type_prune = 'hard', folder_name = folder_name, #
-        #                     dataset_name = dataset_name, model_name = model_name)
-        #get_predictions_runs(df_test, 'el2n', type_prune = 'hard', score_folder = score_folder,
-        #                     dataset_name = dataset_name, model_name = model_name)
-        #get_predictions_runs(df_test, 'pvi', type_prune = 'easy', score_folder = score_folder,
-        #                    dataset_name = dataset_name, model_name = model_name)
-        ##get_predictions_runs(df_test, 'vog', type_prune = 'easy', folder_name = folder_name, 
-        #                    dataset_name = dataset_name, model_name = model_name)
-        #get_predictions_runs(df_test, 'el2n', type_prune = 'easy', score_folder = score_folder,
-        #                    dataset_name = dataset_name, model_name = model_name)
-        #get_predictions_runs(df_test, 'random', type_prune = None, folder_name = folder_name,
-        #                    dataset_name = dataset_name, model_name = model_name)
-        #get_f1_scores('pvi', 'hard', results_folder, score_folder, dataset_name)
-        #get_f1_scores('pvi', 'easy', results_folder, score_folder, dataset_name)
-        #get_f1_scores('el2n', 'hard', results_folder, score_folder, dataset_name)
-        #get_f1_scores('el2n', 'easy', results_folder, score_folder, dataset_name)
-        #get_f1_scores('vog', 'hard', folder_name, dataset_name)
-        #get_f1_scores('vog', 'easy', folder_name, dataset_name)
-        ##get_f1_scores('random', None, folder_name, dataset_name)
-        #store_jsons(inf_score = 'pvi', type_prune = 'hard', folder_name = score_folder)
-        #store_jsons(inf_score = 'el2n', type_prune = 'hard', folder_name = score_folder)
-        #store_jsons(inf_score = 'vog', type_prune = 'hard', folder_name = score_folder)
-        #store_jsons(inf_score = 'pvi', type_prune = 'easy', folder_name = score_folder)
-        #store_jsons(inf_score = 'el2n', type_prune = 'easy', folder_name = score_folder)
-        #store_jsons(inf_score = 'vog', type_prune = 'easy', folder_name = score_folder)
-        #store_jsons(inf_score = 'random', type_prune = None, folder_name = score_folder)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--folder_name', required = True, type = str, help="Write the name of the folder where the test dataset is stored")
+    parser.add_argument('--data_folder', required = True, type = str, help="Write the name of the folder where the test dataset is stored")
     #parser.add_argument('--results_folder', required = True, type = str, help = "For storing the intermediate datasets")
     parser.add_argument('--dataset_name', required = True, type = str, help = "Write the name without the csv")
     parser.add_argument('--score_folder', required = True, type = str)
@@ -116,8 +96,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
     model_name = args.model_name
     dataset_name = args.dataset_name
-    folder_name = args.folder_name
+    data_folder = args.data_folder
     #results_folder = args.results_folder
     score_folder = args.score_folder
-    main(dataset_name, folder_name, score_folder, model_name)
+    main(dataset_name = dataset_name, folder_name = data_folder, score_folder = score_folder, model_name = model_name)
     

@@ -115,11 +115,11 @@ def train(model_name, model, model_path, train_dataloader, test_dataloader, lr_s
         print("Training loss for epoch %d is %0.4f"%(epoch, total_loss_epoch / len(train_dataloader)))
         accuracy_epoch[epoch] = {'train' : calculate_accuracy(model, epoch, train_dataloader, phase = "train"),
                                  'test': test(model, test_dataloader, epoch)}
-        if type_model is None:
+        if type_model is None and epoch == num_train_epochs:
             torch.save(model.state_dict(), os.path.join(model_path, f'{model_name}_classifier_{epoch}.pt'))
             with open(os.path.join(model_path, f'accuracy_trace.json'), 'w') as accuracy_trace:
                 json.dump(accuracy_epoch, accuracy_trace)
-        if type_model is not None:
+        if type_model is not None and epoch == num_train_epochs:
             torch.save(model.state_dict(), os.path.join(model_path, f'{model_name}_classifier_null_{epoch}.pt'))
             with open(os.path.join(model_path, f'accuracy_null_trace.json'), 'w') as accuracy_trace:
                 json.dump(accuracy_epoch, accuracy_trace)
@@ -225,6 +225,10 @@ if __name__ == '__main__':
     path_to_dataset = os.path.join(os.getcwd(), args.path_to_dataset)
     model_name = args.model_name
     model_path = args.model_path + '_' + str(args.run_num)
+    if os.path.exists(model_path):
+        pass
+    else:
+        os.makedirs(model_path)
     train_dataset_name = args.train_dataset_name
     test_dataset_name = args.test_dataset_name
     type_data = args.type_data

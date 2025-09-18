@@ -1,5 +1,5 @@
 #!/bin/bash
-export test_dataset_path="~/Influence_Scores/sexism_data"
+export test_dataset_path="~/influence_score_pruning_sexism/sexism_data"
 echo "$test_dataset_path"
 export model_path="easy_run"
 echo "$model_path"

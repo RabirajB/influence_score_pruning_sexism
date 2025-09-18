@@ -67,6 +67,10 @@ def main(data_path, model_path, model_name, epoch, data_fn, null_data_fn, input_
     model_classifier.eval()
     null_model_classifier.eval()
     result_data_fn = data_fn[:data_fn.index('.csv')] + '_' + f'{epoch}' + '.csv'
+    if os.path.exists(results_path):
+        pass
+    else:
+        os.makedirs(results_path)
     out_fn = os.path.join(results_path, result_data_fn)
     data = v_info(data_path, data_fn, model = model_classifier, null_data_fn = null_data_fn, null_model = null_model_classifier,
            tokenizer = tokenizer, out_fn = out_fn, input_col = input_col, label_col = label_col, null_input_col = null_input_col, run_num = run_num)
@@ -95,9 +99,9 @@ if __name__ == '__main__':
     results_path = args.results_path
     print(data_fn + " " + null_data_fn)
     checkpoints = args.checkpoint
-    for checkpoint in range(1, checkpoints + 1):
-        main(data_path, model_path, model_name = model_name, epoch = checkpoint, data_fn = data_fn,
-            null_data_fn = null_data_fn, input_col = 'text', label_col = 'numeric_labels', null_input_col = 'empty_strings' , 
-            run_num = run_num, results_path = results_path)
+    #for checkpoint in range(1, checkpoints + 1):
+    main(data_path, model_path, model_name = model_name, epoch = checkpoints, data_fn = data_fn,
+        null_data_fn = null_data_fn, input_col = 'text', label_col = 'numeric_labels', null_input_col = 'empty_strings' , 
+        run_num = run_num, results_path = results_path)
 
     

@@ -1,5 +1,5 @@
 #!/bin/bash
-export test_dataset_path="~/Influence_Scores/sexism_data"
+export test_dataset_path="~/influence_score_pruning_sexism/sexism_data"
 echo "$test_dataset_path"
 export model_path="hard_run"
 echo "$model_path"
@@ -17,7 +17,7 @@ export x_column="text"
 echo "$x_column"
 export y_column="numeric_labels"
 echo "$y_column"
-export inf_scores=("pvi" "el2n" "vog")
+export inf_scores=("pvi" "el2n")
 for inf_score in ${inf_scores[@]}
 do
     export train_dataset_path="cmsb_"$inf_score"_hard"

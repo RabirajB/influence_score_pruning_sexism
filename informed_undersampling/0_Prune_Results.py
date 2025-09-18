@@ -26,7 +26,7 @@ def get_model_tokenizer(model_name):
     return tokenizer, model_classifier
     
 def get_initial_f1_score(run_num, model_name, df_test, input_col, batch_size = 100):
-    model_path = os.path.join(os.path.expanduser('~/Influence_Scores'), f'cmsb_run_{run_num}')
+    model_path = os.path.join(os.path.expanduser('~/influence_score_pruning_sexism'), f'cmsb_run_{run_num}')
     tokenizer, model_classifier = get_model_tokenizer(model_name)
     full_model_name = f'{model_name}_classifier_5.pt'
     model_classifier.load_state_dict(torch.load(os.path.join(model_path, full_model_name)))
@@ -54,6 +54,11 @@ def get_f1_score_runs(df_test, data_folder, model_name):
         f1_score_dict[0].append(score)
 
 def main(dataset_name, data_folder, score_folder, model_name):
+    if os.path.exists(score_folder):
+        pass
+    else:
+        os.makedirs(score_folder)
+    data_folder = os.path.join(os.path.expanduser('~/influence_score_pruning_sexism'), data_folder)
     dataset_name = dataset_name + ".csv"
     df_test = pd.read_csv(os.path.join(os.path.expanduser(data_folder), dataset_name))
     get_f1_score_runs(df_test, data_folder, model_name)

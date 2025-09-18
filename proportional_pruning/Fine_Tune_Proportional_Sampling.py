@@ -136,6 +136,10 @@ def main(model_name, path_to_dataset, train_dataset_name, test_dataset_name, tes
     tokenizer, model_classifier = get_model_and_tokenizer(model_name)
     df_train = pd.read_csv(os.path.join(train_dataset_path, (train_dataset_name + f"_{prune_rate}_train.csv")))
     df_test = pd.read_csv(os.path.join(os.path.expanduser(test_dataset_path), (test_dataset_name + "_test.csv")))
+    if os.path.exists(model_path):
+        pass
+    else:
+        os.makedirs(model_path)
     train_dataset = CustomDataset(df = df_train, col_x = x_column, col_y = y_column)
     test_dataset = CustomDataset(df = df_test, col_x = x_column, col_y = y_column)
     train_dataloader = DataLoader(train_dataset, batch_size=32, shuffle = True,

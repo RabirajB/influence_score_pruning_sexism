@@ -113,6 +113,7 @@ def train(model, model_name, model_path, train_dataloader, test_dataloader, lr_s
             torch.save(model.state_dict(), os.path.join(model_path, f'{model_name}_classifier_{inf_score}_{prune_rate}_{run_num}.pt'.format(epoch)))
             with open(os.path.join(model_path, f'accuracy_trace_{inf_score}_{prune_rate}_{run_num}.json'), 'w') as accuracy_trace:
                 json.dump(accuracy_epoch, accuracy_trace)
+
 def test(model, test_dataloader, epoch):
     model.eval()
     total_test_loss = 0
@@ -132,6 +133,10 @@ def main(model_name, path_to_dataset, train_dataset_name, test_dataset_name, tes
         gradient_accumulation_steps, num_train_epochs, num_warmup_steps, max_train_steps,
         inf_score, run_num, prune_rate):
     tokenizer, model_classifier = get_model_and_tokenizer(model_name)
+    if os.path.exists(model_path):
+        pass
+    else:
+        os.makedirs(model_path)
     df_train = pd.read_csv(os.path.join(train_dataset_path, (train_dataset_name + f"_{prune_rate}_train.csv")))
     df_test = pd.read_csv(os.path.join(os.path.expanduser(test_dataset_path), (test_dataset_name + "_test.csv")))
     train_dataset = CustomDataset(df = df_train, col_x = x_column, col_y = y_column)

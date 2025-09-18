@@ -104,5 +104,5 @@ if __name__ == '__main__':
     checkpoints = args.checkpoint
     split = args.split
     df_name = df_name + f'_{split}'
-    for checkpoint in range(1, checkpoints + 1):
-        main(model_name, data_path, model_path, df_name, checkpoint, input_col, run_num)
+    #for checkpoint in range(1, checkpoints + 1):
+    main(model_name, data_path, model_path, df_name, checkpoints, input_col, run_num)

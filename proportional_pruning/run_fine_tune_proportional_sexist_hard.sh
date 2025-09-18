@@ -1,11 +1,11 @@
 #!/bin/bash
-export train_dataset_path="hard_hard"
-export test_dataset_path="~/Influence_Scores/sexism_data"
-export model_path="el2n_runs/hard_hard_run"
+export train_dataset_path="hard_easy"
+export test_dataset_path="~/influence_score_pruning_sexism/sexism_data"
+export model_path="pvi_runs/hard_hard_run"
 export model_name="roberta"
 export train_dataset_name="sexist_data_proportional"
 export test_dataset_name="sexist_data"
-export inf_score="el2n"
+export inf_score="pvi"
 export learning_rate="1e-6"
 export num_train_epochs="5"
 export x_column="text"
@@ -33,6 +33,7 @@ done
 
 export train_dataset_path="hard_easy"
 export model_path="el2n_runs/hard_easy_run"
+export inf_score="el2n"
 for prune_rate in 5 10 15 20 25 30 35 40 50 60
 do
     for run_num in {1..5}
