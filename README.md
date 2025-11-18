@@ -1,5 +1,5 @@
 # influence_score_pruning_sexism
-CODE for our IJCNLP-AACL'25 paper titled "Enhancing Training Data Quality through Influence Scores for Generalizable Classification: A Case Study on Sexism Detection"
+CODE for our IJCNLP-AACL'25 paper titled **"Enhancing Training Data Quality through Influence Scores for Generalizable Classification: A Case Study on Sexism Detection"**
 
 This is the repository for testing dataset_pruning experiments. <br>
 First step is the calculation of InfluenceScores, for this run the following commands:<br>
